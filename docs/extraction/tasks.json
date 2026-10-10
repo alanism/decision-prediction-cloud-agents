@@ -89,8 +89,12 @@
     {
       "id": "CLOUD-10",
       "title": "Publish reviewed separate repository",
-      "status": "todo",
-      "evidence": [],
+      "status": "done",
+      "evidence": [
+        "First published commit: https://github.com/alanism/decision-prediction-cloud-agents/commit/7a286ca8ad76efedf6dab950b1d78aaa86fa3718",
+        "Original 375-file archive, manifest and complete Git tree verified before publication; all 375 remote paths, blob hashes and modes verified after publication.",
+        "First published Git tree: 37473694c524d1fb2bfdf0b6d067b261c0af301b"
+      ],
       "blocker": ""
     }
   ]

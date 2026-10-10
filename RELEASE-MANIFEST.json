@@ -240,8 +240,8 @@
     },
     {
       "path": "docs/extraction/KANBAN.html",
-      "sha256": "b3740e37091ea72d34518f0227823e940923d89ae5765dcf7c6d271fb5c8210c",
-      "bytes": 2351
+      "sha256": "edad2de4deaf127f70b7ce5d08df79829e4e132b3f2008b86db12bffd8c927cf",
+      "bytes": 2710
     },
     {
       "path": "docs/extraction/RESUME.md",
@@ -260,8 +260,8 @@
     },
     {
       "path": "docs/extraction/tasks.json",
-      "sha256": "ec1d6cb2e493f01e016282ddb2c6b42057b66b0fb7b6d331bb722aa21534afb4",
-      "bytes": 2794
+      "sha256": "8abce565e965738995a0592afaf8c10417d29ea324b848305f1f0470ec8ae16f",
+      "bytes": 3191
     },
     {
       "path": "docs/finance-math/convexity-upside.md",
