@@ -1,0 +1,572 @@
+---
+name: shkreli-contrarian-investment-framework
+description: Complete operational playbook for Martin Shkreli's contrarian value investing methodology — biotech & tech deep-dive process, short/long thesis construction, risk management, Godel terminal workflow, cognitive architecture, and portfolio construction. Synthesized from primary source analysis across 27 targeted queries.
+---
+
+# Martin Shkreli Contrarian Investment Framework — Agent Playbook
+
+> Authoritative extraction from primary sources: live-streamed financial analysis sessions, educational series (Finance Lessons 1-18), stock deep-dives, and portfolio reviews. Synthesized from 27 targeted queries across 3 rounds designed to probe gaps beyond well-known concepts.
+
+---
+
+## TABLE OF CONTENTS
+
+1. [COMPLETE ANALYSIS PROCESS](#1-complete-analysis-process)
+2. [CONTARIAN THESIS CONSTRUCTION](#2-contrarian-thesis-construction)
+3. [BIOTECH & PHARMA DEEP DIVE](#3-biotech--pharma-deep-dive)
+4. [TECH & SOFTWARE VALUATION](#4-tech--software-valuation)
+5. [TRADING PROCESS & EXECUTION](#5-trading-process--execution)
+6. [RISK MANAGEMENT & PORTFOLIO CONSTRUCTION](#6-risk-management--portfolio-construction)
+7. [THE GODE: TERMINAL WORKFLOW](#7-the-godel-terminal-workflow)
+8. [THE 20-CRITERIA FINANCIAL RUBRIC](#8-the-20-criteria-financial-rubric)
+9. [COGNITIVE ARCHITECTURE & PERSONA STACK](#9-cognitive-architecture--persona-stack)
+10. [SELF-AUDIT, BIAS & LEARNING](#10-self-audit-bias--learning)
+11. [QUANTITATIVE REFERENCE](#11-quantitative-reference)
+
+---
+
+## 1. COMPLETE ANALYSIS PROCESS
+
+### 1.1 The 7-Step Pipeline
+
+```mermaid
+graph LR
+  A[SEC Filings] --> B[The Big Six]
+  B --> C[Holy Trinity Input]
+  C --> D[Forecast Cash Flows]
+  D --> E[DCF Model]
+  E --> F[Scuttlebutt Research]
+  F --> G[Reverse-Engineer Market]
+  G --> H[Alpha Found]
+  style H fill:#4a9,color:#fff
+```
+
+### Step 1: Gather SEC Filings & Calculate "The Big Six"
+
+Go directly to primary source — SEC 10-K (annual) and 10-Q (quarterly) filings. Do NOT use secondary sites (Yahoo Finance, CNBC). Calculate immediately:
+
+| Metric | How to Find |
+|--------|-------------|
+| **Stock Price** | Market data feed |
+| **Shares Outstanding** | Front cover of 10-K/10-Q or Balance Sheet — use fully diluted count |
+| **Market Cap** | Stock Price × Shares Outstanding |
+| **Cash** | Balance Sheet assets — aggregate cash + short-term marketable securities + long-term marketable securities + equity investments |
+| **Debt** | Balance Sheet liabilities — aggregate short-term debt + long-term + commercial paper + convertibles + term loans |
+| **Enterprise Value (EV)** | Market Cap − Cash + Debt — **the true price tag of the business** |
+
+**Why EV matters:** When buying the enterprise, you assume the debt (adds to cost) and acquire the cash (reduces cost). EV captures the real purchase price.
+
+### Step 2: Manually Input "The Holy Trinity"
+
+Type historical quarterly and annual data into Excel MANUALLY — never use automated downloads. The tedium forces you to develop a "sixth sense" for operating reality.
+
+| Statement | Key Lines |
+|-----------|-----------|
+| **Income Statement** | Revenue, Gross Margins, R&D, SG&A, Operating Income, Net Income |
+| **Balance Sheet** | Cash, Debt, Receivables, Inventory, Payables, Equity |
+| **Cash Flow Statement** | CFO, CapEx, FCF, Stock-Based Compensation |
+
+**Critical adjustment:** Add back non-cash D&A. Subtract Stock-Based Compensation from FCF — it represents real shareholder dilution.
+
+### Step 3: Forecast Future Cash Flows & Assess "Scale"
+
+**Pharma/Biotech forecasting:** Drug-by-drug — estimate peak sales, price patent cliffs, predict generic competition timing, assign clinical trial success probabilities.
+
+**Tech/Software forecasting:** Don't use simplistic growth percentages. Look at ARPU, user growth, deferred revenue (leading indicator for SaaS).
+
+**Scale mechanics:** As revenue grows, fixed corporate costs should NOT grow at the same rate. Model margin expansion naturally — fixed costs as % of revenue decline.
+
+### Step 4: Build the Discounted Cash Flow (DCF) Model
+
+**Core philosophy:** A company IS the discounted sum of its cash flows from today until eternity.
+
+| Component | Method |
+|-----------|--------|
+| **Projection period** | 5-10 years explicit forecast |
+| **Discount rate** | Risk-free rate (UST yield) + company-specific risk premium |
+| **Terminal value** | Strictly avoid perpetual growth — use negative terminal rates (-2% to -5%) for tech/biotech to account for obsolescence |
+| **Final valuation** | Sum of PV of cash flows + net cash ÷ shares outstanding = target price |
+
+### Step 5: Fundamental Research & "Scuttlebutt"
+
+- Read at minimum 1 year of press releases
+- Listen to past earnings call transcripts — track management guidance vs. actuals
+- Scrutinize management — CEOs who own massive % of equity are aligned
+- For biotech: study primary scientific literature — PDB, PubMed, FDA guidelines, clinical trial protocols
+
+### Step 6: Reverse-Engineer the Market to Find Alpha
+
+Plug the CURRENT stock price into your DCF. Tweak growth and discount rates until model matches market price. This tells you EXACTLY what assumptions the market has priced in.
+
+- **Shorts:** If market requires unrealistic assumptions (zero opex, perpetual 40% growth) → prime short
+- **Longs:** If market implies a successful company will permanently shrink → deeply undervalued long
+
+### Step 7: Ignore Technicals & Macroeconomics
+
+Shkreli actively ignores:
+- Technical analysis (charts, moving averages, MACD, Fibonacci)
+- Macroeconomic narratives (FOMC, GDP, tariffs, inflation)
+- CNBC and financial media
+
+**His distinction:** Forecasting currency pairs or the economy is speculation (no mathematical fair value). Forecasting a specific company's cash flows is investing.
+
+---
+
+## 2. CONTRARIAN THESIS CONSTRUCTION
+
+### 2.1 Long vs. Short Thesis — Structural Differences
+
+| Dimension | Long Thesis | Short Thesis |
+|-----------|-------------|--------------|
+| **Core question** | Is this company undervalued relative to its cash flow generation? | Is this company fundamentally broken or fraudulent? |
+| **Target profile** | Predictable cash flows, strong moat, rational management | Zero viable business model, fake products, hype-driven |
+| **Red flags targeted** | Temporary pessimism, short-term noise | Artificial guidance, stock-funded M&A, buzzword pivots |
+| **Survival factor** | Patience for mean reversion | Survive irrational liquidity-driven squeezes before gravity hits |
+| **Terminal value** | Positive but modest (low growth or slight decline) | Frequently modeled as approaching literal zero |
+| **DCF treatment** | Standard with conservative terminal assumptions | Often standard valuation metrics are entirely nonsensical — the math doesn't work at any price |
+
+### 2.2 "I Buy the Pain and I Sell the Euphoria"
+
+Shkreli's mean-reversion strategy:
+- **Buy** when sentiment is most negative and prices reflect maximal pessimism
+- **Short** when euphoria is highest, narratives are most compelling, and prices discount perfection
+- **Warning:** "The pain doesn't stop the second I buy it" — position sizing must survive continued irrationality
+
+### 2.3 The Cinderella at the Ball Analogy
+
+Everyone knows the bubble turns back into a pumpkin at midnight. But because there are no clocks on the wall, participants blindly assume they can leave at exactly 11:58. The only defense is position sizing that survives the uncertainty of timing.
+
+---
+
+## 3. BIOTECH & PHARMA DEEP DIVE
+
+### 3.1 Clinical Trial Evaluation
+
+**Prioritized endpoints (in order):**
+1. Overall Survival (OS)
+2. Progression-Free Survival (PFS)
+3. Hazard Ratios
+
+**Default assumption:** ALL experimental drugs do NOT work unless proven otherwise by dramatic, undeniable evidence.
+
+**Red flags in trial design:**
+
+| Red Flag | What to Look For |
+|----------|------------------|
+| **Imbalanced baselines** | Control group intentionally seeded with sicker patients |
+| **Confounded combinations** | Multiple standard-of-care drugs stacked against a bare control — masks the specific drug's lack of efficacy |
+| **Misestimated control groups** | Artificially extending trial timelines by miscalculating control group survival to make the drug look better |
+| **Sample size manipulation** | Post-hoc analyses on tiny pools (8 mice, 37 patients) to claim significance |
+| **No placebo** | Trials lacking any proper baseline control |
+| **Downplayed fatalities** | Management brushing off patient deaths as anomalies |
+
+### 3.2 Intellectual Property Analysis
+
+**Patent hierarchy by value:**
+| Patent Type | Value | Vulnerability |
+|-------------|-------|---------------|
+| **Composition of matter** | Highest — protects the molecule itself | Hardest to circumvent |
+| **Formulation** | Medium | Can be designed around |
+| **Method of use** | Low — functionally useless | Easily circumvented by generics |
+| **Polymorph** | Lowest | Minimal protection |
+
+**Patent cliff assessment workflow:**
+1. Go to FDA Orange Book
+2. Find earliest patent numbers
+3. Check for Paragraph IV certifications (generic challenges)
+4. Calculate exact year of generic cliff
+5. Model revenue decline accordingly
+
+```mermaid
+graph TD
+  START[Start Patent Analysis] --> ORANGE[FDA Orange Book Lookup]
+  ORANGE --> PATENTS[Find Earliest Patent Numbers]
+  PATENTS --> PARAGRAPH{Paragraph IV Filed?}
+  PARAGRAPH -->|Yes| GENERIC[Generic Challenge Active]
+  PARAGRAPH -->|No| PROTECTED[Patent Protected]
+  GENERIC --> CLIFF[Calculate Generic Cliff Date]
+  PROTECTED --> EXPIRY[Track Normal Expiry]
+  CLIFF --> IMPACT[Model Revenue Impact]
+  EXPIRY --> IMPACT
+  IMPACT --> TYPE{Patent Type}
+  TYPE -->|Composition of Matter| HIGH[Highest Value - Hardest to Circumvent]
+  TYPE -->|Formulation| MED[Medium Value]
+  TYPE -->|Method of Use| LOW[Low Value - Easily Circumvented]
+  TYPE -->|Polymorph| MIN[Minimal Protection]
+```
+
+### 3.3 Biotech Competitive Dynamics
+
+**Core insight:** "Patients do not switch." Doctors prefer continuity of care. A me-too drug entering an established market is at a massive disadvantage.
+
+**Differentiation assessment:**
+- Truly novel: Overwhelmingly superior clinical profile
+- Me-too: Mere atom swaps (chlorine for fluorine as isostere) copying existing mechanism
+- Novelty check: Examine molecular structure — is the mechanism actually different?
+
+**Valuation multiples for pharma:**
+| Type | Multiple |
+|------|----------|
+| Standard mature pharma | 3× peak sales |
+| Protected biotech with IP | 5-10× sales |
+| Post-patent cliff | Approach zero |
+
+### 3.4 Biotech Discount Rates
+
+Shkreli uses remarkably low discount rates for established pharma revenues — **3-4%** — because:
+- Patients rarely switch medications → cash flows function like an annuity
+- Revenue visibility is high for patent-protected drugs
+
+**However:** Terminal values are aggressively negative to account for patent cliffs. Generic competition is modeled as a near-complete revenue collapse.
+
+---
+
+## 4. TECH & SOFTWARE VALUATION
+
+### 4.1 Key Differences from Biotech
+
+| Dimension | Biotech | Tech/Software |
+|-----------|---------|---------------|
+| **Forecasting method** | Drug-by-drug pipeline | ARPU × user growth, deferred revenue |
+| **Discount rate** | Low (3-4%) for established revenues | Standard or higher |
+| **Terminal value** | Negative (patent cliffs) | Variable — depends on cyclical position |
+| **DCF reliability** | High — annuity-like cash flows | Flawed — lacks Bayesian properties for inflection points |
+| **Cyclicality** | Low | High — tiny growth shifts cause massive re-ratings |
+
+### 4.2 Leading Indicators for SaaS
+
+- **Deferred Revenue:** Money collected for services not yet rendered — leading indicator
+- **Remaining Performance Obligations (RPO):** Even further forward look
+- **ARPU trends:** Are users paying more over time?
+- **User growth:** Quality of new users, not just quantity
+
+### 4.3 The Nvidia Case Study
+
+Shkreli models tech cyclicality by studying historical parallels — using Intel's revenue cycles from 1980s/1990s to model Nvidia's current boom and inevitable plateau. Key question: when does the current growth cycle exhaust itself?
+
+---
+
+## 5. TRADING PROCESS & EXECUTION
+
+### 5.1 Entry Methodology
+
+- "Amorphous" timing — focus on directional conviction, not entry precision
+- Manual execution via Level 2 quotes
+- "Nibbling" via limit orders — haggling over pennies on bid/ask
+- **No stop-losses** — shuns them by style, acknowledges they'd have saved him from drawdowns
+- Algorithmic "market maker" bot posts bids/asks to capture spread volatility guided by subjective numerical sentiment scores
+
+### 5.2 Exit Methodology
+
+| Scenario | Action |
+|----------|--------|
+| **Stock hits fair value quickly** | Take profit — a 20% gain in 2 weeks > 40% in 2 years (time value of money) |
+| **Stock reaches DCF target** | Sell — "the right price I sell, and if you're not doing that you're a bag holder" |
+| **Massive multi-bagger** | Disembark early — "after a 10, 20, 30×... you don't need the last 2×" |
+| **Thesis invalidated** | Cut — new empirical evidence forces re-evaluation |
+| **Thesis intact, price wrong** | Hold — reacting to pure price action is a psychological trap |
+
+### 5.3 Short Squeeze Management
+
+- **Primary tool:** Psychological endurance — "I will hold as long as I need to"
+- **No maximum acceptable loss thresholds** for high-conviction shorts
+- **Only covers when:** (1) tactical profit-taking on a dip, or (2) broker concentration limits force liquidation
+- **Risk:** broker caps on short positions (e.g., Schwab's 33% of account value) can force unwanted liquidations
+
+### 5.4 Binary Event Positioning
+
+For standard uncertain events: cap at **5-10%** maximum position.
+For **80-90% conviction** on a binary outcome (e.g., INMBB, ATYR failure): overrides limits entirely — **20-30%+** of portfolio.
+
+**Rationale:** Binary events are rarely fully "priced in" because the magnitude of price dislocation is too large for the market to pre-consume efficiently.
+
+---
+
+## 6. RISK MANAGEMENT & PORTFOLIO CONSTRUCTION
+
+### 6.1 Portfolio Architecture
+
+- **Market-neutral, long/short** — isolates stock-picking alpha from market beta
+- Targets roughly **50/50** long/short balance (e.g., 18 longs / 13 shorts)
+- Gross exposure varies; net exposure typically small (e.g., 4% net with 11% gross)
+- **Goal:** If market crashes, shorts plummet faster than longs → net profit
+
+### 6.2 Position Sizing
+
+| Conviction Level | Position Size | Notes |
+|-----------------|---------------|-------|
+| Standard | 5% max | Default for normal opportunities |
+| High conviction (80-90%) | 20-30% | Overrides normal limits for binary events |
+| Normal retail advice | 5% "typical max" | His stated advice vs. actual practice differs |
+| Short positions | Same sizing as longs | Not sized smaller — risk managed via beta neutrality, not individual sizing |
+
+### 6.3 Concentration & Diversification
+
+**Sector concentration:** Heavy in biotech and tech/software — domains of absolute expertise. Avoids financials, insurance, managed care, energy.
+
+**Position count:** 30-60 stocks to maximize spread of ~60% win rate and minimize consecutive-loss probability. Within chosen sectors, broad diversification across individual names.
+
+### 6.4 Dynamic Drawdown Limits ("Investment Leverage")
+
+| Profit Milestone | Maximum Acceptable Drawdown |
+|-----------------|---------------------------|
+| **0%** (principal) | Zero drawdown tolerated |
+| **+5% gain** | 50% of profits → 2.5% drawdown limit |
+| **+10% gain** | 4-5% permanent drawdown cap |
+
+**No portfolio-wide stop-losses.** Risk is managed through position sizing, diversification, and the dynamic drawdown formula.
+
+### 6.5 Margin & Leverage Protocol
+
+- **Default:** "Try not to use any leverage period" — prefers cash to survive bubbles
+- **When margin calls approach:** Deposit external capital as "margin support/cushion" rather than closing positions
+- **Broker constraints:** Schwab caps shorts at 33% of account value — forces unwanted liquidations
+
+### 6.6 Market Cap & Liquidity Filters
+
+| Threshold | Rule |
+|-----------|------|
+| **Absolute minimum** | $100M market cap — below this is dangerously illiquid |
+| **Preference** | $500M+ market cap in screeners |
+| **Penny stocks** | Avoid entirely — high share volume creates misleading liquidity illusion |
+| **Exceptions** | Occasionally short $200-300M if fraud is obvious, but acknowledges outsized risk |
+
+---
+
+## 7. THE GODEL TERMINAL WORKFLOW
+
+### 7.1 Core Design Philosophy
+
+Built for maximum speed — **no mouse required.** Professional workflow defined by keyboard efficiency.
+
+**Summon:** Backtick key (`` ` ``) opens terminal overlay instantly.
+
+### 7.2 Essential Commands
+
+| Command | Function | Use Case |
+|---------|----------|----------|
+| **`EM`** | Earnings Matrix | Pulls FactSet consensus estimates (revenue, EPS) out to 2026/2027 — his most frequently used tool |
+| **`CF`** | Company Filings | Instantly pulls latest 10-Ks and 10-Qs — bypasses SEC.gov EDGAR |
+| **`FA`** | Financial Analysis | Downloads income and cash flow statements directly into JSON or Excel |
+| **`HDS`** | Holders List | Checks institutional ownership — see if top hedge funds are on the other side |
+| **`SI`** | Short Interest | Tracks aggregate short interest |
+| **`NI`** | News | Live press releases — can filter by topic (e.g., `NI space`) |
+| **`TAS`** | Time and Sales | Live transaction volumes and bid/ask spreads during volatile trading |
+
+### 7.3 Daily Workflow
+
+1. Constant ingestion of SEC filings via Godel
+2. FactSet consensus estimate monitoring via `EM`
+3. Raw press release feeds via `NI`
+4. Quantitative heat maps for idea generation
+5. Custom market-making algorithm running throughout the day
+
+**Information diet (what he ignores):**
+- CNBC = "poison for your brain"
+- Financial TV — run by people with no real Wall Street experience
+- Technical analysis charts
+- Macroeconomic narratives
+
+```mermaid
+graph TD
+  WAKE[Start of Day] --> EM[EM Earnings Matrix]
+  EM --> CF[CF Company Filings Check]
+  CF --> FA[FA Financial Analysis]
+  FA --> NI[NI News Feed]
+  NI --> SI[SI Short Interest Check]
+  SI --> HDS[HDS Holders List]
+  HDS --> TAS[TAS Time & Sales]
+  TAS --> ALGO[Custom Market-Making Algorithm Runs]
+  ALGO --> CLOSE{Market Closed?}
+  CLOSE -->|No| EM
+  CLOSE -->|Yes| REVIEW[Review Day's P&L]
+  REVIEW --> DIET[Ignore CNBC, Macro, Charts]
+```
+
+---
+
+## 8. THE 20-CRITERIA FINANCIAL RUBRIC
+
+### Scoring Scale
+
+| Level | Label | Description |
+|-------|-------|-------------|
+| **1** | Retail Speculator | Relies on TV, hype, charts — no fundamental analysis |
+| **2** | Novice Student | Knows basics but uses secondary sources and assumptions |
+| **3** | Standard Analyst | Reads filings, builds basic models, uses consensus estimates |
+| **4** | Advanced Modeler | Professional-grade models, primary research, sector expertise |
+| **5** | Master Investor (Shkreli Tier) | Manual data entry, reverse-engineers market, ignores macro, pure fundamental focus |
+
+### The 20 Criteria
+
+| # | Criterion | Level 1 | Level 3 | Level 5 |
+|---|-----------|---------|---------|---------|
+| 1 | **Sourcing Financial Data** | CNBC, Yahoo Finance | Reads quarterly press releases | SEC 10-K and 10-Q directly — recognizes secondary sources miss nuances |
+| 2 | **Data Entry & Assimilation** | Copies/pastes from websites | Formats models with mixed scales | Manually types ALL data into Excel — forces "sixth sense" for operating reality |
+| 3 | **The Big Six** | Stock price only | Basic EV with stale share count | Calculates all 6 metrics from latest 10-Q before anything else |
+| 4 | **Enterprise Value Mastery** | Doesn't understand EV formula | Memorizes formula, no application | Treats EV as true price tag — understands debt paydown transfers value to equity |
+| 5 | **Holy Trinity Usage** | Revenue direction only | Income Statement + Balance Sheet | Seamlessly synthesizes Income Statement, Balance Sheet, and Cash Flow Statement |
+| 6 | **True Cash & Debt** | Cash and equivalents only | Adds short-term investments | Aggregates restricted cash, long-term securities, equity investments |
+| 7 | **Revenue Forecasting** | Arbitrary perpetual growth | Looks at total revenue growth | Drug-by-drug or segment-by-segment with product life cycles |
+| 8 | **Operating Scale & Margins** | Assumes equal cost growth | Fixed % of revenue | Models fixed costs declining as % of revenue — the concept of "scale" |
+| 9 | **Free Cash Flow** | GAAP Net Income | CFO minus CapEx | CFO minus CapEx minus SBC — SBC is real dilution |
+| 10 | **CapEx vs. D&A** | No understanding | Ignores CapEx entirely | Adds back non-cash D&A, deducts actual maintenance CapEx |
+| 11 | **Working Capital** | Panics on single-quarter drops | Recognizes AR/inventory effects | Normalizes multi-quarter swings — relies on long-term convergence of NI and CF |
+| 12 | **Leading Indicators** | Past revenue only | Ignores liability lines | Monitors deferred revenue and RPO as precise leading indicators |
+| 13 | **DCF Foundation** | No DCF | Sums 5-10yr cash flows, stops | Core rule: value = sum of ALL discounted future cash flows to eternity |
+| 14 | **Discount Rate** | No rate used | Standard WACC without understanding | Risk-free rate + specific operational risk premium based on qualitative depth |
+| 15 | **Terminal Value** | Infinite growth | Perpetual +3-5% growth | Negative terminal rates (-2 to -5%) for tech/biotech — products become obsolete |
+| 16 | **Corporate Tax** | No taxes in model | Random low rate | Normalizes to statutory rate based on jurisdiction — assumes profitable companies eventually pay |
+| 17 | **Management & ROIC** | Ignores CEO | Notices buybacks, no price analysis | Scrutinizes capital deployment — favors CEOs with massive equity ownership |
+| 18 | **P/E Rejection** | Obsesses over P/E | Uses EV/EBITDA | Considers P/E useless — uses EV/FCF only as sanity check against rigorous DCF |
+| 19 | **Reverse-Engineering Market** | Builds model, concludes market is wrong | Consensus estimates | Plugs current price into DCF to impute exact market expectations — evaluates if they're realistic |
+| 20 | **Information Diet** | Technical analysis and macro | Trusts sell-side analysts | Zero CNBC/macro — pure primary filings, earnings call transcripts, PubMed for biotech |
+
+---
+
+## 9. COGNITIVE ARCHITECTURE & PERSONA STACK
+
+### 9.1 Engine Layer (Hardware)
+
+| Component | Rating | Description |
+|-----------|--------|-------------|
+| **Crystallized Knowledge (C)** | Very High (C+) | Encyclopedic recall of financial data, molecular weights, clinical trial results, historical revenue metrics. Recites SEC line items from memory. Lexical fingerprint saturated with technical jargon across pharmacology, software engineering, accounting. |
+| **Fluid Reasoning (F)** | Very High (F+) | Rapid synthesis of disparate data streams into cohesive frameworks. Moves fluidly between DCF models, backend code, and biological mechanisms of action. Dynamically refactors models on stream to stress-test assumptions. |
+| **Augmentation Path (A)** | Heavily Augmented | Actively relies on LLMs (ChatGPT, Claude, Gemini, Grok) for code generation, SEC parsing, hypothesis challenge. "Vibe-codes" — uses AI to write servers and data-scraping algorithms. Technology as direct extension of analytical capacity. |
+| **Pressure Stability (P)** | Volatile (V) | Mathematically stoic during 40% portfolio drawdowns. Interpersonally volatile — aggressive, profanity-laced tirades against intellectual laziness. Low latency to frustration. |
+
+**Stack Summary:** $[C^+, F^+, A, V]$
+
+### 9.2 Personality Architecture
+
+| Layer | Type | Manifestation |
+|-------|------|---------------|
+| **MBTI (Think)** | ENTP — Contrarian Visionary | Systematic hunting for discrepancies between consensus and truth. Extraverted Intuition (Ne) scans for asymmetry across disparate sectors. Introverted Thinking (Ti) demands rigorous logical consistency. |
+| **PRISM (Values)** | FXMC — Capitalist, Meritocratic | Ultimate filter: free cash flow and tangible shareholder value. "Capitalism. Profit first. Shareholders first. That's it." Merit defined by P&L reality. Disdain for DEI, stakeholder capitalism, emotional bag-holders. |
+| **QuEST (Act)** | QDVF — Quick, Dynamic, Volatile, Fast | Blistering tempo. Constant hyper-arousal — roasting chat, calculating DCFs, writing code, simultaneously. "Quick Jab" abrasive satire. Thrives in chaos and volatility. |
+| **Reality Lens (Worldview)** | Materialist-Determinist / Objective | Epistemic anchor: mathematical and empirical materialism. Universe of business is a deterministic machine governed by one law: discounted cash flows. Narratives, charts, macro = voodoo. |
+| **Cause & Craft (Methods)** | Technical-Empirical / Reductionist | Purist mechanic dismantling an engine. Manual data entry ("plugging and chugging") + extreme technical augmentation (AI, APIs, web scraping). Rejects secondary sources entirely. |
+| **Proof & Purpose (Telos)** | Pragmatic / Results-Oriented | "You're not paid to calculate... you're paid to make this line of P&L go up." Outcome-focused — does not care if a company is morally good or bad, only whether it's mathematically mispriced. |
+
+### 9.3 Big 5 Profile
+
+| Trait | Level | Evidence |
+|-------|-------|----------|
+| **Openness** | Very High | Endlessly curious polymath — pharmacology, nuclear physics, software engineering, macroeconomics |
+| **Conscientiousness** | High (in domain) | Obsessive attention to detail in models and filings; chaotic interpersonally |
+| **Extraversion** | Very High | Streams for hours, dominates conversations, feeds off audience energy |
+| **Agreeableness** | Extremely Low | Highly adversarial, insulting, dismissive of perceived incompetence |
+| **Neuroticism** | Moderate/High | Mathematically stoic during drawdowns; rhetorically reactive and defensive when ego is challenged |
+
+### 9.4 Sub-Routines & Signature Patterns
+
+| Pattern | Description |
+|---------|-------------|
+| **"Miss Kim" Analogy** | Hypothetical hardworking laundromat owner used to mock companies that fail to generate gross profit |
+| **"Baggies" / "Bagville"** | Retail investors holding losing meme stocks out of emotional attachment |
+| **"Plugging and Chugging"** | Manual input of financial data into pristine Excel models (Arial 10pt, frozen panes) |
+| **"Fitty Half a Hundred"** | Verbal tic for number clarity — distinguishes 15 from 50 |
+| **"Make it make sense"** | Transition from narrative hype to cold empirical data |
+| **Godel flex** | Constantly promotes his terminal as superior to Bloomberg |
+
+---
+
+## 10. SELF-AUDIT, BIAS & LEARNING
+
+### 10.1 Distinguishing Thesis Failure from Impatience
+
+**Rule:** Shkreli re-evaluates only when NEW EMPIRICAL FUNDAMENTAL DATA arrives — a clinical trial readout, SEC filing, or margin shift. He never alters a thesis because the stock price moved against him.
+
+**Distinction:**
+- **Wrong:** Shorting a fundamentally sound stock that goes up 50×
+- **Early:** Buying an undervalued stock that takes longer than expected to appreciate
+
+He has no strict time expectations: "I don't know when any of my stocks will work because I just don't think it's knowable."
+
+### 10.2 Acknowledged Mistakes & Mind Changes
+
+| Mistake | What Happened | Lesson |
+|---------|---------------|--------|
+| **Intellia Therapeutics** | "Dead wrong" — still bears the cross | Needs to tattoo the lesson |
+| **Nucleic acid therapies (mRNA/gene therapy)** | Early-career bearishness — "I thought it would never happen... boy was I wrong" | Complete reversal |
+| **Capricorn Therapeutics** | Outsourced due diligence — fell for fake trial results | Never trust others' analysis |
+| **Nvidia** | Bearish on fragility — underestimated staying power despite custom-silicon threat | Underestimated moat durability |
+| **Sarepta** | "Miracle luck" selling at $28 before FDA disaster | Acknowledges luck, not skill |
+
+### 10.3 Separating Luck from Skill
+
+**Method:** P&L attribution analysis — separate long performance from short performance. Track historical win rate (~60-66%). If alpha is concentrated in rising markets only, it's likely beta disguised as skill.
+
+### 10.4 Counteracting Cognitive Biases
+
+| Bias | Countermeasure |
+|------|---------------|
+| **Arrogance / ego** | Acknowledges it — prodigies struggle with accepting criticism |
+| **Emotional attachment** | Ray Dalio's "face psychological pain" — evaluate losers without making excuses |
+| **Confirmation bias** | Relies strictly on mathematical models, not narratives |
+| **Panic** | Diagnosed with panic disorder and OCD — uses quantitative screens to override emotional reactions |
+
+### 10.5 Framework for Learning a New Industry
+
+1. **Study the history** — for semiconductors, went back to Intel's 1990s revenue cycles, wafer sizes, clock speeds
+2. **Segmentation analysis** — read 10-K to break down every business line before looking at consolidated revenue
+3. **Primary source immersion** — subscribe to NEJM, read weekly
+4. **Use LLMs** — query AI to explain unknown biological pathways
+5. **Timeline:** ~1-2 years to develop functional domain expertise in a new sector
+
+**Rule:** Avoid learning "special sits" (highly unique event-driven trades like weed stocks) — the knowledge does not compound.
+
+---
+
+## 11. QUANTITATIVE REFERENCE
+
+### 11.1 Key Formulas
+
+| Purpose | Formula | When to Use |
+|---------|---------|-------------|
+| Enterprise Value | $EV = Market\ Cap - Cash + Debt$ | True price tag of the business |
+| Free Cash Flow | $FCF = CFO - CapEx - SBC$ | True cash generation (SBC = real dilution) |
+| DCF Valuation | $V = \sum_{t=1}^{n} \frac{CF_t}{(1+r)^t} + \frac{TV}{(1+r)^n}$ | Core valuation framework |
+| Discount Rate | $r = r_f + Risk\ Premium$ | Risk-free rate + company-specific risk |
+| Terminal Value | $TV = \frac{CF_n \times (1+g)}{r - g}$ | Post-projection period; use NEGATIVE g for tech/biotech |
+| Kelly Criterion | $f^* = \frac{bp - q}{b}$ | Position sizing baseline |
+| Market Cap | $MC = Price \times Shares\ Outstanding$ | Total equity value |
+| Big Six | Price, Shares, MC, Cash, Debt, EV | Always calculate FIRST |
+
+### 11.2 Key Parameters
+
+| Parameter | Biotech/Pharma | Tech/Software |
+|-----------|---------------|---------------|
+| Discount rate (established) | 3-4% | Standard |
+| Terminal value | Negative (-2% to -5%) | Variable — depends on cyclical position |
+| Valuation multiple | 3× peak sales (mature), 5-10× (with IP) | EV/FCF as sanity check |
+| Revenue model | Drug-by-drug pipeline | ARPU × user growth, deferred revenue |
+| Key risk | Patent cliff, trial failure | Cyclicality, growth inflection |
+
+### 11.3 Shkreli's Portfolio Stats (From Sources)
+
+| Metric | Value |
+|--------|-------|
+| Win rate | ~60-66% |
+| Standard position size | 5% max |
+| High-conviction size | 20-30% |
+| Minimum market cap | $100M (absolute), $500M (preferred) |
+| Target position count | 30-60 stocks |
+| Portfolio structure | Market-neutral long/short |
+| Net exposure target | Small (e.g., 4% net, 11% gross) |
+| Long/short balance | ~50/50 |
+
+---
+
+## APPENDIX: SOURCE MATERIAL
+
+Primary sources referenced in this extraction:
+- Martin Shkreli — Finance Lessons 1-18 (YouTube educational series)
+- Live-streamed stock analysis sessions (biotech, tech, pharma deep-dives)
+- Portfolio review and trading sessions
+- Godel terminal demonstrations and workflow explanations
+- Clinical trial analysis and biotech deep-dives
+- Published transcripts and interviews
+- Universal Communication-Style Synthesis Template (Cognitive Profile)
+- Contrarian Value Investing Philosophy profile
+- Architecture of a Contrarian Mind profile

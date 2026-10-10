@@ -1,0 +1,11 @@
+# Current educational report policy
+
+This portable route uses the 9 October 2026 reporting standard, revision 5. Its latest educational policy supersedes prescriptive verdict wording in historical source skills/cards and raw engine artifacts. Historical authored cards remain unchanged for source fidelity; their biography, quotes, performance claims and dated views are not verified current facts.
+
+Reports provide evidence, competing interpretations, hypothetical scenarios and uncertainty. They do not choose personal transactions, target weights, borrowing or debt-repayment actions. Model outputs are assumption-bound educational results, not executable sizes. Research works without holdings. Optional redacted inputs can still be sensitive and require the selected host's authorized private destination. This bundle contains no publisher upload or telemetry endpoint; this is not a claim about hosting-platform retention, tool logging or future integrations.
+
+Use Measured, Calculated, Modeled and Forecasted labels. Assumption-dependent Python outputs remain Modeled. Screenshots are Observed · unconfirmed until actual confirmation. A synthetic fixture is not market evidence. Preserve raw inputs/outputs and formula lineage without treating original schema names as current recommendations.
+
+A full report requires all eight substantive simulated original frameworks, Page separately, source anatomy with unavailable work explicit, common-name masthead, business-model canvas nine blocks, all seven Powers, and a final actual generated PNG through one named framework using Dan Roam 6×5. Put source/audit navigation before strategy and the final image. The host must inspect actual raster, preserve image hash/dimensions/alt/full text, and review browser rendering. Unavailable generated-image or browser capabilities leave those gates open. Never label a placeholder, diagram or synthetic image fixture as a completed generated sketchnote.
+
+No live providers, market acceptance, calibrated beliefs, model usage, native scheduler, autonomous decisions or actual investor endorsements are established by the offline demonstration. Original confirmation and decision-authorization contracts remain in force.

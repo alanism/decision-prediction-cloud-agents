@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/social-evidence-signal.v1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract_version", "signal_id", "batch_ref", "source_type", "data", "report_sections", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.social_evidence_signal.v1"}, "signal_id": {"type": "string"},
+    "batch_ref": {"type": "object"}, "source_type": {"enum": ["x_twitter", "reddit"]},
+    "data": {"type": "object", "additionalProperties": {"$ref": "#/$defs/atom"}}, "report_sections": {"type": "object"},
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "event_domain": {"type": "string"}, "event_category": {"type": "string"},
+    "impact_channels": {"type": "array", "items": {"type": "string"}},
+    "update_eligible": {"type": "boolean"}, "issues": {"type": "array", "items": {"type": "object"}}
+  },
+  "$defs": {"atom": {"type": "object", "additionalProperties": false, "required": ["value", "provenance_class"], "properties": {"value": {}, "provenance_class": {"enum": ["measured", "calculated", "modeled", "unavailable"]}, "unit": {"type": "string"}, "input_refs": {"type": "array", "items": {"type": "string"}}, "formula_ref": {"type": "string"}, "limitations": {"type": "array", "items": {"type": "string"}}, "reason": {"type": "string"}}}}
+}

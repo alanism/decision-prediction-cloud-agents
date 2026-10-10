@@ -1,0 +1,864 @@
+{
+  "schema_version": "portable-report.v1",
+  "fixture_class": "synthetic_public_educational",
+  "synthetic": true,
+  "report_id": "workshop-cloud-synthetic",
+  "edition_date": "2026-10-10",
+  "source_revision": "c04f68eac43a1dd3f96b7b2bfe716d221f4f9915",
+  "company": {
+    "common_name": "Workshop Cloud",
+    "ticker": "DEMO",
+    "description": "Fictional enterprise workflow software company"
+  },
+  "horizon": "One-year scenario illustration; no inferred personal investment horizon",
+  "information_cutoff": "2026-09-30",
+  "deck": "Recurring workflows, uncertain durability: the difference between a useful operating story and enough evidence.",
+  "scope_note": "Offline synthetic fixture with no personal data, public-company facts, live prices, brokerage access, provider calls or real generation. The edition is intentionally incomplete.",
+  "takeaway": {
+    "conclusion": "Insufficient evidence for a real-company valuation conclusion. The synthetic business model can illustrate recurring revenue, but durability and owner economics remain conditional.",
+    "uncertainty": "Customer concentration, dilution and unproven competitive barriers limit the interpretation.",
+    "counterargument": "Even strong retention and gross margin can coexist with a replaceable interface and weak owner cash generation.",
+    "changes": "Verified customer cohorts, reconciled diluted cash economics and a supported valuation reference would change research confidence."
+  },
+  "sources": [
+    {
+      "id": "synthetic-financial",
+      "title": "Synthetic financial and operating input sheet",
+      "kind": "synthetic",
+      "publication_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Invented fixture values for a fictional company; no actual filing or company observation."
+    },
+    {
+      "id": "synthetic-scenarios",
+      "title": "Synthetic probability and return assumptions",
+      "kind": "synthetic",
+      "publication_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Invented assumptions; no market calibration or prediction."
+    },
+    {
+      "id": "repo-docs-reports-HTML-REPORT-GUIDE-md",
+      "title": "docs/reports/HTML-REPORT-GUIDE.md",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Repository methodology inspected; financial and historical assertions in playbooks not independently verified.",
+      "path": "docs/reports/HTML-REPORT-GUIDE.md"
+    },
+    {
+      "id": "repo-skills-decision-prediction-SKILL-md",
+      "title": "skills/decision-prediction/SKILL.md",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Repository methodology inspected; financial and historical assertions in playbooks not independently verified.",
+      "path": "skills/decision-prediction/SKILL.md"
+    },
+    {
+      "id": "repo-skills-decision-prediction-references-monocle-report-anatomy-md",
+      "title": "skills/decision-prediction/references/monocle-report-anatomy.md",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Repository methodology inspected; financial and historical assertions in playbooks not independently verified.",
+      "path": "skills/decision-prediction/references/monocle-report-anatomy.md"
+    },
+    {
+      "id": "repo-dlc-Galloway",
+      "title": "dlc-Galloway",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-Galloway"
+    },
+    {
+      "id": "repo-dlc-Gerstner",
+      "title": "dlc-Gerstner",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-Gerstner"
+    },
+    {
+      "id": "repo-dlc-camillo",
+      "title": "dlc-camillo",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-camillo"
+    },
+    {
+      "id": "repo-dlc-laffont",
+      "title": "dlc-laffont",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-laffont"
+    },
+    {
+      "id": "repo-dlc-mauboussin",
+      "title": "dlc-mauboussin",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-mauboussin"
+    },
+    {
+      "id": "repo-dlc-munger-buffett",
+      "title": "dlc-munger-buffett",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-munger-buffett"
+    },
+    {
+      "id": "repo-dlc-shkreli",
+      "title": "dlc-shkreli",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-shkreli"
+    },
+    {
+      "id": "repo-dlc-thorp",
+      "title": "dlc-thorp",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-thorp"
+    },
+    {
+      "id": "repo-dlc-page-md",
+      "title": "dlc-page.md",
+      "kind": "repository",
+      "publication_date": null,
+      "as_of": "2026-10-10",
+      "retrieved_on": "2026-10-10",
+      "scope": "Supplied repository playbook inspected in full on 2026-10-10. Secondary synthesis only: underlying interviews, quotations, performance and current claims were not independently verified. Prescriptive source wording is superseded by the educational report policy.",
+      "path": "dlc-page.md"
+    },
+    {
+      "id": "strategyzer",
+      "title": "Business Model Canvas framework reference",
+      "url": "https://www.strategyzer.com/library/the-business-model-canvas",
+      "kind": "framework_reference",
+      "publication_date": null,
+      "as_of": null,
+      "retrieved_on": null,
+      "scope": "Link supplied by repository guide; not consulted over the network for this offline fixture. Not company evidence."
+    },
+    {
+      "id": "helmer",
+      "title": "Seven Powers framework reference",
+      "url": "https://7powers.com/synopsis/",
+      "kind": "framework_reference",
+      "publication_date": null,
+      "as_of": null,
+      "retrieved_on": null,
+      "scope": "Link supplied by repository guide; not consulted over the network for this offline fixture. Not company evidence."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "claim": "Synthetic current annual revenue: USD 120 million.",
+      "unit": "USD million",
+      "label": "Modeled",
+      "source_id": "synthetic-financial",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E2",
+      "claim": "Synthetic prior annual revenue: USD 100 million.",
+      "unit": "USD million",
+      "label": "Modeled",
+      "source_id": "synthetic-financial",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E3",
+      "claim": "Synthetic annual net revenue retention: 112%; gross retention is unknown.",
+      "unit": "percent",
+      "label": "Modeled",
+      "source_id": "synthetic-financial",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E4",
+      "claim": "Synthetic largest customer: 18% of annual revenue.",
+      "unit": "percent",
+      "label": "Modeled",
+      "source_id": "synthetic-financial",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E5",
+      "claim": "Synthetic annual operating cash flow USD 24 million, capex USD 4 million and stock compensation USD 12 million.",
+      "unit": "USD million",
+      "label": "Modeled",
+      "source_id": "synthetic-financial",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E6",
+      "claim": "Synthetic annual gross margin: 74%.",
+      "unit": "percent",
+      "label": "Modeled",
+      "source_id": "synthetic-financial",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E7",
+      "claim": "Four future payoff scenarios have stipulated probabilities and index-unit payoffs. They are not calibrated.",
+      "unit": "index units and probability",
+      "label": "Forecasted",
+      "source_id": "synthetic-scenarios",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E8",
+      "claim": "Seeded normal scenario: starting index 100, annual mean 0.06, volatility 0.25, one period, 1000 iterations, seed 73021.",
+      "unit": "normalized index units",
+      "label": "Modeled",
+      "source_id": "synthetic-scenarios",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    },
+    {
+      "id": "E9",
+      "claim": "Fictional business assumption: recurring workflow software for enterprise teams, with integrations and permissioned execution.",
+      "unit": "qualitative scope",
+      "label": "Modeled",
+      "source_id": "synthetic-financial",
+      "source_date": "2026-09-30",
+      "as_of": "2026-09-30",
+      "retrieved_on": "2026-10-10",
+      "scope": "Synthetic demonstration only",
+      "limitations": "Invented, unverified and unsuitable for any real company decision."
+    }
+  ],
+  "lenses": [
+    {
+      "id": "galloway",
+      "name": "Scott Galloway",
+      "source_path": "dlc-Galloway",
+      "rule": "Separate durable, repeatable business economics from glamour and test the single failure that could destroy the thesis.",
+      "question": "Does Workshop Cloud solve a recurring customer problem even when the automation story loses its novelty?",
+      "analysis": "The fictional 112% net revenue retention is consistent with continuing customer value, but the 18% largest-customer share makes the durability claim conditional.",
+      "dissent": "An attractive software story and 74% gross margin do not establish resilience to a large renewal failure.",
+      "missing_input": "Contract renewal dates, customer budget exposure and gross retention by cohort are missing.",
+      "consequence": "Prioritize the largest renewal and unit economics before extending the durability narrative.",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E6"
+      ]
+    },
+    {
+      "id": "gerstner",
+      "name": "Brad Gerstner",
+      "source_path": "dlc-Gerstner",
+      "rule": "Locate a business within the technology value chain and test whether it controls an enduring bottleneck as interfaces change.",
+      "question": "Will AI agents still need Workshop Cloud for permissions, workflow execution and customer data, or can they bypass it?",
+      "analysis": "The fictional 20% revenue expansion and 74% gross margin establish a scenario of current economics, but they do not show that the execution layer is indispensable.",
+      "dissent": "A thin user interface could lose pricing power even while the overall automation market expands.",
+      "missing_input": "API usage retention, system-of-record dependencies and independently evidenced agent adoption are missing.",
+      "consequence": "Compare usage of core execution APIs with user-interface engagement and distinguish infrastructure value from feature excitement.",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6"
+      ]
+    },
+    {
+      "id": "camillo",
+      "name": "Chris Camillo",
+      "source_path": "dlc-camillo",
+      "rule": "Connect independent behavioral observations to material paid adoption, including offsetting weakness elsewhere in the business.",
+      "question": "What evidence connects enthusiasm for Workshop Cloud workflows to paid adoption sufficient to explain its USD 20 million revenue increase?",
+      "analysis": "The fictional 112% net revenue retention is a financial cross-check consistent with expansion, but no behavioral observations were collected.",
+      "dissent": "Aggregated retention may mask a few large account expansions and says nothing about social-signal independence.",
+      "missing_input": "Independent customer observations, a dated signal timeline and an estimate of market awareness are missing.",
+      "consequence": "Build an adoption-to-paid-revenue evidence chain by workflow and cohort, alongside a largest-customer renewal check; abstain from claiming an information edge.",
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "id": "laffont",
+      "name": "Thomas and Philippe Laffont / Coatue",
+      "source_path": "dlc-laffont",
+      "rule": "Rebuild company-specific operating drivers rather than inheriting conventional assumptions, then test the strongest opposing explanation.",
+      "question": "Which changes in paid seats, realized pricing, new customers and existing-customer expansion reconcile revenue from USD 100 million to USD 120 million?",
+      "analysis": "The modeled revenue increase is compatible with adoption, but the 18% largest-customer share clouds repeatability. Positive operating cash flow does not establish accounting profitability.",
+      "dissent": "Theme-level demand can coexist with weak company economics, dilution and changing competitive position.",
+      "missing_input": "Customer acquisition cost, cohort payback, competitor win rates and product-level retention are missing.",
+      "consequence": "Build a minimal revenue-driver bridge and opposing operating scenarios, including whether competitive AI products weaken workflow dependence.",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5"
+      ]
+    },
+    {
+      "id": "mauboussin",
+      "name": "Michael Mauboussin",
+      "source_path": "dlc-mauboussin",
+      "rule": "Begin with the outside view, then compare implied expectations with a defensible reference class and cash-generation economics.",
+      "question": "How often do workflow-software companies near USD 120 million revenue sustain 20% growth and 112% retention, and what evidence would justify expecting Workshop Cloud to differ?",
+      "analysis": "The fictional 20% revenue growth provides an inside-view input; a current enterprise value and reference-class distribution are absent, so expectations cannot be reverse-engineered.",
+      "dissent": "A favorable operating narrative can still coincide with unrealistic valuation assumptions.",
+      "missing_input": "Market price, net debt, diluted shares, incremental returns on capital and a relevant base-rate sample are missing.",
+      "consequence": "Research the reference class and reverse-DCF inputs; keep valuation confidence unavailable until those inputs exist.",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    {
+      "id": "buffett-munger",
+      "name": "Warren Buffett and Charlie Munger",
+      "source_path": "dlc-munger-buffett",
+      "rule": "Test understandable owner economics, durable competitive advantage and reinvestment needs before extrapolating a compounder narrative.",
+      "question": "Does Workshop Cloud retain cash for owners after maintaining the product and accounting for dilution?",
+      "analysis": "Fictional operating cash flow of USD 24 million and capex of USD 4 million imply a USD 20 million cash-flow proxy; USD 12 million of stock compensation materially complicates owner economics.",
+      "dissent": "Expansion retention could reflect operational inconvenience rather than a durable moat, and stock compensation is not free capital.",
+      "missing_input": "Maintenance versus growth capex, fully diluted share evolution and customer switching evidence are missing.",
+      "consequence": "Reconcile owner-economics assumptions and test customer dependence instead of treating reported cash conversion as sufficient.",
+      "evidence_ids": [
+        "E3",
+        "E5"
+      ]
+    },
+    {
+      "id": "shkreli",
+      "name": "Martin Shkreli",
+      "source_path": "dlc-shkreli",
+      "rule": "Reconstruct cash generation from filings and reverse-engineer valuation assumptions rather than allowing sentiment to substitute for financial work.",
+      "question": "How much of Workshop Cloud operating cash flow is recurring after working-capital effects, and do users, ARPU, deferred revenue and RPO corroborate growth?",
+      "analysis": "The synthetic cash-flow proxy is USD 20 million before an illustrative USD 12 million stock-compensation adjustment; the resulting USD 8 million sensitivity is not a standardized accounting measure.",
+      "dissent": "Blindly subtracting stock compensation while also charging the same dilution elsewhere could double-count its effect.",
+      "missing_input": "Reconciled statements, diluted share count, deferred revenue, enterprise value and a full discount model are missing.",
+      "consequence": "Build a reconciled cash-flow bridge and reverse-valuation case; abstain from a valuation conclusion in this fixture.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    {
+      "id": "thorp",
+      "name": "Ed Thorp",
+      "source_path": "dlc-thorp",
+      "rule": "Verify an edge independently, account for estimation error and distinguish a model demonstration from evidence that its probabilities are calibrated.",
+      "question": "Would Workshop Cloud scenario conclusions survive probability errors, correlated shocks and a distribution with more extreme outcomes?",
+      "analysis": "The original deterministic engines can evaluate the supplied synthetic scenarios and a seeded normal range, but their probabilities are stipulated rather than calibrated.",
+      "dissent": "A normal simulation with a per-period total-loss bound can understate fat tails and correlated regime shifts.",
+      "missing_input": "Validated return observations, calibration history, an independent model check and explicit exposure constraints are absent.",
+      "consequence": "Treat the displayed engine outputs as educational sensitivity examples; investigate alternative distributions before interpreting robustness.",
+      "evidence_ids": [
+        "E7",
+        "E8"
+      ]
+    }
+  ],
+  "page_note": {
+    "rule": "Use structurally different models and explicit disagreement; multiple narratives using the same inputs are not independent confirmation.",
+    "analysis": "All eight cards share fictional inputs. They disagree about current recurring utility versus future AI disintermediation, leading adoption signals versus comparable-company base rates, and headline cash flow versus dilution and reinvestment. An independently tested forecast supplies a different test from a plausible explanation.",
+    "dissent": "A common missing price and common absent primary evidence can cause every lens to miss the same risk.",
+    "consequence": "Map which assumption each method challenges, retain abstentions and seek genuinely different evidence tests. No numerical ensemble agreement, diversity benefit, Markov equilibrium, Bass fit or combined probability is established.",
+    "source_path": "dlc-page.md",
+    "evidence_ids": [
+      "E5",
+      "E7",
+      "E8"
+    ]
+  },
+  "canvas": {
+    "scope": "Core recurring enterprise workflow software only; adjacent consulting and AI infrastructure businesses excluded.",
+    "blocks": [
+      {
+        "id": "key-partnerships",
+        "name": "Key partnerships",
+        "analysis": "Cloud infrastructure providers and implementation partners would support delivery; named counterparties and contract economics are not supplied.",
+        "evidence_ids": [
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "key-activities",
+        "name": "Key activities",
+        "analysis": "Operate workflow execution, maintain integrations and support adoption. Their relative costs are not supplied.",
+        "evidence_ids": [
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "key-resources",
+        "name": "Key resources",
+        "analysis": "Workflow software, integration know-how and permissioned customer configurations support the assumed service. No proprietary rights are established.",
+        "evidence_ids": [
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "value-propositions",
+        "name": "Value propositions",
+        "analysis": "Reduce repetitive coordination and improve traceable workflow execution. No measured productivity benefit is available.",
+        "evidence_ids": [
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "customer-relationships",
+        "name": "Customer relationships",
+        "analysis": "A recurring service relationship is consistent with modeled expansion retention; support effort and gross churn are unknown.",
+        "evidence_ids": [
+          "E3",
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "channels",
+        "name": "Channels",
+        "analysis": "Assumed direct enterprise onboarding and partner implementations; acquisition economics and channel mix remain unknown.",
+        "evidence_ids": [
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "customer-segments",
+        "name": "Customer segments",
+        "analysis": "Assumed business teams with repeatable multi-step workflows; the top customer is 18% of synthetic revenue. Industry diversification is unknown.",
+        "evidence_ids": [
+          "E4",
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "cost-structure",
+        "name": "Cost structure",
+        "analysis": "Synthetic gross margin is 74%; capex and stock compensation are supplied, but support, infrastructure and sales cost splits are absent.",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      },
+      {
+        "id": "revenue-streams",
+        "name": "Revenue streams",
+        "analysis": "Assumed recurring workflow subscriptions; synthetic revenue is USD 120 million versus USD 100 million in the prior period. Pricing and usage mix are unknown.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E9"
+        ],
+        "evidence_date": "2026-09-30",
+        "attribution": "Analyst synthesis from fictional fixture assumptions, not a company disclosure."
+      }
+    ]
+  },
+  "powers": [
+    {
+      "id": "scale-economies",
+      "name": "Scale Economies",
+      "benefit": "Spread engineering and infrastructure fixed costs across customers.",
+      "barrier": "A smaller entrant would need an enduring unit-cost disadvantage at comparable service quality.",
+      "evidence": "Modeled 74% gross margin is compatible with software scale but no cost curve or competitor comparison is supplied.",
+      "evidence_date": "2026-09-30",
+      "analysis": "Unproven: margin level alone does not demonstrate a structural scale advantage.",
+      "uncertainty": "Low confidence; fixed-cost allocation and comparative unit costs are missing.",
+      "strengthening_signal": "Lower unit service costs at unchanged quality across larger cohorts.",
+      "weakening_signal": "Rising infrastructure cost per workflow or smaller entrants matching cost.",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    {
+      "id": "network-economies",
+      "name": "Network Economies",
+      "benefit": "Additional participants could make shared workflows more valuable to existing users.",
+      "barrier": "A new network would struggle to assemble equivalent participation and interactions.",
+      "evidence": "The fictional workflow description permits collaboration but provides no cross-customer value evidence.",
+      "evidence_date": "2026-09-30",
+      "analysis": "Unproven: product utility is not itself a network effect.",
+      "uncertainty": "Low confidence; value-versus-participation evidence is absent.",
+      "strengthening_signal": "Measured customer value improving with relevant participant density.",
+      "weakening_signal": "Customers achieve equivalent value in isolated installations.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "id": "counter-positioning",
+      "name": "Counter-Positioning",
+      "benefit": "A distinct delivery model could offer better economics than an incumbent approach.",
+      "barrier": "An incumbent would face material damage to its existing business by copying it.",
+      "evidence": "No incumbent revenue conflict or economic sacrifice is documented in the synthetic input.",
+      "evidence_date": "2026-09-30",
+      "analysis": "Unproven; an innovative feature is insufficient.",
+      "uncertainty": "Low confidence; incumbent incentives and economics are missing.",
+      "strengthening_signal": "Primary evidence of incumbent cannibalization preventing a response.",
+      "weakening_signal": "Incumbents replicate the model without meaningful economic sacrifice.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "id": "switching-costs",
+      "name": "Switching Costs",
+      "benefit": "Embedded configurations and integrations may make customer relationships persistent.",
+      "barrier": "Customers would incur meaningful retraining, migration or disruption costs to move.",
+      "evidence": "Modeled net revenue retention is 112%; integration-based service is assumed, but gross churn and migration cost are absent.",
+      "evidence_date": "2026-09-30",
+      "analysis": "Plausible hypothesis; expansion retention does not isolate switching costs.",
+      "uncertainty": "Moderate hypothesis confidence, low empirical confidence; migration comparisons are missing.",
+      "strengthening_signal": "Documented migration effort alongside stable renewal behavior after price changes.",
+      "weakening_signal": "Portable configurations and low-friction competitor migrations.",
+      "evidence_ids": [
+        "E3",
+        "E9"
+      ]
+    },
+    {
+      "id": "branding",
+      "name": "Branding",
+      "benefit": "Trusted workflow execution could support preference or a price premium.",
+      "barrier": "Reputation would require time and repeated trustworthy delivery to replicate.",
+      "evidence": "No blind preference test, pricing premium or independently measured reputation is supplied.",
+      "evidence_date": "2026-09-30",
+      "analysis": "Unproven; the fictional company name supplies no brand evidence.",
+      "uncertainty": "Low confidence; differentiated willingness to pay is unknown.",
+      "strengthening_signal": "Independent preference evidence after controlling for product capabilities.",
+      "weakening_signal": "Price concessions needed to win otherwise comparable evaluations.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "id": "cornered-resource",
+      "name": "Cornered Resource",
+      "benefit": "Exclusive rights or scarce specialized resources could improve service or costs.",
+      "barrier": "Competitors could not obtain equivalent resource access on comparable terms.",
+      "evidence": "The assumed software and integration know-how do not establish exclusivity.",
+      "evidence_date": "2026-09-30",
+      "analysis": "Unproven; capable staff and data access are not automatically cornered.",
+      "uncertainty": "Low confidence; rights duration, exclusivity and substitutability are missing.",
+      "strengthening_signal": "Verified durable exclusive access tied to customer outcomes.",
+      "weakening_signal": "Equivalent resources become broadly accessible.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "id": "process-power",
+      "name": "Process Power",
+      "benefit": "Accumulated operational practices could improve reliability and implementation efficiency.",
+      "barrier": "Complex, path-dependent organizational routines would be difficult to copy quickly.",
+      "evidence": "Recurring service delivery is assumed; no longitudinal quality, efficiency or replication evidence is supplied.",
+      "evidence_date": "2026-09-30",
+      "analysis": "Unproven; good execution is not sufficient evidence of process Power.",
+      "uncertainty": "Low confidence; process persistence and competitor catch-up are unknown.",
+      "strengthening_signal": "Multi-year reliability and efficiency advantages surviving leadership changes.",
+      "weakening_signal": "Competitors reproduce operating results without prolonged learning.",
+      "evidence_ids": [
+        "E9"
+      ]
+    }
+  ],
+  "porter": [
+    {
+      "name": "Competitive rivalry",
+      "analysis": "Unknown competitor economics; a growing workflow category does not establish pricing discipline.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "name": "Threat of entry",
+      "analysis": "Software development is feasible; trust and integrations may slow entry but no durable entry barrier is proved.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "name": "Buyer power",
+      "analysis": "An 18% largest-customer contribution creates a concrete hypothetical negotiation dependency.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    {
+      "name": "Supplier power",
+      "analysis": "Cloud-provider dependence is assumed; actual contracts and portability are missing.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "name": "Substitution",
+      "analysis": "Alternative workflow systems and agent-led interfaces could substitute; no customer-level comparison is supplied.",
+      "evidence_ids": [
+        "E9"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "position",
+      "section": "portfolio",
+      "status": "unavailable",
+      "reason": "No personal account, holdings or verified screenshots were supplied.",
+      "consequence": "Ownership, concentration and personal exposure cannot be assessed."
+    },
+    {
+      "id": "frameworks",
+      "section": "strategy",
+      "status": "completed",
+      "reason": "All nine canvas blocks, seven Powers and five Porter forces are explicitly assessed as synthetic hypotheses.",
+      "consequence": "Strategic judgments remain unverified without real company primary evidence."
+    },
+    {
+      "id": "bayes",
+      "section": "business",
+      "status": "not_run",
+      "reason": "No user-verified evidence, matched sensitivity rule, prior or likelihood was supplied.",
+      "consequence": "No formal posterior or probability revision is claimed."
+    },
+    {
+      "id": "sharpe",
+      "section": "risk",
+      "status": "unavailable",
+      "reason": "No historical return series, baseline, calibrated binary probability or personal constraints were supplied.",
+      "consequence": "Sharpe and Kelly remain unavailable; no allocation is inferred."
+    },
+    {
+      "id": "engines",
+      "section": "audit",
+      "status": "completed",
+      "reason": "Unchanged deterministic Python functions evaluate only bounded synthetic inputs.",
+      "consequence": "Execution proves arithmetic plumbing, not forecast validity or live access."
+    },
+    {
+      "id": "convexity",
+      "section": "valuation",
+      "status": "completed",
+      "reason": "Four stipulated scenarios are evaluated with the original convexity engine.",
+      "consequence": "Scenario expectations depend entirely on fictional probabilities and payoffs."
+    },
+    {
+      "id": "simulation",
+      "section": "risk",
+      "status": "completed",
+      "reason": "A fixed-seed normal Monte Carlo example is executed with recorded parameters.",
+      "consequence": "Its range is not a forecast or a calibrated confidence interval."
+    },
+    {
+      "id": "margin",
+      "section": "risk",
+      "status": "unavailable",
+      "reason": "No borrowed balance, maintenance requirement, account equity or broker terms were supplied.",
+      "consequence": "No margin threshold, stress balance or repayment instruction is inferred."
+    },
+    {
+      "id": "options",
+      "section": "risk",
+      "status": "unavailable",
+      "reason": "No dated option chain, ask price, expiry or instrument specification was supplied.",
+      "consequence": "No option pricing, structure or execution instruction is produced."
+    },
+    {
+      "id": "barbell",
+      "section": "portfolio",
+      "status": "unavailable",
+      "reason": "No personal exposure data or user-selected comparison constraints were supplied.",
+      "consequence": "No portfolio structure or rebalance is prescribed."
+    },
+    {
+      "id": "dlc",
+      "section": "perspectives-a",
+      "status": "completed",
+      "reason": "Eight original simulated lenses are distinct; Page is separately labeled.",
+      "consequence": "Narratives are correlated perspectives, not independent forecasts or endorsements."
+    },
+    {
+      "id": "metrology",
+      "section": "audit",
+      "status": "unavailable",
+      "reason": "No provider usage receipt, current price contract or token-meter runtime is available.",
+      "consequence": "Token usage, cost and cache savings are not represented as measured."
+    },
+    {
+      "id": "verdict",
+      "section": "takeaway",
+      "status": "completed",
+      "reason": "An educational conclusion, strongest counterargument and change conditions are explicit.",
+      "consequence": "The conclusion concerns research sufficiency, not a transaction."
+    }
+  ],
+  "engine_inputs": {
+    "cash_flow": {
+      "operating_cash_flow": 24,
+      "capital_expenditure": 4,
+      "stock_based_compensation": 12,
+      "unit": "USD million"
+    },
+    "convexity": {
+      "scenarios": [
+        {
+          "name": "bear",
+          "probability": 0.25,
+          "payoff": -40,
+          "return": -0.4,
+          "assumptions": [
+            "Customer shock plus lost pricing power"
+          ]
+        },
+        {
+          "name": "base",
+          "probability": 0.45,
+          "payoff": 10,
+          "return": 0.1,
+          "assumptions": [
+            "Retention persists; no durable barrier established"
+          ]
+        },
+        {
+          "name": "bull",
+          "probability": 0.25,
+          "payoff": 50,
+          "return": 0.5,
+          "assumptions": [
+            "Workflow execution proves difficult to replace"
+          ]
+        },
+        {
+          "name": "moonshot",
+          "probability": 0.05,
+          "payoff": 100,
+          "return": 1.0,
+          "assumptions": [
+            "Unverified adoption and economics materially exceed the base"
+          ]
+        }
+      ],
+      "downside_capped": false,
+      "upside_open_ended": false
+    },
+    "simulation": {
+      "starting_value": 100,
+      "mean_return": 0.06,
+      "volatility": 0.25,
+      "periods": 1,
+      "iteration_count": 1000,
+      "seed": 73021,
+      "distribution_family": "normal"
+    }
+  },
+  "sketchnote": {
+    "status": "pending",
+    "blocker": "External image-generation and pixel-inspection capabilities are not part of this offline renderer. No image was generated or delivered.",
+    "alt": "Planned educational sketchnote of Workshop Cloud economics, uncertainty and research questions.",
+    "caption": "Planned simulated Ed Thorp perspective; not an image or a completed visual.",
+    "rotation": {
+      "report_id": "workshop-cloud-synthetic",
+      "edition_date": "2026-10-10",
+      "selected_lens": "thorp",
+      "previous_lens": null,
+      "index": 0,
+      "reason": "Balanced starting choice: foreground model uncertainty in a synthetic calculation demonstration. Retain on retries and formatting changes; rotate only on an authorized substantive edition."
+    },
+    "sqvid": {
+      "simple_elaborate": "Simple: a small number of clearly labeled conceptual relationships.",
+      "quality_quantity": "Quality and quantity: exact retained synthetic inputs alongside qualitative uncertainties.",
+      "vision_execution": "Execution: show evidence gates and research dependencies.",
+      "individual_comparison": "Comparison: contrast stipulated scenarios without treating them as forecasts.",
+      "change_status_quo": "Change: show what new evidence could change the research conclusion."
+    },
+    "text_equivalent": {
+      "who_what": "Workshop Cloud is a fictional workflow software company. All data are invented for a renderer demonstration.",
+      "how_much": "Synthetic annual revenue rises from USD 100 million to USD 120 million; operating cash flow is USD 24 million, capex USD 4 million and stock compensation USD 12 million. Cash-flow proxies are USD 20 million before and USD 8 million after an illustrative stock-compensation adjustment.",
+      "where": "Value is assumed to sit in enterprise workflow execution and integrations. Competitive barriers are unproven.",
+      "when": "Fixture information cutoff is 2026-09-30; the one-year scenario horizon is illustrative. No live update was performed.",
+      "how": "Original deterministic Python routines evaluate stipulated payoffs and seeded normal draws. They do not calibrate the inputs or produce executable actions.",
+      "why": "Retention and margin do not prove durability. Independent customer evidence, reconciled cash economics and tail-risk checks are needed before stronger claims."
+    }
+  },
+  "qa": {
+    "automated": "Python contract checks cover structure, escaping, audit integrity and explicit unavailable states. A Node mocked-DOM test checks frozen-scenario button, keyboard and reset behavior; it is not actual browser QA.",
+    "browser": "Not run: desktop/mobile layout, keyboard navigation, print and downloads require an actual supported browser and delivery route.",
+    "assistive_technology": "Not run: semantic markup is present, but assistive-technology conformance is unverified.",
+    "image": "Not run: generation and actual pixel inspection are pending.",
+    "delivery": "Not run: recipient artifact opening must be verified by the calling host."
+  }
+}

@@ -1,0 +1,598 @@
+---
+name: thomas-laffont-coatue-investment-framework
+description: Complete operational playbook for Thomas & Philippe Laffont's Coatue Management investment methodology — Big Fucking Ideas (BFI) thematic investing, data science-driven analysis, sacred financial modeling, portfolio construction, risk management, public-private crossover dynamics, AI infrastructure thesis, and the 25% growth matrix. Synthesized from primary source analysis across 27 targeted queries across 3 rounds.
+---
+
+# Thomas Laffont & Coatue Management Investment Framework — Agent Playbook
+
+> Authoritative extraction from primary sources: All-In Podcast appearances, interviews, masterclass lectures, and firm presentations. Synthesized from 27 targeted queries across 3 rounds designed to probe gaps beyond well-known concepts.
+
+---
+
+## TABLE OF CONTENTS
+
+1. [THE BIG IDEA FRAMEWORK](#1-the-big-idea-framework)
+2. [SACRED FINANCIAL MODELING](#2-sacred-financial-modeling)
+3. [TAM GROWTH & TAM STACKING](#3-tam-growth--tam-stacking)
+4. [DATA SCIENCE ENGINE](#4-data-science-engine)
+5. [PUBLIC VS PRIVATE MARKET METHDOLOGY](#5-public-vs-private-market-methodology)
+6. [THE 25% GROWTH MATRIX](#6-the-25-growth-matrix)
+7. [STRUCTURING LUCK & PORTFOLIO CONSTRUCTION](#7-structuring-luck--portfolio-construction)
+8. [RISK MANAGEMENT & SURVIVAL PARANOIA](#8-risk-management--survival-paranoia)
+9. [AI INVESTMENT THESIS — LAYER BY LAYER](#9-ai-investment-thesis--layer-by-layer)
+10. [LEADERSHIP & FOUNDER ASSESSMENT](#10-leadership--founder-assessment)
+11. [WORKFLOW & DECISION PROCESS](#11-workflow--decision-process)
+12. [THE SPIELBERG THREE-SENTENCE RULE](#12-the-spielberg-three-sentence-rule)
+13. [COGNITIVE ARCHITECTURE & PERSONA STACK](#13-cognitive-architecture--persona-stack)
+14. [ACKNOWLEDGED MISTAKES & EVOLUTION](#14-acknowledged-mistakes--evolution)
+15. [THE 20-CRITERIA INVESTMENT RUBRIC](#15-the-20-criteria-investment-rubric)
+
+---
+
+## 1. THE BIG IDEA FRAMEWORK
+
+### 1.1 The Core Philosophy
+
+Coatue's investment approach blends three disciplines:
+- **"Big Fucking Ideas" (BFI)** — massive, multi-year technological paradigm shifts
+- **Rigorous fundamental modeling** — "sacred" cell-by-cell financial models
+- **Alternative data science** — joining disparate datasets to uncover hidden truths
+
+**Philippe Laffont on his identity:** "I try to view myself as a growth investor. And I think a growth investor is someone who wants to be a value investor in ten years."
+
+**Thomas Laffont on the firm's scope:** "We think more about innovation than tech." Coatue covers approximately 85% of the S&P.
+
+### 1.2 BFI Selection Criteria
+
+| Criterion | Description |
+|-----------|-------------|
+| **Magnitude** | Multi-decade paradigm shifts, not 2-3 year trends |
+| **TAM trajectory** | Market must grow 2-3x over 5-10 years AND allow TAM stacking |
+| **Infrastructure necessity** | Prefer foundational layers (chips, data centers, power) over applications |
+| **Diversifiable bet** | Must be able to build a basket within the trend — not a single-winner bet |
+| **Survival horizon** | Can the capital survive 5+ years of development? |
+
+**Thomas's framing:** "We're not going to have AI without semis so semis are kind of a foundational layer... we're going to need data centers and we're going to need power."
+
+### 1.3 The AI Infrastructure Thesis — Layer Stack
+
+```
+┌─────────────────────────────────────────────┐
+│  Layer 3: Applications & Data (Fuzziest)     │
+│  Snowflake, Databricks, legacy SaaS          │
+├─────────────────────────────────────────────┤
+│  Layer 2: Foundational Models (High Conv.)   │
+│  OpenAI, Anthropic, Google                   │
+├─────────────────────────────────────────────┤
+│  Layer 1: Infrastructure & Power (Highest)   │
+│  Nvidia, Broadcom, Cerebras, Constell. Eng.  │
+│  GE Vernova, data center REITs               │
+└─────────────────────────────────────────────┘
+```
+
+**Layer 1 (Highest Conviction):** Semis are foundational. Named positions: Nvidia, Broadcom (AVGO), Cerebras. Power: Constellation Energy (nuclear), GE Vernova (liquid gas).
+
+**Layer 2 (High Conviction):** Foundational models are "incredibly important." Named: OpenAI, Anthropic, Google.
+
+**Layer 3 (Fuzziest Lens):** Applications are hard to predict — will legacy SaaS winners be helped or wiped out by AI?
+
+---
+
+## 2. SACRED FINANCIAL MODELING
+
+### 2.1 The Philosophy
+
+Thomas Laffont considers financial models to be a **"sacred place"** — not a spreadsheet, but a mathematical story.
+
+**Core principles:**
+- Build models **from scratch, cell by cell** — never edit thousand-line sell-side templates
+- **Ruthlessly eliminate** any line items that do not drive the core investment thesis
+- The model must serve as a **direct mathematical reflection of the story** from the top line to the bottom line
+- Apply **"gift wrapping" meticulousness** — every cell, line, font, and background color has a specific narrative purpose designed to capture executive attention
+
+### 2.2 What NOT to Do
+
+| Common Practice | Laffont's Rejection |
+|----------------|-------------------|
+| Thousand-line sell-side templates | "I'm not saying editing is wrong, but we build from scratch" |
+| Standard reporting lines that don't drive thesis | Ruthlessly removed |
+| Generic formatting | Every cell styled with narrative intent |
+| Automated data pulls | Manual input forces understanding of mechanics |
+
+### 2.3 The Apple Pricing Lesson
+
+**The mistake:** Thomas projected iPhone ARPU to decline 5-10% annually — standard for consumer electronics — when in reality the price *doubled*.
+
+**The lesson:** Never blindly accept industry-standard inputs. The model must strictly reflect YOUR specific thesis, not conventional wisdom. If you'd built the model from scratch thinking about Apple's unique pricing power, you wouldn't have defaulted to "prices decline."
+
+**What they got right:** Unit sales projections were mostly accurate.
+
+**What they missed:** The magnitude of services revenue and ecosystem lock-in as additional TAMs.
+
+---
+
+## 3. TAM GROWTH & TAM STACKING
+
+### 3.1 Ignore Static TAM
+
+**Philippe's rule:** "When a founder pitches their TAM, I largely ignore it."
+
+Two questions replace static TAM analysis:
+
+| Question | What to Look For | Examples |
+|----------|-----------------|----------|
+| **Will the TAM grow?** | Markets that will organically expand 2x to 3x over 5-10 years | AI infrastructure, digital banking, satellite broadband |
+| **Can the company stack additional TAMs?** | Businesses that layer entirely new markets onto their core product | Uber (rides → groceries → delivery), Apple (iPhone → services → wearables) |
+
+### 3.2 TAM Stacking in Practice
+
+| Company | Core TAM | Stacked TAMs |
+|---------|----------|--------------|
+| Apple | iPhone hardware | Services ($100B+), App Store, Wearables, iCloud |
+| Uber | Ride-sharing | Uber Eats, Uber Grocery, Freight |
+| OpenAI | Model API | ChatGPT subscription, Enterprise, Agent platforms |
+
+**Thomas on Apple:** "They successfully added additional TAMs through services."
+
+---
+
+## 4. DATA SCIENCE ENGINE
+
+### 4.1 The Secret Sauce
+
+**Philippe's core insight:** "Data is useless unless you can join data sets that don't speak to each other."
+
+**Coatue's data infrastructure:**
+- 20-30 data scientists
+- Processes 100M+ daily credit card receipts
+- Email receipt tracking
+- Clickstream data
+- App store metrics
+
+### 4.2 Joining Disparate Datasets — The ChatGPT Case Study
+
+**The question:** Is ChatGPT eroding Google Search engagement?
+
+**The method:**
+1. Track **consumer credit card subscription data** for OpenAI (who is paying for ChatGPT?)
+2. Cross-reference with **email receipt data** tracking Google page views (are those same users visiting Google less?)
+3. Join the two datasets that "don't speak to each other"
+
+**The result:** Conclusive proof that ChatGPT was cannibalizing Google Search traffic — a finding invisible in any single traditional dataset.
+
+### 4.3 Data Visualization Philosophy
+
+Coatue presents data to expose **strategic imbalances** that would otherwise go unnoticed. Example:
+
+They mapped **Cloud Revenue Market Share** directly against **Nvidia GPU Allocation**:
+
+| Company | Cloud Market Share | GPU Allocation | Implication |
+|---------|-------------------|----------------|-------------|
+| Amazon (AWS) | ~44% | ~20% | Drastically under-indexed in AI |
+| Oracle | ~3% | ~15% | Punching massively above weight |
+| CoreWeave | <1% | ~10% | Pure AI infrastructure play |
+
+This immediately forces the question: *Which companies are falling behind in the AI arms race?*
+
+---
+
+## 5. PUBLIC VS PRIVATE MARKET METHODOLOGY
+
+### 5.1 The Fundamental Differences
+
+| Dimension | Private Market | Public Market |
+|-----------|---------------|---------------|
+| **Nature** | Zero-sum — one firm's dollar is another's loss | Positive-sum — investors can share ideas and trends |
+| **Feedback** | Board echo chambers, delayed signals | Daily price discovery, quarterly earnings, short sellers |
+| **Honesty** | Founder-friendly norms suppress critical feedback | Immediate, objective, confrontational |
+| **Risk tolerance** | Accepts 70-80% of portfolio going to zero for mega-winners | Low appetite for 70-80% mark-to-market drawdowns |
+| **Flexibility** | Capital locked for years, thesis can't be easily changed | Can liquidate immediately if thesis breaks |
+| **Valuation comparison** | Compared to other startups in the same niche | Compared universally — 5% risk-free rate, Mag 7, high-growth AI |
+
+### 5.2 The Public Market as "Disinfectant"
+
+**Thomas's view:** "The public market is the ultimate valuation mechanism and the great disinfectant."
+
+Public companies receive:
+- Immediate, ruthless feedback via stock price every day
+- Quarterly earnings scrutiny
+- Analyst questions
+- Short seller attacks
+
+In private markets, this transparency doesn't exist. Boards become echo chambers. Founders operate without realizing their true market value has collapsed.
+
+### 5.3 Cross-Pollination Strategy
+
+When Coatue expanded into private markets, their edge was **bringing public-market rigor to venture:**
+
+- "We brought highly detailed, Excel-based public market research directly to private founders"
+- In an era where venture deals were evaluated using Word documents and decks, Coatue's data presentations overwhelmed competitors
+- This deeply impressed entrepreneurs like Aaron Levie at Box
+
+**Philippe's view:** Private market analysis is a tool to **front-run public indices**. While index bureaucrats systematically reject companies with "hair" — those losing money — Philippe analyzes private markets specifically to identify the money-losing innovators destined to become the Nasdaq of 5-10 years from now.
+
+### 5.4 IPO Readiness Assessment
+
+| Metric | Threshold |
+|--------|-----------|
+| **Rule of 40** | Growth + Profitability = 40 (average for successful IPO cohort) |
+| **Growth rate** | >25% AND profitable → prepare for IPO |
+| **Opportunity cost** | Must outperform 5% risk-free rate + Mag 7 growth rates |
+| **Founder readiness** | Must accept that valuation going down is okay |
+
+**Thomas's IPO advice to founders:** "It's okay for their valuation to go down. You have to shed the Silicon Valley immaturity of expecting stocks to only go up."
+
+---
+
+## 6. THE 25% GROWTH MATRIX
+
+### 6.1 The Four-Quadrant Framework
+
+| | **Profitable** | **Burning Cash** |
+|---|--------------|-----------------|
+| **Growing >25%** | **Prep for IPO** — operate with public-market mindset | **Build fortress balance sheet** — ensure you outlast competitors |
+| **Growing <25%** | **Play offense** — use cash flow to re-accelerate growth, embrace AI | **Radically reinvent** — increase risk, pivot, rebuild from ground up |
+
+### 6.2 The <25% / Burning Cash Quadrant — Reinvention
+
+This is the most dangerous quadrant. Thomas warns that surviving companies in this bucket often become **overly conservative to protect existing revenue**, not realizing their valuation multiple will collapse anyway.
+
+**What reinvention looks like (hypothetical):**
+A startup with $50M total revenue has a stagnant $40M legacy on-premise business with terrible unit economics. They've incubated a new cloud SaaS product generating $1-2M in ARR that's growing exceptionally fast. **Reinvention requires abandoning the protection of the $40M legacy business** and going "all in on this new product even though it's much smaller."
+
+**Tools for reinvention:**
+- Open-sourcing previously proprietary technology
+- Pivoting to a completely new product category
+- Embracing AI to fundamentally change the product
+- Aggressive cost restructuring
+
+---
+
+## 7. STRUCTURING LUCK & PORTFOLIO CONSTRUCTION
+
+### 7.1 The "Luck on Your Side" Principle
+
+Instead of trying to pick ONE winner in a massive paradigm shift, Philippe prefers to build a portfolio where **"luck is on your side."**
+
+**Example — AI as a utility:**
+- Knowing intelligence will become the next great global utility
+- Own a diversified basket of foundational AI companies (OpenAI + Anthropic + Google)
+- Captures the upside regardless of which specific model wins
+
+### 7.2 Cash Management
+
+**Philippe's approach to cash:**
+- "There are times where we've held 80% cash in our fund"
+- "My highest conviction idea is to decide what your risk tolerance is. And it could be 0% of your portfolio all the way up to 100"
+- Extreme cash positions are a risk management tool, not a sign of bearishness
+
+### 7.3 Sector Diversification
+
+Coatue covers ~85% of the S&P but thinks in terms of **innovation sectors:**
+
+| Sector | View |
+|--------|------|
+| **AI / Semis** | Highest conviction — infrastructure first |
+| **Fintech** | Highly bullish — digitization of banking (Revolut as potential trillion-dollar digital JPMorgan) |
+| **Space** | Telecom disruption — satellite broadband has "very bad implications" for terrestrial wireless and cable |
+| **Stablecoins** | Core conviction — predicts U.S. government will issue yield-bearing stablecoins directly to consumers |
+| **Crypto/meme coins** | Negative — Philippe openly says he's "Negative Bitcoin" despite schizophrenic FOMO |
+
+---
+
+## 8. RISK MANAGEMENT & SURVIVAL PARANOIA
+
+### 8.1 The Dot-Com "Face Tattoo"
+
+Launching Coatue at the dawn of the dot-com crash (2000) created permanent survival paranoia:
+
+- **The experience:** Market dropped 80% between 2000 and 2002
+- **The lesson:** "Left a face tattoo of risk management" that shaped the firm's DNA for decades
+- **Philippe's personal edge:** As a new American immigrant, he felt "I don't want to do anything that I get shipped out. So for me, being careful was second nature"
+- **His main survival tactic:** Aggressively networking with other portfolio managers to constantly gauge market sentiment — avoid dogmatic risk-taking
+
+### 8.2 Downside Protection Mechanisms
+
+| Mechanism | Description |
+|-----------|-------------|
+| **Cash positions** | 0% to 80% of fund, depending on conviction |
+| **Portfolio hedges** | Explicit hedging program |
+| **Survival-first sizing** | Prioritize surviving market bounces over maximizing returns |
+| **Growth as downside hedge** | High-growth tech may be LESS risky long-term than static value — "die from a thousand cuts" vs being "pulled by a fast pace train" |
+
+### 8.3 Information Security (Public/Private Wall)
+
+Because Coatue is SEC-registered, they maintain:
+- "Very stubborn and intrusive compliance department"
+- "Zero tolerance policy" for information leakage
+- Private boardroom data never crosses to influence public market trades
+
+**Conflict handling:**
+- Direct disclosure to founders when investing in conflicting companies
+- Refuse to fund two Series A companies pursuing the exact same opportunity
+- Existential stakes: a trade based on leaked private info could compromise the entire firm
+
+---
+
+## 9. AI INVESTMENT THESIS — LAYER BY LAYER
+
+### 9.1 The Total AI Revenue Thesis
+
+| Metric | Value |
+|--------|-------|
+| Current AI ecosystem revenue | ~$140B (Consumer, Ads, Enterprise) |
+| 2026 projection | ~$300B |
+| 2027 projection | ~$600B (doubling) |
+| Cloud CapEx 2025 (top 5 US players) | $312B |
+
+### 9.2 Layer 1: Infrastructure & Power (Highest Conviction)
+
+**Semiconductors:**
+- **Nvidia** — foundational AI compute
+- **Broadcom (AVGO)** — networking and custom silicon
+- **Cerebras** — Coatue led the Series B, endured "multiple years of no new capital of hard grind," culminated in massive OpenAI contract that quintupled value
+
+**Power / Energy:**
+- **Constellation Energy** — nuclear power for AI data centers
+- **GE Vernova** — liquid gas turbines
+
+**Key question:** Will Nvidia face a viable alternative? The sources don't detail Coatue's specific thesis on Cerebras vs Nvidia, but they hold both.
+
+### 9.3 Layer 2: Foundational Models (High Conviction)
+
+"Foundational models are going to be incredibly important."
+
+| Company | Position |
+|---------|----------|
+| OpenAI | Core holding — consumer + enterprise |
+| Anthropic | Core holding — safety-first approach |
+| Google | "Definitely put Google right in there" |
+
+**Strategy:** Basket approach — own multiple model providers to ensure capture regardless of which wins.
+
+### 9.4 Layer 3: Applications & Data (Fuzziest)
+
+**The lens "gets a little bit fuzzier" when looking at applications.**
+
+| Category | View |
+|----------|------|
+| **Data platforms** | Snowflake, Databricks — "will be massive" |
+| **Legacy SaaS** | Hard to predict — will AI help or wipe them out? |
+| **AI-native apps** | Unknown winners |
+
+**Key concern:** "It's much harder to predict whether legacy SaaS companies will win because of AI or be wiped out by it."
+
+### 9.5 The Data Moat Debate
+
+**Old view:** Data locked in proprietary SaaS platforms = impenetrable moat.
+
+**New reality:** Workday announced they're opening their data ecosystem to Snowflake and Databricks. The traditional "system of record is dead."
+
+**Coatue's conclusion:** The new moat is not data ownership but **permanent memory and switching costs** — the more an AI system learns about a user's specific workflows and habits over time, the more valuable and sticky it becomes. "The amount of memory per user could quintuple just based on the demand that these AI systems are requiring."
+
+---
+
+## 10. LEADERSHIP & FOUNDER ASSESSMENT
+
+### 10.1 What They Look For
+
+| Trait | Description |
+|-------|-------------|
+| **Adaptability** | Rejects 1990s GE-style charisma. Looks for people who "problem solved and debugged stuff" |
+| **Survival instinct** | Targeted toward founders who can "adapt and survive" |
+| **Star quality / magnetism** | "You just know it when you see it in a room — that magnetism about a person in a room and an idea and a market they're going after" (from Thomas's Hollywood agent days) |
+| **Hands-on debugging** | Values technical depth and operational capability |
+
+### 10.2 What They Avoid
+
+- Traditional charisma without substance
+- Founders who can't distill their story into 3 sentences
+- Those who expect private valuations only to go up (Silicon Valley immaturity)
+- Founders who can't handle public market volatility
+
+---
+
+## 11. WORKFLOW & DECISION PROCESS
+
+### 11.1 The Coatue Workflow
+
+```
+Idea Generation (BFI scanning)
+        ↓
+Initial Pitch (any team member)
+        ↓
+Radical, Immediate Collaboration
+  ├─ Public team analysts chime in immediately
+  ├─ Private team analysts chime in immediately
+  └─ Iterate thesis in real-time
+        ↓
+Build "Sacred" Financial Model (cell-by-cell)
+        ↓
+Reverse-Engineer Bear/Bull Case (test assumptions)
+        ↓
+Apply Universal Opportunity Cost (compare vs 5% RFR + Mag 7)
+        ↓
+Three-Sentence Thesis Test (Spielberg Rule)
+        ↓
+Decide: Invest / Pass / More Research
+        ↓
+If Invest: Position size based on risk tolerance
+        ↓
+Ongoing: Mental flexibility — force reverse-engineering when stuck
+```
+
+### 11.2 No Traditional Investment Committee
+
+**Thomas's anti-pattern:** "We actively avoid the classic venture capital model of a top-down, 'wise men' investment committee where analysts wait for the smoke to go up the chimney."
+
+Instead:
+- Deals are decided through **internal momentum**
+- **Radical, immediate collaboration** — when a private software idea is pitched, the firm's public market software analyst is expected to chime in immediately
+- This lets the team iterate and improve the thesis in real-time
+
+### 11.3 Testing Assumptions
+
+**Thomas's method:**
+- Force analysts to articulate both bull AND bear cases
+- Whichever side the analyst argues, Thomas argues the opposite to expose blind spots
+- Actively recruit "tiger parents" and practitioners of radical candor to provide brutal feedback
+
+**Philippe's method:**
+- When stuck in a bearish mindset: force reverse-engineering of the bull case
+- Ask: "Why do many people in the market think it's worth 2 trillion? What is it they see that I don't?"
+
+---
+
+## 12. THE SPIELBERG THREE-SENTENCE RULE
+
+### 12.1 Origin Story
+
+When Thomas Laffont was a trainee in the CAA mailroom (Creative Artists Agency), all trainees were brought into a meeting with director **Steven Spielberg**.
+
+**Spielberg told them:** "Every great story can be pitched in three sentences no matter what the story was."
+
+Thomas challenged him to pitch a complex movie. **Spielberg easily distilled the essence into three sentences.**
+
+**The lesson:** "It takes a true understanding of story to be able to crystallize it in three sentences."
+
+### 12.2 Application to Investing
+
+**The rule:** If you truly understand a company's story and the pivot points that will make or break the stock, you MUST be able to pitch it in three sentences.
+
+- If a thesis requires a rambling, multi-page explanation → the investor likely doesn't understand the core drivers
+- The three-sentence format forces clarity on the *pivot points* — the 2-3 things that determine success or failure
+
+### 12.3 Relation to the Financial Model
+
+The three-sentence thesis and the "sacred" financial model are two sides of the same coin:
+- **The model:** The mathematical story from top line to bottom line
+- **The three sentences:** The verbal distillation of that mathematical story
+
+Both must be ruthlessly stripped of anything that doesn't drive the core narrative.
+
+---
+
+## 13. COGNITIVE ARCHITECTURE & PERSONA STACK
+
+### 13.1 The Thomas-Philippe Partnership
+
+| Role | Person | Function |
+|------|--------|----------|
+| **Big Idea Generator** | Thomas Laffont | "Innovation investing, big idea investing, finding trends early like Nvidia" |
+| **Risk Manager** | Philippe Laffont | "One of the best in the world at risk management... has kept us right in business" |
+
+**Because they are brothers:** They don't waste energy on politics or questioning each other's motives. This enables faster, cleaner decision-making.
+
+### 13.2 Engine Layer
+
+| Component | Rating | Description |
+|-----------|--------|-------------|
+| **Crystallized Knowledge (C)** | Very High | Cross-domain expertise: Hollywood, venture finance, data science, macro |
+| **Fluid Reasoning (F)** | Very High | Joins disparate datasets + frameworks to find hidden truths |
+| **Augmentation Path (A)** | Heavily Augmented | 20-30 data scientists, massive alternative data pipeline, AI-augmented research |
+| **Pressure Stability (P)** | Extremely High | "Survival paranoia" forged in dot-com crash; comfortable with 80% drawdowns |
+
+**Stack Summary:** $[C^+, F^+, A^{++}, P^{++}]$
+
+### 13.3 Philippe's Big 5 Profile
+
+| Trait | Level | Evidence |
+|-------|-------|----------|
+| **Openness** | Very High | Embraces massive technology shifts, comfortable with uncertainty |
+| **Conscientiousness** | Very High | Intrusive compliance, meticulous risk management, survival-first |
+| **Extraversion** | Moderate | Networks aggressively with other PMs for market sentiment |
+| **Agreeableness** | Moderate | Direct and confrontational with management teams (positive-sum public market style) |
+| **Neuroticism** | Low | "Schizophrenic" about Bitcoin but stoic about massive drawdowns |
+
+### 13.4 Thomas's Big 5 Profile
+
+| Trait | Level | Evidence |
+|-------|-------|----------|
+| **Openness** | Very High | Constantly scanning for BFIs, cross-pollinating Hollywood with finance |
+| **Conscientiousness** | High | "Gift wrapping" meticulousness in models, precise three-sentence discipline |
+| **Extraversion** | High | Thrives on collaborative deal flow, public speaking |
+| **Agreeableness** | Moderate | Direct with founders, comfortable with confrontation |
+| **Neuroticism** | Low | Learned survival paranoia from Philippe |
+
+---
+
+## 14. ACKNOWLEDGED MISTAKES & EVOLUTION
+
+### 14.1 Specific Mistakes
+
+| Mistake | What Happened | Lesson |
+|---------|---------------|--------|
+| **Apple iPhone pricing** | Assumed 5-10% annual price decline; it doubled | Never default to industry-standard inputs; build models from scratch |
+| **Missing 2003 snapback** | Well-positioned for dot-com crash downside, not for recovery | Survival paranoia must be balanced with offense |
+| **Crypto strategy** | Generalist approach "served us poorly" in early crypto | Deep specialization required for novel architectures; generalist works for mature sectors |
+| **Nvidia position sizing** | Sources don't detail specific sizing | Firm conviction on AI semis but Layer 3 apps remain fuzzy |
+
+### 14.2 Framework Evolution
+
+| Era | Change | Trigger |
+|-----|--------|---------|
+| **2000-2010** | Pure public market hedge fund | Traditional start |
+| **Early 2010s** | Expanded into private markets | Facebook, Alibaba staying private longer — "never seen companies of that scale that were so important to our research not go public" |
+| **Last 10-15 years** | Massive investment in alternative data science | "That wasn't available 10-15 years ago" — data science became much larger part of the business |
+| **Present** | AI as core organizing thesis | "The most important thing going on in the world" |
+
+### 14.3 What Changed
+
+| Belief | Old View | New View |
+|--------|----------|----------|
+| **Data moats** | Proprietary data locked in SaaS = permanent advantage | "System of record is dead" — Workday opened to Snowflake/Databricks |
+| **AI investment** | Could pick winners from outside | Need diversified basket across all layers |
+| **Bitcoin** | Useful "escape valve" when IPOs dried up | "Negative Bitcoin" — stablecoins are the real thesis |
+| **Private markets** | Optional expansion | Essential for front-running public indices |
+
+---
+
+## 15. THE 20-CRITERIA INVESTMENT RUBRIC
+
+### Scoring Scale
+
+| Level | Label | Description |
+|-------|-------|-------------|
+| **1** | Novice | Detrimental analysis, wrong frameworks |
+| **2** | Basic | Standard tools, surface-level |
+| **3** | Proficient | Competent analysis, some insight |
+| **4** | Advanced | Deep expertise, multiple frameworks |
+| **5** | Laffont Mastery | BFI-level thinking, data science, three-sentence clarity |
+
+### The 20 Criteria
+
+| # | Criterion | Level 1 | Level 3 | Level 5 |
+|---|-----------|---------|---------|---------|
+| 1 | **Core Trend Identification** | Focuses on small static niches | Targets existing well-defined large markets | Exclusively targets "Big Fucking Ideas" (BFIs) capable of multi-decade paradigm shifts |
+| 2 | **TAM Evaluation** | Accepts founder's static TAM pitch | Models moderate linear TAM expansion | Ignores static TAM entirely; evaluates if TAM can grow 2-3x AND stack additional TAMs |
+| 3 | **Financial Modeling** | Relies on thousand-line sell-side models | Builds standard models with conventional lines | Builds models cell-by-cell as "sacred" spaces; ruthlessly eliminates non-thesis-driving lines |
+| 4 | **Thesis Clarity** | Ramble, multi-page explanations | Short paragraph summary | Applies Spielberg's three-sentence script rule — pitch stock's essence in exactly 3 sentences |
+| 5 | **Data Science Strategy** | Standard quarterly reports only | Basic single-source alt data | Joins completely disparate datasets (credit card + email receipts) to uncover non-obvious shifts |
+| 6 | **Mental Flexibility** | Dogmatic, refuses to change mind | Acknowledges opposing views exist | Forces reverse-engineering of opposite perspective; tests own assumptions aggressively |
+| 7 | **Risk Management** | Zero-sum betting with no protection | Basic diversification | "Survival paranoia" — uses hedges and 80% cash positions to endure decades |
+| 8 | **Portfolio "Luck" Structuring** | Bet on one winner per trend | Picks a few names in a sector | Builds diversified basket within mega-trend to capture upside regardless of which company wins |
+| 9 | **Market Agnosticism** | Stays only in VC or public | Occasional crossover | Treats public/private fluidly — "fisherman" seeking best value up and down the river |
+| 10 | **Index Independence** | Surrenders to MSCI/S&P | Slight over/underweight | Completely reinvents index weights based on future utilities 5-10 years out |
+| 11 | **Investment Horizon** | Short-term trading | 3-5 year outlook | Growth investor today with explicit goal of being value investor in same asset in 10 years |
+| 12 | **Private Company Strategy** | Evaluates on hype alone | Considers growth vs burn | Strict 25% growth/profitability matrix dictating IPO readiness, fortress balance sheet, or reinvention |
+| 13 | **Leadership Assessment** | 1990s GE charisma | Standard management skills | Extreme adaptability, survival instinct, hands-on debugging, and "star quality" magnetism |
+| 14 | **Efficiency / "Get Fit"** | Massive hiring sprees | Linear headcount-to-revenue | AI-powered: double revenue while shrinking headcount |
+| 15 | **Collaborative Diligence** | Siloed investment committee | Occasional check-ins | Radical immediate collaboration across public/private teams for unstoppable momentum |
+| 16 | **Public Scrutiny & IPOs** | Stay private indefinitely | Neutral on IPO timing | Champions public market as "great disinfectant" — forces discipline, tests true value |
+| 17 | **Attention to Detail** | Sloppy analysis | Clean but unfocused | "Gift wrapping" — every cell, font, color serves specific narrative purpose |
+| 18 | **Product & GTM Symbiosis** | Great product sells itself | Product and sales siloed | Product and sales as identical sides of same coin — positioning before roadmap |
+| 19 | **Macro Perspective** | Ignores macro entirely | Paralyzed by macro fears | Contextualizes structural fears — can tech productivity outgrow sovereign debt cycles? |
+| 20 | **Seeking Critical Feedback** | Sycophants confirm biases | Polite board feedback | Actively recruits "tiger parents" and radical candor to expose blind spots |
+
+---
+
+## APPENDIX: SOURCE MATERIAL
+
+Primary sources referenced in this extraction:
+- Thomas Laffont — All-In Podcast appearances (2024-2026)
+- Philippe Laffont — Interviews and masterclass lectures
+- Coatue Management public presentations and investment letters
+- All-In Podcast episodes covering AI infrastructure, crypto, and market dynamics
+- Published interviews with both Laffont brothers on investment philosophy
+- The three-sentence thesis origin story (CAA mailroom / Steven Spielberg meeting)
+- Coatue's alternative data methodology presentations

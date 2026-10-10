@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/decision-case.v1.schema.json",
+  "title": "Decision Case v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "case_id", "alternatives", "assumption_register_ref"],
+  "properties": {
+    "contract_version": {"const": "nhi.decision_case.v1"},
+    "case_id": {"type": "string", "minLength": 1},
+    "focus": {"const": "stock_exposure"},
+    "alternatives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["alternative_id", "label"],
+        "properties": {
+          "alternative_id": {"type": "string", "minLength": 1},
+          "label": {"type": "string", "minLength": 1},
+          "inputs": {
+            "type": "object",
+            "additionalProperties": {"$ref": "#/$defs/input_atom"}
+          }
+        }
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": {"$ref": "#/$defs/input_atom"}
+    },
+    "assumption_register_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["register_id", "canonical_hash"],
+      "properties": {
+        "register_id": {"type": "string", "minLength": 1},
+        "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  },
+  "$defs": {
+    "input_atom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "provenance_class"],
+      "properties": {
+        "value": {},
+        "provenance_class": {"enum": ["measured", "assumed", "forecast"]},
+        "unit": {"type": "string"},
+        "input_refs": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "limitations": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    }
+  }
+}

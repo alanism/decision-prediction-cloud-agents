@@ -1,0 +1,1 @@
+{"fixture_class":"synthetic","signals":[{"source_type":"polymarket","direction":"bearish"},{"source_type":"x_twitter","direction":"bearish"},{"source_type":"reddit","direction":"mixed"}],"approval_status":"approved","affected_metrics":["kelly","convexity","margin_safety"]}

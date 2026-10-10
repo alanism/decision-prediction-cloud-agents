@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/evidence-batch.v1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract_version", "batch_id", "source_type", "verification_status", "items"],
+  "properties": {
+    "contract_version": {"const": "nhi.evidence_batch.v1"},
+    "batch_id": {"type": "string", "minLength": 1},
+    "source_type": {"enum": ["polymarket", "x_twitter", "reddit", "news", "sec_filing", "company_page", "brokerage_screenshot", "portfolio_file", "manual_note", "other"]},
+    "verification_status": {"enum": ["auto_retrieved", "user_verified", "user_corrected", "unverified_extraction", "failed", "unavailable"]},
+    "event_domain": {"type": "string"},
+    "event_category": {"type": "string"},
+    "items": {"type": "array", "minItems": 1, "items": {"type": "object"}}
+  }
+}

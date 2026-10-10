@@ -1,0 +1,10 @@
+[project]
+name = "decision-prediction-cloud-agents"
+version = "0.1.0"
+description = "Educational cloud-first decision research engine and host-neutral adapters"
+requires-python = ">=3.11,<3.14"
+dependencies = []
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["vendor/capital-decision-lab", "adapters/cloud"]
+addopts = "-q"

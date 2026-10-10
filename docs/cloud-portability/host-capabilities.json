@@ -1,0 +1,27 @@
+{
+  "schema_version": "portable-host-contract.v1",
+  "contract_only": true,
+  "adapters": [
+    "oai-dot",
+    "meta-muse",
+    "grok",
+    "generic-shell"
+  ],
+  "implemented_adapter": "generic-shell",
+  "required": [
+    "python_3_11_to_3_13",
+    "explicit_file_read",
+    "user_selected_private_storage"
+  ],
+  "optional": {
+    "public_research": "Host supplies dated source artifacts and access limitations; no built-in retrieval.",
+    "image_generation": "Host returns generated PNG, dimensions, hash, exact lens, alt and full text equivalent; no fabricated native API.",
+    "image_inspection": "Host inspects actual raster and records factual/visual QA before report completion.",
+    "browser_visual_qa": "Host records supported-browser wide/narrow, keyboard and image inspection; static checks do not satisfy.",
+    "human_confirmation": "Original engine confirmation/authorization gates remain separate from report storage.",
+    "scheduler": "Unactivated portable intent only; host must obtain and verify user-selected schedule and destination.",
+    "private_delivery": "Host verifies recipient access and retention; no automatic upload."
+  },
+  "probe_rule": "A declaration is not availability. portable.py doctor reports only capabilities it actually observed.",
+  "external_effects": "No network, model calls, trading, credential handling, scheduler activation or native registration implemented."
+}

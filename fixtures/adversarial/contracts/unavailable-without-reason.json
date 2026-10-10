@@ -1,0 +1,12 @@
+{
+  "fixture_class": "adversarial",
+  "expected_issue_code": "UNAVAILABLE_REASON_REQUIRED",
+  "document": {
+    "contract_version": "nhi.decision_analysis.v1",
+    "analysis_id": "analysis_bad_004",
+    "case_ref": {"id": "case_bad_004", "canonical_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+    "data": {"result": {"value": null, "provenance_class": "unavailable"}},
+    "canonical_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/evidence-source.v1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "source_id", "source_type", "captured_at", "verification_status", "artifact_refs"],
+  "properties": {
+    "contract_version": {"const": "nhi.evidence_source.v1"},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_type": {"enum": ["polymarket", "x_twitter", "reddit", "news", "sec_filing", "company_page", "brokerage_screenshot", "portfolio_file", "manual_note", "other"]},
+    "captured_at": {"type": "string", "minLength": 1},
+    "verification_status": {"enum": ["auto_retrieved", "user_verified", "user_corrected", "unverified_extraction", "failed", "unavailable"]},
+    "artifact_refs": {"type": "array", "items": {"$ref": "#/$defs/artifact"}},
+    "source_url": {"type": "string"},
+    "retrieval_method": {"enum": ["api", "browser", "scrape", "screenshot", "paste", "file_import", "manual", "unknown"]},
+    "retrieval_timestamp": {"type": "string"},
+    "raw_content_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "extracted_fields": {"type": "object"}, "confidence": {"type": "number"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+    }
+  }
+}

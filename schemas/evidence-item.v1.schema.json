@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/evidence-item.v1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract_version", "item_id", "source_ref", "source_type", "verification_status", "timestamp", "captured_at", "direction", "claim_tags", "content", "thesis_relevance", "source_credibility"],
+  "properties": {
+    "contract_version": {"const": "nhi.evidence_item.v1"},
+    "item_id": {"type": "string", "minLength": 1},
+    "source_ref": {"type": "string", "minLength": 1},
+    "source_type": {"enum": ["polymarket", "x_twitter", "reddit", "news", "sec_filing", "company_page", "brokerage_screenshot", "portfolio_file", "manual_note", "other"]},
+    "verification_status": {"enum": ["auto_retrieved", "user_verified", "user_corrected", "unverified_extraction", "failed", "unavailable"]},
+    "timestamp": {"type": "string", "minLength": 1},
+    "captured_at": {"type": "string", "minLength": 1},
+    "direction": {"enum": ["bullish", "bearish", "mixed", "neutral", "unknown"]},
+    "claim_tags": {"type": "array", "items": {"type": "string"}},
+    "content": {"type": "object"},
+    "thesis_relevance": {"type": "number"},
+    "source_credibility": {"type": "number"},
+    "echo_chamber_risk": {"type": "number"},
+    "noise_penalty": {"type": "number"}
+    ,"author_handle": {"type": "string"}, "author_display_name": {"type": "string"},
+    "post_url": {"type": "string"}, "screenshot_artifact": {"type": "object"}, "screenshot_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "likes": {"type": "integer"}, "reposts": {"type": "integer"}, "replies": {"type": "integer"},
+    "views": {"type": "integer"}, "bookmarks": {"type": "integer"}, "quoted_source": {"type": "string"},
+    "subreddit": {"type": "string"}, "thread_title": {"type": "string"}, "thread_url": {"type": "string"},
+    "post_text": {"type": "string"}, "comment_text": {"type": "string"}, "author_name": {"type": "string"},
+    "score": {"type": "integer"}, "upvotes": {"type": "integer"}, "comment_count": {"type": "integer"},
+    "flair": {"type": "string"}, "falsifiability": {"type": "number"}, "selection_bias_note": {"type": "string"}
+  }
+}

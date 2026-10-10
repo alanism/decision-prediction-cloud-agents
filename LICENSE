@@ -1,0 +1,81 @@
+Capital Decision Lab Fair Source License v1.0
+
+Copyright © Alan Nguyen. All rights reserved except as expressly granted below.
+
+Licensor: Alan Nguyen
+Software: Capital Decision Lab
+
+1. Fair Source Grant
+
+Subject to this license, you may use, copy, inspect, modify, and run the Software for personal, educational, research, evaluation, and small-team internal use.
+
+2. Permitted Free Uses
+
+You may use the Software without a separate commercial license if your use is:
+
+a. personal or household use;
+b. educational, research, or evaluation use;
+c. internal use by an individual or small team;
+d. modification for your own permitted use;
+e. contribution back to the project, if contributions are accepted.
+
+3. Restricted Uses
+
+You may not do any of the following without a separate written commercial license from the Licensor:
+
+a. sell, resell, sublicense, or commercially redistribute the Software;
+b. offer the Software, or a substantially similar product based on it, as a hosted service;
+c. use the Software to provide a competing commercial decision-support, financial-planning, investment-analysis, portfolio-management, brokerage, trading, or advisory product;
+d. embed the Software in a commercial financial-services, brokerage, banking, wealth-management, insurance, tax, or investment product;
+e. use the Software for enterprise-wide deployment outside small-team internal use;
+f. remove or obscure license, copyright, provenance, safety-boundary, or attribution notices;
+g. use the Software to provide financial, investment, tax, legal, brokerage, fiduciary, or trading advice while implying that the Software itself provides or authorizes such advice.
+
+4. Delayed Open Source Conversion
+
+Each source file in the Software becomes available under the Apache License, Version 2.0, four years after the date that file is first publicly released by the Licensor.
+
+Until that conversion date, the file remains governed by this Fair Source License.
+
+If a file does not contain a public release date, the public release date is the date of the first public repository commit containing that file.
+
+5. Apache-2.0 Fallback
+
+After the delayed open-source conversion period expires for a file, that file may be used under the Apache License, Version 2.0.
+
+A copy of the Apache License, Version 2.0 should be included in this repository or linked from the official Apache Software Foundation source.
+
+6. Trademarks and Branding
+
+This license does not grant rights to use the names, logos, marks, or branding of Capital Decision Lab, Hermes Thrice Great, NHI, or any related product identity, except as necessary for truthful reference to the Software.
+
+7. User Data
+
+Users retain ownership of their own local decision cases, assumptions, analyses, proposals, authorizations, ledgers, reports, outcomes, and logs.
+
+This license does not grant the Licensor any ownership interest in user data.
+
+8. No Financial Advice
+
+The Software is a local decision-support and calculation tool.
+
+The Software does not provide financial, investment, tax, legal, brokerage, fiduciary, or trading advice. It does not recommend securities, execute transactions, connect to accounts, guarantee outcomes, or authorize decisions for users.
+
+Users are solely responsible for their own assumptions, inputs, decisions, actions, and outcomes.
+
+9. No Warranty
+
+The Software is provided “as is” and “as available,” without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, non-infringement, or availability.
+
+10. Limitation of Liability
+
+To the maximum extent permitted by law, the Licensor will not be liable for any direct, indirect, incidental, special, consequential, exemplary, punitive, or financial damages, including lost profits, lost savings, investment losses, trading losses, business interruption, data loss, or reliance damages arising from use of or inability to use the Software.
+
+11. Termination
+
+If you violate this license, your rights under this license terminate automatically. Upon termination, you must stop using, copying, modifying, distributing, or deploying the Software except as otherwise permitted by law or by a separate written agreement.
+
+12. Commercial Licensing
+
+For uses outside this license, contact the Licensor for a separate commercial license.
+

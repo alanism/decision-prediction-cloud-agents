@@ -1,0 +1,7 @@
+{
+  "fixture_class": "adversarial",
+  "mutation": "authorization_hash_mismatch",
+  "analysis_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "authorized_analysis_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+}
+

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/event-market-snapshot.v1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract_version", "snapshot_id", "source_type", "verification_status", "title", "event_domain", "event_category", "captured_at", "outcomes", "total_volume", "resolution_rules"],
+  "properties": {
+    "contract_version": {"const": "nhi.event_market_snapshot.v1"},
+    "snapshot_id": {"type": "string", "minLength": 1},
+    "source_type": {"const": "polymarket"},
+    "verification_status": {"enum": ["auto_retrieved", "user_verified", "user_corrected", "unverified_extraction", "failed", "unavailable"]},
+    "title": {"type": "string", "minLength": 1},
+    "event_domain": {"enum": ["economy_rates", "geopolitics", "technology", "commodities", "market_structure", "company_specific", "index_market_level", "regulation_policy", "other"]},
+    "event_category": {"type": "string", "minLength": 1},
+    "captured_at": {"type": "string", "minLength": 1},
+    "event_date": {"type": "string"},
+    "outcomes": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/outcome"}},
+    "total_volume": {"type": "number"},
+    "bid_ask_available": {"type": "boolean"},
+    "spread_available": {"type": "boolean"},
+    "resolution_rules": {"type": "string", "minLength": 1},
+    "artifact_refs": {"type": "array", "items": {"type": "object"}}
+  },
+  "$defs": {
+    "outcome": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "probability"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1}, "probability": {"type": "number"},
+        "volume": {"type": "number"}, "rate_change_bps": {"type": "number"},
+        "yes_price": {"type": "number"}, "no_price": {"type": "number"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "actor": {"type": "string"}, "threshold_direction": {"enum": ["above", "below"]}
+      }
+    }
+  }
+}

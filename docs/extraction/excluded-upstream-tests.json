@@ -1,0 +1,18 @@
+{
+  "scope": "Original desktop distribution and historical build-governance checks. Not silently counted as passed. Cloud extraction has separate inventory and containment tests. Full original suite remains an upstream verification gate.",
+  "files": [
+    "tests/distribution/test_domain_anti_leakage.py",
+    "tests/distribution/test_advice_language.py",
+    "tests/distribution/test_prd_governance.py",
+    "tests/distribution/test_threat_model_governance.py",
+    "tests/distribution/test_private_data_exclusion.py",
+    "tests/distribution/test_tdd_ledger_governance.py",
+    "tests/distribution/test_page_distribution.py",
+    "tests/distribution/test_adversarial_security_review.py",
+    "tests/distribution/test_stock_governance.py",
+    "tests/distribution/test_outcome_gate.py",
+    "tests/distribution/forbidden_vocabulary.json",
+    "tests/distribution/test_cli.py",
+    "tests/distribution/test_staging_payload.py"
+  ]
+}

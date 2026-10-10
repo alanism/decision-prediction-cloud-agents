@@ -1,0 +1,18 @@
+{
+  "contract_version": "nhi.decision_comparison.v1",
+  "comparison_id": "comparison_contract_001",
+  "analysis_refs": [
+    {"analysis_id": "analysis_contract_001", "canonical_hash": "3333333333333333333333333333333333333333333333333333333333333333"},
+    {"analysis_id": "analysis_contract_002", "canonical_hash": "4444444444444444444444444444444444444444444444444444444444444444"}
+  ],
+  "data": {
+    "comparison_status": {
+      "value": "inputs validated",
+      "provenance_class": "calculated",
+      "input_refs": ["analysis_contract_001", "analysis_contract_002"],
+      "limitations": ["Contract validation only"]
+    }
+  },
+  "disclaimer": "comparison only, not financial advice",
+  "canonical_hash": "9999999999999999999999999999999999999999999999999999999999999999"
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/decision-analysis.v1.schema.json",
+  "title": "Decision Analysis v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "analysis_id", "case_ref", "data", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.decision_analysis.v1"},
+    "analysis_id": {"type": "string", "minLength": 1},
+    "alternative_id": {"type": ["string", "null"]},
+    "case_ref": {"$ref": "#/$defs/reference"},
+    "data": {
+      "type": "object",
+      "additionalProperties": {"$ref": "#/$defs/evidence_atom"}
+    },
+    "simulation_metadata": {"type": "object"},
+    "report_sections": {"type": "object"},
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "canonical_hash"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "evidence_atom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "provenance_class"],
+      "properties": {
+        "value": {},
+        "provenance_class": {
+          "enum": ["measured", "assumed", "calculated", "modeled", "forecast", "decided", "unavailable"]
+        },
+        "unit": {"type": "string"},
+        "input_refs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "formula_ref": {"type": "string", "minLength": 1},
+        "limitations": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "reason": {"type": "string", "minLength": 1}
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": ["provenance_class"],
+            "properties": {"provenance_class": {"const": "unavailable"}}
+          },
+          "then": {
+            "required": ["reason"],
+            "properties": {"value": {"type": "null"}}
+          }
+        }
+      ]
+    }
+  }
+}

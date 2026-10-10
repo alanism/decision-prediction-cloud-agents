@@ -1,0 +1,11 @@
+{
+  "fixture_class": "valid_synthetic",
+  "simulation": {
+    "seed": 73021,
+    "distribution": "normal",
+    "iteration_count": 1000,
+    "parameters": {"location": 0.0, "scale": 1.0},
+    "limitations": ["Synthetic inputs only", "Modeled range, not a prediction"]
+  }
+}
+

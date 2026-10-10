@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/recommendation.v1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "recommendation_id", "case_id", "portfolio_snapshot_hash", "belief_state_hash", "evidence_synthesis_hash", "kelly_analysis_hash", "convexity_analysis_hash", "margin_analysis_hash", "model_health_hash", "recommendation_type", "model_implied_action", "target_exposure", "current_exposure", "exposure_delta", "reason_codes", "kelly_reason", "convexity_reason", "margin_reason", "evidence_reason", "model_health_reason", "confidence", "limitations", "required_user_authorization", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.recommendation.v1"},
+    "recommendation_id": {"type": "string"}, "case_id": {"type": "string"},
+    "portfolio_snapshot_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "belief_state_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "evidence_synthesis_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "kelly_analysis_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "convexity_analysis_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "margin_analysis_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "model_health_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "recommendation_type": {"enum": ["increase_exposure", "decrease_exposure", "hold", "trim_to_kelly", "avoid_margin", "reduce_margin", "hedge", "watch", "pause", "reject_thesis", "record_no_action"]},
+    "model_implied_action": {"type": "string"},
+    "target_exposure": {"$ref": "#/$defs/atom"}, "current_exposure": {"$ref": "#/$defs/atom"},
+    "exposure_delta": {"$ref": "#/$defs/atom"}, "confidence": {"$ref": "#/$defs/atom"},
+    "kelly_reason": {"$ref": "#/$defs/atom"}, "convexity_reason": {"$ref": "#/$defs/atom"},
+    "margin_reason": {"$ref": "#/$defs/atom"}, "evidence_reason": {"$ref": "#/$defs/atom"},
+    "model_health_reason": {"$ref": "#/$defs/atom"},
+    "reason_codes": {"type": "array", "items": {"type": "string"}},
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "required_user_authorization": {"const": true},
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "$defs": {"atom": {"type": "object", "additionalProperties": false, "required": ["value", "provenance_class"], "properties": {
+    "value": {}, "provenance_class": {"enum": ["measured", "calculated", "modeled", "forecast", "unavailable"]},
+    "unit": {"type": "string"}, "input_refs": {"type": "array", "items": {"type": "string"}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }}}
+}

@@ -1,0 +1,1 @@
+{"fixture_class":"synthetic","signals":[{"source_type":"polymarket","direction":"mixed","volatility":0.9},{"source_type":"x_twitter","direction":"mixed"},{"source_type":"reddit","direction":"mixed"}]}

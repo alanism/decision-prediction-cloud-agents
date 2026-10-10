@@ -1,0 +1,2671 @@
+{
+  "schema_version": "cloud-upstream.v1",
+  "product": "Decision ≥ Prediction Cloud Agents",
+  "target_repository_slug": "decision-prediction-cloud-agents",
+  "source_repository": "https://github.com/alanism/Hermes-Thrice-Great-decision-prediction-stocks",
+  "source_git_base_commit": "c04f68eac43a1dd3f96b7b2bfe716d221f4f9915",
+  "reviewed_remote_reference": "9777c1dfa0de569026e272cf7ab4fafc0004346a",
+  "remote_reference_status": "Full PR2 head verified by supervising publication task; local source base differs and exact source working bytes are independently pinned below.",
+  "source_pr": "https://github.com/alanism/Hermes-Thrice-Great-decision-prediction-stocks/pull/2",
+  "source_docs_pr": "https://github.com/alanism/Hermes-Thrice-Great-decision-prediction-stocks/pull/1",
+  "license": "Existing LICENSE preserved verbatim, custom Fair Source v1.0",
+  "upstream_update_policy": "Never float source. Review a new immutable upstream commit; compare file hashes and contract/calculation tests; reapply listed downstream patches explicitly; rerun extraction and host-boundary checks; publish only under user authority.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "source_working_sha256": "761474c0f3926e1007025490d366b624f4fcb940ddf427fb24e4a0d6a04c24e0",
+      "source_git_base_sha256": "761474c0f3926e1007025490d366b624f4fcb940ddf427fb24e4a0d6a04c24e0",
+      "extracted_sha256": "761474c0f3926e1007025490d366b624f4fcb940ddf427fb24e4a0d6a04c24e0"
+    },
+    {
+      "path": "adapters/cloud/decision_cloud/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/portable/__init__.py",
+      "source_working_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adapters/cloud/decision_cloud/cli.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/portable/cli.py",
+      "source_working_sha256": "81508552bf313dc0d5e3c70455f2b5550eb546a7ca49d060b84a45349749dd43",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "7d99b29b3db83bad720c771a37dbf9dddeabc9d2be35a496241524825ffd31c9"
+    },
+    {
+      "path": "adapters/cloud/decision_cloud/report.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/portable/report.py",
+      "source_working_sha256": "c2ae6a5876d4428209bf626de8e4e218c6fedb50b7568602e5e2a47a76585670",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "c2ae6a5876d4428209bf626de8e4e218c6fedb50b7568602e5e2a47a76585670"
+    },
+    {
+      "path": "adapters/cloud/decision_cloud/storage.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/portable/storage.py",
+      "source_working_sha256": "1a819b9521cfbee5dedbe8af39f9ae2906e64a84fd044d1683f1d74d560cefca",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "1a819b9521cfbee5dedbe8af39f9ae2906e64a84fd044d1683f1d74d560cefca"
+    },
+    {
+      "path": "design/DESIGN-Creative Giants.md",
+      "source_path": "design/DESIGN-Creative Giants.md",
+      "source_working_sha256": "07a78dbf11d57d1436963a526ae03864ef339bd94ba714e38c651bdbbb48782c",
+      "source_git_base_sha256": "07a78dbf11d57d1436963a526ae03864ef339bd94ba714e38c651bdbbb48782c",
+      "extracted_sha256": "07a78dbf11d57d1436963a526ae03864ef339bd94ba714e38c651bdbbb48782c"
+    },
+    {
+      "path": "design/DESIGN-Ease Health.md",
+      "source_path": "design/DESIGN-Ease Health.md",
+      "source_working_sha256": "17464214426acea3bf620a47628bb4d6bab062a04e79f64d85a92aa4ddab2398",
+      "source_git_base_sha256": "17464214426acea3bf620a47628bb4d6bab062a04e79f64d85a92aa4ddab2398",
+      "extracted_sha256": "17464214426acea3bf620a47628bb4d6bab062a04e79f64d85a92aa4ddab2398"
+    },
+    {
+      "path": "design/DESIGN-Monocle.md",
+      "source_path": "design/DESIGN-Monocle.md",
+      "source_working_sha256": "7efae6c4710f0d23a405b15d746a826870c18fca434faebd4d3c05acbf854b74",
+      "source_git_base_sha256": "7efae6c4710f0d23a405b15d746a826870c18fca434faebd4d3c05acbf854b74",
+      "extracted_sha256": "7efae6c4710f0d23a405b15d746a826870c18fca434faebd4d3c05acbf854b74"
+    },
+    {
+      "path": "dlc",
+      "source_path": "dlc",
+      "source_working_sha256": "ac25a67337208389b6592584b9365c1ba67c8258b5e038232e84f7912ddbfa1e",
+      "source_git_base_sha256": "ac25a67337208389b6592584b9365c1ba67c8258b5e038232e84f7912ddbfa1e",
+      "extracted_sha256": "ac25a67337208389b6592584b9365c1ba67c8258b5e038232e84f7912ddbfa1e"
+    },
+    {
+      "path": "dlc-Galloway",
+      "source_path": "dlc-Galloway",
+      "source_working_sha256": "8ce0e1772adacfe58f377ffc7ab4d5a45082cb7b4a4af9e308e19fa0b5393a04",
+      "source_git_base_sha256": "8ce0e1772adacfe58f377ffc7ab4d5a45082cb7b4a4af9e308e19fa0b5393a04",
+      "extracted_sha256": "8ce0e1772adacfe58f377ffc7ab4d5a45082cb7b4a4af9e308e19fa0b5393a04"
+    },
+    {
+      "path": "dlc-Gerstner",
+      "source_path": "dlc-Gerstner",
+      "source_working_sha256": "ed38a6d20db81d090028a76fddfc7f259dc96f7cc24dba892009540fb45c04aa",
+      "source_git_base_sha256": "ed38a6d20db81d090028a76fddfc7f259dc96f7cc24dba892009540fb45c04aa",
+      "extracted_sha256": "ed38a6d20db81d090028a76fddfc7f259dc96f7cc24dba892009540fb45c04aa"
+    },
+    {
+      "path": "dlc-camillo",
+      "source_path": "dlc-camillo",
+      "source_working_sha256": "5f16d7769080c95da1b448a0a7725cbf8846ab54f9f5b8f481356b2d310f35da",
+      "source_git_base_sha256": "5f16d7769080c95da1b448a0a7725cbf8846ab54f9f5b8f481356b2d310f35da",
+      "extracted_sha256": "5f16d7769080c95da1b448a0a7725cbf8846ab54f9f5b8f481356b2d310f35da"
+    },
+    {
+      "path": "dlc-laffont",
+      "source_path": "dlc-laffont",
+      "source_working_sha256": "dff26d25dd00bf7cd2b7367df38657ca741f73be466e08e92a1a1a0e1ab98291",
+      "source_git_base_sha256": "dff26d25dd00bf7cd2b7367df38657ca741f73be466e08e92a1a1a0e1ab98291",
+      "extracted_sha256": "dff26d25dd00bf7cd2b7367df38657ca741f73be466e08e92a1a1a0e1ab98291"
+    },
+    {
+      "path": "dlc-mauboussin",
+      "source_path": "dlc-mauboussin",
+      "source_working_sha256": "576b1b58ce13e84b9cb53b74d6df4faf9f3c81193d699eec51d8920dd3fa32e3",
+      "source_git_base_sha256": "576b1b58ce13e84b9cb53b74d6df4faf9f3c81193d699eec51d8920dd3fa32e3",
+      "extracted_sha256": "576b1b58ce13e84b9cb53b74d6df4faf9f3c81193d699eec51d8920dd3fa32e3"
+    },
+    {
+      "path": "dlc-munger-buffett",
+      "source_path": "dlc-munger-buffett",
+      "source_working_sha256": "7c02db25ea9cc9c4aa264b4c70e5d0a714550b3b3b342ee580cfbc550dba7d9d",
+      "source_git_base_sha256": "7c02db25ea9cc9c4aa264b4c70e5d0a714550b3b3b342ee580cfbc550dba7d9d",
+      "extracted_sha256": "7c02db25ea9cc9c4aa264b4c70e5d0a714550b3b3b342ee580cfbc550dba7d9d"
+    },
+    {
+      "path": "dlc-page.md",
+      "source_path": "dlc-page.md",
+      "source_working_sha256": "7986928c8a3441ee2fe3c54cc1cfb9e093df6134574cc295f7ec4db2580bb939",
+      "source_git_base_sha256": "7986928c8a3441ee2fe3c54cc1cfb9e093df6134574cc295f7ec4db2580bb939",
+      "extracted_sha256": "7986928c8a3441ee2fe3c54cc1cfb9e093df6134574cc295f7ec4db2580bb939"
+    },
+    {
+      "path": "dlc-shkreli",
+      "source_path": "dlc-shkreli",
+      "source_working_sha256": "76674f8f506285d4df0b09e9d8d616da240b592d2d25e901ae7743e77a6a7feb",
+      "source_git_base_sha256": "76674f8f506285d4df0b09e9d8d616da240b592d2d25e901ae7743e77a6a7feb",
+      "extracted_sha256": "76674f8f506285d4df0b09e9d8d616da240b592d2d25e901ae7743e77a6a7feb"
+    },
+    {
+      "path": "dlc-thorp",
+      "source_path": "dlc-thorp",
+      "source_working_sha256": "ac25a67337208389b6592584b9365c1ba67c8258b5e038232e84f7912ddbfa1e",
+      "source_git_base_sha256": "ac25a67337208389b6592584b9365c1ba67c8258b5e038232e84f7912ddbfa1e",
+      "extracted_sha256": "ac25a67337208389b6592584b9365c1ba67c8258b5e038232e84f7912ddbfa1e"
+    },
+    {
+      "path": "docs/architecture/contract-flow.md",
+      "source_path": "docs/architecture/contract-flow.md",
+      "source_working_sha256": "628c3a6e15ced9f23f31dae40251a9e84ae5d7fe1150715f629c115310f4b45c",
+      "source_git_base_sha256": "628c3a6e15ced9f23f31dae40251a9e84ae5d7fe1150715f629c115310f4b45c",
+      "extracted_sha256": "628c3a6e15ced9f23f31dae40251a9e84ae5d7fe1150715f629c115310f4b45c"
+    },
+    {
+      "path": "docs/architecture/system-boundary.md",
+      "source_path": "docs/architecture/system-boundary.md",
+      "source_working_sha256": "acf8ed4bad0459897f645cfb0097dc309d769ff77aa61ca812cbf107ce4bd981",
+      "source_git_base_sha256": "acf8ed4bad0459897f645cfb0097dc309d769ff77aa61ca812cbf107ce4bd981",
+      "extracted_sha256": "18e27c6acb09395795b8563aebb211747b32efdf8ac84eff74cd89436b804f6d"
+    },
+    {
+      "path": "docs/cloud-portability/REPORT-POLICY.md",
+      "source_path": "docs/cloud-portability/REPORT-POLICY.md",
+      "source_working_sha256": "2f99d994b261a418d2056cab08e6f30687dce84e8f83a44c078b6353dd86a5ef",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "2f99d994b261a418d2056cab08e6f30687dce84e8f83a44c078b6353dd86a5ef"
+    },
+    {
+      "path": "docs/cloud-portability/host-capabilities.json",
+      "source_path": "docs/cloud-portability/host-capabilities.json",
+      "source_working_sha256": "be775007ebc7c5b8a20c69b98010497772a790b479204db50a675e6786157546",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "e386ab0d64a7e8f71a990483ed78d574aaaf155d51c51c07dd35d2c4a62a4b69"
+    },
+    {
+      "path": "docs/cloud-portability/schedule-intent.example.json",
+      "source_path": "docs/cloud-portability/schedule-intent.example.json",
+      "source_working_sha256": "4bd333e8333f852cbf603a6069cc753de39e1c3fc4e76e0eb94bb29eab0be19d",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "4bd333e8333f852cbf603a6069cc753de39e1c3fc4e76e0eb94bb29eab0be19d"
+    },
+    {
+      "path": "docs/connectors/connector-architecture.md",
+      "source_path": "docs/connectors/connector-architecture.md",
+      "source_working_sha256": "734c25979dde2b8ef4752f283763e98a05fbace3be62e4bbff1d0b60061381e5",
+      "source_git_base_sha256": "734c25979dde2b8ef4752f283763e98a05fbace3be62e4bbff1d0b60061381e5",
+      "extracted_sha256": "ab8082c058a71bad0ab7099d3cd2351f0f584f23dac40f661cc3ac8af1d8caf9"
+    },
+    {
+      "path": "docs/connectors/polymarket.md",
+      "source_path": "docs/connectors/polymarket.md",
+      "source_working_sha256": "d0882f129ebd666350763398aee5ce7f266301a0c6cf8a53e6089f427c345cb7",
+      "source_git_base_sha256": "d0882f129ebd666350763398aee5ce7f266301a0c6cf8a53e6089f427c345cb7",
+      "extracted_sha256": "d0882f129ebd666350763398aee5ce7f266301a0c6cf8a53e6089f427c345cb7"
+    },
+    {
+      "path": "docs/connectors/reddit.md",
+      "source_path": "docs/connectors/reddit.md",
+      "source_working_sha256": "1808f8fd1abe2f0525b5d7cfc446478f8c8775bc2b5eb79245aa927171bd7a00",
+      "source_git_base_sha256": "1808f8fd1abe2f0525b5d7cfc446478f8c8775bc2b5eb79245aa927171bd7a00",
+      "extracted_sha256": "1808f8fd1abe2f0525b5d7cfc446478f8c8775bc2b5eb79245aa927171bd7a00"
+    },
+    {
+      "path": "docs/connectors/x-twitter.md",
+      "source_path": "docs/connectors/x-twitter.md",
+      "source_working_sha256": "bfaa36d338454089adad0609e5e52f993fa0b3e091a2b6f49057152776c7d739",
+      "source_git_base_sha256": "bfaa36d338454089adad0609e5e52f993fa0b3e091a2b6f49057152776c7d739",
+      "extracted_sha256": "bfaa36d338454089adad0609e5e52f993fa0b3e091a2b6f49057152776c7d739"
+    },
+    {
+      "path": "docs/evidence/README.md",
+      "source_path": "docs/evidence/README.md",
+      "source_working_sha256": "e6278b6b4fc90bcfcb2ef8e1e040a8f97c777d6808bf109ba18978cf6aef186a",
+      "source_git_base_sha256": "e6278b6b4fc90bcfcb2ef8e1e040a8f97c777d6808bf109ba18978cf6aef186a",
+      "extracted_sha256": "e6278b6b4fc90bcfcb2ef8e1e040a8f97c777d6808bf109ba18978cf6aef186a"
+    },
+    {
+      "path": "docs/evidence/assumption-update-proposals.md",
+      "source_path": "docs/evidence/assumption-update-proposals.md",
+      "source_working_sha256": "5956cd8bb31e9987d0cedebaf00b103c6fc0d8f0f6dc1d6b82dee57f154d9776",
+      "source_git_base_sha256": "5956cd8bb31e9987d0cedebaf00b103c6fc0d8f0f6dc1d6b82dee57f154d9776",
+      "extracted_sha256": "5956cd8bb31e9987d0cedebaf00b103c6fc0d8f0f6dc1d6b82dee57f154d9776"
+    },
+    {
+      "path": "docs/evidence/bayesian-belief-updates.md",
+      "source_path": "docs/evidence/bayesian-belief-updates.md",
+      "source_working_sha256": "a3c1215faa72e4b16e0c8559f5678c91264d96b3bc02c43b3578f24fc58f88df",
+      "source_git_base_sha256": "a3c1215faa72e4b16e0c8559f5678c91264d96b3bc02c43b3578f24fc58f88df",
+      "extracted_sha256": "a3c1215faa72e4b16e0c8559f5678c91264d96b3bc02c43b3578f24fc58f88df"
+    },
+    {
+      "path": "docs/evidence/event-market-evidence.md",
+      "source_path": "docs/evidence/event-market-evidence.md",
+      "source_working_sha256": "751f60755c675e6191fd92c99cb4abd13da3a03a4b287440a9a4562a58e1b6e0",
+      "source_git_base_sha256": "751f60755c675e6191fd92c99cb4abd13da3a03a4b287440a9a4562a58e1b6e0",
+      "extracted_sha256": "751f60755c675e6191fd92c99cb4abd13da3a03a4b287440a9a4562a58e1b6e0"
+    },
+    {
+      "path": "docs/evidence/measured-calculated-modeled-forecast.md",
+      "source_path": "docs/evidence/measured-calculated-modeled-forecast.md",
+      "source_working_sha256": "5c382e3724f6c3eb094a85a8e77b664cbf1e6d4ddd8976eb2759d37979fcf503",
+      "source_git_base_sha256": "5c382e3724f6c3eb094a85a8e77b664cbf1e6d4ddd8976eb2759d37979fcf503",
+      "extracted_sha256": "5c382e3724f6c3eb094a85a8e77b664cbf1e6d4ddd8976eb2759d37979fcf503"
+    },
+    {
+      "path": "docs/evidence/social-evidence-reddit.md",
+      "source_path": "docs/evidence/social-evidence-reddit.md",
+      "source_working_sha256": "bacd19dff4f55a25d92c776ccfb0e260abb36f86b9f5786ea58c4092bc9e1638",
+      "source_git_base_sha256": "bacd19dff4f55a25d92c776ccfb0e260abb36f86b9f5786ea58c4092bc9e1638",
+      "extracted_sha256": "bacd19dff4f55a25d92c776ccfb0e260abb36f86b9f5786ea58c4092bc9e1638"
+    },
+    {
+      "path": "docs/evidence/social-evidence-x-twitter.md",
+      "source_path": "docs/evidence/social-evidence-x-twitter.md",
+      "source_working_sha256": "4a73d302dd50dfb641437711ea4383c2f2099e7063606adead64bc130724cc02",
+      "source_git_base_sha256": "4a73d302dd50dfb641437711ea4383c2f2099e7063606adead64bc130724cc02",
+      "extracted_sha256": "4a73d302dd50dfb641437711ea4383c2f2099e7063606adead64bc130724cc02"
+    },
+    {
+      "path": "docs/evidence/thesis-sensitivity-map.md",
+      "source_path": "docs/evidence/thesis-sensitivity-map.md",
+      "source_working_sha256": "6e931374893b4626dc7a5af9b19fc1005a5dbc043313621ea670b4c057d369f5",
+      "source_git_base_sha256": "6e931374893b4626dc7a5af9b19fc1005a5dbc043313621ea670b4c057d369f5",
+      "extracted_sha256": "6e931374893b4626dc7a5af9b19fc1005a5dbc043313621ea670b4c057d369f5"
+    },
+    {
+      "path": "docs/finance-math/convexity-upside.md",
+      "source_path": "docs/finance-math/convexity-upside.md",
+      "source_working_sha256": "55f631db26fff0929c0c98910d9b3d018686f401836a4d43fe0d50efa09d6058",
+      "source_git_base_sha256": "55f631db26fff0929c0c98910d9b3d018686f401836a4d43fe0d50efa09d6058",
+      "extracted_sha256": "55f631db26fff0929c0c98910d9b3d018686f401836a4d43fe0d50efa09d6058"
+    },
+    {
+      "path": "docs/finance-math/formula-specification.md",
+      "source_path": "docs/finance-math/formula-specification.md",
+      "source_working_sha256": "29f657886813aa2d7fff12359504fb0f741820c03756b452add7e3c44845dcb9",
+      "source_git_base_sha256": "29f657886813aa2d7fff12359504fb0f741820c03756b452add7e3c44845dcb9",
+      "extracted_sha256": "29f657886813aa2d7fff12359504fb0f741820c03756b452add7e3c44845dcb9"
+    },
+    {
+      "path": "docs/finance-math/kelly-criterion.md",
+      "source_path": "docs/finance-math/kelly-criterion.md",
+      "source_working_sha256": "f45283022119fc1b9fb6e6bed560569426dab98232723ad9abf570f8205a7482",
+      "source_git_base_sha256": "f45283022119fc1b9fb6e6bed560569426dab98232723ad9abf570f8205a7482",
+      "extracted_sha256": "f45283022119fc1b9fb6e6bed560569426dab98232723ad9abf570f8205a7482"
+    },
+    {
+      "path": "docs/finance-math/margin-safety.md",
+      "source_path": "docs/finance-math/margin-safety.md",
+      "source_working_sha256": "8905732f6d16f917777461d945afd13693b19a1f27c9739b03d9974dcf2cfe7f",
+      "source_git_base_sha256": "8905732f6d16f917777461d945afd13693b19a1f27c9739b03d9974dcf2cfe7f",
+      "extracted_sha256": "8905732f6d16f917777461d945afd13693b19a1f27c9739b03d9974dcf2cfe7f"
+    },
+    {
+      "path": "docs/finance-math/simulation-method.md",
+      "source_path": "docs/finance-math/simulation-method.md",
+      "source_working_sha256": "558f17a0903add941f167b585612040dfa188f6a6a303b47bb4ea65168c730db",
+      "source_git_base_sha256": "558f17a0903add941f167b585612040dfa188f6a6a303b47bb4ea65168c730db",
+      "extracted_sha256": "558f17a0903add941f167b585612040dfa188f6a6a303b47bb4ea65168c730db"
+    },
+    {
+      "path": "docs/method-packs/README.md",
+      "source_path": "docs/method-packs/README.md",
+      "source_working_sha256": "2835fd0367344d20b9e86b6e5910470f488e757e0ea8fa90e112865fc2394585",
+      "source_git_base_sha256": "2835fd0367344d20b9e86b6e5910470f488e757e0ea8fa90e112865fc2394585",
+      "extracted_sha256": "2835fd0367344d20b9e86b6e5910470f488e757e0ea8fa90e112865fc2394585"
+    },
+    {
+      "path": "docs/method-packs/committee-mode.md",
+      "source_path": "docs/method-packs/committee-mode.md",
+      "source_working_sha256": "3c2739e7a7a0bd170ac6f2c3659351e143c6f4dcfcff990bd26cd6500b39dd0d",
+      "source_git_base_sha256": "3c2739e7a7a0bd170ac6f2c3659351e143c6f4dcfcff990bd26cd6500b39dd0d",
+      "extracted_sha256": "61ab808d8f805162bef5e92c6c3f6eaacf3a50039fc3b4c0d05593829c85070b"
+    },
+    {
+      "path": "docs/method-packs/contrarian-filings.md",
+      "source_path": "docs/method-packs/contrarian-filings.md",
+      "source_working_sha256": "e97010e2c8766df2f3b4f78938df7398a3fad42965c740c4559660c1571d2115",
+      "source_git_base_sha256": "e97010e2c8766df2f3b4f78938df7398a3fad42965c740c4559660c1571d2115",
+      "extracted_sha256": "e97010e2c8766df2f3b4f78938df7398a3fad42965c740c4559660c1571d2115"
+    },
+    {
+      "path": "docs/method-packs/core.md",
+      "source_path": "docs/method-packs/core.md",
+      "source_working_sha256": "2e4ee2675261491a4669acf055db1531f0d7287eb5ecf84ea33668fb75c253e4",
+      "source_git_base_sha256": "2e4ee2675261491a4669acf055db1531f0d7287eb5ecf84ea33668fb75c253e4",
+      "extracted_sha256": "2e4ee2675261491a4669acf055db1531f0d7287eb5ecf84ea33668fb75c253e4"
+    },
+    {
+      "path": "docs/method-packs/mauboussin.md",
+      "source_path": "docs/method-packs/mauboussin.md",
+      "source_working_sha256": "37f140d8bf11d285097a3745033bcb6bd8ca1c32937e62f5ecd4a39e20ca6182",
+      "source_git_base_sha256": "37f140d8bf11d285097a3745033bcb6bd8ca1c32937e62f5ecd4a39e20ca6182",
+      "extracted_sha256": "37f140d8bf11d285097a3745033bcb6bd8ca1c32937e62f5ecd4a39e20ca6182"
+    },
+    {
+      "path": "docs/method-packs/reddit-sensor.md",
+      "source_path": "docs/method-packs/reddit-sensor.md",
+      "source_working_sha256": "40d6133832c51ae4cd6dd661481b8f2a2a1f77e09afcfef73cd178d784e4afac",
+      "source_git_base_sha256": "40d6133832c51ae4cd6dd661481b8f2a2a1f77e09afcfef73cd178d784e4afac",
+      "extracted_sha256": "62c572d9775ebdd5ad88fcfb3adc3c6f4100f7cc590f26b41071b4b6ca7c1df2"
+    },
+    {
+      "path": "docs/method-packs/thorp.md",
+      "source_path": "docs/method-packs/thorp.md",
+      "source_working_sha256": "b52d18048a0336692c168b127e3df0d58a74e68a4797c1fc131d718b81f6cc85",
+      "source_git_base_sha256": "b52d18048a0336692c168b127e3df0d58a74e68a4797c1fc131d718b81f6cc85",
+      "extracted_sha256": "b52d18048a0336692c168b127e3df0d58a74e68a4797c1fc131d718b81f6cc85"
+    },
+    {
+      "path": "docs/reports/FIRST-REPORT-WITH-DOT.md",
+      "source_path": "docs/reports/FIRST-REPORT-WITH-DOT.md",
+      "source_working_sha256": "e42aeb65df066f9d914430ce226a38e44cd4e5034d8557c1ecc7c135c461a54f",
+      "source_git_base_sha256": "e42aeb65df066f9d914430ce226a38e44cd4e5034d8557c1ecc7c135c461a54f",
+      "extracted_sha256": "beaa823e7f76e2d4315715dc2c5a44baf630316b0c04c45d30f59d09efb92844"
+    },
+    {
+      "path": "docs/reports/HTML-REPORT-GUIDE.md",
+      "source_path": "docs/reports/HTML-REPORT-GUIDE.md",
+      "source_working_sha256": "e9cdc7ed4b077b6564384b823650f536c8adda28946f432a1eed5059b13bbcf3",
+      "source_git_base_sha256": "e9cdc7ed4b077b6564384b823650f536c8adda28946f432a1eed5059b13bbcf3",
+      "extracted_sha256": "01e610028a47a4f19cba9c13701670a3f2ac05b10ea2b83e1b450b7dc126f840"
+    },
+    {
+      "path": "docs/safety-boundaries/comparison-only-policy.md",
+      "source_path": "docs/safety-boundaries/comparison-only-policy.md",
+      "source_working_sha256": "8765fe84511f07c8a827b94eb952e9166d1e64b0a2f3048c47b364a4b636fc29",
+      "source_git_base_sha256": "8765fe84511f07c8a827b94eb952e9166d1e64b0a2f3048c47b364a4b636fc29",
+      "extracted_sha256": "8765fe84511f07c8a827b94eb952e9166d1e64b0a2f3048c47b364a4b636fc29"
+    },
+    {
+      "path": "docs/safety-boundaries/many-model-threat-model.md",
+      "source_path": "docs/safety-boundaries/many-model-threat-model.md",
+      "source_working_sha256": "77969455c0dbf33c8139858ab014b41acc3a7d88e0e211209bed56ad071abd02",
+      "source_git_base_sha256": "77969455c0dbf33c8139858ab014b41acc3a7d88e0e211209bed56ad071abd02",
+      "extracted_sha256": "9e3311e2ce966fd4e9594bc1c62f6c1421d607629e2e47f22297b99bca779cc0"
+    },
+    {
+      "path": "docs/safety-boundaries/no-model-created-facts.md",
+      "source_path": "docs/safety-boundaries/no-model-created-facts.md",
+      "source_working_sha256": "c37cfaf634b5e5a804948217fb99574bebe5b22f1d10235a18ca825875aeea5e",
+      "source_git_base_sha256": "c37cfaf634b5e5a804948217fb99574bebe5b22f1d10235a18ca825875aeea5e",
+      "extracted_sha256": "c37cfaf634b5e5a804948217fb99574bebe5b22f1d10235a18ca825875aeea5e"
+    },
+    {
+      "path": "docs/safety-boundaries/private-data-policy.md",
+      "source_path": "docs/safety-boundaries/private-data-policy.md",
+      "source_working_sha256": "10a4118c2f82792df4ff1fcc42321d72a649f82833b5500b7fe55ebeaa74d80e",
+      "source_git_base_sha256": "10a4118c2f82792df4ff1fcc42321d72a649f82833b5500b7fe55ebeaa74d80e",
+      "extracted_sha256": "fdd809549e15987b29c90a25a5dc39e09a7a2ebc6dc2f13b5914626ac31d3f83"
+    },
+    {
+      "path": "docs/verification/PR2-PRIOR-EVIDENCE.md",
+      "source_path": "docs/cloud-portability/VERIFICATION.md",
+      "source_working_sha256": "04b4db074dcdaa1792057f4a7899471340d1080ae58c8b6226fa394b1004f1b1",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "9da37faea59ffc7408ca98931f52833a667637d0de3b698bb94e3eafe93d2778"
+    },
+    {
+      "path": "fixtures/adversarial/authorization-mismatch.json",
+      "source_path": "fixtures/adversarial/authorization-mismatch.json",
+      "source_working_sha256": "0cf75fbb8590ae60186ed9dc04d04cb8039261230ba4ed8127c09802e333a82e",
+      "source_git_base_sha256": "0cf75fbb8590ae60186ed9dc04d04cb8039261230ba4ed8127c09802e333a82e",
+      "extracted_sha256": "0cf75fbb8590ae60186ed9dc04d04cb8039261230ba4ed8127c09802e333a82e"
+    },
+    {
+      "path": "fixtures/adversarial/contracts/authorization-missing-analysis.json",
+      "source_path": "fixtures/adversarial/contracts/authorization-missing-analysis.json",
+      "source_working_sha256": "07ca4cdb76278a5377ac63d98ab3e906cc10fe517daa8d3c1194aa7a387fd44d",
+      "source_git_base_sha256": "07ca4cdb76278a5377ac63d98ab3e906cc10fe517daa8d3c1194aa7a387fd44d",
+      "extracted_sha256": "07ca4cdb76278a5377ac63d98ab3e906cc10fe517daa8d3c1194aa7a387fd44d"
+    },
+    {
+      "path": "fixtures/adversarial/contracts/invalid-provenance.json",
+      "source_path": "fixtures/adversarial/contracts/invalid-provenance.json",
+      "source_working_sha256": "a14803753e08e254d5363147017100976b37085c432d44c014727aed9dd301ab",
+      "source_git_base_sha256": "a14803753e08e254d5363147017100976b37085c432d44c014727aed9dd301ab",
+      "extracted_sha256": "a14803753e08e254d5363147017100976b37085c432d44c014727aed9dd301ab"
+    },
+    {
+      "path": "fixtures/adversarial/contracts/missing-provenance.json",
+      "source_path": "fixtures/adversarial/contracts/missing-provenance.json",
+      "source_working_sha256": "59a211bce52b467bedc31e65b07bd969dab5a3c7a5d93c376cb1d3c42fa08c82",
+      "source_git_base_sha256": "59a211bce52b467bedc31e65b07bd969dab5a3c7a5d93c376cb1d3c42fa08c82",
+      "extracted_sha256": "59a211bce52b467bedc31e65b07bd969dab5a3c7a5d93c376cb1d3c42fa08c82"
+    },
+    {
+      "path": "fixtures/adversarial/contracts/plain-output-leaf.json",
+      "source_path": "fixtures/adversarial/contracts/plain-output-leaf.json",
+      "source_working_sha256": "46cfd68c2cc8fd55d3407cd2fccd4722a8c1cbde888059279cfd6de62883ebc0",
+      "source_git_base_sha256": "46cfd68c2cc8fd55d3407cd2fccd4722a8c1cbde888059279cfd6de62883ebc0",
+      "extracted_sha256": "46cfd68c2cc8fd55d3407cd2fccd4722a8c1cbde888059279cfd6de62883ebc0"
+    },
+    {
+      "path": "fixtures/adversarial/contracts/unavailable-without-reason.json",
+      "source_path": "fixtures/adversarial/contracts/unavailable-without-reason.json",
+      "source_working_sha256": "8f7edae3dac0bd278050f96434ada83e9bc7fbc2f1c81377713e5f70e4d66a45",
+      "source_git_base_sha256": "8f7edae3dac0bd278050f96434ada83e9bc7fbc2f1c81377713e5f70e4d66a45",
+      "extracted_sha256": "8f7edae3dac0bd278050f96434ada83e9bc7fbc2f1c81377713e5f70e4d66a45"
+    },
+    {
+      "path": "fixtures/adversarial/domain-leak.json",
+      "source_path": "fixtures/adversarial/domain-leak.json",
+      "source_working_sha256": "c7627681a1b8d459aadc44cf20132b3ee76e01216e226e69c21b415383f1ff8e",
+      "source_git_base_sha256": "c7627681a1b8d459aadc44cf20132b3ee76e01216e226e69c21b415383f1ff8e",
+      "extracted_sha256": "c7627681a1b8d459aadc44cf20132b3ee76e01216e226e69c21b415383f1ff8e"
+    },
+    {
+      "path": "fixtures/adversarial/insufficient-inputs.json",
+      "source_path": "fixtures/adversarial/insufficient-inputs.json",
+      "source_working_sha256": "d94e04641e70010233b58e9e0f56b3d16731e184fbdf31e11e54d4c2684e57c8",
+      "source_git_base_sha256": "d94e04641e70010233b58e9e0f56b3d16731e184fbdf31e11e54d4c2684e57c8",
+      "extracted_sha256": "d94e04641e70010233b58e9e0f56b3d16731e184fbdf31e11e54d4c2684e57c8"
+    },
+    {
+      "path": "fixtures/adversarial/invalid-probabilities.json",
+      "source_path": "fixtures/adversarial/invalid-probabilities.json",
+      "source_working_sha256": "6a8560b996bab59872d097e9e84392fa5bc52aa32b28bd9d50c7151a592ecc25",
+      "source_git_base_sha256": "6a8560b996bab59872d097e9e84392fa5bc52aa32b28bd9d50c7151a592ecc25",
+      "extracted_sha256": "6a8560b996bab59872d097e9e84392fa5bc52aa32b28bd9d50c7151a592ecc25"
+    },
+    {
+      "path": "fixtures/adversarial/path-escape.json",
+      "source_path": "fixtures/adversarial/path-escape.json",
+      "source_working_sha256": "f8fa0bd3858b35cb4d34bc03a9960fb5fa4d43d8d9c917cee855d6f9d409eab0",
+      "source_git_base_sha256": "f8fa0bd3858b35cb4d34bc03a9960fb5fa4d43d8d9c917cee855d6f9d409eab0",
+      "extracted_sha256": "f8fa0bd3858b35cb4d34bc03a9960fb5fa4d43d8d9c917cee855d6f9d409eab0"
+    },
+    {
+      "path": "fixtures/mutation/formula-mutations.json",
+      "source_path": "fixtures/mutation/formula-mutations.json",
+      "source_working_sha256": "3c321ccf5b0082cb757757e803cdd20176959de6e1b6d130688d249ab7d58621",
+      "source_git_base_sha256": "3c321ccf5b0082cb757757e803cdd20176959de6e1b6d130688d249ab7d58621",
+      "extracted_sha256": "3c321ccf5b0082cb757757e803cdd20176959de6e1b6d130688d249ab7d58621"
+    },
+    {
+      "path": "fixtures/portable/synthetic-report.json",
+      "source_path": "fixtures/portable/synthetic-report.json",
+      "source_working_sha256": "b255c7047826e859f7af9aed5eafcd5286643b769559a2f1eaa850978bfd6e61",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "b255c7047826e859f7af9aed5eafcd5286643b769559a2f1eaa850978bfd6e61"
+    },
+    {
+      "path": "fixtures/valid/alternative-comparison.json",
+      "source_path": "fixtures/valid/alternative-comparison.json",
+      "source_working_sha256": "85225449aa27a9acf58fe60cbe97fe05a58885f730a8486283c6effff77d6116",
+      "source_git_base_sha256": "85225449aa27a9acf58fe60cbe97fe05a58885f730a8486283c6effff77d6116",
+      "extracted_sha256": "85225449aa27a9acf58fe60cbe97fe05a58885f730a8486283c6effff77d6116"
+    },
+    {
+      "path": "fixtures/valid/authorized-decision.json",
+      "source_path": "fixtures/valid/authorized-decision.json",
+      "source_working_sha256": "60d9295dfea0d5457a64a5f32710db2bd8d49d0565f85b8517e5019066691e94",
+      "source_git_base_sha256": "60d9295dfea0d5457a64a5f32710db2bd8d49d0565f85b8517e5019066691e94",
+      "extracted_sha256": "60d9295dfea0d5457a64a5f32710db2bd8d49d0565f85b8517e5019066691e94"
+    },
+    {
+      "path": "fixtures/valid/contracts/assumption-register.json",
+      "source_path": "fixtures/valid/contracts/assumption-register.json",
+      "source_working_sha256": "f54d377b8e5922607c06532165cd3a1b9c79301026701d5c0366e1e886bd01e0",
+      "source_git_base_sha256": "f54d377b8e5922607c06532165cd3a1b9c79301026701d5c0366e1e886bd01e0",
+      "extracted_sha256": "f54d377b8e5922607c06532165cd3a1b9c79301026701d5c0366e1e886bd01e0"
+    },
+    {
+      "path": "fixtures/valid/contracts/decision-analysis.json",
+      "source_path": "fixtures/valid/contracts/decision-analysis.json",
+      "source_working_sha256": "fd3292096f5f3f41552f4e6ebace77e887ed1a38cdbd5f9f17a4d2f94a0ebae4",
+      "source_git_base_sha256": "fd3292096f5f3f41552f4e6ebace77e887ed1a38cdbd5f9f17a4d2f94a0ebae4",
+      "extracted_sha256": "fd3292096f5f3f41552f4e6ebace77e887ed1a38cdbd5f9f17a4d2f94a0ebae4"
+    },
+    {
+      "path": "fixtures/valid/contracts/decision-authorization.json",
+      "source_path": "fixtures/valid/contracts/decision-authorization.json",
+      "source_working_sha256": "9e3ef5a6aba9bec4c97eaeb5d07fd0942cabf8221646e966c5a330e1150c4562",
+      "source_git_base_sha256": "9e3ef5a6aba9bec4c97eaeb5d07fd0942cabf8221646e966c5a330e1150c4562",
+      "extracted_sha256": "9e3ef5a6aba9bec4c97eaeb5d07fd0942cabf8221646e966c5a330e1150c4562"
+    },
+    {
+      "path": "fixtures/valid/contracts/decision-case.json",
+      "source_path": "fixtures/valid/contracts/decision-case.json",
+      "source_working_sha256": "d80f4a7c83ceba3385de6fba68d8ea9b5bd0e5ce1a5180ec77224036a5a48116",
+      "source_git_base_sha256": "d80f4a7c83ceba3385de6fba68d8ea9b5bd0e5ce1a5180ec77224036a5a48116",
+      "extracted_sha256": "d80f4a7c83ceba3385de6fba68d8ea9b5bd0e5ce1a5180ec77224036a5a48116"
+    },
+    {
+      "path": "fixtures/valid/contracts/decision-comparison.json",
+      "source_path": "fixtures/valid/contracts/decision-comparison.json",
+      "source_working_sha256": "b2afbbb40539c4f1763283bdf7233b56deb6117d0f0adfe9d70c608eb260101e",
+      "source_git_base_sha256": "b2afbbb40539c4f1763283bdf7233b56deb6117d0f0adfe9d70c608eb260101e",
+      "extracted_sha256": "b2afbbb40539c4f1763283bdf7233b56deb6117d0f0adfe9d70c608eb260101e"
+    },
+    {
+      "path": "fixtures/valid/contracts/decision-ledger.json",
+      "source_path": "fixtures/valid/contracts/decision-ledger.json",
+      "source_working_sha256": "b65df725f95877368cf8d0d4762b3c6829a2100f61bfea82e263beaafc3f8df2",
+      "source_git_base_sha256": "b65df725f95877368cf8d0d4762b3c6829a2100f61bfea82e263beaafc3f8df2",
+      "extracted_sha256": "b65df725f95877368cf8d0d4762b3c6829a2100f61bfea82e263beaafc3f8df2"
+    },
+    {
+      "path": "fixtures/valid/contracts/decision-proposal.json",
+      "source_path": "fixtures/valid/contracts/decision-proposal.json",
+      "source_working_sha256": "9106947860dba51c584dda8f906d63a3caa578f402d2c78a9a9ce9c9c2df682e",
+      "source_git_base_sha256": "9106947860dba51c584dda8f906d63a3caa578f402d2c78a9a9ce9c9c2df682e",
+      "extracted_sha256": "9106947860dba51c584dda8f906d63a3caa578f402d2c78a9a9ce9c9c2df682e"
+    },
+    {
+      "path": "fixtures/valid/evidence/combined/combined-approved-update-affects-kelly-convexity-margin.json",
+      "source_path": "fixtures/valid/evidence/combined/combined-approved-update-affects-kelly-convexity-margin.json",
+      "source_working_sha256": "1c51e636eabd760660768b1fee0713ac57b6e9a4d25b68f47ae9c88926a161c9",
+      "source_git_base_sha256": "1c51e636eabd760660768b1fee0713ac57b6e9a4d25b68f47ae9c88926a161c9",
+      "extracted_sha256": "1c51e636eabd760660768b1fee0713ac57b6e9a4d25b68f47ae9c88926a161c9"
+    },
+    {
+      "path": "fixtures/valid/evidence/combined/combined-high-volatility-mixed-evidence.json",
+      "source_path": "fixtures/valid/evidence/combined/combined-high-volatility-mixed-evidence.json",
+      "source_working_sha256": "9e0e5defc6b0c3d667fbd4ed774d52f9a0bdb6cf87f4925ce4fe77fe8c586ff8",
+      "source_git_base_sha256": "9e0e5defc6b0c3d667fbd4ed774d52f9a0bdb6cf87f4925ce4fe77fe8c586ff8",
+      "extracted_sha256": "9e0e5defc6b0c3d667fbd4ed774d52f9a0bdb6cf87f4925ce4fe77fe8c586ff8"
+    },
+    {
+      "path": "fixtures/valid/evidence/combined/combined-low-quality-evidence-blocked-or-discounted.json",
+      "source_path": "fixtures/valid/evidence/combined/combined-low-quality-evidence-blocked-or-discounted.json",
+      "source_working_sha256": "fb853335105d2ec1ebd146ded900a5397a6d35ced82c1bea8726c38e256c4259",
+      "source_git_base_sha256": "fb853335105d2ec1ebd146ded900a5397a6d35ced82c1bea8726c38e256c4259",
+      "extracted_sha256": "fb853335105d2ec1ebd146ded900a5397a6d35ced82c1bea8726c38e256c4259"
+    },
+    {
+      "path": "fixtures/valid/evidence/combined/combined-pending-update-does-not-affect-analysis.json",
+      "source_path": "fixtures/valid/evidence/combined/combined-pending-update-does-not-affect-analysis.json",
+      "source_working_sha256": "9a9764f208d87e3bf864a3e1a6b845fd48cef3d35bffa945bfb1f166822a3aa3",
+      "source_git_base_sha256": "9a9764f208d87e3bf864a3e1a6b845fd48cef3d35bffa945bfb1f166822a3aa3",
+      "extracted_sha256": "9a9764f208d87e3bf864a3e1a6b845fd48cef3d35bffa945bfb1f166822a3aa3"
+    },
+    {
+      "path": "fixtures/valid/evidence/combined/combined-polymarket-bullish-social-bearish-contradiction.json",
+      "source_path": "fixtures/valid/evidence/combined/combined-polymarket-bullish-social-bearish-contradiction.json",
+      "source_working_sha256": "f66c41fae917de1e9465b6cf89d003c54833e41a29c88bd76ed398ebec67d2f4",
+      "source_git_base_sha256": "f66c41fae917de1e9465b6cf89d003c54833e41a29c88bd76ed398ebec67d2f4",
+      "extracted_sha256": "f66c41fae917de1e9465b6cf89d003c54833e41a29c88bd76ed398ebec67d2f4"
+    },
+    {
+      "path": "fixtures/valid/evidence/combined/combined-polymarket-x-reddit-bullish-aligned.json",
+      "source_path": "fixtures/valid/evidence/combined/combined-polymarket-x-reddit-bullish-aligned.json",
+      "source_working_sha256": "40ccee573a9e074ba3100f26f293e51ed86051be147b276c1ba0c7fe6f4944a0",
+      "source_git_base_sha256": "40ccee573a9e074ba3100f26f293e51ed86051be147b276c1ba0c7fe6f4944a0",
+      "extracted_sha256": "40ccee573a9e074ba3100f26f293e51ed86051be147b276c1ba0c7fe6f4944a0"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/commodities-gold-risk-off.json",
+      "source_path": "fixtures/valid/evidence/event-market/commodities-gold-risk-off.json",
+      "source_working_sha256": "81f6e0fbe754610abc84e5ecd608bf6165207370ffc38b9a72f9cfa03c4495a0",
+      "source_git_base_sha256": "81f6e0fbe754610abc84e5ecd608bf6165207370ffc38b9a72f9cfa03c4495a0",
+      "extracted_sha256": "81f6e0fbe754610abc84e5ecd608bf6165207370ffc38b9a72f9cfa03c4495a0"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/commodities-wti-threshold.json",
+      "source_path": "fixtures/valid/evidence/event-market/commodities-wti-threshold.json",
+      "source_working_sha256": "7730fdeac8079b29350598169bc08ad0b9a61405eaa5f0ca5137a7c90ee4ddc3",
+      "source_git_base_sha256": "7730fdeac8079b29350598169bc08ad0b9a61405eaa5f0ca5137a7c90ee4ddc3",
+      "extracted_sha256": "7730fdeac8079b29350598169bc08ad0b9a61405eaa5f0ca5137a7c90ee4ddc3"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/fed-cut-consensus-liquidity-tailwind.json",
+      "source_path": "fixtures/valid/evidence/event-market/fed-cut-consensus-liquidity-tailwind.json",
+      "source_working_sha256": "0fd7d44171474550f0aed51e2929df9bd94fcc3aa1c815aaca446d0fcce626e1",
+      "source_git_base_sha256": "0fd7d44171474550f0aed51e2929df9bd94fcc3aa1c815aaca446d0fcce626e1",
+      "extracted_sha256": "0fd7d44171474550f0aed51e2929df9bd94fcc3aa1c815aaca446d0fcce626e1"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/fed-cut-consensus-recession-signal.json",
+      "source_path": "fixtures/valid/evidence/event-market/fed-cut-consensus-recession-signal.json",
+      "source_working_sha256": "4236b13ef0658c47af92bb89b39f581ea58c4f7b22f84e9ad709210565451773",
+      "source_git_base_sha256": "4236b13ef0658c47af92bb89b39f581ea58c4f7b22f84e9ad709210565451773",
+      "extracted_sha256": "4236b13ef0658c47af92bb89b39f581ea58c4f7b22f84e9ad709210565451773"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/fed-split-decision-high-volatility.json",
+      "source_path": "fixtures/valid/evidence/event-market/fed-split-decision-high-volatility.json",
+      "source_working_sha256": "22b05feeae6073f5105c1ab276eb58b6f0f01a2431a08e2d3d48fe0737e1730e",
+      "source_git_base_sha256": "22b05feeae6073f5105c1ab276eb58b6f0f01a2431a08e2d3d48fe0737e1730e",
+      "extracted_sha256": "22b05feeae6073f5105c1ab276eb58b6f0f01a2431a08e2d3d48fe0737e1730e"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/fed-strong-no-change-consensus.json",
+      "source_path": "fixtures/valid/evidence/event-market/fed-strong-no-change-consensus.json",
+      "source_working_sha256": "3cf86f564130f38b4761f0d84fe899cbee570201388ff5559294e9ee922da6a6",
+      "source_git_base_sha256": "3cf86f564130f38b4761f0d84fe899cbee570201388ff5559294e9ee922da6a6",
+      "extracted_sha256": "3cf86f564130f38b4761f0d84fe899cbee570201388ff5559294e9ee922da6a6"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/geopolitics-hormuz-disruption-oil-shock.json",
+      "source_path": "fixtures/valid/evidence/event-market/geopolitics-hormuz-disruption-oil-shock.json",
+      "source_working_sha256": "a19f9eb03011e026deae499647a313c54c5987128926b536e584da02626a8bb6",
+      "source_git_base_sha256": "a19f9eb03011e026deae499647a313c54c5987128926b536e584da02626a8bb6",
+      "extracted_sha256": "a19f9eb03011e026deae499647a313c54c5987128926b536e584da02626a8bb6"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/geopolitics-hormuz-normalization-risk-off-relief.json",
+      "source_path": "fixtures/valid/evidence/event-market/geopolitics-hormuz-normalization-risk-off-relief.json",
+      "source_working_sha256": "b57bc97aa68837b28ad536a333d8d4b4d81e3ccf8e59ddc1bffc1fc724f83f21",
+      "source_git_base_sha256": "b57bc97aa68837b28ad536a333d8d4b4d81e3ccf8e59ddc1bffc1fc724f83f21",
+      "extracted_sha256": "b57bc97aa68837b28ad536a333d8d4b4d81e3ccf8e59ddc1bffc1fc724f83f21"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/low-volume-weak-signal.json",
+      "source_path": "fixtures/valid/evidence/event-market/low-volume-weak-signal.json",
+      "source_working_sha256": "1bef88e0b43829ec78e0101cd6f3420c0695dc1676664219e9e167bd0cb9dbd9",
+      "source_git_base_sha256": "1bef88e0b43829ec78e0101cd6f3420c0695dc1676664219e9e167bd0cb9dbd9",
+      "extracted_sha256": "1bef88e0b43829ec78e0101cd6f3420c0695dc1676664219e9e167bd0cb9dbd9"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/market-structure-largest-company-nvidia.json",
+      "source_path": "fixtures/valid/evidence/event-market/market-structure-largest-company-nvidia.json",
+      "source_working_sha256": "9c81f47e1fee75c1c2f79a0637e7bea95d599e3c50c3213ec6783e1e95129435",
+      "source_git_base_sha256": "9c81f47e1fee75c1c2f79a0637e7bea95d599e3c50c3213ec6783e1e95129435",
+      "extracted_sha256": "9c81f47e1fee75c1c2f79a0637e7bea95d599e3c50c3213ec6783e1e95129435"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/same-event-bullish-for-oil-bearish-for-airline.json",
+      "source_path": "fixtures/valid/evidence/event-market/same-event-bullish-for-oil-bearish-for-airline.json",
+      "source_working_sha256": "e69418b93d20356db2c7da05e25e6ec4650281ee36a04355f012bfcad5a8613c",
+      "source_git_base_sha256": "e69418b93d20356db2c7da05e25e6ec4650281ee36a04355f012bfcad5a8613c",
+      "extracted_sha256": "e69418b93d20356db2c7da05e25e6ec4650281ee36a04355f012bfcad5a8613c"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/same-fed-cut-bullish-liquidity-bearish-recession.json",
+      "source_path": "fixtures/valid/evidence/event-market/same-fed-cut-bullish-liquidity-bearish-recession.json",
+      "source_working_sha256": "4d7999828c692ce4d23686dca2eb1722b4ee23e8010b5b3ec81567e2ef8d4882",
+      "source_git_base_sha256": "4d7999828c692ce4d23686dca2eb1722b4ee23e8010b5b3ec81567e2ef8d4882",
+      "extracted_sha256": "4d7999828c692ce4d23686dca2eb1722b4ee23e8010b5b3ec81567e2ef8d4882"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/technology-ai-model-leadership-anthropic.json",
+      "source_path": "fixtures/valid/evidence/event-market/technology-ai-model-leadership-anthropic.json",
+      "source_working_sha256": "7dc841150815b58cd93eb5cc17c760954d7604a7fdd8ee72419059ba91333785",
+      "source_git_base_sha256": "7dc841150815b58cd93eb5cc17c760954d7604a7fdd8ee72419059ba91333785",
+      "extracted_sha256": "7dc841150815b58cd93eb5cc17c760954d7604a7fdd8ee72419059ba91333785"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/technology-ai-release-timing.json",
+      "source_path": "fixtures/valid/evidence/event-market/technology-ai-release-timing.json",
+      "source_working_sha256": "edf3e8e3436149fa7f83540cb57d90a6ea06a55970c1031dfd242acdec037225",
+      "source_git_base_sha256": "edf3e8e3436149fa7f83540cb57d90a6ea06a55970c1031dfd242acdec037225",
+      "extracted_sha256": "edf3e8e3436149fa7f83540cb57d90a6ea06a55970c1031dfd242acdec037225"
+    },
+    {
+      "path": "fixtures/valid/evidence/event-market/unverified-screenshot-extraction-blocked.json",
+      "source_path": "fixtures/valid/evidence/event-market/unverified-screenshot-extraction-blocked.json",
+      "source_working_sha256": "fdd1c78f4319f587c1046315e25a27561122c72796459d2b1a227b1ccf339d02",
+      "source_git_base_sha256": "fdd1c78f4319f587c1046315e25a27561122c72796459d2b1a227b1ccf339d02",
+      "extracted_sha256": "fdd1c78f4319f587c1046315e25a27561122c72796459d2b1a227b1ccf339d02"
+    },
+    {
+      "path": "fixtures/valid/evidence/reddit/reddit-bearish-counterarguments.json",
+      "source_path": "fixtures/valid/evidence/reddit/reddit-bearish-counterarguments.json",
+      "source_working_sha256": "3cb1bdef979f186f1b34aa6f9d2222c4f0f7457648455b00a7df9c600178910d",
+      "source_git_base_sha256": "3cb1bdef979f186f1b34aa6f9d2222c4f0f7457648455b00a7df9c600178910d",
+      "extracted_sha256": "3cb1bdef979f186f1b34aa6f9d2222c4f0f7457648455b00a7df9c600178910d"
+    },
+    {
+      "path": "fixtures/valid/evidence/reddit/reddit-disagreement-high-volatility.json",
+      "source_path": "fixtures/valid/evidence/reddit/reddit-disagreement-high-volatility.json",
+      "source_working_sha256": "1a13431c36bd56d2110f618195c55f638e63a504ad164e0af30654798e5c5a6d",
+      "source_git_base_sha256": "1a13431c36bd56d2110f618195c55f638e63a504ad164e0af30654798e5c5a6d",
+      "extracted_sha256": "1a13431c36bd56d2110f618195c55f638e63a504ad164e0af30654798e5c5a6d"
+    },
+    {
+      "path": "fixtures/valid/evidence/reddit/reddit-duplicate-claims.json",
+      "source_path": "fixtures/valid/evidence/reddit/reddit-duplicate-claims.json",
+      "source_working_sha256": "29ccba1d296ee33d17fa350bd24bbdc727c9649abc7521d4e9f7ea512bf0cd96",
+      "source_git_base_sha256": "29ccba1d296ee33d17fa350bd24bbdc727c9649abc7521d4e9f7ea512bf0cd96",
+      "extracted_sha256": "29ccba1d296ee33d17fa350bd24bbdc727c9649abc7521d4e9f7ea512bf0cd96"
+    },
+    {
+      "path": "fixtures/valid/evidence/reddit/reddit-echo-chamber-risk.json",
+      "source_path": "fixtures/valid/evidence/reddit/reddit-echo-chamber-risk.json",
+      "source_working_sha256": "685b8c923d53bfed06ff3c3ff47462eed88e02535578fd38394d9aebd912fc8e",
+      "source_git_base_sha256": "685b8c923d53bfed06ff3c3ff47462eed88e02535578fd38394d9aebd912fc8e",
+      "extracted_sha256": "685b8c923d53bfed06ff3c3ff47462eed88e02535578fd38394d9aebd912fc8e"
+    },
+    {
+      "path": "fixtures/valid/evidence/reddit/reddit-retail-conviction-bullish.json",
+      "source_path": "fixtures/valid/evidence/reddit/reddit-retail-conviction-bullish.json",
+      "source_working_sha256": "5a3a8202a60e3352dd4452d286e74b2db044fe2ba0519343b72912afed662585",
+      "source_git_base_sha256": "5a3a8202a60e3352dd4452d286e74b2db044fe2ba0519343b72912afed662585",
+      "extracted_sha256": "5a3a8202a60e3352dd4452d286e74b2db044fe2ba0519343b72912afed662585"
+    },
+    {
+      "path": "fixtures/valid/evidence/reddit/reddit-unverified-extraction-blocked.json",
+      "source_path": "fixtures/valid/evidence/reddit/reddit-unverified-extraction-blocked.json",
+      "source_working_sha256": "c29f0a4d16137b74a854735908d482ad7afdef5f62230224421a4315a2273505",
+      "source_git_base_sha256": "c29f0a4d16137b74a854735908d482ad7afdef5f62230224421a4315a2273505",
+      "extracted_sha256": "c29f0a4d16137b74a854735908d482ad7afdef5f62230224421a4315a2273505"
+    },
+    {
+      "path": "fixtures/valid/evidence/x-twitter/x-twitter-bearish-regulatory-shock.json",
+      "source_path": "fixtures/valid/evidence/x-twitter/x-twitter-bearish-regulatory-shock.json",
+      "source_working_sha256": "3441803e164840ab8ff832526aa5b345006e4d1d255ee29148953fbe18a913e1",
+      "source_git_base_sha256": "3441803e164840ab8ff832526aa5b345006e4d1d255ee29148953fbe18a913e1",
+      "extracted_sha256": "3441803e164840ab8ff832526aa5b345006e4d1d255ee29148953fbe18a913e1"
+    },
+    {
+      "path": "fixtures/valid/evidence/x-twitter/x-twitter-bullish-narrative-momentum.json",
+      "source_path": "fixtures/valid/evidence/x-twitter/x-twitter-bullish-narrative-momentum.json",
+      "source_working_sha256": "780517696935f2ded654901192fff6a9b046d8ced14c6386ffd3ef4e08b7001b",
+      "source_git_base_sha256": "780517696935f2ded654901192fff6a9b046d8ced14c6386ffd3ef4e08b7001b",
+      "extracted_sha256": "780517696935f2ded654901192fff6a9b046d8ced14c6386ffd3ef4e08b7001b"
+    },
+    {
+      "path": "fixtures/valid/evidence/x-twitter/x-twitter-duplicate-claims-crowding-risk.json",
+      "source_path": "fixtures/valid/evidence/x-twitter/x-twitter-duplicate-claims-crowding-risk.json",
+      "source_working_sha256": "a976c1887ecfe2712482b5da34930bd9ba4a7ff54006708f26320d3b556cbbc7",
+      "source_git_base_sha256": "a976c1887ecfe2712482b5da34930bd9ba4a7ff54006708f26320d3b556cbbc7",
+      "extracted_sha256": "a976c1887ecfe2712482b5da34930bd9ba4a7ff54006708f26320d3b556cbbc7"
+    },
+    {
+      "path": "fixtures/valid/evidence/x-twitter/x-twitter-high-credibility-product-signal.json",
+      "source_path": "fixtures/valid/evidence/x-twitter/x-twitter-high-credibility-product-signal.json",
+      "source_working_sha256": "d7e1b1389e79546656ec53173d7d5ea73ebe185f2fd301ecc8cfbfb306e5abc1",
+      "source_git_base_sha256": "d7e1b1389e79546656ec53173d7d5ea73ebe185f2fd301ecc8cfbfb306e5abc1",
+      "extracted_sha256": "d7e1b1389e79546656ec53173d7d5ea73ebe185f2fd301ecc8cfbfb306e5abc1"
+    },
+    {
+      "path": "fixtures/valid/evidence/x-twitter/x-twitter-low-credibility-noise.json",
+      "source_path": "fixtures/valid/evidence/x-twitter/x-twitter-low-credibility-noise.json",
+      "source_working_sha256": "38e9c0409e9ca1cb265799dd4029fdc0b8d419c944f34fe227c1a7b5c2f43112",
+      "source_git_base_sha256": "38e9c0409e9ca1cb265799dd4029fdc0b8d419c944f34fe227c1a7b5c2f43112",
+      "extracted_sha256": "38e9c0409e9ca1cb265799dd4029fdc0b8d419c944f34fe227c1a7b5c2f43112"
+    },
+    {
+      "path": "fixtures/valid/evidence/x-twitter/x-twitter-unverified-extraction-blocked.json",
+      "source_path": "fixtures/valid/evidence/x-twitter/x-twitter-unverified-extraction-blocked.json",
+      "source_working_sha256": "acb91172b83f8d5f400bebca1cb0d27470c1ddbba60ba56693facbf041ef1f4a",
+      "source_git_base_sha256": "acb91172b83f8d5f400bebca1cb0d27470c1ddbba60ba56693facbf041ef1f4a",
+      "extracted_sha256": "acb91172b83f8d5f400bebca1cb0d27470c1ddbba60ba56693facbf041ef1f4a"
+    },
+    {
+      "path": "fixtures/valid/guided-research/connector-polymarket-api-success.json",
+      "source_path": "fixtures/valid/guided-research/connector-polymarket-api-success.json",
+      "source_working_sha256": "c1d50ad02e544f039af4c8dde264a125cd56d47f595fafbc5624ba4059e44907",
+      "source_git_base_sha256": "c1d50ad02e544f039af4c8dde264a125cd56d47f595fafbc5624ba4059e44907",
+      "extracted_sha256": "c1d50ad02e544f039af4c8dde264a125cd56d47f595fafbc5624ba4059e44907"
+    },
+    {
+      "path": "fixtures/valid/guided-research/connector-polymarket-scrape-fallback.json",
+      "source_path": "fixtures/valid/guided-research/connector-polymarket-scrape-fallback.json",
+      "source_working_sha256": "4805e8bb27f0180bdc74bf2dfe83bcdf9c9cfdebb3d5f98128b1da7406473de8",
+      "source_git_base_sha256": "4805e8bb27f0180bdc74bf2dfe83bcdf9c9cfdebb3d5f98128b1da7406473de8",
+      "extracted_sha256": "4805e8bb27f0180bdc74bf2dfe83bcdf9c9cfdebb3d5f98128b1da7406473de8"
+    },
+    {
+      "path": "fixtures/valid/guided-research/connector-reddit-public-json.json",
+      "source_path": "fixtures/valid/guided-research/connector-reddit-public-json.json",
+      "source_working_sha256": "58502ee861bb73706792a632406806ebe66560aafda89b6ddf975e26b880cfb2",
+      "source_git_base_sha256": "58502ee861bb73706792a632406806ebe66560aafda89b6ddf975e26b880cfb2",
+      "extracted_sha256": "58502ee861bb73706792a632406806ebe66560aafda89b6ddf975e26b880cfb2"
+    },
+    {
+      "path": "fixtures/valid/guided-research/connector-source-unavailable.json",
+      "source_path": "fixtures/valid/guided-research/connector-source-unavailable.json",
+      "source_working_sha256": "fd494935ce9b1151bfde811691ca6160602d35ad8c1eccf62e88c2eb0a6cec99",
+      "source_git_base_sha256": "fd494935ce9b1151bfde811691ca6160602d35ad8c1eccf62e88c2eb0a6cec99",
+      "extracted_sha256": "fd494935ce9b1151bfde811691ca6160602d35ad8c1eccf62e88c2eb0a6cec99"
+    },
+    {
+      "path": "fixtures/valid/guided-research/connector-x-browser-extraction.json",
+      "source_path": "fixtures/valid/guided-research/connector-x-browser-extraction.json",
+      "source_working_sha256": "a67462af19ec17588b3e6257dfba5a7ae98f6c6e37d5a52bab752fa0fd088123",
+      "source_git_base_sha256": "a67462af19ec17588b3e6257dfba5a7ae98f6c6e37d5a52bab752fa0fd088123",
+      "extracted_sha256": "a67462af19ec17588b3e6257dfba5a7ae98f6c6e37d5a52bab752fa0fd088123"
+    },
+    {
+      "path": "fixtures/valid/guided-research/portfolio-basic-hold.json",
+      "source_path": "fixtures/valid/guided-research/portfolio-basic-hold.json",
+      "source_working_sha256": "520741d0b0d19c4c516eea7a02763499976464c15e4b6194a9b76219a2018e66",
+      "source_git_base_sha256": "520741d0b0d19c4c516eea7a02763499976464c15e4b6194a9b76219a2018e66",
+      "extracted_sha256": "520741d0b0d19c4c516eea7a02763499976464c15e4b6194a9b76219a2018e66"
+    },
+    {
+      "path": "fixtures/valid/guided-research/portfolio-cash-available-add.json",
+      "source_path": "fixtures/valid/guided-research/portfolio-cash-available-add.json",
+      "source_working_sha256": "bba4c3eb86ccf107d4f0b6233ca7c761fa0d534d4a7d075e14857a891403c07a",
+      "source_git_base_sha256": "bba4c3eb86ccf107d4f0b6233ca7c761fa0d534d4a7d075e14857a891403c07a",
+      "extracted_sha256": "bba4c3eb86ccf107d4f0b6233ca7c761fa0d534d4a7d075e14857a891403c07a"
+    },
+    {
+      "path": "fixtures/valid/guided-research/portfolio-concentrated-position.json",
+      "source_path": "fixtures/valid/guided-research/portfolio-concentrated-position.json",
+      "source_working_sha256": "7216a8d6dddb0beab7452c2d6d6b5b3474caf478120b0b422328a45d2e0cd815",
+      "source_git_base_sha256": "7216a8d6dddb0beab7452c2d6d6b5b3474caf478120b0b422328a45d2e0cd815",
+      "extracted_sha256": "7216a8d6dddb0beab7452c2d6d6b5b3474caf478120b0b422328a45d2e0cd815"
+    },
+    {
+      "path": "fixtures/valid/guided-research/portfolio-margin-danger.json",
+      "source_path": "fixtures/valid/guided-research/portfolio-margin-danger.json",
+      "source_working_sha256": "0dd7f01df80fff72a56341cedfc324274fb663f88578ed5397a1603b2cd9d061",
+      "source_git_base_sha256": "0dd7f01df80fff72a56341cedfc324274fb663f88578ed5397a1603b2cd9d061",
+      "extracted_sha256": "0dd7f01df80fff72a56341cedfc324274fb663f88578ed5397a1603b2cd9d061"
+    },
+    {
+      "path": "fixtures/valid/guided-research/recommendation-avoid-margin.json",
+      "source_path": "fixtures/valid/guided-research/recommendation-avoid-margin.json",
+      "source_working_sha256": "37183c98b051326a64bcbcc687d4caae9b9df0e9ffb33a253d0ffce0ed0348c0",
+      "source_git_base_sha256": "37183c98b051326a64bcbcc687d4caae9b9df0e9ffb33a253d0ffce0ed0348c0",
+      "extracted_sha256": "37183c98b051326a64bcbcc687d4caae9b9df0e9ffb33a253d0ffce0ed0348c0"
+    },
+    {
+      "path": "fixtures/valid/guided-research/recommendation-hold-watch.json",
+      "source_path": "fixtures/valid/guided-research/recommendation-hold-watch.json",
+      "source_working_sha256": "66348cbef8756bbf02cce58487df889ad2d433dfe40b1db0a0f291345fd0c0af",
+      "source_git_base_sha256": "66348cbef8756bbf02cce58487df889ad2d433dfe40b1db0a0f291345fd0c0af",
+      "extracted_sha256": "66348cbef8756bbf02cce58487df889ad2d433dfe40b1db0a0f291345fd0c0af"
+    },
+    {
+      "path": "fixtures/valid/guided-research/recommendation-increase-exposure.json",
+      "source_path": "fixtures/valid/guided-research/recommendation-increase-exposure.json",
+      "source_working_sha256": "1853098f0bc0784ed1321e267b63d5c9b42c7d1746936137efcd12202a28bc1c",
+      "source_git_base_sha256": "1853098f0bc0784ed1321e267b63d5c9b42c7d1746936137efcd12202a28bc1c",
+      "extracted_sha256": "1853098f0bc0784ed1321e267b63d5c9b42c7d1746936137efcd12202a28bc1c"
+    },
+    {
+      "path": "fixtures/valid/guided-research/recommendation-record-no-action.json",
+      "source_path": "fixtures/valid/guided-research/recommendation-record-no-action.json",
+      "source_working_sha256": "bb3e6a2afc3ba359f3cee611980721c2d8061cf4a4c7ffb080146d0ee0505825",
+      "source_git_base_sha256": "bb3e6a2afc3ba359f3cee611980721c2d8061cf4a4c7ffb080146d0ee0505825",
+      "extracted_sha256": "bb3e6a2afc3ba359f3cee611980721c2d8061cf4a4c7ffb080146d0ee0505825"
+    },
+    {
+      "path": "fixtures/valid/guided-research/recommendation-trim-to-kelly.json",
+      "source_path": "fixtures/valid/guided-research/recommendation-trim-to-kelly.json",
+      "source_working_sha256": "b96ceee79583de4617b4ab176bfbba084cc1374259bbc49a954ef1d69c75f937",
+      "source_git_base_sha256": "b96ceee79583de4617b4ab176bfbba084cc1374259bbc49a954ef1d69c75f937",
+      "extracted_sha256": "b96ceee79583de4617b4ab176bfbba084cc1374259bbc49a954ef1d69c75f937"
+    },
+    {
+      "path": "fixtures/valid/guided-research/source-polymarket-url-fed-decision.json",
+      "source_path": "fixtures/valid/guided-research/source-polymarket-url-fed-decision.json",
+      "source_working_sha256": "d3191ec9a6d0626994d601598c0934bb04c60bb2588a5f0316e66c2c6307527a",
+      "source_git_base_sha256": "d3191ec9a6d0626994d601598c0934bb04c60bb2588a5f0316e66c2c6307527a",
+      "extracted_sha256": "d3191ec9a6d0626994d601598c0934bb04c60bb2588a5f0316e66c2c6307527a"
+    },
+    {
+      "path": "fixtures/valid/guided-research/source-polymarket-url-hormuz.json",
+      "source_path": "fixtures/valid/guided-research/source-polymarket-url-hormuz.json",
+      "source_working_sha256": "1855df48fc0391b6fd5f8728adb42796f5802659a8324a000768cbf8354c6791",
+      "source_git_base_sha256": "1855df48fc0391b6fd5f8728adb42796f5802659a8324a000768cbf8354c6791",
+      "extracted_sha256": "1855df48fc0391b6fd5f8728adb42796f5802659a8324a000768cbf8354c6791"
+    },
+    {
+      "path": "fixtures/valid/guided-research/source-reddit-thread-retail-conviction.json",
+      "source_path": "fixtures/valid/guided-research/source-reddit-thread-retail-conviction.json",
+      "source_working_sha256": "d30d2e332036d86cd02528d593674bcb4d8bd3ccb22c45739272afbece254d23",
+      "source_git_base_sha256": "d30d2e332036d86cd02528d593674bcb4d8bd3ccb22c45739272afbece254d23",
+      "extracted_sha256": "d30d2e332036d86cd02528d593674bcb4d8bd3ccb22c45739272afbece254d23"
+    },
+    {
+      "path": "fixtures/valid/guided-research/source-x-twitter-url-product-signal.json",
+      "source_path": "fixtures/valid/guided-research/source-x-twitter-url-product-signal.json",
+      "source_working_sha256": "6271243d2bd74e750829f0bf0d5b751cbc14316d83938ca0a5b67d13d949bd29",
+      "source_git_base_sha256": "6271243d2bd74e750829f0bf0d5b751cbc14316d83938ca0a5b67d13d949bd29",
+      "extracted_sha256": "6271243d2bd74e750829f0bf0d5b751cbc14316d83938ca0a5b67d13d949bd29"
+    },
+    {
+      "path": "fixtures/valid/guided-research/thesis-bearish-margin-risk.json",
+      "source_path": "fixtures/valid/guided-research/thesis-bearish-margin-risk.json",
+      "source_working_sha256": "a377ff0edbe6c04f0b17d3d19f8787183cc6a6f2f116c23d275528cfc0684d40",
+      "source_git_base_sha256": "a377ff0edbe6c04f0b17d3d19f8787183cc6a6f2f116c23d275528cfc0684d40",
+      "extracted_sha256": "a377ff0edbe6c04f0b17d3d19f8787183cc6a6f2f116c23d275528cfc0684d40"
+    },
+    {
+      "path": "fixtures/valid/guided-research/thesis-bullish-convex-stock.json",
+      "source_path": "fixtures/valid/guided-research/thesis-bullish-convex-stock.json",
+      "source_working_sha256": "6fc20c961f0d5b2b429dd3650a2e5cc33875c75553b6d4a57d03104bf1a798f8",
+      "source_git_base_sha256": "6fc20c961f0d5b2b429dd3650a2e5cc33875c75553b6d4a57d03104bf1a798f8",
+      "extracted_sha256": "6fc20c961f0d5b2b429dd3650a2e5cc33875c75553b6d4a57d03104bf1a798f8"
+    },
+    {
+      "path": "fixtures/valid/many_model/thesis_run_1_heavy_tail.json",
+      "source_path": "fixtures/valid/many_model/thesis_run_1_heavy_tail.json",
+      "source_working_sha256": "dbddcdf7e192253ddb33be9c667d651e87c1d265ae35be28978e441b33c402c4",
+      "source_git_base_sha256": "dbddcdf7e192253ddb33be9c667d651e87c1d265ae35be28978e441b33c402c4",
+      "extracted_sha256": "dbddcdf7e192253ddb33be9c667d651e87c1d265ae35be28978e441b33c402c4"
+    },
+    {
+      "path": "fixtures/valid/many_model/thesis_run_2_markov_regime.json",
+      "source_path": "fixtures/valid/many_model/thesis_run_2_markov_regime.json",
+      "source_working_sha256": "960ddd6e4c793c0516f3461ec7dafbe00d80de0879aa26a26fd0078171ff24c1",
+      "source_git_base_sha256": "960ddd6e4c793c0516f3461ec7dafbe00d80de0879aa26a26fd0078171ff24c1",
+      "extracted_sha256": "960ddd6e4c793c0516f3461ec7dafbe00d80de0879aa26a26fd0078171ff24c1"
+    },
+    {
+      "path": "fixtures/valid/many_model/thesis_run_3_reddit_sensor.json",
+      "source_path": "fixtures/valid/many_model/thesis_run_3_reddit_sensor.json",
+      "source_working_sha256": "8e1a09df012e319aef02855ddb10429219f302f0d09f41ebdfeb29d6633c3fbf",
+      "source_git_base_sha256": "8e1a09df012e319aef02855ddb10429219f302f0d09f41ebdfeb29d6633c3fbf",
+      "extracted_sha256": "8e1a09df012e319aef02855ddb10429219f302f0d09f41ebdfeb29d6633c3fbf"
+    },
+    {
+      "path": "fixtures/valid/mvp-case.json",
+      "source_path": "fixtures/valid/mvp-case.json",
+      "source_working_sha256": "8651b5e0c4ffca42cc6b36838a7a744fa539e455e41fc3246ec3e3f046b7e673",
+      "source_git_base_sha256": "8651b5e0c4ffca42cc6b36838a7a744fa539e455e41fc3246ec3e3f046b7e673",
+      "extracted_sha256": "8651b5e0c4ffca42cc6b36838a7a744fa539e455e41fc3246ec3e3f046b7e673"
+    },
+    {
+      "path": "fixtures/valid/seeded-simulation.json",
+      "source_path": "fixtures/valid/seeded-simulation.json",
+      "source_working_sha256": "1a244a634a9b307b0d7774c3fcd3d45db048fd047ccf7ce6f7de747d855d235c",
+      "source_git_base_sha256": "1a244a634a9b307b0d7774c3fcd3d45db048fd047ccf7ce6f7de747d855d235c",
+      "extracted_sha256": "1a244a634a9b307b0d7774c3fcd3d45db048fd047ccf7ce6f7de747d855d235c"
+    },
+    {
+      "path": "fixtures/valid/single-alternative.json",
+      "source_path": "fixtures/valid/single-alternative.json",
+      "source_working_sha256": "dc85565554f734bee35dfd507a6d7ec29632f17864893b5df0a1645617009f7e",
+      "source_git_base_sha256": "dc85565554f734bee35dfd507a6d7ec29632f17864893b5df0a1645617009f7e",
+      "extracted_sha256": "dc85565554f734bee35dfd507a6d7ec29632f17864893b5df0a1645617009f7e"
+    },
+    {
+      "path": "fixtures/valid/stock-exposure/convex-upside-stock.json",
+      "source_path": "fixtures/valid/stock-exposure/convex-upside-stock.json",
+      "source_working_sha256": "54d12b809385b33bbad30e5262c5cc0ca97b1e878ca4743953a19d21af88e418",
+      "source_git_base_sha256": "54d12b809385b33bbad30e5262c5cc0ca97b1e878ca4743953a19d21af88e418",
+      "extracted_sha256": "54d12b809385b33bbad30e5262c5cc0ca97b1e878ca4743953a19d21af88e418"
+    },
+    {
+      "path": "fixtures/valid/stock-exposure/kelly-stock-thesis.json",
+      "source_path": "fixtures/valid/stock-exposure/kelly-stock-thesis.json",
+      "source_working_sha256": "2e55fddc98e799b9f9a8f4817ce9c7a91586f7a8b3492a3fc12c156cd533c2bc",
+      "source_git_base_sha256": "2e55fddc98e799b9f9a8f4817ce9c7a91586f7a8b3492a3fc12c156cd533c2bc",
+      "extracted_sha256": "2e55fddc98e799b9f9a8f4817ce9c7a91586f7a8b3492a3fc12c156cd533c2bc"
+    },
+    {
+      "path": "fixtures/valid/stock-exposure/margin-danger.json",
+      "source_path": "fixtures/valid/stock-exposure/margin-danger.json",
+      "source_working_sha256": "ea9dd15b9298f74ee0e415099f3771e23f68b510a9648afc6691680fadc2fae0",
+      "source_git_base_sha256": "ea9dd15b9298f74ee0e415099f3771e23f68b510a9648afc6691680fadc2fae0",
+      "extracted_sha256": "ea9dd15b9298f74ee0e415099f3771e23f68b510a9648afc6691680fadc2fae0"
+    },
+    {
+      "path": "fixtures/valid/stock-exposure/margin-stress.json",
+      "source_path": "fixtures/valid/stock-exposure/margin-stress.json",
+      "source_working_sha256": "0636bf8efaaaf63fe910ab7ea0b51e63b15dba45584f1171d1afd89e8b05ef46",
+      "source_git_base_sha256": "0636bf8efaaaf63fe910ab7ea0b51e63b15dba45584f1171d1afd89e8b05ef46",
+      "extracted_sha256": "0636bf8efaaaf63fe910ab7ea0b51e63b15dba45584f1171d1afd89e8b05ef46"
+    },
+    {
+      "path": "fixtures/valid/stock-exposure/negative-edge-kelly.json",
+      "source_path": "fixtures/valid/stock-exposure/negative-edge-kelly.json",
+      "source_working_sha256": "3fe292958adf9a20a92b98a876a062cec181e06738dad52a2419bddb9581a01a",
+      "source_git_base_sha256": "3fe292958adf9a20a92b98a876a062cec181e06738dad52a2419bddb9581a01a",
+      "extracted_sha256": "3fe292958adf9a20a92b98a876a062cec181e06738dad52a2419bddb9581a01a"
+    },
+    {
+      "path": "portable.py",
+      "source_path": "portable.py",
+      "source_working_sha256": "029b93dc56f9aaa85951c45644cccc2963d313327cf185e25274ed6e71efbb8f",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "6265f62d526d046caaf0c21c8d89621a49620b74ef47a6f10ed65bd95403f4cd"
+    },
+    {
+      "path": "requirements-dev.lock",
+      "source_path": "requirements-dev.lock",
+      "source_working_sha256": "7a981bb4a04476958d65e1b6a6b95abb164d7004b2ddc245c6b1620e7404c1f6",
+      "source_git_base_sha256": "7a981bb4a04476958d65e1b6a6b95abb164d7004b2ddc245c6b1620e7404c1f6",
+      "extracted_sha256": "7a981bb4a04476958d65e1b6a6b95abb164d7004b2ddc245c6b1620e7404c1f6"
+    },
+    {
+      "path": "requirements-runtime.lock",
+      "source_path": "requirements-runtime.lock",
+      "source_working_sha256": "6ac649b21e34463a0296c2c4c499023a5da4048af9980fed098704cb7417b33d",
+      "source_git_base_sha256": "6ac649b21e34463a0296c2c4c499023a5da4048af9980fed098704cb7417b33d",
+      "extracted_sha256": "6ac649b21e34463a0296c2c4c499023a5da4048af9980fed098704cb7417b33d"
+    },
+    {
+      "path": "schemas/assumption-register.v1.schema.json",
+      "source_path": "schemas/assumption-register.v1.schema.json",
+      "source_working_sha256": "f77c455215b496e1aa84f406869116dfb4ce06294a8d33f6ccadf35d41b9ad4c",
+      "source_git_base_sha256": "f77c455215b496e1aa84f406869116dfb4ce06294a8d33f6ccadf35d41b9ad4c",
+      "extracted_sha256": "f77c455215b496e1aa84f406869116dfb4ce06294a8d33f6ccadf35d41b9ad4c"
+    },
+    {
+      "path": "schemas/assumption-update-proposal.v1.schema.json",
+      "source_path": "schemas/assumption-update-proposal.v1.schema.json",
+      "source_working_sha256": "c86b67f2813ca839934952a9e968fbe44f12fca8695e63fa09d6fbf23cc62348",
+      "source_git_base_sha256": "c86b67f2813ca839934952a9e968fbe44f12fca8695e63fa09d6fbf23cc62348",
+      "extracted_sha256": "c86b67f2813ca839934952a9e968fbe44f12fca8695e63fa09d6fbf23cc62348"
+    },
+    {
+      "path": "schemas/bayesian-update.v1.schema.json",
+      "source_path": "schemas/bayesian-update.v1.schema.json",
+      "source_working_sha256": "e9e50c7ca5a847bb790b7a275b91c5f538888173acabe6bfd564ccc66865193b",
+      "source_git_base_sha256": "e9e50c7ca5a847bb790b7a275b91c5f538888173acabe6bfd564ccc66865193b",
+      "extracted_sha256": "e9e50c7ca5a847bb790b7a275b91c5f538888173acabe6bfd564ccc66865193b"
+    },
+    {
+      "path": "schemas/belief-state.v1.schema.json",
+      "source_path": "schemas/belief-state.v1.schema.json",
+      "source_working_sha256": "e1a1c34765a911ee5513b683d1eb2cbffe71ee1124607b1676447412cf571b67",
+      "source_git_base_sha256": "e1a1c34765a911ee5513b683d1eb2cbffe71ee1124607b1676447412cf571b67",
+      "extracted_sha256": "e1a1c34765a911ee5513b683d1eb2cbffe71ee1124607b1676447412cf571b67"
+    },
+    {
+      "path": "schemas/committee-result.v1.schema.json",
+      "source_path": "schemas/committee-result.v1.schema.json",
+      "source_working_sha256": "4de06590141da19a94b9d27aaad5789e741cdb51b723216cfa2d2b49e474a196",
+      "source_git_base_sha256": "4de06590141da19a94b9d27aaad5789e741cdb51b723216cfa2d2b49e474a196",
+      "extracted_sha256": "4de06590141da19a94b9d27aaad5789e741cdb51b723216cfa2d2b49e474a196"
+    },
+    {
+      "path": "schemas/confirmation-pairing.v1.schema.json",
+      "source_path": "schemas/confirmation-pairing.v1.schema.json",
+      "source_working_sha256": "55ecb65c37e5c1c06cdd18abc46866c3892f592a7ac3ff5dcbd485008d0bd6ba",
+      "source_git_base_sha256": "55ecb65c37e5c1c06cdd18abc46866c3892f592a7ac3ff5dcbd485008d0bd6ba",
+      "extracted_sha256": "55ecb65c37e5c1c06cdd18abc46866c3892f592a7ac3ff5dcbd485008d0bd6ba"
+    },
+    {
+      "path": "schemas/confirmation-queue.v1.schema.json",
+      "source_path": "schemas/confirmation-queue.v1.schema.json",
+      "source_working_sha256": "5c1197ff658ed8ecceaf96b81ffc65c5a99e50a4fdcac2b413f0d433415f2fb3",
+      "source_git_base_sha256": "5c1197ff658ed8ecceaf96b81ffc65c5a99e50a4fdcac2b413f0d433415f2fb3",
+      "extracted_sha256": "5c1197ff658ed8ecceaf96b81ffc65c5a99e50a4fdcac2b413f0d433415f2fb3"
+    },
+    {
+      "path": "schemas/confirmation-request.v1.schema.json",
+      "source_path": "schemas/confirmation-request.v1.schema.json",
+      "source_working_sha256": "625b2d0b065ba67bf67d374f52a07d06f1edb63b3780a90bc069794569a0f709",
+      "source_git_base_sha256": "625b2d0b065ba67bf67d374f52a07d06f1edb63b3780a90bc069794569a0f709",
+      "extracted_sha256": "625b2d0b065ba67bf67d374f52a07d06f1edb63b3780a90bc069794569a0f709"
+    },
+    {
+      "path": "schemas/confirmation-response.v1.schema.json",
+      "source_path": "schemas/confirmation-response.v1.schema.json",
+      "source_working_sha256": "f39d0f9a7908fdbeb1b05396081dd765f177dbcb62efd42beacbb6e80c628707",
+      "source_git_base_sha256": "f39d0f9a7908fdbeb1b05396081dd765f177dbcb62efd42beacbb6e80c628707",
+      "extracted_sha256": "f39d0f9a7908fdbeb1b05396081dd765f177dbcb62efd42beacbb6e80c628707"
+    },
+    {
+      "path": "schemas/decision-analysis.v1.schema.json",
+      "source_path": "schemas/decision-analysis.v1.schema.json",
+      "source_working_sha256": "7c03f55e20c4fabe305086c953ac033b230df0c2566026c707f8c89e312e7b4d",
+      "source_git_base_sha256": "7c03f55e20c4fabe305086c953ac033b230df0c2566026c707f8c89e312e7b4d",
+      "extracted_sha256": "7c03f55e20c4fabe305086c953ac033b230df0c2566026c707f8c89e312e7b4d"
+    },
+    {
+      "path": "schemas/decision-authorization.v1.schema.json",
+      "source_path": "schemas/decision-authorization.v1.schema.json",
+      "source_working_sha256": "bc824767c8d6e1d9476a011171e34da42f413f76689904362b842f14ca30c3fe",
+      "source_git_base_sha256": "bc824767c8d6e1d9476a011171e34da42f413f76689904362b842f14ca30c3fe",
+      "extracted_sha256": "bc824767c8d6e1d9476a011171e34da42f413f76689904362b842f14ca30c3fe"
+    },
+    {
+      "path": "schemas/decision-case.v1.schema.json",
+      "source_path": "schemas/decision-case.v1.schema.json",
+      "source_working_sha256": "24b0f6587d542c05e3f91d94faeebe8a4a8889d69d1ebc2a77f0100af2ca1332",
+      "source_git_base_sha256": "24b0f6587d542c05e3f91d94faeebe8a4a8889d69d1ebc2a77f0100af2ca1332",
+      "extracted_sha256": "24b0f6587d542c05e3f91d94faeebe8a4a8889d69d1ebc2a77f0100af2ca1332"
+    },
+    {
+      "path": "schemas/decision-comparison.v1.schema.json",
+      "source_path": "schemas/decision-comparison.v1.schema.json",
+      "source_working_sha256": "ef117aa4bc409289d9b503af9ec567c515b0697b6f9b1fef2224a5bb622e6f58",
+      "source_git_base_sha256": "ef117aa4bc409289d9b503af9ec567c515b0697b6f9b1fef2224a5bb622e6f58",
+      "extracted_sha256": "ef117aa4bc409289d9b503af9ec567c515b0697b6f9b1fef2224a5bb622e6f58"
+    },
+    {
+      "path": "schemas/decision-ledger.v1.schema.json",
+      "source_path": "schemas/decision-ledger.v1.schema.json",
+      "source_working_sha256": "b7cb51fa7cf7020df7d2f1bc4a86a6b7c9fd0f8ffa01c21f8ac47b88898b66d0",
+      "source_git_base_sha256": "b7cb51fa7cf7020df7d2f1bc4a86a6b7c9fd0f8ffa01c21f8ac47b88898b66d0",
+      "extracted_sha256": "b7cb51fa7cf7020df7d2f1bc4a86a6b7c9fd0f8ffa01c21f8ac47b88898b66d0"
+    },
+    {
+      "path": "schemas/decision-proposal.v1.schema.json",
+      "source_path": "schemas/decision-proposal.v1.schema.json",
+      "source_working_sha256": "3f8cc3f4d252b21339a4695a31be9d9a73533cafaf680af4edd3d9f4d0287ead",
+      "source_git_base_sha256": "3f8cc3f4d252b21339a4695a31be9d9a73533cafaf680af4edd3d9f4d0287ead",
+      "extracted_sha256": "3f8cc3f4d252b21339a4695a31be9d9a73533cafaf680af4edd3d9f4d0287ead"
+    },
+    {
+      "path": "schemas/ensemble-result.v1.schema.json",
+      "source_path": "schemas/ensemble-result.v1.schema.json",
+      "source_working_sha256": "056dd25885eb75f9e8dbff94a884a19a88d72686c30385411e2d6c39a618250c",
+      "source_git_base_sha256": "056dd25885eb75f9e8dbff94a884a19a88d72686c30385411e2d6c39a618250c",
+      "extracted_sha256": "056dd25885eb75f9e8dbff94a884a19a88d72686c30385411e2d6c39a618250c"
+    },
+    {
+      "path": "schemas/event-market-signal.v1.schema.json",
+      "source_path": "schemas/event-market-signal.v1.schema.json",
+      "source_working_sha256": "4bebe5f9065369c7ac1107d5272242dbbaded86a53e0d5396eb38ec644c8e1f1",
+      "source_git_base_sha256": "4bebe5f9065369c7ac1107d5272242dbbaded86a53e0d5396eb38ec644c8e1f1",
+      "extracted_sha256": "4bebe5f9065369c7ac1107d5272242dbbaded86a53e0d5396eb38ec644c8e1f1"
+    },
+    {
+      "path": "schemas/event-market-snapshot.v1.schema.json",
+      "source_path": "schemas/event-market-snapshot.v1.schema.json",
+      "source_working_sha256": "7652d00586190cb5e01ab23886481f4a4a9bbd7da26e2f7fb613e5201eff9954",
+      "source_git_base_sha256": "7652d00586190cb5e01ab23886481f4a4a9bbd7da26e2f7fb613e5201eff9954",
+      "extracted_sha256": "7652d00586190cb5e01ab23886481f4a4a9bbd7da26e2f7fb613e5201eff9954"
+    },
+    {
+      "path": "schemas/evidence-batch.v1.schema.json",
+      "source_path": "schemas/evidence-batch.v1.schema.json",
+      "source_working_sha256": "c21a16433a03b88169c63d57be22fa0304f590edde7ca5c51c2e944719835e4a",
+      "source_git_base_sha256": "c21a16433a03b88169c63d57be22fa0304f590edde7ca5c51c2e944719835e4a",
+      "extracted_sha256": "c21a16433a03b88169c63d57be22fa0304f590edde7ca5c51c2e944719835e4a"
+    },
+    {
+      "path": "schemas/evidence-item.v1.schema.json",
+      "source_path": "schemas/evidence-item.v1.schema.json",
+      "source_working_sha256": "4cbc41b9cc5fd48092c7ff5e1ba4a57c07e5b2bf3f72dfff033ab42f0eaa4197",
+      "source_git_base_sha256": "4cbc41b9cc5fd48092c7ff5e1ba4a57c07e5b2bf3f72dfff033ab42f0eaa4197",
+      "extracted_sha256": "4cbc41b9cc5fd48092c7ff5e1ba4a57c07e5b2bf3f72dfff033ab42f0eaa4197"
+    },
+    {
+      "path": "schemas/evidence-source.v1.schema.json",
+      "source_path": "schemas/evidence-source.v1.schema.json",
+      "source_working_sha256": "4b62db195f9891c04f95a146e92ef8c1073a131ab16b143abb37fd2fadaca6e0",
+      "source_git_base_sha256": "4b62db195f9891c04f95a146e92ef8c1073a131ab16b143abb37fd2fadaca6e0",
+      "extracted_sha256": "4b62db195f9891c04f95a146e92ef8c1073a131ab16b143abb37fd2fadaca6e0"
+    },
+    {
+      "path": "schemas/host-capability-request.v1.schema.json",
+      "source_path": "schemas/host-capability-request.v1.schema.json",
+      "source_working_sha256": "759c2a0b643911b405a585d66eaf1b89f0de86dbd32fda5344a36347da39d8c8",
+      "source_git_base_sha256": "759c2a0b643911b405a585d66eaf1b89f0de86dbd32fda5344a36347da39d8c8",
+      "extracted_sha256": "759c2a0b643911b405a585d66eaf1b89f0de86dbd32fda5344a36347da39d8c8"
+    },
+    {
+      "path": "schemas/host-capability-response.v1.schema.json",
+      "source_path": "schemas/host-capability-response.v1.schema.json",
+      "source_working_sha256": "3e97abf16ac15e4d863f4fd8382ae7da201fe7013392e8058e585dbef2bdff93",
+      "source_git_base_sha256": "3e97abf16ac15e4d863f4fd8382ae7da201fe7013392e8058e585dbef2bdff93",
+      "extracted_sha256": "3e97abf16ac15e4d863f4fd8382ae7da201fe7013392e8058e585dbef2bdff93"
+    },
+    {
+      "path": "schemas/host-extraction-result.v1.schema.json",
+      "source_path": "schemas/host-extraction-result.v1.schema.json",
+      "source_working_sha256": "a0622d13a68eb45b3fdb043a139f2409220c84060047dff58dd6de5a92155fd0",
+      "source_git_base_sha256": "a0622d13a68eb45b3fdb043a139f2409220c84060047dff58dd6de5a92155fd0",
+      "extracted_sha256": "a0622d13a68eb45b3fdb043a139f2409220c84060047dff58dd6de5a92155fd0"
+    },
+    {
+      "path": "schemas/host-source-artifact.v1.schema.json",
+      "source_path": "schemas/host-source-artifact.v1.schema.json",
+      "source_working_sha256": "621b8eeedf5587cc6817e1ab57bbe9cbb2bf947aeef0573f2bb7cdf94498d25d",
+      "source_git_base_sha256": "621b8eeedf5587cc6817e1ab57bbe9cbb2bf947aeef0573f2bb7cdf94498d25d",
+      "extracted_sha256": "621b8eeedf5587cc6817e1ab57bbe9cbb2bf947aeef0573f2bb7cdf94498d25d"
+    },
+    {
+      "path": "schemas/host-user-confirmation.v1.schema.json",
+      "source_path": "schemas/host-user-confirmation.v1.schema.json",
+      "source_working_sha256": "413c986c22cc6c2fce7349c923372d5d9ff08a485d95dfe9b61e7d6d627b05d4",
+      "source_git_base_sha256": "413c986c22cc6c2fce7349c923372d5d9ff08a485d95dfe9b61e7d6d627b05d4",
+      "extracted_sha256": "413c986c22cc6c2fce7349c923372d5d9ff08a485d95dfe9b61e7d6d627b05d4"
+    },
+    {
+      "path": "schemas/kill-condition.v1.schema.json",
+      "source_path": "schemas/kill-condition.v1.schema.json",
+      "source_working_sha256": "89d1bb1c9ab07ddbbf4d24a113fb60e27f8b616d110d41fcfd21a8a97c8b7f0e",
+      "source_git_base_sha256": "89d1bb1c9ab07ddbbf4d24a113fb60e27f8b616d110d41fcfd21a8a97c8b7f0e",
+      "extracted_sha256": "89d1bb1c9ab07ddbbf4d24a113fb60e27f8b616d110d41fcfd21a8a97c8b7f0e"
+    },
+    {
+      "path": "schemas/method-pack-result.v1.schema.json",
+      "source_path": "schemas/method-pack-result.v1.schema.json",
+      "source_working_sha256": "3c8449e69447c515fbf3d06ff9a556c415bb8aa798c015c024c93e4f9b2a0b76",
+      "source_git_base_sha256": "3c8449e69447c515fbf3d06ff9a556c415bb8aa798c015c024c93e4f9b2a0b76",
+      "extracted_sha256": "3c8449e69447c515fbf3d06ff9a556c415bb8aa798c015c024c93e4f9b2a0b76"
+    },
+    {
+      "path": "schemas/method-pack-run.v1.schema.json",
+      "source_path": "schemas/method-pack-run.v1.schema.json",
+      "source_working_sha256": "90651924abf1edbd8ec7a82db32a03de831cbf5d1d6e0754842639f4f8fcbf8b",
+      "source_git_base_sha256": "90651924abf1edbd8ec7a82db32a03de831cbf5d1d6e0754842639f4f8fcbf8b",
+      "extracted_sha256": "90651924abf1edbd8ec7a82db32a03de831cbf5d1d6e0754842639f4f8fcbf8b"
+    },
+    {
+      "path": "schemas/method-pack.v1.schema.json",
+      "source_path": "schemas/method-pack.v1.schema.json",
+      "source_working_sha256": "98f419fbf3b975471fccb08932b7591c732eef82e969f1bd72470b36c6625638",
+      "source_git_base_sha256": "98f419fbf3b975471fccb08932b7591c732eef82e969f1bd72470b36c6625638",
+      "extracted_sha256": "98f419fbf3b975471fccb08932b7591c732eef82e969f1bd72470b36c6625638"
+    },
+    {
+      "path": "schemas/model-input.v1.schema.json",
+      "source_path": "schemas/model-input.v1.schema.json",
+      "source_working_sha256": "ac73d0cd265caf973bee3e3094dfe4e373c068863039e3947fbd90bbc1a637cb",
+      "source_git_base_sha256": "ac73d0cd265caf973bee3e3094dfe4e373c068863039e3947fbd90bbc1a637cb",
+      "extracted_sha256": "ac73d0cd265caf973bee3e3094dfe4e373c068863039e3947fbd90bbc1a637cb"
+    },
+    {
+      "path": "schemas/model-result.v1.schema.json",
+      "source_path": "schemas/model-result.v1.schema.json",
+      "source_working_sha256": "0948c935bbd6ba6b1ec0b368616d4c3293d0e135f6c6a1a1276a43999fefb88b",
+      "source_git_base_sha256": "0948c935bbd6ba6b1ec0b368616d4c3293d0e135f6c6a1a1276a43999fefb88b",
+      "extracted_sha256": "0948c935bbd6ba6b1ec0b368616d4c3293d0e135f6c6a1a1276a43999fefb88b"
+    },
+    {
+      "path": "schemas/portfolio-intent.v1.schema.json",
+      "source_path": "schemas/portfolio-intent.v1.schema.json",
+      "source_working_sha256": "bad97b9d3e29524c246ff81102248fe4d2706d6373b8652edef0de6960e5e481",
+      "source_git_base_sha256": "bad97b9d3e29524c246ff81102248fe4d2706d6373b8652edef0de6960e5e481",
+      "extracted_sha256": "bad97b9d3e29524c246ff81102248fe4d2706d6373b8652edef0de6960e5e481"
+    },
+    {
+      "path": "schemas/portfolio-position.v1.schema.json",
+      "source_path": "schemas/portfolio-position.v1.schema.json",
+      "source_working_sha256": "bc92d7d59a222f2d394aad67444c25c59aa732ab24d3a41811ea71f6dd5a01fd",
+      "source_git_base_sha256": "bc92d7d59a222f2d394aad67444c25c59aa732ab24d3a41811ea71f6dd5a01fd",
+      "extracted_sha256": "bc92d7d59a222f2d394aad67444c25c59aa732ab24d3a41811ea71f6dd5a01fd"
+    },
+    {
+      "path": "schemas/portfolio-snapshot.v1.schema.json",
+      "source_path": "schemas/portfolio-snapshot.v1.schema.json",
+      "source_working_sha256": "04d01cbdd311a3385ce8c7fb612b8d7409c4edccc697e97bbf86f86facd1998d",
+      "source_git_base_sha256": "04d01cbdd311a3385ce8c7fb612b8d7409c4edccc697e97bbf86f86facd1998d",
+      "extracted_sha256": "04d01cbdd311a3385ce8c7fb612b8d7409c4edccc697e97bbf86f86facd1998d"
+    },
+    {
+      "path": "schemas/recommendation-authorization.v1.schema.json",
+      "source_path": "schemas/recommendation-authorization.v1.schema.json",
+      "source_working_sha256": "7e9c9db62d0a92d3bec532f96a4e67b9d239b78d3b613733b4111ae1b78c4db8",
+      "source_git_base_sha256": "7e9c9db62d0a92d3bec532f96a4e67b9d239b78d3b613733b4111ae1b78c4db8",
+      "extracted_sha256": "7e9c9db62d0a92d3bec532f96a4e67b9d239b78d3b613733b4111ae1b78c4db8"
+    },
+    {
+      "path": "schemas/recommendation.v1.schema.json",
+      "source_path": "schemas/recommendation.v1.schema.json",
+      "source_working_sha256": "1e20a83263e1a840f45d3254238fc3411dc37ec3b98925c974b89a8c31d4b51f",
+      "source_git_base_sha256": "1e20a83263e1a840f45d3254238fc3411dc37ec3b98925c974b89a8c31d4b51f",
+      "extracted_sha256": "1e20a83263e1a840f45d3254238fc3411dc37ec3b98925c974b89a8c31d4b51f"
+    },
+    {
+      "path": "schemas/scenario-assumption.v1.schema.json",
+      "source_path": "schemas/scenario-assumption.v1.schema.json",
+      "source_working_sha256": "c30e97392ebf0aad3d49df132a0adabc9fb6443e8b5905c5199141102bdc2a3c",
+      "source_git_base_sha256": "c30e97392ebf0aad3d49df132a0adabc9fb6443e8b5905c5199141102bdc2a3c",
+      "extracted_sha256": "c30e97392ebf0aad3d49df132a0adabc9fb6443e8b5905c5199141102bdc2a3c"
+    },
+    {
+      "path": "schemas/social-evidence-signal.v1.schema.json",
+      "source_path": "schemas/social-evidence-signal.v1.schema.json",
+      "source_working_sha256": "f21e42522be8403ceeccb932e2577ecd15452dbec40d348588c2539fd3df44d7",
+      "source_git_base_sha256": "f21e42522be8403ceeccb932e2577ecd15452dbec40d348588c2539fd3df44d7",
+      "extracted_sha256": "f21e42522be8403ceeccb932e2577ecd15452dbec40d348588c2539fd3df44d7"
+    },
+    {
+      "path": "schemas/stock-thesis.v1.schema.json",
+      "source_path": "schemas/stock-thesis.v1.schema.json",
+      "source_working_sha256": "9419cfd93d1ea0db4c4dadddf2a47cd7bf246c9573ac3665ff115dfd402b45c9",
+      "source_git_base_sha256": "9419cfd93d1ea0db4c4dadddf2a47cd7bf246c9573ac3665ff115dfd402b45c9",
+      "extracted_sha256": "9419cfd93d1ea0db4c4dadddf2a47cd7bf246c9573ac3665ff115dfd402b45c9"
+    },
+    {
+      "path": "schemas/thesis-sensitivity-map.v1.schema.json",
+      "source_path": "schemas/thesis-sensitivity-map.v1.schema.json",
+      "source_working_sha256": "811099cda12348040520df1a0f81586d6c20b51343bd84e0518a6383636cad7d",
+      "source_git_base_sha256": "811099cda12348040520df1a0f81586d6c20b51343bd84e0518a6383636cad7d",
+      "extracted_sha256": "811099cda12348040520df1a0f81586d6c20b51343bd84e0518a6383636cad7d"
+    },
+    {
+      "path": "scripts/bootstrap_portable.py",
+      "source_path": "scripts/bootstrap_portable.py",
+      "source_working_sha256": "13477f967202a13f82b4132977f91a3312d77dd394148323b40473e7ab532b63",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "18b93d139049bb234e6e4388d40df4a4841c9d75d7adeb380ecbea3a9367416e"
+    },
+    {
+      "path": "skills/capital-research/SKILL.md",
+      "source_path": "skills/capital-research/SKILL.md",
+      "source_working_sha256": "32aba4defb771411bda52affc9ad94b236e9a4e8fa6dd2a545c57bdbf3c1ef86",
+      "source_git_base_sha256": "32aba4defb771411bda52affc9ad94b236e9a4e8fa6dd2a545c57bdbf3c1ef86",
+      "extracted_sha256": "6b618827c60a539aca167bd2c7a6596f3c282f6c57ac635522b49dd7b0510401"
+    },
+    {
+      "path": "skills/decision-prediction/SKILL.md",
+      "source_path": "skills/decision-prediction/SKILL.md",
+      "source_working_sha256": "7d7e1e611d4b4a3628d0789846840ae92166517889a43b820f1a4fa53d964d7c",
+      "source_git_base_sha256": "7d7e1e611d4b4a3628d0789846840ae92166517889a43b820f1a4fa53d964d7c",
+      "extracted_sha256": "9d2020707f3fc877bedc7a0a95be32c922bea7c5e1bba7f0d49f3604cc1a3a76"
+    },
+    {
+      "path": "skills/decision-prediction/references/DESIGN-Monocle.md",
+      "source_path": "skills/decision-prediction/references/DESIGN-Monocle.md",
+      "source_working_sha256": "7efae6c4710f0d23a405b15d746a826870c18fca434faebd4d3c05acbf854b74",
+      "source_git_base_sha256": "7efae6c4710f0d23a405b15d746a826870c18fca434faebd4d3c05acbf854b74",
+      "extracted_sha256": "7efae6c4710f0d23a405b15d746a826870c18fca434faebd4d3c05acbf854b74"
+    },
+    {
+      "path": "skills/decision-prediction/references/monocle-report-anatomy.md",
+      "source_path": "skills/decision-prediction/references/monocle-report-anatomy.md",
+      "source_working_sha256": "af713f1420655a8f014105a35a303b190f37e59577b31115e50be4b00fb8d629",
+      "source_git_base_sha256": "af713f1420655a8f014105a35a303b190f37e59577b31115e50be4b00fb8d629",
+      "extracted_sha256": "49f340132d0a15e20e933da29b33507c3b909a645205b7a9bc2aea15a69b5561"
+    },
+    {
+      "path": "skills/many-model-thinking/SKILL.md",
+      "source_path": "skills/many-model-thinking/SKILL.md",
+      "source_working_sha256": "5356e94ec7bc65c3cf3cde30f82d3c4d338e83bb066690960069d38d3cba666a",
+      "source_git_base_sha256": "5356e94ec7bc65c3cf3cde30f82d3c4d338e83bb066690960069d38d3cba666a",
+      "extracted_sha256": "5356e94ec7bc65c3cf3cde30f82d3c4d338e83bb066690960069d38d3cba666a"
+    },
+    {
+      "path": "skills/many-model-thinking/references/bandits.md",
+      "source_path": "skills/many-model-thinking/references/bandits.md",
+      "source_working_sha256": "7fa3d862d8928a113482b98b5916b61fbad7619807bab3e145af27cd39aa5781",
+      "source_git_base_sha256": "7fa3d862d8928a113482b98b5916b61fbad7619807bab3e145af27cd39aa5781",
+      "extracted_sha256": "7fa3d862d8928a113482b98b5916b61fbad7619807bab3e145af27cd39aa5781"
+    },
+    {
+      "path": "skills/many-model-thinking/references/bass.md",
+      "source_path": "skills/many-model-thinking/references/bass.md",
+      "source_working_sha256": "182577bd1538f205e6d404b85a73db3ce72858ed95916dfb0d4bcd750e17526d",
+      "source_git_base_sha256": "182577bd1538f205e6d404b85a73db3ce72858ed95916dfb0d4bcd750e17526d",
+      "extracted_sha256": "182577bd1538f205e6d404b85a73db3ce72858ed95916dfb0d4bcd750e17526d"
+    },
+    {
+      "path": "skills/many-model-thinking/references/claim_compiler.md",
+      "source_path": "skills/many-model-thinking/references/claim_compiler.md",
+      "source_working_sha256": "8bb9636421101c5aeb030f67de2d45d7ea0f912bd4b526ff0d2ed83cc440007f",
+      "source_git_base_sha256": "8bb9636421101c5aeb030f67de2d45d7ea0f912bd4b526ff0d2ed83cc440007f",
+      "extracted_sha256": "8bb9636421101c5aeb030f67de2d45d7ea0f912bd4b526ff0d2ed83cc440007f"
+    },
+    {
+      "path": "skills/many-model-thinking/references/markov.md",
+      "source_path": "skills/many-model-thinking/references/markov.md",
+      "source_working_sha256": "d8d058c03a2125b311d27ed3d3278677d58b0e80cc40ab8d13a61fecf6c7a368",
+      "source_git_base_sha256": "d8d058c03a2125b311d27ed3d3278677d58b0e80cc40ab8d13a61fecf6c7a368",
+      "extracted_sha256": "d8d058c03a2125b311d27ed3d3278677d58b0e80cc40ab8d13a61fecf6c7a368"
+    },
+    {
+      "path": "skills/many-model-thinking/references/power_law.md",
+      "source_path": "skills/many-model-thinking/references/power_law.md",
+      "source_working_sha256": "16eaafabf3bd3187cd893eeb2fb99cd2a78ddd9d32ffd28d6f617537eff7c814",
+      "source_git_base_sha256": "16eaafabf3bd3187cd893eeb2fb99cd2a78ddd9d32ffd28d6f617537eff7c814",
+      "extracted_sha256": "16eaafabf3bd3187cd893eeb2fb99cd2a78ddd9d32ffd28d6f617537eff7c814"
+    },
+    {
+      "path": "skills/many-models-reddit/SKILL.md",
+      "source_path": "skills/many-models-reddit/SKILL.md",
+      "source_working_sha256": "f72b3b8d6e332386e96ad2fe460d0374547b932c159a6eca46911842378a82e3",
+      "source_git_base_sha256": "f72b3b8d6e332386e96ad2fe460d0374547b932c159a6eca46911842378a82e3",
+      "extracted_sha256": "8b9781f166d4152e591e877882d43137129aecc6aa2a655230cc02ea8dfe447f"
+    },
+    {
+      "path": "skills/many-models-viz/SKILL.md",
+      "source_path": "skills/many-models-viz/SKILL.md",
+      "source_working_sha256": "968cf3dbca27435f027d34ef119f7bbe8e07d004c07f9cea902bc5fde40c4247",
+      "source_git_base_sha256": "968cf3dbca27435f027d34ef119f7bbe8e07d004c07f9cea902bc5fde40c4247",
+      "extracted_sha256": "477068414582b77927d49bd175d17f64180543630792ae2eb3040bf11385764e"
+    },
+    {
+      "path": "skills/many-models-viz/references/coding-manual.md",
+      "source_path": "skills/many-models-viz/references/coding-manual.md",
+      "source_working_sha256": "cc6868fdd6ce9caa8364b9b7b761124eeef551083b4e71d4512e6ee75db86141",
+      "source_git_base_sha256": "cc6868fdd6ce9caa8364b9b7b761124eeef551083b4e71d4512e6ee75db86141",
+      "extracted_sha256": "9366fac10b6541e8999850ea8b1915edeeb1dc2f4fc2ef15715e103a2d3f62c0"
+    },
+    {
+      "path": "skills/polymarket-macro-scan/SKILL.md",
+      "source_path": "skills/polymarket-macro-scan/SKILL.md",
+      "source_working_sha256": "e062d7fd4dd7802eb5c1f32583a1f08a6ef5514267aa7ff874d7e40bfe4bed74",
+      "source_git_base_sha256": "e062d7fd4dd7802eb5c1f32583a1f08a6ef5514267aa7ff874d7e40bfe4bed74",
+      "extracted_sha256": "e036543f08d721c9a80ea842ce81098c14f43cfd39d4ffa62d5260970c967a3a"
+    },
+    {
+      "path": "skills/stock-portfolio-artifacts/SKILL.md",
+      "source_path": "skills/stock-portfolio-artifacts/SKILL.md",
+      "source_working_sha256": "14d955f92d1f36b6725c931dd1937f2f28d3e518103b0311a8711507ec8a0085",
+      "source_git_base_sha256": "14d955f92d1f36b6725c931dd1937f2f28d3e518103b0311a8711507ec8a0085",
+      "extracted_sha256": "400831fb0276b093ee30f3ba544b7c469c9614e3037bde0c2aea88efb31516b4"
+    },
+    {
+      "path": "templates/stock-report/Stock-Report-Web-Template.html",
+      "source_path": "templates/stock-report/Stock-Report-Web-Template.html",
+      "source_working_sha256": "961116f7bae25719a9f8993c7cd8b3fd73382ef5ff300510b508ebffca4ec53b",
+      "source_git_base_sha256": "961116f7bae25719a9f8993c7cd8b3fd73382ef5ff300510b508ebffca4ec53b",
+      "extracted_sha256": "961116f7bae25719a9f8993c7cd8b3fd73382ef5ff300510b508ebffca4ec53b"
+    },
+    {
+      "path": "tests/cli/test_cli_mvp.py",
+      "source_path": "tests/cli/test_cli_mvp.py",
+      "source_working_sha256": "790face6b6106241ce836aa3dbb0619232bbe025e096e427e4d56e100788c67b",
+      "source_git_base_sha256": "790face6b6106241ce836aa3dbb0619232bbe025e096e427e4d56e100788c67b",
+      "extracted_sha256": "790face6b6106241ce836aa3dbb0619232bbe025e096e427e4d56e100788c67b"
+    },
+    {
+      "path": "tests/cli/test_evidence_cli.py",
+      "source_path": "tests/cli/test_evidence_cli.py",
+      "source_working_sha256": "05c4c81414e7e0056de65b1d2fdad882d619cf394b6fa56e726fd5385a74acf0",
+      "source_git_base_sha256": "05c4c81414e7e0056de65b1d2fdad882d619cf394b6fa56e726fd5385a74acf0",
+      "extracted_sha256": "05c4c81414e7e0056de65b1d2fdad882d619cf394b6fa56e726fd5385a74acf0"
+    },
+    {
+      "path": "tests/cli/test_guided_research_cli.py",
+      "source_path": "tests/cli/test_guided_research_cli.py",
+      "source_working_sha256": "c1526409bc750fe929a071c67d23abf776b6ab09ddc3cf135a8fa426fee262a9",
+      "source_git_base_sha256": "c1526409bc750fe929a071c67d23abf776b6ab09ddc3cf135a8fa426fee262a9",
+      "extracted_sha256": "c1526409bc750fe929a071c67d23abf776b6ab09ddc3cf135a8fa426fee262a9"
+    },
+    {
+      "path": "tests/cli/test_page_method_cli.py",
+      "source_path": "tests/cli/test_page_method_cli.py",
+      "source_working_sha256": "5a5d9c13e1da6c53ca89d7f5c68cb0e81e10e10f08d68186504207a92c0a30a0",
+      "source_git_base_sha256": "5a5d9c13e1da6c53ca89d7f5c68cb0e81e10e10f08d68186504207a92c0a30a0",
+      "extracted_sha256": "5a5d9c13e1da6c53ca89d7f5c68cb0e81e10e10f08d68186504207a92c0a30a0"
+    },
+    {
+      "path": "tests/connectors/test_connector_registry.py",
+      "source_path": "tests/connectors/test_connector_registry.py",
+      "source_working_sha256": "914986cc941fa9b6520e244301cb92ed56b80d909bb74e15a93becc8522f0124",
+      "source_git_base_sha256": "914986cc941fa9b6520e244301cb92ed56b80d909bb74e15a93becc8522f0124",
+      "extracted_sha256": "914986cc941fa9b6520e244301cb92ed56b80d909bb74e15a93becc8522f0124"
+    },
+    {
+      "path": "tests/contracts/test_analysis_contract.py",
+      "source_path": "tests/contracts/test_analysis_contract.py",
+      "source_working_sha256": "ad5e51d787e4215e6be2a25dc392604c140c31e7bd596a548f53f29257dd25dd",
+      "source_git_base_sha256": "ad5e51d787e4215e6be2a25dc392604c140c31e7bd596a548f53f29257dd25dd",
+      "extracted_sha256": "ad5e51d787e4215e6be2a25dc392604c140c31e7bd596a548f53f29257dd25dd"
+    },
+    {
+      "path": "tests/contracts/test_authorization_binding.py",
+      "source_path": "tests/contracts/test_authorization_binding.py",
+      "source_working_sha256": "12adb3f24e1f498f56059be08d316e017957919eb598d56fb4996a4342716fb2",
+      "source_git_base_sha256": "12adb3f24e1f498f56059be08d316e017957919eb598d56fb4996a4342716fb2",
+      "extracted_sha256": "12adb3f24e1f498f56059be08d316e017957919eb598d56fb4996a4342716fb2"
+    },
+    {
+      "path": "tests/contracts/test_canonical.py",
+      "source_path": "tests/contracts/test_canonical.py",
+      "source_working_sha256": "af46fbff261b39dc1bae1ced95703fa63d1a7241529827cfbd78869d8bc084d8",
+      "source_git_base_sha256": "af46fbff261b39dc1bae1ced95703fa63d1a7241529827cfbd78869d8bc084d8",
+      "extracted_sha256": "af46fbff261b39dc1bae1ced95703fa63d1a7241529827cfbd78869d8bc084d8"
+    },
+    {
+      "path": "tests/contracts/test_case_contract.py",
+      "source_path": "tests/contracts/test_case_contract.py",
+      "source_working_sha256": "347033b1db3a7732337ef1cd90798f86e6da5eb5323e02b00c758655a32faaba",
+      "source_git_base_sha256": "347033b1db3a7732337ef1cd90798f86e6da5eb5323e02b00c758655a32faaba",
+      "extracted_sha256": "347033b1db3a7732337ef1cd90798f86e6da5eb5323e02b00c758655a32faaba"
+    },
+    {
+      "path": "tests/contracts/test_contract_fixtures.py",
+      "source_path": "tests/contracts/test_contract_fixtures.py",
+      "source_working_sha256": "bf4dda18411892f2930e592e798be0da3a5519f979b15f78f7e2e470fdeabaae",
+      "source_git_base_sha256": "bf4dda18411892f2930e592e798be0da3a5519f979b15f78f7e2e470fdeabaae",
+      "extracted_sha256": "bf4dda18411892f2930e592e798be0da3a5519f979b15f78f7e2e470fdeabaae"
+    },
+    {
+      "path": "tests/contracts/test_ensemble_result_contract.py",
+      "source_path": "tests/contracts/test_ensemble_result_contract.py",
+      "source_working_sha256": "5a6441202f76ad0658a1fd30ffdd34ecfb1edbf1f826ed98b6d1fd4b2e908631",
+      "source_git_base_sha256": "5a6441202f76ad0658a1fd30ffdd34ecfb1edbf1f826ed98b6d1fd4b2e908631",
+      "extracted_sha256": "5a6441202f76ad0658a1fd30ffdd34ecfb1edbf1f826ed98b6d1fd4b2e908631"
+    },
+    {
+      "path": "tests/contracts/test_foreign_path_containment.py",
+      "source_path": "tests/contracts/test_foreign_path_containment.py",
+      "source_working_sha256": "3defb7abb1aaeefc495ab84e162fce7c3974beb00a9b74c4ef33d60ff7ec34d5",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "3defb7abb1aaeefc495ab84e162fce7c3974beb00a9b74c4ef33d60ff7ec34d5"
+    },
+    {
+      "path": "tests/contracts/test_ledger_contract.py",
+      "source_path": "tests/contracts/test_ledger_contract.py",
+      "source_working_sha256": "dd4b50dded817b9fc84b565734adec3626284196ce600ca94475ec6410de2f90",
+      "source_git_base_sha256": "dd4b50dded817b9fc84b565734adec3626284196ce600ca94475ec6410de2f90",
+      "extracted_sha256": "dd4b50dded817b9fc84b565734adec3626284196ce600ca94475ec6410de2f90"
+    },
+    {
+      "path": "tests/contracts/test_model_input_contract.py",
+      "source_path": "tests/contracts/test_model_input_contract.py",
+      "source_working_sha256": "7ab9c17411fa0bb8c4b8e08d5f030a8ee9b3be5291aad25dbdd2525ddfb87501",
+      "source_git_base_sha256": "7ab9c17411fa0bb8c4b8e08d5f030a8ee9b3be5291aad25dbdd2525ddfb87501",
+      "extracted_sha256": "7ab9c17411fa0bb8c4b8e08d5f030a8ee9b3be5291aad25dbdd2525ddfb87501"
+    },
+    {
+      "path": "tests/contracts/test_model_result_contract.py",
+      "source_path": "tests/contracts/test_model_result_contract.py",
+      "source_working_sha256": "31c529856ee85dd4f20bbd9c74013165040b1513b2e876087f867df538410886",
+      "source_git_base_sha256": "31c529856ee85dd4f20bbd9c74013165040b1513b2e876087f867df538410886",
+      "extracted_sha256": "31c529856ee85dd4f20bbd9c74013165040b1513b2e876087f867df538410886"
+    },
+    {
+      "path": "tests/contracts/test_proposal_authorization_separation.py",
+      "source_path": "tests/contracts/test_proposal_authorization_separation.py",
+      "source_working_sha256": "2f9e485a2e00a4637012ca2cb438669d87cb57102b33aad222893bedb4134814",
+      "source_git_base_sha256": "2f9e485a2e00a4637012ca2cb438669d87cb57102b33aad222893bedb4134814",
+      "extracted_sha256": "2f9e485a2e00a4637012ca2cb438669d87cb57102b33aad222893bedb4134814"
+    },
+    {
+      "path": "tests/contracts/test_provenance_atoms.py",
+      "source_path": "tests/contracts/test_provenance_atoms.py",
+      "source_working_sha256": "913ed3879d96bd99cdb4afaafa91c0d65c6d47b181e9db853341d60a0232ee0f",
+      "source_git_base_sha256": "913ed3879d96bd99cdb4afaafa91c0d65c6d47b181e9db853341d60a0232ee0f",
+      "extracted_sha256": "913ed3879d96bd99cdb4afaafa91c0d65c6d47b181e9db853341d60a0232ee0f"
+    },
+    {
+      "path": "tests/contracts/test_slice_boundaries.py",
+      "source_path": "tests/contracts/test_slice_boundaries.py",
+      "source_working_sha256": "db7e8db25c8e7aa7bfa622035a049224e3303cf003b189cc2a0698c4a5b39a42",
+      "source_git_base_sha256": "db7e8db25c8e7aa7bfa622035a049224e3303cf003b189cc2a0698c4a5b39a42",
+      "extracted_sha256": "db7e8db25c8e7aa7bfa622035a049224e3303cf003b189cc2a0698c4a5b39a42"
+    },
+    {
+      "path": "tests/ensemble/test_aggregation_rules.py",
+      "source_path": "tests/ensemble/test_aggregation_rules.py",
+      "source_working_sha256": "5e0d82c21de046705aa46041183a37c2b7e261258d8a88ff9bdd93bab3d23f87",
+      "source_git_base_sha256": "5e0d82c21de046705aa46041183a37c2b7e261258d8a88ff9bdd93bab3d23f87",
+      "extracted_sha256": "5e0d82c21de046705aa46041183a37c2b7e261258d8a88ff9bdd93bab3d23f87"
+    },
+    {
+      "path": "tests/ensemble/test_compiler_roundtrip.py",
+      "source_path": "tests/ensemble/test_compiler_roundtrip.py",
+      "source_working_sha256": "b6c3c050de475789975bf3358da3a82691d625cb6b84aebb2cfd88e8f936f42d",
+      "source_git_base_sha256": "b6c3c050de475789975bf3358da3a82691d625cb6b84aebb2cfd88e8f936f42d",
+      "extracted_sha256": "b6c3c050de475789975bf3358da3a82691d625cb6b84aebb2cfd88e8f936f42d"
+    },
+    {
+      "path": "tests/ensemble/test_ensemble_rejection.py",
+      "source_path": "tests/ensemble/test_ensemble_rejection.py",
+      "source_working_sha256": "b3ef8a89e6078ef53791181398aaacfd0d05fde87dd458f31707754b19f0dc99",
+      "source_git_base_sha256": "b3ef8a89e6078ef53791181398aaacfd0d05fde87dd458f31707754b19f0dc99",
+      "extracted_sha256": "b3ef8a89e6078ef53791181398aaacfd0d05fde87dd458f31707754b19f0dc99"
+    },
+    {
+      "path": "tests/ensemble/test_performance.py",
+      "source_path": "tests/ensemble/test_performance.py",
+      "source_working_sha256": "e015754be2f252aa60f1fa3bd964acf56ebad3a195fe5314f4e9ac26b8762a60",
+      "source_git_base_sha256": "e015754be2f252aa60f1fa3bd964acf56ebad3a195fe5314f4e9ac26b8762a60",
+      "extracted_sha256": "e015754be2f252aa60f1fa3bd964acf56ebad3a195fe5314f4e9ac26b8762a60"
+    },
+    {
+      "path": "tests/evidence/test_bayesian_flow.py",
+      "source_path": "tests/evidence/test_bayesian_flow.py",
+      "source_working_sha256": "b4c3ddec3bd52b96118f4a5829f5a4967e8326c1280f2cbefeb298dd2653058a",
+      "source_git_base_sha256": "b4c3ddec3bd52b96118f4a5829f5a4967e8326c1280f2cbefeb298dd2653058a",
+      "extracted_sha256": "b4c3ddec3bd52b96118f4a5829f5a4967e8326c1280f2cbefeb298dd2653058a"
+    },
+    {
+      "path": "tests/evidence/test_event_market.py",
+      "source_path": "tests/evidence/test_event_market.py",
+      "source_working_sha256": "6b26a1d4d1d30caeaf7749f74dc4d82fd0050f038a00483982c2a32bff9df910",
+      "source_git_base_sha256": "6b26a1d4d1d30caeaf7749f74dc4d82fd0050f038a00483982c2a32bff9df910",
+      "extracted_sha256": "6b26a1d4d1d30caeaf7749f74dc4d82fd0050f038a00483982c2a32bff9df910"
+    },
+    {
+      "path": "tests/evidence/test_evidence_contracts.py",
+      "source_path": "tests/evidence/test_evidence_contracts.py",
+      "source_working_sha256": "1a7a5d41b890b4607897568d95b9d58bb50325465d3649e8c16fa447ee500b42",
+      "source_git_base_sha256": "1a7a5d41b890b4607897568d95b9d58bb50325465d3649e8c16fa447ee500b42",
+      "extracted_sha256": "1a7a5d41b890b4607897568d95b9d58bb50325465d3649e8c16fa447ee500b42"
+    },
+    {
+      "path": "tests/evidence/test_evidence_fixtures.py",
+      "source_path": "tests/evidence/test_evidence_fixtures.py",
+      "source_working_sha256": "ba487f8927aad9ca536ea7e8c4bbfd307cd7da1a8ad40b00810836b3262a1d14",
+      "source_git_base_sha256": "ba487f8927aad9ca536ea7e8c4bbfd307cd7da1a8ad40b00810836b3262a1d14",
+      "extracted_sha256": "ba487f8927aad9ca536ea7e8c4bbfd307cd7da1a8ad40b00810836b3262a1d14"
+    },
+    {
+      "path": "tests/evidence/test_social_and_synthesis.py",
+      "source_path": "tests/evidence/test_social_and_synthesis.py",
+      "source_working_sha256": "93a46e3b9232eea4e3b9d1a823e6660862e70d4335c5af9aacafdb4a63367580",
+      "source_git_base_sha256": "93a46e3b9232eea4e3b9d1a823e6660862e70d4335c5af9aacafdb4a63367580",
+      "extracted_sha256": "93a46e3b9232eea4e3b9d1a823e6660862e70d4335c5af9aacafdb4a63367580"
+    },
+    {
+      "path": "tests/formulas/test_allocation.py",
+      "source_path": "tests/formulas/test_allocation.py",
+      "source_working_sha256": "bfe67ffddd6b7c74fba186627786dda93fd46c340d53db0fae4b72d772dbcd75",
+      "source_git_base_sha256": "bfe67ffddd6b7c74fba186627786dda93fd46c340d53db0fae4b72d772dbcd75",
+      "extracted_sha256": "bfe67ffddd6b7c74fba186627786dda93fd46c340d53db0fae4b72d772dbcd75"
+    },
+    {
+      "path": "tests/formulas/test_convexity.py",
+      "source_path": "tests/formulas/test_convexity.py",
+      "source_working_sha256": "990deeb02c3d4b9cd483eaf6235d676de7b18b56e83261e24d14955d666add4e",
+      "source_git_base_sha256": "990deeb02c3d4b9cd483eaf6235d676de7b18b56e83261e24d14955d666add4e",
+      "extracted_sha256": "990deeb02c3d4b9cd483eaf6235d676de7b18b56e83261e24d14955d666add4e"
+    },
+    {
+      "path": "tests/formulas/test_kelly_stock.py",
+      "source_path": "tests/formulas/test_kelly_stock.py",
+      "source_working_sha256": "ed5dd3825537064720734025b26bd2388cda149626209d8ed86f6755ad84bab7",
+      "source_git_base_sha256": "ed5dd3825537064720734025b26bd2388cda149626209d8ed86f6755ad84bab7",
+      "extracted_sha256": "ed5dd3825537064720734025b26bd2388cda149626209d8ed86f6755ad84bab7"
+    },
+    {
+      "path": "tests/formulas/test_margin.py",
+      "source_path": "tests/formulas/test_margin.py",
+      "source_working_sha256": "8c8c28ead48821592a26515e5a34c2affce1d1ab24113ed2ad0844399658b3aa",
+      "source_git_base_sha256": "8c8c28ead48821592a26515e5a34c2affce1d1ab24113ed2ad0844399658b3aa",
+      "extracted_sha256": "8c8c28ead48821592a26515e5a34c2affce1d1ab24113ed2ad0844399658b3aa"
+    },
+    {
+      "path": "tests/formulas/test_returns.py",
+      "source_path": "tests/formulas/test_returns.py",
+      "source_working_sha256": "8d7f3cbfaf9dcb8170cd6e6add3db9e6436ad2491fee60da1d78f7acce9faa46",
+      "source_git_base_sha256": "8d7f3cbfaf9dcb8170cd6e6add3db9e6436ad2491fee60da1d78f7acce9faa46",
+      "extracted_sha256": "8d7f3cbfaf9dcb8170cd6e6add3db9e6436ad2491fee60da1d78f7acce9faa46"
+    },
+    {
+      "path": "tests/formulas/test_risk.py",
+      "source_path": "tests/formulas/test_risk.py",
+      "source_working_sha256": "ae158ea535c286eaff5f829f14ddc094d0698493e104f1c816443bbeccb1b690",
+      "source_git_base_sha256": "ae158ea535c286eaff5f829f14ddc094d0698493e104f1c816443bbeccb1b690",
+      "extracted_sha256": "ae158ea535c286eaff5f829f14ddc094d0698493e104f1c816443bbeccb1b690"
+    },
+    {
+      "path": "tests/formulas/test_stock_fixtures.py",
+      "source_path": "tests/formulas/test_stock_fixtures.py",
+      "source_working_sha256": "096210d74cc0014f4b9c051563e583c064bf705a6f61a5f8a1d8f79aba26ec79",
+      "source_git_base_sha256": "096210d74cc0014f4b9c051563e583c064bf705a6f61a5f8a1d8f79aba26ec79",
+      "extracted_sha256": "096210d74cc0014f4b9c051563e583c064bf705a6f61a5f8a1d8f79aba26ec79"
+    },
+    {
+      "path": "tests/host/test_confirmation_queue.py",
+      "source_path": "tests/host/test_confirmation_queue.py",
+      "source_working_sha256": "387c82fca680ebf3720e7c7bf44b0b5dec63c4f45780c9854f55f814537c6e33",
+      "source_git_base_sha256": "387c82fca680ebf3720e7c7bf44b0b5dec63c4f45780c9854f55f814537c6e33",
+      "extracted_sha256": "387c82fca680ebf3720e7c7bf44b0b5dec63c4f45780c9854f55f814537c6e33"
+    },
+    {
+      "path": "tests/host/test_host_bridge_cli.py",
+      "source_path": "tests/host/test_host_bridge_cli.py",
+      "source_working_sha256": "06f3db49ffa342642048df00e56a0ba1fa00079a18ad003171cc55aa58689ef6",
+      "source_git_base_sha256": "06f3db49ffa342642048df00e56a0ba1fa00079a18ad003171cc55aa58689ef6",
+      "extracted_sha256": "06f3db49ffa342642048df00e56a0ba1fa00079a18ad003171cc55aa58689ef6"
+    },
+    {
+      "path": "tests/host/test_host_contracts.py",
+      "source_path": "tests/host/test_host_contracts.py",
+      "source_working_sha256": "3c62fdec0d14f93a956aa0333ea2ae6959664d218849f60f5c3175778cd2e273",
+      "source_git_base_sha256": "3c62fdec0d14f93a956aa0333ea2ae6959664d218849f60f5c3175778cd2e273",
+      "extracted_sha256": "3c62fdec0d14f93a956aa0333ea2ae6959664d218849f60f5c3175778cd2e273"
+    },
+    {
+      "path": "tests/host/test_source_extractors.py",
+      "source_path": "tests/host/test_source_extractors.py",
+      "source_working_sha256": "d385b013c3b30fa4e38037f9b7848c2b79df5977c4fe13a2658f32bbc78f0c96",
+      "source_git_base_sha256": "d385b013c3b30fa4e38037f9b7848c2b79df5977c4fe13a2658f32bbc78f0c96",
+      "extracted_sha256": "d385b013c3b30fa4e38037f9b7848c2b79df5977c4fe13a2658f32bbc78f0c96"
+    },
+    {
+      "path": "tests/ledger/test_atomic_ledger.py",
+      "source_path": "tests/ledger/test_atomic_ledger.py",
+      "source_working_sha256": "608c7fef733a3eac6be7b57309705cb20faf1dd62aa52f576b5bca24f01647b5",
+      "source_git_base_sha256": "608c7fef733a3eac6be7b57309705cb20faf1dd62aa52f576b5bca24f01647b5",
+      "extracted_sha256": "608c7fef733a3eac6be7b57309705cb20faf1dd62aa52f576b5bca24f01647b5"
+    },
+    {
+      "path": "tests/methods/test_committee_recommendation_boundary.py",
+      "source_path": "tests/methods/test_committee_recommendation_boundary.py",
+      "source_working_sha256": "5391f09e1f8aad5989aa581637c96ab5da823b201c33d98a593a253e529c4c70",
+      "source_git_base_sha256": "5391f09e1f8aad5989aa581637c96ab5da823b201c33d98a593a253e529c4c70",
+      "extracted_sha256": "5391f09e1f8aad5989aa581637c96ab5da823b201c33d98a593a253e529c4c70"
+    },
+    {
+      "path": "tests/methods/test_method_packs.py",
+      "source_path": "tests/methods/test_method_packs.py",
+      "source_working_sha256": "78068163cb97f87eb1df38cfee7a25cda48f828a730c954c8bc0e14b78093530",
+      "source_git_base_sha256": "78068163cb97f87eb1df38cfee7a25cda48f828a730c954c8bc0e14b78093530",
+      "extracted_sha256": "78068163cb97f87eb1df38cfee7a25cda48f828a730c954c8bc0e14b78093530"
+    },
+    {
+      "path": "tests/methods/test_page_committee.py",
+      "source_path": "tests/methods/test_page_committee.py",
+      "source_working_sha256": "91666e162b42b70066b435d8b33a94a4206b4e507ee612d5dc445cc67e6b41a0",
+      "source_git_base_sha256": "91666e162b42b70066b435d8b33a94a4206b4e507ee612d5dc445cc67e6b41a0",
+      "extracted_sha256": "91666e162b42b70066b435d8b33a94a4206b4e507ee612d5dc445cc67e6b41a0"
+    },
+    {
+      "path": "tests/methods/test_page_method_pack.py",
+      "source_path": "tests/methods/test_page_method_pack.py",
+      "source_working_sha256": "1c0858e253e32cb71fbadebc5a04cb213a9517a55ee881160a6956a1831d83e6",
+      "source_git_base_sha256": "1c0858e253e32cb71fbadebc5a04cb213a9517a55ee881160a6956a1831d83e6",
+      "extracted_sha256": "1c0858e253e32cb71fbadebc5a04cb213a9517a55ee881160a6956a1831d83e6"
+    },
+    {
+      "path": "tests/methods/test_page_runner_e2e.py",
+      "source_path": "tests/methods/test_page_runner_e2e.py",
+      "source_working_sha256": "315c6c27912d20bcd77206d103f14cef40f191d4815b45e744dc438ae98bdb7b",
+      "source_git_base_sha256": "315c6c27912d20bcd77206d103f14cef40f191d4815b45e744dc438ae98bdb7b",
+      "extracted_sha256": "315c6c27912d20bcd77206d103f14cef40f191d4815b45e744dc438ae98bdb7b"
+    },
+    {
+      "path": "tests/model_thinking/test_bandits.py",
+      "source_path": "tests/model_thinking/test_bandits.py",
+      "source_working_sha256": "716a625090df234590823445c1a5986b1403ac342a794aebef04e87de249d5d8",
+      "source_git_base_sha256": "716a625090df234590823445c1a5986b1403ac342a794aebef04e87de249d5d8",
+      "extracted_sha256": "716a625090df234590823445c1a5986b1403ac342a794aebef04e87de249d5d8"
+    },
+    {
+      "path": "tests/model_thinking/test_bandits_rejection.py",
+      "source_path": "tests/model_thinking/test_bandits_rejection.py",
+      "source_working_sha256": "77154672d226160a067d3b94cf52c25664c047bf7416bbe7d6e2256d93e41c63",
+      "source_git_base_sha256": "77154672d226160a067d3b94cf52c25664c047bf7416bbe7d6e2256d93e41c63",
+      "extracted_sha256": "77154672d226160a067d3b94cf52c25664c047bf7416bbe7d6e2256d93e41c63"
+    },
+    {
+      "path": "tests/model_thinking/test_bass.py",
+      "source_path": "tests/model_thinking/test_bass.py",
+      "source_working_sha256": "8e20766c8b6329a1e82b0a5146c4964014fad128f0c336ef657ffc9ca78d5521",
+      "source_git_base_sha256": "8e20766c8b6329a1e82b0a5146c4964014fad128f0c336ef657ffc9ca78d5521",
+      "extracted_sha256": "8e20766c8b6329a1e82b0a5146c4964014fad128f0c336ef657ffc9ca78d5521"
+    },
+    {
+      "path": "tests/model_thinking/test_bass_rejection.py",
+      "source_path": "tests/model_thinking/test_bass_rejection.py",
+      "source_working_sha256": "d70308f89286be9d8e45abcf6333c95ba46813ea245d682a765c0c8a4e593345",
+      "source_git_base_sha256": "d70308f89286be9d8e45abcf6333c95ba46813ea245d682a765c0c8a4e593345",
+      "extracted_sha256": "d70308f89286be9d8e45abcf6333c95ba46813ea245d682a765c0c8a4e593345"
+    },
+    {
+      "path": "tests/model_thinking/test_markov.py",
+      "source_path": "tests/model_thinking/test_markov.py",
+      "source_working_sha256": "62c9a0157a8edf8b8cb3318578f098b905555560675ca0868ed4c4b18a981105",
+      "source_git_base_sha256": "62c9a0157a8edf8b8cb3318578f098b905555560675ca0868ed4c4b18a981105",
+      "extracted_sha256": "62c9a0157a8edf8b8cb3318578f098b905555560675ca0868ed4c4b18a981105"
+    },
+    {
+      "path": "tests/model_thinking/test_markov_rejection.py",
+      "source_path": "tests/model_thinking/test_markov_rejection.py",
+      "source_working_sha256": "3534f6c447b5436c279df06488f50535978c40b10a8d4dc23738c37728f00b1f",
+      "source_git_base_sha256": "3534f6c447b5436c279df06488f50535978c40b10a8d4dc23738c37728f00b1f",
+      "extracted_sha256": "3534f6c447b5436c279df06488f50535978c40b10a8d4dc23738c37728f00b1f"
+    },
+    {
+      "path": "tests/model_thinking/test_power_law.py",
+      "source_path": "tests/model_thinking/test_power_law.py",
+      "source_working_sha256": "c85c1e661326bcce53568944a8dca5482f472dc60863d310722b844959094070",
+      "source_git_base_sha256": "c85c1e661326bcce53568944a8dca5482f472dc60863d310722b844959094070",
+      "extracted_sha256": "c85c1e661326bcce53568944a8dca5482f472dc60863d310722b844959094070"
+    },
+    {
+      "path": "tests/model_thinking/test_power_law_rejection.py",
+      "source_path": "tests/model_thinking/test_power_law_rejection.py",
+      "source_working_sha256": "84a6661feb0121c37f2cd31076669b30108f97f1547d131c144d48e04c518b51",
+      "source_git_base_sha256": "84a6661feb0121c37f2cd31076669b30108f97f1547d131c144d48e04c518b51",
+      "extracted_sha256": "84a6661feb0121c37f2cd31076669b30108f97f1547d131c144d48e04c518b51"
+    },
+    {
+      "path": "tests/mutation/test_formula_mutations.py",
+      "source_path": "tests/mutation/test_formula_mutations.py",
+      "source_working_sha256": "13c8d3d6ea9109f11836f954ac1515323893f6322e52bc12cea38a38411e47db",
+      "source_git_base_sha256": "13c8d3d6ea9109f11836f954ac1515323893f6322e52bc12cea38a38411e47db",
+      "extracted_sha256": "13c8d3d6ea9109f11836f954ac1515323893f6322e52bc12cea38a38411e47db"
+    },
+    {
+      "path": "tests/mutation/test_model_thinking_mutations.py",
+      "source_path": "tests/mutation/test_model_thinking_mutations.py",
+      "source_working_sha256": "ec6339c22c98a7973c9fa90233b17ab8ca8a593335b8fde928aa492d14db4f46",
+      "source_git_base_sha256": "ec6339c22c98a7973c9fa90233b17ab8ca8a593335b8fde928aa492d14db4f46",
+      "extracted_sha256": "701d245944b58592aec0fcb7f180f984cf5d68d8b70ba403f5160a758c8d0079"
+    },
+    {
+      "path": "tests/mutation/test_policy_mutations.py",
+      "source_path": "tests/mutation/test_policy_mutations.py",
+      "source_working_sha256": "4c1695f49d4e9a004023fe04125237c294e9b63ec471c6c428f72f8612cd1f7f",
+      "source_git_base_sha256": "4c1695f49d4e9a004023fe04125237c294e9b63ec471c6c428f72f8612cd1f7f",
+      "extracted_sha256": "4c1695f49d4e9a004023fe04125237c294e9b63ec471c6c428f72f8612cd1f7f"
+    },
+    {
+      "path": "tests/orchestration/test_analysis_compare.py",
+      "source_path": "tests/orchestration/test_analysis_compare.py",
+      "source_working_sha256": "5101afc85c2595ccf9ee9364336d7392a70ab0292fc724f1b1ae97b300b4e6c4",
+      "source_git_base_sha256": "5101afc85c2595ccf9ee9364336d7392a70ab0292fc724f1b1ae97b300b4e6c4",
+      "extracted_sha256": "5101afc85c2595ccf9ee9364336d7392a70ab0292fc724f1b1ae97b300b4e6c4"
+    },
+    {
+      "path": "tests/orchestration/test_analyze_position.py",
+      "source_path": "tests/orchestration/test_analyze_position.py",
+      "source_working_sha256": "48acf9e9abeabe867cedd35c61d3c4af1d3c64d5ad0033cb53e92848bef76748",
+      "source_git_base_sha256": "48acf9e9abeabe867cedd35c61d3c4af1d3c64d5ad0033cb53e92848bef76748",
+      "extracted_sha256": "48acf9e9abeabe867cedd35c61d3c4af1d3c64d5ad0033cb53e92848bef76748"
+    },
+    {
+      "path": "tests/orchestration/test_power_law_decision_gate.py",
+      "source_path": "tests/orchestration/test_power_law_decision_gate.py",
+      "source_working_sha256": "77e557a3beb00e3585b030fe5e363b7d3801411829ed87f8407273f0c085606d",
+      "source_git_base_sha256": "77e557a3beb00e3585b030fe5e363b7d3801411829ed87f8407273f0c085606d",
+      "extracted_sha256": "77e557a3beb00e3585b030fe5e363b7d3801411829ed87f8407273f0c085606d"
+    },
+    {
+      "path": "tests/orchestration/test_record.py",
+      "source_path": "tests/orchestration/test_record.py",
+      "source_working_sha256": "2031daeedf327394d4bd2ffdd95d5880150f85a6aa6eacd5d2cfc78cc9b55848",
+      "source_git_base_sha256": "2031daeedf327394d4bd2ffdd95d5880150f85a6aa6eacd5d2cfc78cc9b55848",
+      "extracted_sha256": "2031daeedf327394d4bd2ffdd95d5880150f85a6aa6eacd5d2cfc78cc9b55848"
+    },
+    {
+      "path": "tests/orchestration/test_stock_focus.py",
+      "source_path": "tests/orchestration/test_stock_focus.py",
+      "source_working_sha256": "8788ca37265934f3a0e9b417c6bbbe4ebd446c82e1d389d1cb90cf3fe13369b2",
+      "source_git_base_sha256": "8788ca37265934f3a0e9b417c6bbbe4ebd446c82e1d389d1cb90cf3fe13369b2",
+      "extracted_sha256": "8788ca37265934f3a0e9b417c6bbbe4ebd446c82e1d389d1cb90cf3fe13369b2"
+    },
+    {
+      "path": "tests/portable/test_install.py",
+      "source_path": "tests/portable/test_install.py",
+      "source_working_sha256": "786eef891cb0853825c17eea58536567bb7f4195e0885ddf20aacd2504d86878",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "bb439a0c7c2a3bc172230974bbf9114503720b779dc83a6d7af4b637e882c8d8"
+    },
+    {
+      "path": "tests/portable/test_report.py",
+      "source_path": "tests/portable/test_report.py",
+      "source_working_sha256": "5a569194c8744c79aa2bd7caca839432ca5bbd7b6f173706b68fd46c8699a56d",
+      "source_git_base_sha256": null,
+      "extracted_sha256": "a583da6010affa408d48ae6811a18d6ff77a55d85cea049154d5a44705070400"
+    },
+    {
+      "path": "tests/recommendation/test_host_evidence_recommendation.py",
+      "source_path": "tests/recommendation/test_host_evidence_recommendation.py",
+      "source_working_sha256": "e2b3d662b480a5ce068c70785060169f45da21cfcbd70078f94486600ed19048",
+      "source_git_base_sha256": "e2b3d662b480a5ce068c70785060169f45da21cfcbd70078f94486600ed19048",
+      "extracted_sha256": "e2b3d662b480a5ce068c70785060169f45da21cfcbd70078f94486600ed19048"
+    },
+    {
+      "path": "tests/recommendation/test_model_health.py",
+      "source_path": "tests/recommendation/test_model_health.py",
+      "source_working_sha256": "10190ff4c9f2eaa92c945c340cf716e60c11a46a213ecaf34b13a93ccb52d52c",
+      "source_git_base_sha256": "10190ff4c9f2eaa92c945c340cf716e60c11a46a213ecaf34b13a93ccb52d52c",
+      "extracted_sha256": "10190ff4c9f2eaa92c945c340cf716e60c11a46a213ecaf34b13a93ccb52d52c"
+    },
+    {
+      "path": "tests/recommendation/test_recommendation_engine.py",
+      "source_path": "tests/recommendation/test_recommendation_engine.py",
+      "source_working_sha256": "206df6ff31e30077616fa174d2b95582e3891a4830b2ff5fedca8d0560af867e",
+      "source_git_base_sha256": "206df6ff31e30077616fa174d2b95582e3891a4830b2ff5fedca8d0560af867e",
+      "extracted_sha256": "206df6ff31e30077616fa174d2b95582e3891a4830b2ff5fedca8d0560af867e"
+    },
+    {
+      "path": "tests/recommendation/test_recommendation_record.py",
+      "source_path": "tests/recommendation/test_recommendation_record.py",
+      "source_working_sha256": "a882f70b55b52e1e60633e9b1562ca8aa20906bea25863b564e48629c8a9f919",
+      "source_git_base_sha256": "a882f70b55b52e1e60633e9b1562ca8aa20906bea25863b564e48629c8a9f919",
+      "extracted_sha256": "a882f70b55b52e1e60633e9b1562ca8aa20906bea25863b564e48629c8a9f919"
+    },
+    {
+      "path": "tests/research/test_guided_fixtures.py",
+      "source_path": "tests/research/test_guided_fixtures.py",
+      "source_working_sha256": "6a70f1f199bc154c4b83d14cba80ec0b746b1ee5be86325a6dbf71f21084bae6",
+      "source_git_base_sha256": "6a70f1f199bc154c4b83d14cba80ec0b746b1ee5be86325a6dbf71f21084bae6",
+      "extracted_sha256": "6a70f1f199bc154c4b83d14cba80ec0b746b1ee5be86325a6dbf71f21084bae6"
+    },
+    {
+      "path": "tests/research/test_portfolio_thesis_contracts.py",
+      "source_path": "tests/research/test_portfolio_thesis_contracts.py",
+      "source_working_sha256": "28759818d435cab60fab0aa636ef277f499c7b3da8fb142feda94aa1c58f1ca0",
+      "source_git_base_sha256": "28759818d435cab60fab0aa636ef277f499c7b3da8fb142feda94aa1c58f1ca0",
+      "extracted_sha256": "28759818d435cab60fab0aa636ef277f499c7b3da8fb142feda94aa1c58f1ca0"
+    },
+    {
+      "path": "tests/research/test_research_loop.py",
+      "source_path": "tests/research/test_research_loop.py",
+      "source_working_sha256": "e89263439f010264dbafafe75b9a2bafd76c25c7a2da94e9e1d4d103188910ab",
+      "source_git_base_sha256": "e89263439f010264dbafafe75b9a2bafd76c25c7a2da94e9e1d4d103188910ab",
+      "extracted_sha256": "e89263439f010264dbafafe75b9a2bafd76c25c7a2da94e9e1d4d103188910ab"
+    },
+    {
+      "path": "tests/simulation/test_seeded_monte_carlo.py",
+      "source_path": "tests/simulation/test_seeded_monte_carlo.py",
+      "source_working_sha256": "e29f250e6818e1ffeb903630bc12cf7cdab1a1d27a8cb9f496a6bab32d4b1032",
+      "source_git_base_sha256": "e29f250e6818e1ffeb903630bc12cf7cdab1a1d27a8cb9f496a6bab32d4b1032",
+      "extracted_sha256": "e29f250e6818e1ffeb903630bc12cf7cdab1a1d27a8cb9f496a6bab32d4b1032"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/__init__.py",
+      "source_working_sha256": "6d57cff378b44ab960721e73123ecfdf93372a44423e6fbaae560ffc99b322ce",
+      "source_git_base_sha256": "6d57cff378b44ab960721e73123ecfdf93372a44423e6fbaae560ffc99b322ce",
+      "extracted_sha256": "6d57cff378b44ab960721e73123ecfdf93372a44423e6fbaae560ffc99b322ce"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/__init__.py",
+      "source_working_sha256": "910687950f11a57cd6260fa8ac4bce121c2208dd10fc96dd7b654558326e0dca",
+      "source_git_base_sha256": "910687950f11a57cd6260fa8ac4bce121c2208dd10fc96dd7b654558326e0dca",
+      "extracted_sha256": "910687950f11a57cd6260fa8ac4bce121c2208dd10fc96dd7b654558326e0dca"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/allocation.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/allocation.py",
+      "source_working_sha256": "25e3c955e5364fc3df091090aece11173e0c77d0f454c9fed44ef6638307f8d0",
+      "source_git_base_sha256": "25e3c955e5364fc3df091090aece11173e0c77d0f454c9fed44ef6638307f8d0",
+      "extracted_sha256": "25e3c955e5364fc3df091090aece11173e0c77d0f454c9fed44ef6638307f8d0"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/bandits.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/bandits.py",
+      "source_working_sha256": "75b70fb1cc6eac4fdd76f2aa766e9a9704abf76577980b6eba0b4c783fa070a6",
+      "source_git_base_sha256": "75b70fb1cc6eac4fdd76f2aa766e9a9704abf76577980b6eba0b4c783fa070a6",
+      "extracted_sha256": "75b70fb1cc6eac4fdd76f2aa766e9a9704abf76577980b6eba0b4c783fa070a6"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/bass.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/bass.py",
+      "source_working_sha256": "ffffd82e10d541d9d196b6a1177d4282d8c82c1800da6078d32bd298884cce1f",
+      "source_git_base_sha256": "ffffd82e10d541d9d196b6a1177d4282d8c82c1800da6078d32bd298884cce1f",
+      "extracted_sha256": "ffffd82e10d541d9d196b6a1177d4282d8c82c1800da6078d32bd298884cce1f"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/convexity.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/convexity.py",
+      "source_working_sha256": "6414936fd0b74631889bdaba75c21097d3087500c3bb7aedf22201766da23523",
+      "source_git_base_sha256": "6414936fd0b74631889bdaba75c21097d3087500c3bb7aedf22201766da23523",
+      "extracted_sha256": "6414936fd0b74631889bdaba75c21097d3087500c3bb7aedf22201766da23523"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/margin.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/margin.py",
+      "source_working_sha256": "f6a68936e894ce0e69ad2a2e96ab59a54286a76b52740ac4ef3fd7f1484760e1",
+      "source_git_base_sha256": "f6a68936e894ce0e69ad2a2e96ab59a54286a76b52740ac4ef3fd7f1484760e1",
+      "extracted_sha256": "f6a68936e894ce0e69ad2a2e96ab59a54286a76b52740ac4ef3fd7f1484760e1"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/markov.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/markov.py",
+      "source_working_sha256": "10fb91823ee47d435e6f28f337cc75315ec35cb74355f6c2cc8bf5e1a5baa0ec",
+      "source_git_base_sha256": "10fb91823ee47d435e6f28f337cc75315ec35cb74355f6c2cc8bf5e1a5baa0ec",
+      "extracted_sha256": "10fb91823ee47d435e6f28f337cc75315ec35cb74355f6c2cc8bf5e1a5baa0ec"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/power_law.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/power_law.py",
+      "source_working_sha256": "6221c13a18c6836619e01a38530cbeea33734577d18583b64208ff78448890fc",
+      "source_git_base_sha256": "6221c13a18c6836619e01a38530cbeea33734577d18583b64208ff78448890fc",
+      "extracted_sha256": "6221c13a18c6836619e01a38530cbeea33734577d18583b64208ff78448890fc"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/returns.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/returns.py",
+      "source_working_sha256": "6ac8eb77d1e8ec50b96ab1f35d9228c6964890c1b5ab53dd61d3b7bfe952e207",
+      "source_git_base_sha256": "6ac8eb77d1e8ec50b96ab1f35d9228c6964890c1b5ab53dd61d3b7bfe952e207",
+      "extracted_sha256": "6ac8eb77d1e8ec50b96ab1f35d9228c6964890c1b5ab53dd61d3b7bfe952e207"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/risk.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/risk.py",
+      "source_working_sha256": "90d4b2ac931395e5373ee9f8e4dd3eef5492fd20eb47d711e79ee99ca3eb4776",
+      "source_git_base_sha256": "90d4b2ac931395e5373ee9f8e4dd3eef5492fd20eb47d711e79ee99ca3eb4776",
+      "extracted_sha256": "90d4b2ac931395e5373ee9f8e4dd3eef5492fd20eb47d711e79ee99ca3eb4776"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/calculations/simulation.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/calculations/simulation.py",
+      "source_working_sha256": "896e0b23c3878d81a75e5377b87e2fa0faa24880ce984811a14546d2cde7e278",
+      "source_git_base_sha256": "896e0b23c3878d81a75e5377b87e2fa0faa24880ce984811a14546d2cde7e278",
+      "extracted_sha256": "896e0b23c3878d81a75e5377b87e2fa0faa24880ce984811a14546d2cde7e278"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/__init__.py",
+      "source_working_sha256": "6b7ba38faa4a5fa8fc2f0b83d79f8df75e672f9a5b1bd191a417ec17501125a9",
+      "source_git_base_sha256": "6b7ba38faa4a5fa8fc2f0b83d79f8df75e672f9a5b1bd191a417ec17501125a9",
+      "extracted_sha256": "6b7ba38faa4a5fa8fc2f0b83d79f8df75e672f9a5b1bd191a417ec17501125a9"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/filings_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/filings_connector.py",
+      "source_working_sha256": "1b7e5fdf441a7b4b710b69d841bf15630533c5c40c55e069fd08058dbbafea1a",
+      "source_git_base_sha256": "1b7e5fdf441a7b4b710b69d841bf15630533c5c40c55e069fd08058dbbafea1a",
+      "extracted_sha256": "1b7e5fdf441a7b4b710b69d841bf15630533c5c40c55e069fd08058dbbafea1a"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/local_file_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/local_file_connector.py",
+      "source_working_sha256": "b99afd337b84611fd8dcb3fe7949618fc427f090d3ab06476d8aefafef93163d",
+      "source_git_base_sha256": "b99afd337b84611fd8dcb3fe7949618fc427f090d3ab06476d8aefafef93163d",
+      "extracted_sha256": "b99afd337b84611fd8dcb3fe7949618fc427f090d3ab06476d8aefafef93163d"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/manual_input_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/manual_input_connector.py",
+      "source_working_sha256": "ae5f5c66464077525d2f798709bb964124b37ddc1a1f0f639a59b2cb6ded7f02",
+      "source_git_base_sha256": "ae5f5c66464077525d2f798709bb964124b37ddc1a1f0f639a59b2cb6ded7f02",
+      "extracted_sha256": "ae5f5c66464077525d2f798709bb964124b37ddc1a1f0f639a59b2cb6ded7f02"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/polymarket_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/polymarket_connector.py",
+      "source_working_sha256": "ad55924efc0ffe90d1b68245dcdc431583de6b36abc43a0e7b2aad9f536d4f3b",
+      "source_git_base_sha256": "ad55924efc0ffe90d1b68245dcdc431583de6b36abc43a0e7b2aad9f536d4f3b",
+      "extracted_sha256": "ad55924efc0ffe90d1b68245dcdc431583de6b36abc43a0e7b2aad9f536d4f3b"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/reddit_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/reddit_connector.py",
+      "source_working_sha256": "665646fc03d133db1435fd8a99a5d5103ad7670ade70dd918f92602e6a8c34cf",
+      "source_git_base_sha256": "665646fc03d133db1435fd8a99a5d5103ad7670ade70dd918f92602e6a8c34cf",
+      "extracted_sha256": "665646fc03d133db1435fd8a99a5d5103ad7670ade70dd918f92602e6a8c34cf"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/registry.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/registry.py",
+      "source_working_sha256": "9d3c7a7641ba11d3b2fd3118be882f39539aa0a904b9c2c56473c33bf36cb86b",
+      "source_git_base_sha256": "9d3c7a7641ba11d3b2fd3118be882f39539aa0a904b9c2c56473c33bf36cb86b",
+      "extracted_sha256": "9d3c7a7641ba11d3b2fd3118be882f39539aa0a904b9c2c56473c33bf36cb86b"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/screenshot_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/screenshot_connector.py",
+      "source_working_sha256": "7bc248f8695df7bb65c9a844177cd9df7c2eb07cc29a0e5e516df1ac33bf0db9",
+      "source_git_base_sha256": "7bc248f8695df7bb65c9a844177cd9df7c2eb07cc29a0e5e516df1ac33bf0db9",
+      "extracted_sha256": "7bc248f8695df7bb65c9a844177cd9df7c2eb07cc29a0e5e516df1ac33bf0db9"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/web_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/web_connector.py",
+      "source_working_sha256": "2c8a35f27e1bb653ee274d7e123f2c081286d5866ea59f26a86a8937450a9ed4",
+      "source_git_base_sha256": "2c8a35f27e1bb653ee274d7e123f2c081286d5866ea59f26a86a8937450a9ed4",
+      "extracted_sha256": "2c8a35f27e1bb653ee274d7e123f2c081286d5866ea59f26a86a8937450a9ed4"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/connectors/x_twitter_connector.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/connectors/x_twitter_connector.py",
+      "source_working_sha256": "b3604db8b3aa18b50f4236ef0637bf708e409517b7f83038e47cb5933a3d1b8f",
+      "source_git_base_sha256": "b3604db8b3aa18b50f4236ef0637bf708e409517b7f83038e47cb5933a3d1b8f",
+      "extracted_sha256": "b3604db8b3aa18b50f4236ef0637bf708e409517b7f83038e47cb5933a3d1b8f"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/contracts/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/contracts/__init__.py",
+      "source_working_sha256": "509723d9961205cfeca621dbd6d33219206993c4fd2bda687824d68c3a38c3ec",
+      "source_git_base_sha256": "509723d9961205cfeca621dbd6d33219206993c4fd2bda687824d68c3a38c3ec",
+      "extracted_sha256": "509723d9961205cfeca621dbd6d33219206993c4fd2bda687824d68c3a38c3ec"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/contracts/authorization.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/contracts/authorization.py",
+      "source_working_sha256": "45a44d66fbf8f0da590c0933509d4a576145f4b428111b1694aac06ccd79319f",
+      "source_git_base_sha256": "45a44d66fbf8f0da590c0933509d4a576145f4b428111b1694aac06ccd79319f",
+      "extracted_sha256": "45a44d66fbf8f0da590c0933509d4a576145f4b428111b1694aac06ccd79319f"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/contracts/canonical.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/contracts/canonical.py",
+      "source_working_sha256": "77eaba4958438ad9d756381b0a2077a467e828ca21997bc8333857980ea9a844",
+      "source_git_base_sha256": "77eaba4958438ad9d756381b0a2077a467e828ca21997bc8333857980ea9a844",
+      "extracted_sha256": "77eaba4958438ad9d756381b0a2077a467e828ca21997bc8333857980ea9a844"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/contracts/ledger.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/contracts/ledger.py",
+      "source_working_sha256": "4b5b08c41273a571a2ad4a13b94fde8b7588a925d56203a44f18ce73db6399f1",
+      "source_git_base_sha256": "4b5b08c41273a571a2ad4a13b94fde8b7588a925d56203a44f18ce73db6399f1",
+      "extracted_sha256": "4b5b08c41273a571a2ad4a13b94fde8b7588a925d56203a44f18ce73db6399f1"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/contracts/validation.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/contracts/validation.py",
+      "source_working_sha256": "5c4102abeba86ff8bbbc513a13a8b6af9554a050bb612eafd61170f7a559d37c",
+      "source_git_base_sha256": "5c4102abeba86ff8bbbc513a13a8b6af9554a050bb612eafd61170f7a559d37c",
+      "extracted_sha256": "5c4102abeba86ff8bbbc513a13a8b6af9554a050bb612eafd61170f7a559d37c"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/ensemble/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/ensemble/__init__.py",
+      "source_working_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_base_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "extracted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/ensemble/compiler.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/ensemble/compiler.py",
+      "source_working_sha256": "281edf3b9abae387fc112da0825119f351f446a30a409ce7ffc903bb870bee16",
+      "source_git_base_sha256": "281edf3b9abae387fc112da0825119f351f446a30a409ce7ffc903bb870bee16",
+      "extracted_sha256": "281edf3b9abae387fc112da0825119f351f446a30a409ce7ffc903bb870bee16"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/__init__.py",
+      "source_working_sha256": "dcfc79031ffd7d18ac2c6304b09d41162195c336ffa303536c1d4e34fd134803",
+      "source_git_base_sha256": "dcfc79031ffd7d18ac2c6304b09d41162195c336ffa303536c1d4e34fd134803",
+      "extracted_sha256": "dcfc79031ffd7d18ac2c6304b09d41162195c336ffa303536c1d4e34fd134803"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/bayesian.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/bayesian.py",
+      "source_working_sha256": "af8ea5c73fbe6cd3a73d765e119146fe285b9789ed78992e86e0d38a663d3f33",
+      "source_git_base_sha256": "af8ea5c73fbe6cd3a73d765e119146fe285b9789ed78992e86e0d38a663d3f33",
+      "extracted_sha256": "af8ea5c73fbe6cd3a73d765e119146fe285b9789ed78992e86e0d38a663d3f33"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/common.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/common.py",
+      "source_working_sha256": "add176860749044b1eec93036c92980a1e6e8ca78b2ea1d85974ca2988a41d65",
+      "source_git_base_sha256": "add176860749044b1eec93036c92980a1e6e8ca78b2ea1d85974ca2988a41d65",
+      "extracted_sha256": "add176860749044b1eec93036c92980a1e6e8ca78b2ea1d85974ca2988a41d65"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/event_market.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/event_market.py",
+      "source_working_sha256": "96b7783ebb4cc6795f7f0154cce97c5573d04c7d01b0e91d8bf878d4bd867613",
+      "source_git_base_sha256": "96b7783ebb4cc6795f7f0154cce97c5573d04c7d01b0e91d8bf878d4bd867613",
+      "extracted_sha256": "96b7783ebb4cc6795f7f0154cce97c5573d04c7d01b0e91d8bf878d4bd867613"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/proposals.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/proposals.py",
+      "source_working_sha256": "c2c513ca1b0d80910c69da8ea92412635bda2f8d18e6c809260199c6195aa1e3",
+      "source_git_base_sha256": "c2c513ca1b0d80910c69da8ea92412635bda2f8d18e6c809260199c6195aa1e3",
+      "extracted_sha256": "c2c513ca1b0d80910c69da8ea92412635bda2f8d18e6c809260199c6195aa1e3"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/sensitivity.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/sensitivity.py",
+      "source_working_sha256": "d8f4b9f28e1d4240056cadf8ec39b9ad36164a54141110d0fd16dc47a1854bfa",
+      "source_git_base_sha256": "d8f4b9f28e1d4240056cadf8ec39b9ad36164a54141110d0fd16dc47a1854bfa",
+      "extracted_sha256": "d8f4b9f28e1d4240056cadf8ec39b9ad36164a54141110d0fd16dc47a1854bfa"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/social.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/social.py",
+      "source_working_sha256": "0d90c5ddd21fccc4db8c73a8e61ce2ac0ac6a007c291d76ca5ddfa0a2a6b171a",
+      "source_git_base_sha256": "0d90c5ddd21fccc4db8c73a8e61ce2ac0ac6a007c291d76ca5ddfa0a2a6b171a",
+      "extracted_sha256": "0d90c5ddd21fccc4db8c73a8e61ce2ac0ac6a007c291d76ca5ddfa0a2a6b171a"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/synthesis.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/synthesis.py",
+      "source_working_sha256": "bdeb6efcdf299d831d8b4f8f98c2f379c4e5cd0d06475aa567024d2020bff488",
+      "source_git_base_sha256": "bdeb6efcdf299d831d8b4f8f98c2f379c4e5cd0d06475aa567024d2020bff488",
+      "extracted_sha256": "bdeb6efcdf299d831d8b4f8f98c2f379c4e5cd0d06475aa567024d2020bff488"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/evidence/validation.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/evidence/validation.py",
+      "source_working_sha256": "152f3fbb4a27f504b38e65e037354195e04855ecc0daeacf40078166ec080e8b",
+      "source_git_base_sha256": "152f3fbb4a27f504b38e65e037354195e04855ecc0daeacf40078166ec080e8b",
+      "extracted_sha256": "152f3fbb4a27f504b38e65e037354195e04855ecc0daeacf40078166ec080e8b"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/__init__.py",
+      "source_working_sha256": "2455431be17a8b29ed55a462445cf0a134d374c45ef0091648b4eee3239098c9",
+      "source_git_base_sha256": "2455431be17a8b29ed55a462445cf0a134d374c45ef0091648b4eee3239098c9",
+      "extracted_sha256": "630004dcc13a8c7428b0f89b7f2512e0ed0e15b96cd685638117fc42ebaccb24"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/artifacts.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/artifacts.py",
+      "source_working_sha256": "bca1ecc005632919c8f3fadd0a1b065c59861c64648a79f089585c5b5d4bf016",
+      "source_git_base_sha256": "bca1ecc005632919c8f3fadd0a1b065c59861c64648a79f089585c5b5d4bf016",
+      "extracted_sha256": "bca1ecc005632919c8f3fadd0a1b065c59861c64648a79f089585c5b5d4bf016"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/bridge.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/bridge.py",
+      "source_working_sha256": "b46ed0880a38051f55e2af29118a786918178856b398488acb6fb8c06a1410d9",
+      "source_git_base_sha256": "b46ed0880a38051f55e2af29118a786918178856b398488acb6fb8c06a1410d9",
+      "extracted_sha256": "b4890361fb103124acfc4c9ae7c9453b08dd1347d575fdc2c0ff86babc53e884"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/confirmation.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/confirmation.py",
+      "source_working_sha256": "2de9cbb711fb459908be046f70e20db7261524e8312d8e091232623cea5255e5",
+      "source_git_base_sha256": "2de9cbb711fb459908be046f70e20db7261524e8312d8e091232623cea5255e5",
+      "extracted_sha256": "2de9cbb711fb459908be046f70e20db7261524e8312d8e091232623cea5255e5"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/confirmation_queue.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/confirmation_queue.py",
+      "source_working_sha256": "72477394eeed8fb2486f9b20bc2ea54a8bf26b2f25c28e03a6b56168bcc5d2f5",
+      "source_git_base_sha256": "72477394eeed8fb2486f9b20bc2ea54a8bf26b2f25c28e03a6b56168bcc5d2f5",
+      "extracted_sha256": "72477394eeed8fb2486f9b20bc2ea54a8bf26b2f25c28e03a6b56168bcc5d2f5"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/__init__.py",
+      "source_working_sha256": "dc42a8ad20edaf71d7b4b3db5fc62b2464f0fe81518e5dcf1d664f4ce6161f95",
+      "source_git_base_sha256": "dc42a8ad20edaf71d7b4b3db5fc62b2464f0fe81518e5dcf1d664f4ce6161f95",
+      "extracted_sha256": "dc42a8ad20edaf71d7b4b3db5fc62b2464f0fe81518e5dcf1d664f4ce6161f95"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/broker_margin.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/broker_margin.py",
+      "source_working_sha256": "2919596fc4d4dc24d8d7f74002867887b314705b89b030378ed362f9e29f8408",
+      "source_git_base_sha256": "2919596fc4d4dc24d8d7f74002867887b314705b89b030378ed362f9e29f8408",
+      "extracted_sha256": "2919596fc4d4dc24d8d7f74002867887b314705b89b030378ed362f9e29f8408"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/common.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/common.py",
+      "source_working_sha256": "58ffaf4f689029236e10fcc69ed17061f2c49f1c3a59686d8d10342d7138c5bd",
+      "source_git_base_sha256": "58ffaf4f689029236e10fcc69ed17061f2c49f1c3a59686d8d10342d7138c5bd",
+      "extracted_sha256": "58ffaf4f689029236e10fcc69ed17061f2c49f1c3a59686d8d10342d7138c5bd"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/manual_note.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/manual_note.py",
+      "source_working_sha256": "e683e6cc57350668b1a7cb2342f5d09a0f47ba4a836e44f54bbd57b6c0fbd628",
+      "source_git_base_sha256": "e683e6cc57350668b1a7cb2342f5d09a0f47ba4a836e44f54bbd57b6c0fbd628",
+      "extracted_sha256": "e683e6cc57350668b1a7cb2342f5d09a0f47ba4a836e44f54bbd57b6c0fbd628"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/polymarket.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/polymarket.py",
+      "source_working_sha256": "5a7530267e3bbcce48901f2ec39cf1d47950f4069fc0939f11d3e37eb6df2143",
+      "source_git_base_sha256": "5a7530267e3bbcce48901f2ec39cf1d47950f4069fc0939f11d3e37eb6df2143",
+      "extracted_sha256": "e1f74f167a427a362dd7bd3907a387f7adb0b0f1615976207edfa060a779f7d7"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/portfolio_table.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/portfolio_table.py",
+      "source_working_sha256": "f255f011aa7623224e74b69300b7991836da1344151c56c25772efb7af2ee501",
+      "source_git_base_sha256": "f255f011aa7623224e74b69300b7991836da1344151c56c25772efb7af2ee501",
+      "extracted_sha256": "f255f011aa7623224e74b69300b7991836da1344151c56c25772efb7af2ee501"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/reddit.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/reddit.py",
+      "source_working_sha256": "ec353117141e92daa53a6262b2f08e532d7872f3fd0ece6a82b4c24383239e88",
+      "source_git_base_sha256": "ec353117141e92daa53a6262b2f08e532d7872f3fd0ece6a82b4c24383239e88",
+      "extracted_sha256": "ec353117141e92daa53a6262b2f08e532d7872f3fd0ece6a82b4c24383239e88"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/x_twitter.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/extractors/x_twitter.py",
+      "source_working_sha256": "20fb3d945e9702adf5615016e6fb51a9a433b41aed250ab632f4129b21c599fa",
+      "source_git_base_sha256": "20fb3d945e9702adf5615016e6fb51a9a433b41aed250ab632f4129b21c599fa",
+      "extracted_sha256": "20fb3d945e9702adf5615016e6fb51a9a433b41aed250ab632f4129b21c599fa"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/miniloops.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/host/miniloops.py",
+      "source_working_sha256": "cb51e53756cc99f74ca8b68c701a6c6bbe2afe9090b7c64cfc829083ae63ec7f",
+      "source_git_base_sha256": "cb51e53756cc99f74ca8b68c701a6c6bbe2afe9090b7c64cfc829083ae63ec7f",
+      "extracted_sha256": "cb51e53756cc99f74ca8b68c701a6c6bbe2afe9090b7c64cfc829083ae63ec7f"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/methods/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/methods/__init__.py",
+      "source_working_sha256": "f5a4bcc3701c48d982359a57ad7b95cf1f47cd6d09cd22540019352ee1dfcc51",
+      "source_git_base_sha256": "f5a4bcc3701c48d982359a57ad7b95cf1f47cd6d09cd22540019352ee1dfcc51",
+      "extracted_sha256": "f5a4bcc3701c48d982359a57ad7b95cf1f47cd6d09cd22540019352ee1dfcc51"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/methods/packs.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/methods/packs.py",
+      "source_working_sha256": "ad2b37fbfbc01f7a03e4bdb9817938ca83b515ce3e4c55ec1cdd0a73d0c3c55d",
+      "source_git_base_sha256": "ad2b37fbfbc01f7a03e4bdb9817938ca83b515ce3e4c55ec1cdd0a73d0c3c55d",
+      "extracted_sha256": "ad2b37fbfbc01f7a03e4bdb9817938ca83b515ce3e4c55ec1cdd0a73d0c3c55d"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/methods/runner.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/methods/runner.py",
+      "source_working_sha256": "8a5c12a3c1604fdd9dfd6ac81e79a5aa9298e9773190bcd44947104867f445b6",
+      "source_git_base_sha256": "8a5c12a3c1604fdd9dfd6ac81e79a5aa9298e9773190bcd44947104867f445b6",
+      "extracted_sha256": "8a5c12a3c1604fdd9dfd6ac81e79a5aa9298e9773190bcd44947104867f445b6"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/orchestration/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/orchestration/__init__.py",
+      "source_working_sha256": "700898d6257b3ce08c0d9ec8730b364060bb9a9fac0a02976b7b0ee2452b9f81",
+      "source_git_base_sha256": "700898d6257b3ce08c0d9ec8730b364060bb9a9fac0a02976b7b0ee2452b9f81",
+      "extracted_sha256": "700898d6257b3ce08c0d9ec8730b364060bb9a9fac0a02976b7b0ee2452b9f81"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/orchestration/analyze.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/orchestration/analyze.py",
+      "source_working_sha256": "47fc2b12e95182f7801295ea80999a1bdebe395f39be559ceb4c21f3f8c11aa5",
+      "source_git_base_sha256": "47fc2b12e95182f7801295ea80999a1bdebe395f39be559ceb4c21f3f8c11aa5",
+      "extracted_sha256": "47fc2b12e95182f7801295ea80999a1bdebe395f39be559ceb4c21f3f8c11aa5"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/orchestration/compare.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/orchestration/compare.py",
+      "source_working_sha256": "fe61803d71ab0677812225c5a709573920b869e8eef0798c2acc4a314d79534b",
+      "source_git_base_sha256": "fe61803d71ab0677812225c5a709573920b869e8eef0798c2acc4a314d79534b",
+      "extracted_sha256": "fe61803d71ab0677812225c5a709573920b869e8eef0798c2acc4a314d79534b"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/orchestration/record.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/orchestration/record.py",
+      "source_working_sha256": "64021629a1d3d8c9ff9cacbe3b63a8e5023ba9bb16671cd63b23f402408884e1",
+      "source_git_base_sha256": "64021629a1d3d8c9ff9cacbe3b63a8e5023ba9bb16671cd63b23f402408884e1",
+      "extracted_sha256": "64021629a1d3d8c9ff9cacbe3b63a8e5023ba9bb16671cd63b23f402408884e1"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/orchestration/research_run.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/orchestration/research_run.py",
+      "source_working_sha256": "d015411620aefe92e707b64fa7634da4f2658ecdd549751ee0f65896d744c837",
+      "source_git_base_sha256": "d015411620aefe92e707b64fa7634da4f2658ecdd549751ee0f65896d744c837",
+      "extracted_sha256": "2b36e3a8f6ee7dd63cc231fd6c9542f51f54e03382c4b032f804164f0f258662"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/plugin/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/plugin/__init__.py",
+      "source_working_sha256": "7601e72ab38aeee1a274dd039bbe3b27d6a6f8654516e2c68e1cd855bffb5a14",
+      "source_git_base_sha256": "7601e72ab38aeee1a274dd039bbe3b27d6a6f8654516e2c68e1cd855bffb5a14",
+      "extracted_sha256": "02a5d5e0524980a6f0e3763cbd9c79f1fe17efc8e3ad439d8dcf66a2975a17b9"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/plugin/commands.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/plugin/commands.py",
+      "source_working_sha256": "83d604aaed9a6764b00dcfa88ad7fee3840aa2b35f77138fb2a1b05b660d5821",
+      "source_git_base_sha256": "83d604aaed9a6764b00dcfa88ad7fee3840aa2b35f77138fb2a1b05b660d5821",
+      "extracted_sha256": "6837597978a9d5a968f7dc223b27751442e4668c1f8de49c1dca4c0a2e922561"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/privacy/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/privacy/__init__.py",
+      "source_working_sha256": "f72cc5575f5eddfc020c05ac1144f75162bf56027684f3893b5317c90c5671af",
+      "source_git_base_sha256": "f72cc5575f5eddfc020c05ac1144f75162bf56027684f3893b5317c90c5671af",
+      "extracted_sha256": "f72cc5575f5eddfc020c05ac1144f75162bf56027684f3893b5317c90c5671af"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/privacy/containment.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/privacy/containment.py",
+      "source_working_sha256": "82556a9a132ab22e94618f5eb63ebb99629b79d90cd03bcae6ed282f5fc7d7e8",
+      "source_git_base_sha256": "bd7cb0fe34f7f154efbd3d48ddaccd35a20916441df9a76c94f80254c30289a8",
+      "extracted_sha256": "82556a9a132ab22e94618f5eb63ebb99629b79d90cd03bcae6ed282f5fc7d7e8"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/privacy/scanner.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/privacy/scanner.py",
+      "source_working_sha256": "62ce0101a7662739555420e549ce5c76982cf870fd87222af6deaa383a53a8bc",
+      "source_git_base_sha256": "62ce0101a7662739555420e549ce5c76982cf870fd87222af6deaa383a53a8bc",
+      "extracted_sha256": "ac183dd67ec831835be8c202c6a1759762de84e58bc6069e9efdc8bfc352d08f"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/recommendation/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/recommendation/__init__.py",
+      "source_working_sha256": "db3bda9ddc88abd6df26220b4a55d11fd2b7354b3b2989717898b81b054ced69",
+      "source_git_base_sha256": "db3bda9ddc88abd6df26220b4a55d11fd2b7354b3b2989717898b81b054ced69",
+      "extracted_sha256": "db3bda9ddc88abd6df26220b4a55d11fd2b7354b3b2989717898b81b054ced69"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/recommendation/engine.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/recommendation/engine.py",
+      "source_working_sha256": "a59be97e0698ae74236c347419eb90361f68f78aebf29ecfac7acd89cae85680",
+      "source_git_base_sha256": "a59be97e0698ae74236c347419eb90361f68f78aebf29ecfac7acd89cae85680",
+      "extracted_sha256": "a59be97e0698ae74236c347419eb90361f68f78aebf29ecfac7acd89cae85680"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/recommendation/health.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/recommendation/health.py",
+      "source_working_sha256": "5936026148f8e3adab4ea0511bd2812040676dcfac73dc2018899b38b54a49e1",
+      "source_git_base_sha256": "5936026148f8e3adab4ea0511bd2812040676dcfac73dc2018899b38b54a49e1",
+      "extracted_sha256": "5936026148f8e3adab4ea0511bd2812040676dcfac73dc2018899b38b54a49e1"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/recommendation/records.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/recommendation/records.py",
+      "source_working_sha256": "2032a35fae3b9075245774c2f52b1f1d59e015a2f9bf2e26330b838b98da8ca6",
+      "source_git_base_sha256": "2032a35fae3b9075245774c2f52b1f1d59e015a2f9bf2e26330b838b98da8ca6",
+      "extracted_sha256": "2032a35fae3b9075245774c2f52b1f1d59e015a2f9bf2e26330b838b98da8ca6"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/reporting/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/reporting/__init__.py",
+      "source_working_sha256": "53d6c8acbf7c24975aff12f249b36199d16c0e9b958458afc1bf0c267ab4d703",
+      "source_git_base_sha256": "53d6c8acbf7c24975aff12f249b36199d16c0e9b958458afc1bf0c267ab4d703",
+      "extracted_sha256": "53d6c8acbf7c24975aff12f249b36199d16c0e9b958458afc1bf0c267ab4d703"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/reporting/comparison.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/reporting/comparison.py",
+      "source_working_sha256": "394f4dae2f01c45c9a66732f0549bb90150be84a7404cb83ed7e6cbfa7c7e04e",
+      "source_git_base_sha256": "394f4dae2f01c45c9a66732f0549bb90150be84a7404cb83ed7e6cbfa7c7e04e",
+      "extracted_sha256": "394f4dae2f01c45c9a66732f0549bb90150be84a7404cb83ed7e6cbfa7c7e04e"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/research/__init__.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/research/__init__.py",
+      "source_working_sha256": "a880a8d577aa7b2dd0f29d180de791d8b4650c030388b690a6ca4c8824169033",
+      "source_git_base_sha256": "a880a8d577aa7b2dd0f29d180de791d8b4650c030388b690a6ca4c8824169033",
+      "extracted_sha256": "a880a8d577aa7b2dd0f29d180de791d8b4650c030388b690a6ca4c8824169033"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/research/loop.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/research/loop.py",
+      "source_working_sha256": "f9b365c3adb8a78c36874421cbbd6798bf22969b995abe78aed58bccbe9f5d4a",
+      "source_git_base_sha256": "f9b365c3adb8a78c36874421cbbd6798bf22969b995abe78aed58bccbe9f5d4a",
+      "extracted_sha256": "f9b365c3adb8a78c36874421cbbd6798bf22969b995abe78aed58bccbe9f5d4a"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/research/portfolio.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/research/portfolio.py",
+      "source_working_sha256": "6f4fcb22489616dd8843e7aac9ade66da64c93d28515c7e865a89e803a844af9",
+      "source_git_base_sha256": "6f4fcb22489616dd8843e7aac9ade66da64c93d28515c7e865a89e803a844af9",
+      "extracted_sha256": "6f4fcb22489616dd8843e7aac9ade66da64c93d28515c7e865a89e803a844af9"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/research/thesis.py",
+      "source_path": "plugins/capital-decision-lab/capital_decision_lab/research/thesis.py",
+      "source_working_sha256": "377b0aecd653eec8e1023dfcfe01b63ab040be09a39ed7fafa37cb2ac7ff0c4a",
+      "source_git_base_sha256": "377b0aecd653eec8e1023dfcfe01b63ab040be09a39ed7fafa37cb2ac7ff0c4a",
+      "extracted_sha256": "377b0aecd653eec8e1023dfcfe01b63ab040be09a39ed7fafa37cb2ac7ff0c4a"
+    }
+  ],
+  "local_patches": [
+    {
+      "path": "adapters/cloud/decision_cloud/cli.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "81508552bf313dc0d5e3c70455f2b5550eb546a7ca49d060b84a45349749dd43",
+      "after_sha256": "7d99b29b3db83bad720c771a37dbf9dddeabc9d2be35a496241524825ffd31c9"
+    },
+    {
+      "path": "docs/architecture/system-boundary.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "acf8ed4bad0459897f645cfb0097dc309d769ff77aa61ca812cbf107ce4bd981",
+      "after_sha256": "18e27c6acb09395795b8563aebb211747b32efdf8ac84eff74cd89436b804f6d"
+    },
+    {
+      "path": "docs/cloud-portability/host-capabilities.json",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "be775007ebc7c5b8a20c69b98010497772a790b479204db50a675e6786157546",
+      "after_sha256": "e386ab0d64a7e8f71a990483ed78d574aaaf155d51c51c07dd35d2c4a62a4b69"
+    },
+    {
+      "path": "docs/connectors/connector-architecture.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "734c25979dde2b8ef4752f283763e98a05fbace3be62e4bbff1d0b60061381e5",
+      "after_sha256": "ab8082c058a71bad0ab7099d3cd2351f0f584f23dac40f661cc3ac8af1d8caf9"
+    },
+    {
+      "path": "docs/method-packs/committee-mode.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "3c2739e7a7a0bd170ac6f2c3659351e143c6f4dcfcff990bd26cd6500b39dd0d",
+      "after_sha256": "61ab808d8f805162bef5e92c6c3f6eaacf3a50039fc3b4c0d05593829c85070b"
+    },
+    {
+      "path": "docs/method-packs/reddit-sensor.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "40d6133832c51ae4cd6dd661481b8f2a2a1f77e09afcfef73cd178d784e4afac",
+      "after_sha256": "62c572d9775ebdd5ad88fcfb3adc3c6f4100f7cc590f26b41071b4b6ca7c1df2"
+    },
+    {
+      "path": "docs/reports/FIRST-REPORT-WITH-DOT.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "e42aeb65df066f9d914430ce226a38e44cd4e5034d8557c1ecc7c135c461a54f",
+      "after_sha256": "beaa823e7f76e2d4315715dc2c5a44baf630316b0c04c45d30f59d09efb92844"
+    },
+    {
+      "path": "docs/reports/HTML-REPORT-GUIDE.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "e9cdc7ed4b077b6564384b823650f536c8adda28946f432a1eed5059b13bbcf3",
+      "after_sha256": "01e610028a47a4f19cba9c13701670a3f2ac05b10ea2b83e1b450b7dc126f840"
+    },
+    {
+      "path": "docs/safety-boundaries/many-model-threat-model.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "77969455c0dbf33c8139858ab014b41acc3a7d88e0e211209bed56ad071abd02",
+      "after_sha256": "9e3311e2ce966fd4e9594bc1c62f6c1421d607629e2e47f22297b99bca779cc0"
+    },
+    {
+      "path": "docs/safety-boundaries/private-data-policy.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "10a4118c2f82792df4ff1fcc42321d72a649f82833b5500b7fe55ebeaa74d80e",
+      "after_sha256": "fdd809549e15987b29c90a25a5dc39e09a7a2ebc6dc2f13b5914626ac31d3f83"
+    },
+    {
+      "path": "docs/verification/PR2-PRIOR-EVIDENCE.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "04b4db074dcdaa1792057f4a7899471340d1080ae58c8b6226fa394b1004f1b1",
+      "after_sha256": "9da37faea59ffc7408ca98931f52833a667637d0de3b698bb94e3eafe93d2778"
+    },
+    {
+      "path": "portable.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "029b93dc56f9aaa85951c45644cccc2963d313327cf185e25274ed6e71efbb8f",
+      "after_sha256": "6265f62d526d046caaf0c21c8d89621a49620b74ef47a6f10ed65bd95403f4cd"
+    },
+    {
+      "path": "scripts/bootstrap_portable.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "13477f967202a13f82b4132977f91a3312d77dd394148323b40473e7ab532b63",
+      "after_sha256": "18b93d139049bb234e6e4388d40df4a4841c9d75d7adeb380ecbea3a9367416e"
+    },
+    {
+      "path": "skills/capital-research/SKILL.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "32aba4defb771411bda52affc9ad94b236e9a4e8fa6dd2a545c57bdbf3c1ef86",
+      "after_sha256": "6b618827c60a539aca167bd2c7a6596f3c282f6c57ac635522b49dd7b0510401"
+    },
+    {
+      "path": "skills/decision-prediction/SKILL.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "7d7e1e611d4b4a3628d0789846840ae92166517889a43b820f1a4fa53d964d7c",
+      "after_sha256": "9d2020707f3fc877bedc7a0a95be32c922bea7c5e1bba7f0d49f3604cc1a3a76"
+    },
+    {
+      "path": "skills/decision-prediction/references/monocle-report-anatomy.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "af713f1420655a8f014105a35a303b190f37e59577b31115e50be4b00fb8d629",
+      "after_sha256": "49f340132d0a15e20e933da29b33507c3b909a645205b7a9bc2aea15a69b5561"
+    },
+    {
+      "path": "skills/many-models-reddit/SKILL.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "f72b3b8d6e332386e96ad2fe460d0374547b932c159a6eca46911842378a82e3",
+      "after_sha256": "8b9781f166d4152e591e877882d43137129aecc6aa2a655230cc02ea8dfe447f"
+    },
+    {
+      "path": "skills/many-models-viz/SKILL.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "968cf3dbca27435f027d34ef119f7bbe8e07d004c07f9cea902bc5fde40c4247",
+      "after_sha256": "477068414582b77927d49bd175d17f64180543630792ae2eb3040bf11385764e"
+    },
+    {
+      "path": "skills/many-models-viz/references/coding-manual.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "cc6868fdd6ce9caa8364b9b7b761124eeef551083b4e71d4512e6ee75db86141",
+      "after_sha256": "9366fac10b6541e8999850ea8b1915edeeb1dc2f4fc2ef15715e103a2d3f62c0"
+    },
+    {
+      "path": "skills/polymarket-macro-scan/SKILL.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "e062d7fd4dd7802eb5c1f32583a1f08a6ef5514267aa7ff874d7e40bfe4bed74",
+      "after_sha256": "e036543f08d721c9a80ea842ce81098c14f43cfd39d4ffa62d5260970c967a3a"
+    },
+    {
+      "path": "skills/stock-portfolio-artifacts/SKILL.md",
+      "kind": "cloud guidance/privacy/educational adaptation",
+      "before_sha256": "14d955f92d1f36b6725c931dd1937f2f28d3e518103b0311a8711507ec8a0085",
+      "after_sha256": "400831fb0276b093ee30f3ba544b7c469c9614e3037bde0c2aea88efb31516b4"
+    },
+    {
+      "path": "tests/mutation/test_model_thinking_mutations.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "ec6339c22c98a7973c9fa90233b17ab8ca8a593335b8fde928aa492d14db4f46",
+      "after_sha256": "701d245944b58592aec0fcb7f180f984cf5d68d8b70ba403f5160a758c8d0079"
+    },
+    {
+      "path": "tests/portable/test_install.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "786eef891cb0853825c17eea58536567bb7f4195e0885ddf20aacd2504d86878",
+      "after_sha256": "bb439a0c7c2a3bc172230974bbf9114503720b779dc83a6d7af4b637e882c8d8"
+    },
+    {
+      "path": "tests/portable/test_report.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "5a569194c8744c79aa2bd7caca839432ca5bbd7b6f173706b68fd46c8699a56d",
+      "after_sha256": "a583da6010affa408d48ae6811a18d6ff77a55d85cea049154d5a44705070400"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/__init__.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "2455431be17a8b29ed55a462445cf0a134d374c45ef0091648b4eee3239098c9",
+      "after_sha256": "630004dcc13a8c7428b0f89b7f2512e0ed0e15b96cd685638117fc42ebaccb24"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/bridge.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "b46ed0880a38051f55e2af29118a786918178856b398488acb6fb8c06a1410d9",
+      "after_sha256": "b4890361fb103124acfc4c9ae7c9453b08dd1347d575fdc2c0ff86babc53e884"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/host/extractors/polymarket.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "5a7530267e3bbcce48901f2ec39cf1d47950f4069fc0939f11d3e37eb6df2143",
+      "after_sha256": "e1f74f167a427a362dd7bd3907a387f7adb0b0f1615976207edfa060a779f7d7"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/orchestration/research_run.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "d015411620aefe92e707b64fa7634da4f2658ecdd549751ee0f65896d744c837",
+      "after_sha256": "2b36e3a8f6ee7dd63cc231fd6c9542f51f54e03382c4b032f804164f0f258662"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/plugin/__init__.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "7601e72ab38aeee1a274dd039bbe3b27d6a6f8654516e2c68e1cd855bffb5a14",
+      "after_sha256": "02a5d5e0524980a6f0e3763cbd9c79f1fe17efc8e3ad439d8dcf66a2975a17b9"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/plugin/commands.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "83d604aaed9a6764b00dcfa88ad7fee3840aa2b35f77138fb2a1b05b660d5821",
+      "after_sha256": "6837597978a9d5a968f7dc223b27751442e4668c1f8de49c1dca4c0a2e922561"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/privacy/containment.py",
+      "kind": "Prior PR2 downstream Windows-drive/UNC containment fix; retained without further changes",
+      "before_sha256": "bd7cb0fe34f7f154efbd3d48ddaccd35a20916441df9a76c94f80254c30289a8",
+      "after_sha256": "82556a9a132ab22e94618f5eb63ebb99629b79d90cd03bcae6ed282f5fc7d7e8",
+      "patch": "docs/extraction/containment-downstream.patch"
+    },
+    {
+      "path": "vendor/capital-decision-lab/capital_decision_lab/privacy/scanner.py",
+      "kind": "cloud import/path adaptation",
+      "before_sha256": "62ce0101a7662739555420e549ce5c76982cf870fd87222af6deaa383a53a8bc",
+      "after_sha256": "ac183dd67ec831835be8c202c6a1759762de84e58bc6069e9efdc8bfc352d08f"
+    }
+  ],
+  "external_sources": [
+    {
+      "path": "docs/reports/REPORT-STANDARD-v5.md",
+      "source_sha256": "38d640ca9166eaab8e47b0f0f3a257ef4026657ff2b06822c21b0dad957759c2",
+      "kind": "Sanitized public semantic derivative. Excludes personal history, stock assignments, schedules and report acceptance records.",
+      "source_revision": "9 October 2026, revision 5",
+      "extracted_sha256": "5ace889be39b16f2deab89b463991d3b152f41897169c146dbf12a9e0216b202"
+    },
+    {
+      "path": "design/DESIGN-Stock-Report-Web.md",
+      "source_asset": "DESIGN-Stock-Report-Web.md",
+      "source_sha256": "7fc5c017bf8c1b9e95978586db7e5626f187023ad22568d2b5d15b0a82273950",
+      "kind": "User-authorized generic design/template asset; privacy and current-policy adaptation",
+      "extracted_sha256": "c5bb2f6586e3ced3dfb1f0e9fde6a56541618bc61b1c4df5660ebdaf6c4b5b3c"
+    },
+    {
+      "path": "design/DESIGN-Stock-Report.md",
+      "source_asset": "DESIGN-Stock-Report.md",
+      "source_sha256": "7fffab8069805b878e8484a32dfbe46daadb855a969ae22bb8899cb0563aa430",
+      "kind": "User-authorized generic design/template asset; privacy and current-policy adaptation",
+      "extracted_sha256": "5eeb1475c820f27ef64106ddfd69a66ccb0076475e688f798f0d8ee9fcbc7632"
+    },
+    {
+      "path": "templates/stock-report/Stock-Report-Template.html",
+      "source_asset": "Stock-Report-Template.html",
+      "source_sha256": "ab8709c1845615d23ed032ea594242fbf0673bc485559190af0f949b91c83330",
+      "kind": "User-authorized generic design/template asset; privacy and current-policy adaptation",
+      "extracted_sha256": "fb5a7d5156108c743deb531b9880a62791dfe3dadd20b678f8f0fd2ebfe600ba"
+    },
+    {
+      "path": "design/hero-cards/andy-allen.md",
+      "source_asset": "andy_allen_design_hero(5).md",
+      "source_sha256": "a536f7552f65159175aaf9afa5d7fb11d5e7a6e73dcb47eff797aa25b09fbfca",
+      "kind": "User-authorized generic design/template asset; privacy and current-policy adaptation",
+      "extracted_sha256": "cf62f329c8f754c05c7c83cdcd10b1fa68287fe5360a61662e6e064053b841b1"
+    },
+    {
+      "path": "design/hero-cards/satori-grid-layout-rubric.md",
+      "source_asset": "The Satori Grid & Slide Layout Rubric(2).md",
+      "source_sha256": "98f5f68c6fc2b1b8ec2b6d44e87823772c7b4746fc8f6218fe8ca1b0a14623b7",
+      "kind": "User-authorized generic design/template asset; privacy and current-policy adaptation",
+      "extracted_sha256": "2a38d51291b1d3822cbc19f33647138f04d434c6ae12cb88ddc539d8edf79d2c"
+    }
+  ],
+  "first_implementation_commit": "5f907f455ef6d9a0d63c169ab3ad0cc476a57619",
+  "unchanged_upstream_main": "5bfe72972ee9b3ade55923e5419ca7ede1ac70ba"
+}

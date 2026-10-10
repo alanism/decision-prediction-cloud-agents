@@ -1,0 +1,1 @@
+{"fixture_class":"synthetic","target_ticker":"SYNTH","time_horizon":"18 months","user_thesis_text":"Synthetic convex product-cycle thesis","probabilities":{"bear":0.25,"base":0.35,"bull":0.3,"moonshot":0.1},"payoffs":{"bear":-0.5,"base":0.1,"bull":1.0,"moonshot":3.0},"confirmation_status":"confirmed"}

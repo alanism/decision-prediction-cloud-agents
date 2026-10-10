@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "https://capital-decision-lab.invalid/schemas/bayesian-update.v1.schema.json",
+  "type": "object", "additionalProperties": false, "required": ["contract_version", "update_id", "belief_ref", "synthesis_ref", "sensitivity_ref", "data", "canonical_hash"],
+  "properties": {"contract_version": {"const": "nhi.bayesian_update.v1"}, "update_id": {"type": "string"}, "belief_ref": {"type": "object"}, "synthesis_ref": {"type": "object"}, "sensitivity_ref": {"type": "object"}, "data": {"type": "object", "additionalProperties": {"$ref": "#/$defs/atom"}}, "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
+  "$defs": {"atom": {"type": "object", "additionalProperties": false, "required": ["value", "provenance_class"], "properties": {"value": {}, "provenance_class": {"enum": ["calculated", "modeled", "forecast", "unavailable"]}, "unit": {"type": "string"}, "input_refs": {"type": "array", "items": {"type": "string"}}, "formula_ref": {"type": "string"}, "limitations": {"type": "array", "items": {"type": "string"}}, "reason": {"type": "string"}}}}
+}

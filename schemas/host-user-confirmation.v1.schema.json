@@ -1,0 +1,8 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://capital-decision-lab.invalid/schemas/host-user-confirmation.v1.schema.json",
+  "type":"object","additionalProperties":false,"required":["contract_version","confirmation_id","extraction_ref","action","corrections","confirmed_by_human","canonical_hash"],
+  "properties":{"contract_version":{"const":"nhi.host_user_confirmation.v1"},"confirmation_id":{"type":"string"},
+    "extraction_ref":{"type":"object","additionalProperties":false,"required":["extraction_id","canonical_hash"],"properties":{"extraction_id":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}}},
+    "action":{"enum":["confirm","correct","reject"]},"corrections":{"type":"object"},"confirmed_by_human":{"const":true},
+    "canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}}
+}

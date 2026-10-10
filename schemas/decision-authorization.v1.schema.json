@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/decision-authorization.v1.schema.json",
+  "title": "Decision Authorization v1",
+  "description": "Explicit human confirmation required before a local record append.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "authorization_id", "proposal_ref", "analysis_ref", "confirmed_by_human", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.decision_authorization.v1"},
+    "authorization_id": {"type": "string", "minLength": 1},
+    "proposal_ref": {"$ref": "#/$defs/proposal_reference"},
+    "analysis_ref": {"$ref": "#/$defs/analysis_reference"},
+    "confirmed_by_human": {"const": true},
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "$defs": {
+    "proposal_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["proposal_id", "canonical_hash", "document_path"],
+      "properties": {
+        "proposal_id": {"type": "string", "minLength": 1},
+        "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "document_path": {"type": "string", "minLength": 1}
+      }
+    },
+    "analysis_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["analysis_id", "canonical_hash"],
+      "properties": {
+        "analysis_id": {"type": "string", "minLength": 1},
+        "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

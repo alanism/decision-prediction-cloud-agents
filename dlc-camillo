@@ -1,0 +1,641 @@
+---
+name: chris-camillo-social-arbitrage-framework
+description: Complete operational playbook for Chris Camillo's Social Arbitrage / Observational Investing methodology — conversational data analysis, information asymmetry trading, the "big money account" risk framework, case studies (Sphere, Lululemon, COVID-19, QSR/Tim Hortons, Sweetgreen), humanoid robot thesis, AI energy infrastructure plays, and the 20-criteria rubric. Synthesized from primary source analysis across 27 targeted queries across 3 rounds.
+---
+
+# Chris Camillo Social Arbitrage Investment Framework — Agent Playbook
+
+> Authoritative extraction from primary sources: Chris Camillo's books, interviews, podcast appearances, and public trading community content. Synthesized from 27 targeted queries across 3 rounds designed to probe gaps beyond well-known concepts.
+
+---
+
+## TABLE OF CONTENTS
+
+1. [THE SOCIAL ARBITRAGE PHILOSOPHY](#1-the-social-arbitrage-philosophy)
+2. [OBSERVATION & DATA GATHERING](#2-observation--data-gathering)
+3. [THE FILTERING FUNNEL](#3-the-filtering-funnel)
+4. [TRADE EXECUTION — INFORMATION ASYMMETRY](#4-trade-execution--information-asymmetry)
+5. [THE EXIT — INFORMATION PARITY](#5-the-exit--information-parity)
+6. [THE BIG MONEY ACCOUNT & RISK BUCKETING](#6-the-big-money-account--risk-bucketing)
+7. [CASE STUDIES — SPECIFIC TRADES](#7-case-studies--specific-trades)
+8. [HUMANOID ROBOT THESIS](#8-humanoid-robot-thesis)
+9. [AI ENERGY INFRASTRUCTURE THESIS](#9-ai-energy-infrastructure-thesis)
+10. [OBSCURE PICKS-AND-SHOVELS PLAYS](#10-obscure-picks-and-shovels-plays)
+11. [AI WORKFLOW & AGENTS](#11-ai-workflow--agents)
+12. [EVOLUTION OF THE METHOD](#12-evolution-of-the-method)
+13. [PSYCHOLOGY & EMOTIONAL CONTROL](#13-psychology--emotional-control)
+14. [ACKNOWLEDGED MISTAKES](#14-acknowledged-mistakes)
+15. [THE 20-CRITERIA INVESTMENT RUBRIC](#15-the-20-criteria-investment-rubric)
+
+---
+
+## 1. THE SOCIAL ARBITRAGE PHILOSOPHY
+
+### 1.1 Core Principle
+
+**Intentionally ignore Wall Street.** No fundamental analysis, no P/E ratios, no technical charts.
+
+The entire philosophy: **Detect real-world shifts in culture, consumer behavior, or technology faster than the market, and connect those dots to investable opportunities.**
+
+### 1.2 What He Does NOT Do
+
+| Method | Reason for Rejection |
+|--------|---------------------|
+| Fundamental analysis (P/E, DCF, etc.) | Lagging — by the time it shows up, the market has already moved |
+| Technical charts / stock price | "Trades blind to stock price" — the information is the edge, not the price |
+| Wall Street analyst reports | Always late — consensus is already priced in |
+| Macroeconomic forecasts | Impossible to predict; distracts from micro-trends |
+| Financial media (CNBC, WSJ) | "Poison" — filled with noise and consensus groupthink |
+
+```mermaid
+graph LR
+    subgraph TRANSACTIONAL["Transactional Data: Lagging"]
+        T1[Credit Card Swipes]
+        T2[SEC Filings / Earnings]
+        T3[Sales Reports]
+    end
+    subgraph CONVERSATIONAL["Conversational Data: Leading"]
+        C1[TikTok Comments: Buying Intent]
+        C2[Google Trends: Search Volume]
+        C3[Reddit: Niche Enthusiasm]
+        C4[Checkout Traffic: Conversion Signal]
+    end
+    TRANSACTIONAL --> WALL[Wall Street Uses This - Too Late]
+    CONVERSATIONAL --> CAMILLO[Camillo Uses This - Alpha Found]
+    CAMILLO --> ASYMMETRY[Information Asymmetry = Entry Point]
+    WALL --> PARITY[When Wall Street Catches Up = Information Parity = Exit]
+    style CAMILLO fill:#1a4a1a,color:#fff
+    style PARITY fill:#4a1a1a,color:#fff
+```
+
+### 1.3 The Alpha Source
+
+**Conversational data > Transactional data.**
+
+- **Transactional data** (credit card swipes, SEC filings, sales data) = **lagging**. Shows what people have *already bought*.
+- **Conversational data** (TikTok comments, Reddit, Google Trends) = **leading**. Shows what people *intend to buy* before they buy it.
+
+> *"Before people buy a product, they talk about their desires and intentions online. That's where the alpha lives."*
+
+---
+
+## 2. OBSERVATION & DATA GATHERING
+
+### 2.1 Primary Data Sources
+
+| Source | How Used | Why Valuable |
+|--------|----------|-------------|
+| **TikTok comments** | 4 hours late-night reading thousands of raw comments | Most raw, transparent consumer expression — users show buying intent before purchase |
+| **Google Trends** | Search volume tracking | Quantifies interest trajectory before it hits sales data |
+| **Website checkout traffic** | Paid traffic data for specific ticketing/sales pages | Confirms that conversation is converting to purchases |
+| **Reddit forums** | Niche community discussion tracking | Early signal on emerging trends |
+| **Real-world channel checks** | Talk to store clerks and managers | "Infiltrate" physical retail — unfiltered sales data |
+
+### 2.2 The TikTok Edge
+
+Camillo believes **TikTok is the absolute gold standard for alpha** because:
+- Users are deeply raw, emotional, and transparent about buying intentions
+- It's the only major platform not yet dominated by politics and finance chatter
+- Comments reveal real passion: "obsessed," "sold out everywhere," "need this"
+
+### 2.3 The Platform Evolution
+
+| Era | Primary Source | Why It Changed |
+|-----|---------------|----------------|
+| **Pre-2010** | Walking malls, observing restaurant lines, Yahoo message boards | Only sources available |
+| **Early 2010s** | Twitter (X) — built TickerTags analyzing 10% of the Twitter firehose | Twitter users talked about products and movies |
+| **Late 2010s** | Twitter declining in value | Users pivoted to politics and news — stopped talking about everyday products |
+| **Current** | **TikTok** | Only platform with raw consumer intent data |
+
+---
+
+## 3. THE FILTERING FUNNEL
+
+### 3.1 The Funnel
+
+Camillo starts with a massive funnel of ideas but executes only **4 to 8 trades per year**.
+
+### 3.2 Must-Pass Criteria
+
+| Criterion | What It Means |
+|-----------|---------------|
+| **The Needle Mover Test** | The trend must be significant enough to meaningfully impact a company's revenue, cost structure, or public perception |
+| **No Offsetting Catalysts** | No hidden, unrelated failures within the company that could wipe out the trend's gains |
+| **Off-Radar** | The trend must not yet be appreciated by institutional Wall Street or general investing public |
+| **AI-Assisted Revenue Exposure** | Use LLMs to calculate what % of revenue the trending product represents for each company |
+
+```mermaid
+graph TD
+    FUNNEL[Massive Funnel: Hundreds of Observations] --> NM{The Needle Mover Test}
+    NM -->|Yes| OC{No Offsetting Catalysts}
+    NM -->|No| DISCARD[Discard]
+    OC -->|Yes| OR{Off-Radar? Not Yet Discovered by Wall Street}
+    OC -->|No| DISCARD
+    OR -->|Yes| AI[AI-Assisted Revenue Exposure Calculation]
+    OR -->|No| DISCARD
+    AI --> CONVICTION{High Enough Conviction?}
+    CONVICTION -->|Yes - 4 to 8 per Year| ENTER[Enter: Information Asymmetry]
+    CONVICTION -->|No| WAIT[Wait / Watch]
+    style ENTER fill:#1a4a1a,color:#fff
+    style DISCARD fill:#4a1a1a,color:#fff
+```
+
+### 3.3 The Needle Mover Test in Detail
+
+**Must verify** that the cultural shift is large enough to violently disrupt:
+- Overall revenue
+- Cost structure
+- Public perception
+
+**Common failure:** Finding a hot product at a giant company where the product is <1% of revenue.
+
+### 3.4 The Offsetting Catalyst Check
+
+**Must aggressively search** for hidden, unrelated failures:
+- Check every division of the company (not just the one with the trend)
+- Look for franchisee revolts, management scandals, regulatory issues
+- A great product trend will NOT save a company with a fatal structural problem elsewhere
+
+---
+
+## 4. TRADE EXECUTION — INFORMATION ASYMMETRY
+
+### 4.1 The Entry Point
+
+Enter at the moment of **information asymmetry** — the moment you possess contextualized knowledge that the broader market lacks.
+
+### 4.2 Key Entry Principles
+
+| Principle | Explanation |
+|-----------|-------------|
+| **Blind to stock price** | Do not care what the stock currently trades at. The information IS the edge. |
+| **High conviction = big size** | 5% to 30% of entire liquid portfolio into a single trade |
+| **Leverage + options** | Heavily use near-term options and margin (up to 80-100%) to multiply returns |
+| **Act before institutional data** | Front-run Wall Street before trends show up in their credit card data |
+
+### 4.3 The "Trading Up" Technique
+
+When an options position is profitable:
+1. **Sell** the currently profitable calls → lock in initial capital + some profit
+2. **Roll** a fraction of the profits into NEW calls at a **higher strike price**
+3. This maintains leveraged upside exposure while securing realized gains
+
+**Example (Sphere trade):**
+- Bought cheap short-term calls (expiring that Friday or next)
+- Stock went up 40-50%
+- Options returned **300-400%** (3-4x) due to leverage
+- Rolled up several times as it worked
+
+---
+
+## 5. THE EXIT — INFORMATION PARITY
+
+### 5.1 The Exit Signal
+
+**Exit at the point of "information parity"** — the exact moment when the information you discovered early becomes widely known.
+
+### 5.2 How to Detect Parity
+
+- Wait for **hedge funds** to discuss the trend
+- Wait for **financial media** to report it
+- Wait for **retail FOMO** to pump the stock
+- **Ironically:** Buy expensive institutional credit card data to monitor when Wall Street has finally noticed the sales spikes you predicted weeks earlier
+
+### 5.3 The Key Principle
+
+Once the consensus narrative matches your early thesis → **sell the stock**.
+
+**Do NOT** hold after parity. The edge is gone. The market has caught up.
+
+### 5.4 What Exit Is NOT
+
+- **Not price-target based** — completely decoupled from stock price
+- **Not time-based** — could be days, weeks, or months
+- **Not fundamental** — doesn't matter what the company is worth at parity
+
+---
+
+## 6. THE BIG MONEY ACCOUNT & RISK BUCKETING
+
+### 6.1 The Core Idea
+
+Create a designated **"big money account"** (risk capital) funded EXCLUSIVELY by life trade-offs.
+
+**Sources of funding:**
+- Making coffee at home instead of buying it
+- Clipping coupons
+- Skipping a purchase
+- Any small, daily savings
+
+### 6.2 The Psychological Framing
+
+By funding the account only from savings generated by life trade-offs, you treat this capital as:
+- **"Other people's money"**
+- **Bonus cash**
+- **Found money**
+
+This completely removes the guilt and fear of losing it. Every saved dollar is treated as having the potential to grow 100x.
+
+```mermaid
+graph TD
+    LIFE[Daily Life] --> TRADEOFF[Life Trade-Offs: Coffee at Home, Coupons]
+    TRADEOFF --> BMA["'Big Money Account' = Risk Capital"]
+    BMA --> FRAME[Framed as 'Other People's Money']
+    FRAME --> CONVICTION[High Conviction Trade Found]
+    CONVICTION --> SIZE{How Much to Risk?}
+    SIZE -->|Standard| STANDARD[5% of Liquid Portfolio]
+    SIZE -->|High Conviction| HIGH[20-30% of Liquid Portfolio]
+    SIZE -->|Extreme| LEVERAGE[Add Near-Term Options + 80-100% Margin]
+    STANDARD --> ENTER[Execute at Information Asymmetry]
+    HIGH --> ENTER
+    LEVERAGE --> ENTER
+    ENTER --> EXIT[Exit at Information Parity]
+    ENTER --> ROLL[Roll Up: Trade Up to Higher Strikes]
+    ROLL --> ENTER
+    EXIT --> WALK[Walk Away: Post-Win Discipline]
+    style BMA fill:#1a3a1a,color:#fff
+    style WALK fill:#3a1a1a,color:#fff
+```
+
+### 6.3 The Allocation Rule
+
+| Bucket | Description |
+|--------|-------------|
+| **Safe portfolio** | Not discussed in detail — presumably traditional investments |
+| **Risk assets** ("big money") | ~10% of portfolio — Camillo's personal risk account is "mostly just a Bitcoin ETF and Robinhood stock" |
+| **Life expenses** | Never touched — core living expenses are walled off |
+
+### 6.4 Concentration Within the Big Money Account
+
+| Conviction | Allocation |
+|------------|-----------|
+| Standard high-conviction | 5% of liquid portfolio |
+| Extremely high conviction | 20-30% of liquid portfolio |
+| Maximum leverage | Up to 80-100% margin on options |
+
+---
+
+## 7. CASE STUDIES — SPECIFIC TRADES
+
+### 7.1 The Sphere / Wizard of Oz
+
+| Element | Detail |
+|---------|--------|
+| **Trigger** | Friend text about Backstreet Boys concert selling out at the Sphere in Las Vegas |
+| **Data verification** | TikTok comments → Ticketmaster web traffic data → manual seat counting on Sphere website |
+| **Instrument** | Short-term call options (expiring that Friday or next) — cheap premiums = massive leverage |
+| **Entry** | At information asymmetry — no one had connected the dots |
+| **Execution** | "Traded up" multiple times — sold profitable calls, rolled into higher strikes |
+| **Stock move** | ~40-50% |
+| **Options return** | **300-400%** (3-4x) |
+| **Exit** | When retail analysts and Wall Street started discussing sold-out seats — information parity |
+
+### 7.2 COVID-19 Pandemic (Short → Long)
+
+| Element | Detail |
+|---------|--------|
+| **Trigger** | Google Translate of Chinese doctors' medical reports |
+| **Initial trade** | 10% of portfolio → weekly put options on S&P 500, airlines, and casinos |
+| **The pain** | Lost 30-40% of portfolio before market cracked — options expired worthless for weeks |
+| **Why he persisted** | Already in a "short little trading depression" from QSR loss → knew this was "the biggest trade of my life" |
+| **The pivot** | Exited shorts 2 days after market bottom → rotated all gains into levered longs |
+| **Longs** | Shopify, Amazon, Peloton, Hewlett Packard (printers), Camping World, boat/jet-ski stocks, Schwinn bicycles (Canadian company) |
+| **Total return** | ~$30 million that year |
+| **Key insight** | Mapped exactly what people would need trapped at home: work, exercise, outdoor recreation |
+
+### 7.3 Lululemon (The Accidental Exercise)
+
+| Element | Detail |
+|---------|--------|
+| **Trigger** | Google Trends anomaly — 14 product categories hitting all-time highs in summer (normally a slump) |
+| **Corroboration** | TikTok hype over new unreleased tote bag |
+| **Initial entry** | Bought call options |
+| **The problem** | Stock kept tanking |
+| **The conviction** | Lost $200K → **doubled down** with another $200K in calls |
+| **The error** | Bought wrong expiration date — expired THAT Friday |
+| **The consequence** | Auto-exercised → purchased **eight figures worth of Lululemon stock** on margin — caused Lululemon stock to pop at Friday close |
+| **Resolution** | "Normalized" and sized down the following week |
+
+### 7.4 QSR / Tim Hortons (The Worst Loss)
+
+| Element | Detail |
+|---------|--------|
+| **Trigger** | Correctly predicted record quarters for Burger King (Impossible Whopper) and Popeyes (chicken sandwich) |
+| **What he missed** | Tim Hortons = 50-60% of QSR revenue. Franchisee revolt at hotel in Orlando 2 weeks before earnings. |
+| **The loss** | 100% of options bet wiped out = **1/3 of his liquid net worth** |
+| **Emotional state** | Depressed, slept for 2 days |
+| **The lesson** | Cannot be lazy with conglomerates. Must have total information awareness on EVERY division. |
+| **Recovery** | Big money account psychology → bounced back and leveraged into COVID shorts weeks later |
+
+### 7.5 Sweetgreen (Mixed Outcome)
+
+| Element | Detail |
+|---------|--------|
+| **Trigger** | Chicken Caesar Wrap going viral via health influencers on TikTok |
+| **His edge** | Former restaurant owner — knew a successful wrap could be a game-changer |
+| **Entry** | Heavily levered options on damaged, heavily shorted stock |
+| **Peak profit** | Was up $700K — could have sold |
+| **Why he held** | Believed 30-35% chance of 6x-8x return |
+| **Final outcome** | "Lost all my money on the last ones... but netted 150% gain even after complete loss on last round" |
+
+### 7.6 Cracker Barrel (Fast Trade)
+
+| Element | Detail |
+|---------|--------|
+| **Trigger** | Tweet on X stating Cracker Barrel reversed a corporate course |
+| **Execution** | Bought 10,000 shares after hours — 1 minute after the tweet |
+| **Result** | Stock popped 5-6% shortly after |
+
+---
+
+## 8. HUMANOID ROBOT THESIS
+
+### 8.1 The Big Picture
+
+Camillo identifies **Tesla (Optimus), Figure AI, and 1X** as the leaders in the humanoid robot market. He is invested in the sector but warns Wall Street timelines are "completely wrong."
+
+### 8.2 Timeline Assessment
+
+| Milestone | Estimated Date |
+|-----------|---------------|
+| **Commercially viable prototype** | Late 2027 or 2028 |
+| **Actual mass deployment begins** | ~2030 |
+| **Supply/demand imbalance** | 10-15 years stretching into 2030s |
+
+### 8.3 The Bottleneck
+
+**It is NOT manufacturing. It is deployment.**
+
+Integrating generalized robots into complex workflows of legacy companies (FedEx, Walmart) requires:
+- Years of strategy
+- Digitizing inventory systems
+- Preparing workforces
+- Safety protocols and liability frameworks
+
+### 8.4 The KPI Thresholds
+
+| KPI | Target | Current Status |
+|-----|--------|---------------|
+| **Task completion rate** | 99.5%+ | **No company has met this** |
+| **Human-equivalent output speed** | 80% of a human | Not yet achieved |
+| **Hours between faults (uptime)** | Reliable for production | Not production-ready |
+| **Durability** | 3-5 years | Untested |
+| **Human-to-bot ratio** | Minimal supervision | Currently requires near-constant human oversight |
+
+### 8.5 Current State by Company
+
+| Company | Position | Assessment |
+|---------|----------|------------|
+| **Tesla Optimus** | Building from ground up | V2 had "numerous critical flaws on both hardware and AI" — rebuilding for V3/V4. Significantly behind Elon's timelines. |
+| **Figure AI** | Impressive demos | Building ~1 robot/hour for training/showmanship. Not scalable — still a full generation off. |
+| **1X** | Intriguing design | Tendon-driven, soft-body design (65 lbs, safe for home). Heavily reliant on **human teleoperation** for training data. |
+
+---
+
+## 9. AI ENERGY INFRASTRUCTURE THESIS
+
+### 9.1 Amazon (The Efficiency Wave)
+
+| Element | Detail |
+|---------|--------|
+| **Thesis** | Ultimate beneficiary of the AI efficiency wave |
+| **20-year moat** | Low-margin global logistics infrastructure |
+| **AI impact** | Robotics slash logistics costs → margins expand |
+| **Other wins** | AWS, custom Trainium chips, AI-powered ad targeting |
+| **Exit signal** | Hold until market fully appreciates the efficiency wave (years) |
+
+### 9.2 Bloom Energy (The Power Bottleneck)
+
+| Element | Detail |
+|---------|--------|
+| **The problem** | Data centers face massive power bottleneck |
+| **The solution** | Solid oxide fuel cells powered by natural gas |
+| **The edge** | 800-volt DC direct-to-rack system — eliminates expensive medium-voltage transformers and UPS battery farms |
+| **Time saved** | Cuts deployment time by 6-12 months |
+| **Discovery** | Surfaced by Gian Shu Dong (50+ hours research on supply chain) |
+| **Validation** | Announced Oracle partnership — major hyperscaler deal |
+| **Exit signal** | Hold as long as they continue announcing hyperscaler deals |
+
+### 9.3 TransAlta (TAC) — Canada Energy Play
+
+| Element | Detail |
+|---------|--------|
+| **Thesis** | Alberta is the "Texas of Canada" — less regulation, cold climate for data center cooling |
+| **The edge** | Previously overbuilt capacity — had to shut down two plants |
+| **The advantage** | Can spin those plants back up in 12 months vs 5 years to build new |
+| **Catalyst** | Hyperscalers moving to Canada for power + cooling |
+
+---
+
+## 10. OBSCURE PICKS-AND-SHOVELS PLAYS
+
+### 10.1 SK Telecom (SKM) — The Anthropic Backdoor
+
+| Element | Detail |
+|---------|--------|
+| **Stake** | $100M invested in Anthropic at $5B valuation (2023) |
+| **Current value** | $2-2.5 billion |
+| **% of SKM market cap** | 20-25% |
+| **Thesis** | Liquid public proxy to invest in Anthropic pre-IPO without VC fees |
+| **Avoids** | 20% profit carry, 6-month lockup, complex K-1 tax forms |
+| **Discovery** | Reddit thread surfaced by Discord moderator |
+
+### 10.2 Nitto Boseki (Nittobo) — The Chip Substrate Bottleneck
+
+| Element | Detail |
+|---------|--------|
+| **Market share** | 90% of global market for low thermal expansion glass cloth |
+| **What it does** | Substrate that prevents AI chips from warping under extreme heat |
+| **The moat** | Proprietary chemical process preventing delamination of ultra-smooth surface |
+| **Demand signal** | Jensen Huang **personally visited** to secure supply |
+| **Competition** | Japanese and Taiwanese competitors trying but have no alternative chemical process |
+| **Discovery** | Gian Shu Dong research |
+
+### 10.3 Rigaku — AI Chip Quality Control
+
+| Element | Detail |
+|---------|--------|
+| **What it does** | 3D X-ray machines repurposed to scan stacked AI memory chips for microscopic circuitry breaks |
+| **Why it matters** | Before chips are installed in data centers, they must be validated |
+| **How obscure** | Camillo had to call Schwab to get ticker added to US global trading platform |
+| **Discovery** | Gian Shu Dong research |
+
+---
+
+## 11. AI WORKFLOW & AGENTS
+
+### 11.1 The Core AI Workflow
+
+When Camillo spots a cultural shift (e.g., "denim skirts are coming back"):
+
+1. **Prompt** ChatGPT Pro or Claude (Opus) to map the supply chain
+2. **Ask AI** to identify every publicly traded company that touches the trend
+3. **Calculate** revenue exposure percentage for each company
+4. **Apply human judgment** — AI does "dirty work research," Camillo provides conviction
+
+### 11.2 The Surrender Prompt
+
+His foundational prompt strategy:
+
+> *"Ask me anything you need to ask me so that we can do this in the best way possible."*
+
+Or:
+
+> *"I don't even know what I should be asking you right now, so can you please ask me anything you need so we can get started on this journey?"*
+
+This surrenders control to the AI to guide the research direction.
+
+### 11.3 Autonomous AI Agents
+
+His community built agents using frameworks like **OpenClaw on Mac Minis** that:
+- Watch TikTok videos 24 hours a day
+- Scrape comment sections
+- Identify trigger words: **"obsessed," "sold out everywhere"**
+- Map trends to publicly traded companies
+- Suggest trades
+
+**Current status:** Agents are "brilliant dirty work research assistants" but still lack human intuition for cultural nuance. Camillo validates every suggestion.
+
+### 11.4 AI Guardrails
+
+- **Never** asks AI blindly what stocks to buy
+- Uses AI purely for research acceleration
+- Applies own human conviction to pull the trigger
+
+---
+
+## 12. EVOLUTION OF THE METHOD
+
+### 12.1 Timeline
+
+| Era | Method | Key Events |
+|-----|--------|------------|
+| **Teenage years** | Started trading at 13 | "Completely immune" to emotional losses — been doing this since childhood |
+| **Pre-social media** | Walking malls, observing restaurant lines, Yahoo message boards | PF Chang's, Cheesecake Factory as leading indicators |
+| **Early 2010s** | Twitter (X) — built TickerTags | Analyzed 10% of entire Twitter firehose |
+| **Late 2010s** | Twitter declined in value | Users stopped talking about products — pivoted to politics/finance |
+| **Present** | **TikTok as gold standard** | Raw, emotional, transparent consumer intent data |
+
+### 12.2 What Changed
+
+| Belief | Old View | New View |
+|--------|----------|----------|
+| **Best social platform** | Twitter (X) | TikTok |
+| **Research process** | Manual mall walks + Yahoo boards | AI-augmented supply chain mapping |
+| **Best data source** | Conversational data (general) | TikTok comments specifically |
+| **Collaboration** | Solo trader | Network of analysts + AI agents |
+
+---
+
+## 13. PSYCHOLOGY & EMOTIONAL CONTROL
+
+### 13.1 The Emotional Framework
+
+**Core operating mode:** "Probabilities and outcomes."
+
+Willing to take a 30% portfolio position in options if there is a 50% chance of a 4x-10x return against a low probability of total loss.
+
+### 13.2 Surviving Devastating Losses
+
+| Stage | Action |
+|-------|--------|
+| **The loss** | "Sleep it off for two days" — literally |
+| **Post-loss analysis** | Meticulously dissect the missing variable |
+| **Recovery** | Regain composure → aggressively re-leverage on next high-conviction thesis |
+| **Key enabler** | Big money account — treating capital as "other people's money" removes fear |
+
+### 13.3 Post-Win Discipline
+
+**The danger:** "After a grand slam, traders become blindly overconfident and make the worst trades of their lives."
+
+**The rule:** **"Do less."** Physically walk away from the market after a massive win. Take a break.
+
+### 13.4 24-Hour Market Cleanses
+
+Camillo advocates for taking **24-hour market cleanses** — literally refusing to look at any financial news or tickers for a full day every month. This resets the nervous system.
+
+### 13.5 The Ultimate Goal
+
+> *"Peaceful dopamine" — not an endlessly growing bank account, but the joy of having coffee with your dog and walking your neighborhood."
+
+---
+
+## 14. ACKNOWLEDGED MISTAKES
+
+| Mistake | What Happened | Lesson |
+|---------|---------------|--------|
+| **QSR / Tim Hortons** | Massive levered options bet on Restaurant Brands. Correctly predicted Burger King + Popeyes. Missed Tim Hortons franchisee revolt. Lost 1/3 of liquid net worth. | Must have total information awareness on EVERY division of a conglomerate. |
+| **Lululemon** | Lost $200K, doubled down, then accidentally bought wrong expiration → exercised 8 figures of stock on margin | Double-check option contract details. Mechanical errors compound with size. |
+| **Sweetgreen** | Was up $700K, held for 6-8x, ended up losing on last round of options | "A bird in hand is worth two in the bush" — sometimes taking the win is the right move. |
+| **VC cost** | Pulled gains from 70% annualized public returns to invest in 160 average-returning startups | Cost him "half a billion dollars" in lost compounding. But would do it again — VC is a lifestyle/networking tool. |
+
+---
+
+## 15. THE 20-CRITERIA INVESTMENT RUBRIC
+
+### Scoring Scale
+
+| Level | Label | Description |
+|-------|-------|-------------|
+| **1** | Wall Street Traditionalist | Relies on lagging metrics, financial media, and consensus |
+| **2** | Novice Observer | Recognizes real-world trends but lacks discipline |
+| **3** | Competent Arb Trader | Executes on trends but misses deep validation or risk bucketing |
+| **4** | Advanced Social Arbitrageur | Highly skilled, fast execution, leverages AI and community |
+| **5** | Camillo Mastery | Perfect execution with extreme conviction, leverage, emotional control |
+
+### I. Data & Research
+
+| # | Criterion | Level 1 | Level 3 | Level 5 |
+|---|-----------|---------|---------|---------|
+| 1 | **Primary Data Source** | Lagging transactional data (credit card swipes, SEC filings) | Active on social media but focuses on stock tickers | Spends 4 hours nightly analyzing raw TikTok comments for buying intent |
+| 2 | **Valuation & Fundamentals** | Obsesses over P/E ratios and spreadsheets | Uses fundamentals as primary filter before social catalyst | Trades entirely blind to stock price — ignores charts and fundamentals |
+| 3 | **Trade Entry** | After major news reports a breakthrough | Attempts early entry but hesitates waiting for price validation | Executes aggressively at exact moment of information asymmetry |
+| 4 | **Trade Exit** | Based on predefined fundamental price target | Exits slowly after earnings reports validate thesis | Exits exactly at information parity — when hedge funds/media catch up |
+| 5 | **AI Integration** | Refuses to use AI | Uses AI to summarize news articles | Deploys LLMs to map supply chains and calculate revenue exposure instantly |
+
+### II. The Filtering Funnel
+
+| # | Criterion | Level 1 | Level 3 | Level 5 |
+|---|-----------|---------|---------|---------|
+| 6 | **The Needle Mover Test** | Buys stock because company was mentioned in viral video | Analyzes product sales but doesn't calculate % of total revenue | Meticulously verifies trend will violently disrupt revenue, costs, or perception |
+| 7 | **Offsetting Catalysts** | Ignores broader company operations | Briefly checks recent earnings for bad news | Aggressively searches for hidden failures across every division |
+| 8 | **Handling Market Noise** | Watches CNBC, panics over Fed rate hikes | Consumes finance media but filters some panic | Cuts out broadcast news entirely — pure independent observation |
+| 9 | **Idea Filtering** | Day trades dozens of stocks daily | Tracks trends but lacks patience for perfect alignment | 4-8 highly-vetted "game-changer" trades per year from massive research funnel |
+| 10 | **Cross-Validation** | Buys because one influencer mentioned it | Checks Google Trends but doesn't verify conversions | Corroborates conversational data + Google Trends + checkout traffic + credit card data |
+
+### III. Execution & Psychology
+
+| # | Criterion | Level 1 | Level 3 | Level 5 |
+|---|-----------|---------|---------|---------|
+| 11 | **Risk Capital Segregation** | Risks 401(k) or life savings | Sets up separate account but funds from paycheck | "Big money account" funded exclusively by life trade-offs — viewed as "OPM" |
+| 12 | **Trade Concentration** | Diversified across hundreds of stocks | 2-3% per position | 5-30% of liquid net worth in single high-conviction idea |
+| 13 | **Leverage Utilization** | Strictly buys shares with cash | Uses small margin (5-10%) | Near-term options + massive margin (80-100%) on asymmetric trades |
+| 14 | **Asymmetric Risk Mindset** | Avoids investing because "market is rigged" | Understands probabilities but emotionally paralyzed | Willingly risks total loss for 50%+ chance of 4x-10x return |
+| 15 | **Handling Devastating Losses** | Blames "rigged" market and quits | Gets depressed, stays away for years | Sleeps 2 days, dissects the missing variable, re-leverages on next thesis |
+
+### IV. Competitive Awareness & Discipline
+
+| # | Criterion | Level 1 | Level 3 | Level 5 |
+|---|-----------|---------|---------|---------|
+| 16 | **Black Swan Preparedness** | Sells everything in panic | Has loose idea of what stocks benefit | 20+ predefined disaster scenarios — executes within minutes of event |
+| 17 | **Post-Win Discipline** | Rolls profits into unresearched meme coins | Takes profits but hovers for immediate action | **Walks away** after grand slam — recognizes overconfidence destroys returns |
+| 18 | **Perception of Competition** | Believes hedge funds are unbeatable | Realizes hedge funds are slow but fears capital advantage | Views Wall Street as slow, lazy herd crippled by groupthink — easy to beat |
+| 19 | **Cultural/Demographic Blindspots** | Invests exclusively in B2B enterprise software | Notices trend but doesn't understand demographic | Immerses in other cultures — tracks women's apparel, teen trends, Looksmaxxing |
+| 20 | **On-the-Ground Channel Checks** | Never leaves the office | Buys the product online to test it | "Infiltrates" stores, interviews clerks and managers for raw sales data |
+
+---
+
+## APPENDIX: SOURCE MATERIAL
+
+Primary sources referenced in this extraction:
+- Chris Camillo — Books on social arbitrage and observational investing
+- Podcast appearances (multiple, discussing specific trades)
+- Online community content (Discord, interviews)
+- The Sphere / Wizard of Oz trade deconstruction
+- COVID-19 pandemic trade timeline
+- QSR / Tim Hortons blowup analysis
+- Lululemon accidental exercise story
+- Humanoid robot thesis and KPI framework
+- AI workflow and autonomous agent demonstrations
+- The "big money account" psychology framework
+- TickerTags history and evolution

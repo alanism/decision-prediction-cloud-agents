@@ -1,0 +1,9 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://capital-decision-lab.invalid/schemas/host-capability-request.v1.schema.json",
+  "type":"object","additionalProperties":false,
+  "required":["contract_version","request_id","capability","source_type","parameters","canonical_hash"],
+  "properties":{"contract_version":{"const":"nhi.host_capability_request.v1"},"request_id":{"type":"string","minLength":1},
+    "capability":{"enum":["browser_current_page","browser_fetch_url","browser_extract_selection","screenshot_capture","screenshot_ocr","authenticated_session_fetch","local_file_picker","clipboard_read","user_confirmation"]},
+    "source_type":{"enum":["polymarket","x_twitter","reddit","portfolio","broker_margin","manual_note","local_file","other"]},
+    "parameters":{"type":"object"},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}}
+}

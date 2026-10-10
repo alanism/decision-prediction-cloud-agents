@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/ensemble-result.v1.schema.json",
+  "title": "Ensemble Result v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "ensemble_id",
+    "aggregated_by",
+    "contributing_receipt_hashes",
+    "applicable_family_count",
+    "threshold_constant_version",
+    "correlated_models",
+    "claims",
+    "binding_vetoes",
+    "limitations"
+  ],
+  "properties": {
+    "contract_version": {"const": "nhi.ensemble_result.v1"},
+    "ensemble_id": {"type": "string", "minLength": 1},
+    "aggregated_by": {"const": "engine"},
+    "contributing_receipt_hashes": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+    },
+    "applicable_family_count": {"type": "integer"},
+    "threshold_constant_version": {"type": "string", "minLength": 1},
+    "correlated_models": {
+      "type": "array"
+    },
+    "claims": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "robust_positive": {"type": "array", "items": {"type": "string"}},
+        "conditional": {"type": "array", "items": {"type": "string"}},
+        "disputed": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "binding_vetoes": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

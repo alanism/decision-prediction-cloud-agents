@@ -1,0 +1,97 @@
+{
+  "schema_version": "cloud-extraction-board.v1",
+  "denominator": 10,
+  "scope": "Independent cloud extraction; prior PR2 percentage does not transfer. Browser/native/live-provider acceptance remain separately open.",
+  "tasks": [
+    {
+      "id": "CLOUD-01",
+      "title": "Account for source assets and exclusions",
+      "status": "done",
+      "evidence": [
+        "UPSTREAM.json and docs/extraction/ASSET-MATRIX.md"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-02",
+      "title": "Vendor pinned engine and unchanged contracts",
+      "status": "done",
+      "evidence": [
+        "UPSTREAM.json and docs/extraction/ASSET-MATRIX.md"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-03",
+      "title": "Separate host-neutral cloud adapter",
+      "status": "done",
+      "evidence": [
+        "UPSTREAM.json and docs/extraction/ASSET-MATRIX.md"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-04",
+      "title": "Adapt cloud guidance and complete design assets",
+      "status": "done",
+      "evidence": [
+        "UPSTREAM.json and docs/extraction/ASSET-MATRIX.md"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-05",
+      "title": "Install independently and relocate",
+      "status": "done",
+      "evidence": [
+        "docs/verification/STATUS.md",
+        "37 portable tests + 9 inventory checks; fresh relocation and prior actual PNG replay"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-06",
+      "title": "Run portable and extraction checks",
+      "status": "done",
+      "evidence": [
+        "docs/verification/STATUS.md",
+        "37 portable tests + 9 inventory checks; fresh relocation and prior actual PNG replay"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-07",
+      "title": "Revalidate versioned storage and actual image handoff",
+      "status": "done",
+      "evidence": [
+        "docs/verification/STATUS.md",
+        "37 portable tests + 9 inventory checks; fresh relocation and prior actual PNG replay"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-08",
+      "title": "Complete independent extraction review",
+      "status": "done",
+      "evidence": [
+        "docs/verification/INDEPENDENT-REVIEW.md",
+        "Independent 37 portable + 9 extraction tests and 286-file relocation acceptance"
+      ],
+      "blocker": ""
+    },
+    {
+      "id": "CLOUD-09",
+      "title": "Run full original upstream pytest regression",
+      "status": "blocked",
+      "evidence": [],
+      "blocker": "Pytest 9.0.2 installation approval pending; full original suite remains an upstream gate."
+    },
+    {
+      "id": "CLOUD-10",
+      "title": "Publish reviewed separate repository",
+      "status": "todo",
+      "evidence": [],
+      "blocker": ""
+    }
+  ]
+}

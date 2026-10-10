@@ -1,0 +1,14 @@
+{
+  "fixture_class": "valid_synthetic",
+  "proposal": {
+    "proposal_id": "proposal_synthetic_001",
+    "analysis_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "selected_action": {"value": "alt_a", "provenance_class": "decided"}
+  },
+  "authorization": {
+    "authorization_id": "authorization_synthetic_001",
+    "proposal_hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "confirmed_by_human": true
+  }
+}
+

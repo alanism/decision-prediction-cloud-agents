@@ -1,0 +1,12 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://capital-decision-lab.invalid/schemas/host-extraction-result.v1.schema.json",
+  "type":"object","additionalProperties":false,"required":["contract_version","extraction_id","source_type","input_ref","retrieval_method","extracted_fields","field_confidence","verification_status","limitations","canonical_hash"],
+  "properties":{"contract_version":{"const":"nhi.host_extraction_result.v1"},"extraction_id":{"type":"string"},
+    "source_type":{"enum":["polymarket","x_twitter","reddit","portfolio","broker_margin","manual_note"]},
+    "input_ref":{"$ref":"#/$defs/ref"},"retrieval_method":{"enum":["api","browser","scrape","screenshot","paste","file_import","manual","unknown"]},
+    "source_url":{"type":"string"},"source_artifact_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"},"raw_content_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+    "extracted_fields":{"type":"object"},"field_confidence":{"type":"object","additionalProperties":{"type":"number"}},
+    "verification_status":{"enum":["auto_retrieved","user_verified","user_corrected","unverified_extraction","failed","unavailable"]},
+    "limitations":{"type":"array","items":{"type":"string"}},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}},
+  "$defs":{"ref":{"type":"object","additionalProperties":false,"required":["id","canonical_hash"],"properties":{"id":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}}}}
+}

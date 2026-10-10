@@ -1,0 +1,12 @@
+{
+  "schema_version": "portable-schedule-intent.v1",
+  "state": "unconfigured_not_active",
+  "schedule": null,
+  "timezone": null,
+  "tickers": [],
+  "destination": null,
+  "retention": null,
+  "source_policy": "public company research; optional private context requires separate authorized destination",
+  "activation_requires": ["explicit user request", "verified host scheduler", "chosen timing and timezone", "bounded stock rotation", "chosen private delivery and retention", "host setup receipt", "separate first-run receipt"],
+  "native_api": null
+}

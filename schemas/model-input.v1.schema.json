@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/model-input.v1.schema.json",
+  "title": "Model Input v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "model_id",
+    "model_family",
+    "model_version",
+    "input_trust_class",
+    "parameters"
+  ],
+  "properties": {
+    "contract_version": {"const": "nhi.model_input.v1"},
+    "model_id": {"type": "string", "minLength": 1},
+    "model_family": {"type": "string", "enum": ["power_law", "markov", "bass", "bandit"]},
+    "model_version": {"type": "string", "minLength": 1},
+    "input_trust_class": {
+      "enum": ["synthetic_test", "user_verified", "verified_local", "untrusted_external"]
+    },
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "xmin": {"type": "number"},
+        "observations": {
+          "type": "array",
+          "items": {"type": "number"}
+        },
+        "states": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "transition_matrix": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {"type": "number"}
+          }
+        },
+        "orientation": {"type": "string", "enum": ["row_from_state"]},
+        "transition_rule_fixed": {"type": "boolean"},
+        "market_potential": {"type": "number"},
+        "initial_adopters": {"type": "number"},
+        "p": {"type": "number"},
+        "q": {"type": "number"},
+        "horizon": {"type": "integer"},
+        "arm_count": {"type": "integer"},
+        "probabilities": {
+          "type": "array",
+          "items": {"type": "number"}
+        },
+        "policy": {"type": "string", "enum": ["greedy", "sample_then_greedy", "adaptive_epsilon"]},
+        "initial_pulls_per_arm": {"type": "integer"},
+        "epsilon_0": {"type": "number"},
+        "epsilon_min": {"type": "number"}
+      }
+    },
+    "input_refs": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "claim_specs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_id", "target_property", "direction"],
+        "properties": {
+          "claim_id": {"type": "string", "minLength": 1},
+          "target_property": {"type": "string", "minLength": 1},
+          "direction": {"enum": ["supports", "contradicts", "neutral", "unavailable"]}
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

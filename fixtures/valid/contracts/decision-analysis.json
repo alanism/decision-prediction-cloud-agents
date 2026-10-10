@@ -1,0 +1,24 @@
+{
+  "contract_version": "nhi.decision_analysis.v1",
+  "analysis_id": "analysis_contract_001",
+  "case_ref": {
+    "id": "case_contract_001",
+    "canonical_hash": "2222222222222222222222222222222222222222222222222222222222222222"
+  },
+  "data": {
+    "starting_amount": {
+      "value": 1000.0,
+      "provenance_class": "measured",
+      "unit": "USD",
+      "input_refs": ["user.input.amount"]
+    },
+    "deferred_metric": {
+      "value": null,
+      "provenance_class": "unavailable",
+      "reason": "insufficient inputs",
+      "limitations": ["No substitute value supplied"]
+    }
+  },
+  "canonical_hash": "3333333333333333333333333333333333333333333333333333333333333333"
+}
+

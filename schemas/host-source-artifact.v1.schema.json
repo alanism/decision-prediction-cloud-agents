@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://capital-decision-lab.invalid/schemas/host-source-artifact.v1.schema.json",
+  "type":"object","additionalProperties":false,"required":["contract_version","artifact_id","artifact_path","artifact_hash","mime_type","captured_at","local_only","canonical_hash"],
+  "properties":{"contract_version":{"const":"nhi.host_source_artifact.v1"},"artifact_id":{"type":"string"},"artifact_path":{"type":"string"},
+    "artifact_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"},"mime_type":{"type":"string"},"captured_at":{"type":"string"},
+    "local_only":{"const":true},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}}
+}

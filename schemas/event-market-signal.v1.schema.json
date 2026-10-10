@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/event-market-signal.v1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract_version", "signal_id", "snapshot_ref", "data", "report_sections", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.event_market_signal.v1"}, "signal_id": {"type": "string"},
+    "snapshot_ref": {"type": "object"}, "data": {"type": "object", "additionalProperties": {"$ref": "#/$defs/atom"}},
+    "report_sections": {"type": "object"}, "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "source_type": {"const": "polymarket"}, "event_domain": {"type": "string"},
+    "event_category": {"type": "string"}, "impact_channels": {"type": "array", "items": {"type": "string"}},
+    "update_eligible": {"type": "boolean"}, "issues": {"type": "array", "items": {"type": "object"}}
+  },
+  "$defs": {"atom": {"type": "object", "additionalProperties": false, "required": ["value", "provenance_class"], "properties": {"value": {}, "provenance_class": {"enum": ["measured", "calculated", "modeled", "forecast", "unavailable"]}, "unit": {"type": "string"}, "input_refs": {"type": "array", "items": {"type": "string"}}, "formula_ref": {"type": "string"}, "limitations": {"type": "array", "items": {"type": "string"}}, "reason": {"type": "string"}}}}
+}

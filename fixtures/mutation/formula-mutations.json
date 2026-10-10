@@ -1,0 +1,14 @@
+{
+  "fixture_class": "mutation_specification",
+  "mutations": [
+    "sign_flip",
+    "denominator_change",
+    "percentile_direction_change",
+    "annualization_change",
+    "drawdown_direction_change",
+    "exposure_cap_removed",
+    "seed_ignored"
+  ],
+  "status": "deferred_until_formula_slice"
+}
+

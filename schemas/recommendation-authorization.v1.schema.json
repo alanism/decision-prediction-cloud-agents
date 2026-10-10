@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/recommendation-authorization.v1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract_version", "authorization_id", "recommendation_ref", "authorization_action", "confirmed_by_human", "belief_update_hash", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.recommendation_authorization.v1"},
+    "authorization_id": {"type": "string", "minLength": 1},
+    "recommendation_ref": {"type": "object", "additionalProperties": false, "required": ["recommendation_id", "canonical_hash"], "properties": {
+      "recommendation_id": {"type": "string", "minLength": 1}, "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+    }},
+    "authorization_action": {"enum": ["accept_recommendation", "modify_recommendation", "reject_recommendation", "record_no_action", "record_watch_trigger"]},
+    "confirmed_by_human": {"const": true},
+    "belief_update_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

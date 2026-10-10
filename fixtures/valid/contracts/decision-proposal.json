@@ -1,0 +1,15 @@
+{
+  "contract_version": "nhi.decision_proposal.v1",
+  "proposal_id": "proposal_contract_001",
+  "analysis_ref": {
+    "analysis_id": "analysis_contract_001",
+    "canonical_hash": "3333333333333333333333333333333333333333333333333333333333333333"
+  },
+  "selected_action": {
+    "value": "alt_a",
+    "provenance_class": "decided",
+    "input_refs": ["case_contract_001"]
+  },
+  "canonical_hash": "5555555555555555555555555555555555555555555555555555555555555555"
+}
+

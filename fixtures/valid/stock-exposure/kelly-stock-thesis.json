@@ -1,0 +1,15 @@
+{
+  "fixture_class": "valid_synthetic_stock_exposure",
+  "engine": "kelly",
+  "inputs": {
+    "capital_at_risk": 10000.0,
+    "win_probability": 0.35,
+    "win_payoff_multiple": 3.0,
+    "loss_probability": 0.65,
+    "loss_payoff_multiple": -1.0,
+    "kelly_fraction": 0.25,
+    "max_exposure_cap": 0.1,
+    "confidence_haircut": 0.5
+  }
+}
+

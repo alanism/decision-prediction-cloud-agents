@@ -1,0 +1,23 @@
+--- upstream/privacy/containment.py
++++ downstream/privacy/containment.py
+@@ -3,7 +3,7 @@
+ from __future__ import annotations
+ 
+ import os
+-from pathlib import Path
++from pathlib import Path, PureWindowsPath
+ 
+ 
+ _REPARSE_POINT = 0x400
+@@ -25,6 +25,11 @@
+         return {"allowed": False, "issues": [{"code": "CONTAINMENT_ROOT_INVALID"}]}
+ 
+     raw = Path(candidate)
++    # POSIX treats Windows drives and backslashes as relative filename text.
++    # Reject foreign absolute/drive-relative syntax before native resolution.
++    # On Windows, native containment below handles valid Windows paths.
++    if os.name != "nt" and (PureWindowsPath(str(raw)).drive or str(raw).startswith("\\")):
++        return {"allowed": False, "issues": [{"code": "PATH_ESCAPE_FORBIDDEN"}]}
+     if not raw.is_absolute():
+         raw = resolved_root / raw
+ 

@@ -1,0 +1,15 @@
+{
+  "contract_version": "nhi.decision_authorization.v1",
+  "authorization_id": "authorization_contract_001",
+  "proposal_ref": {
+    "proposal_id": "proposal_contract_001",
+    "canonical_hash": "5555555555555555555555555555555555555555555555555555555555555555",
+    "document_path": "../proposals/proposal_contract_001.json"
+  },
+  "analysis_ref": {
+    "analysis_id": "analysis_contract_001",
+    "canonical_hash": "3333333333333333333333333333333333333333333333333333333333333333"
+  },
+  "confirmed_by_human": true,
+  "canonical_hash": "6666666666666666666666666666666666666666666666666666666666666666"
+}

@@ -1,0 +1,6 @@
+{
+  "fixture_class": "adversarial",
+  "mutation": "required_input_missing",
+  "case_id": "case_incomplete"
+}
+

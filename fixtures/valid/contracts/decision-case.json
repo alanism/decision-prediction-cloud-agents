@@ -1,0 +1,13 @@
+{
+  "contract_version": "nhi.decision_case.v1",
+  "case_id": "case_contract_001",
+  "alternatives": [
+    {"alternative_id": "alt_a", "label": "Alternative A"},
+    {"alternative_id": "alt_b", "label": "Alternative B"}
+  ],
+  "assumption_register_ref": {
+    "register_id": "register_contract_001",
+    "canonical_hash": "1111111111111111111111111111111111111111111111111111111111111111"
+  }
+}
+

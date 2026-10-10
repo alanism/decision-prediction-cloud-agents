@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/thesis-sensitivity-map.v1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract_version", "map_id", "target_asset", "sensitivity_rules", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.thesis_sensitivity_map.v1"}, "map_id": {"type": "string"},
+    "target_asset": {"type": "object"}, "sensitivity_rules": {"type": "array", "items": {"$ref": "#/$defs/rule"}},
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "$defs": {"rule": {"type": "object", "additionalProperties": false,
+    "required": ["source_type", "event_domain", "event_category", "impact_channel", "direction_for_thesis", "sensitivity", "affected_assumption"],
+    "properties": {
+      "source_type": {"enum": ["polymarket", "x_twitter", "reddit", "news", "sec_filing", "company_page", "brokerage_screenshot", "portfolio_file", "manual_note", "other"]},
+      "event_domain": {"type": "string"}, "event_category": {"type": "string"}, "impact_channel": {"type": "string"},
+      "direction_for_thesis": {"enum": ["bullish", "bearish", "mixed", "volatility_increasing", "neutral", "unknown"]},
+      "sensitivity": {"enum": ["low", "medium", "high", "critical"]}, "affected_assumption": {"type": "string"}
+    }
+  }}
+}

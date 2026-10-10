@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "https://capital-decision-lab.invalid/schemas/belief-state.v1.schema.json",
+  "type": "object", "additionalProperties": false, "required": ["contract_version", "belief_id", "case_ref", "assumption", "prior_probability", "canonical_hash"],
+  "properties": {"contract_version": {"const": "nhi.belief_state.v1"}, "belief_id": {"type": "string"}, "case_ref": {"type": "string"}, "assumption": {"type": "string"}, "prior_probability": {"type": "number"}, "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+}

@@ -1,0 +1,1 @@
+{"fixture_class":"synthetic","target_ticker":"SYNTH","time_horizon":"12 months","user_thesis_text":"Synthetic downside and margin-risk thesis","probabilities":{"bear":0.55,"base":0.3,"bull":0.15},"payoffs":{"bear":-0.6,"base":0.0,"bull":0.4},"confirmation_status":"confirmed"}

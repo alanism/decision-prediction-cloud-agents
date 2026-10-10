@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/decision-proposal.v1.schema.json",
+  "title": "Decision Proposal v1",
+  "description": "A user-selected action or exposure being considered.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "proposal_id", "analysis_ref", "selected_action", "canonical_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.decision_proposal.v1"},
+    "proposal_id": {"type": "string", "minLength": 1},
+    "analysis_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["analysis_id", "canonical_hash"],
+      "properties": {
+        "analysis_id": {"type": "string", "minLength": 1},
+        "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "selected_action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "provenance_class"],
+      "properties": {
+        "value": {},
+        "provenance_class": {"const": "decided"},
+        "unit": {"type": "string"},
+        "input_refs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "limitations": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "canonical_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

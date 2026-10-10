@@ -1,0 +1,15 @@
+{
+  "fixture_class": "adversarial",
+  "expected_issue_code": "SCHEMA_REQUIRED_MISSING",
+  "document": {
+    "contract_version": "nhi.decision_authorization.v1",
+    "authorization_id": "authorization_bad_001",
+    "proposal_ref": {
+      "proposal_id": "proposal_bad_001",
+      "canonical_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "confirmed_by_human": true,
+    "canonical_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  }
+}
+

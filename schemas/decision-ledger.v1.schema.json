@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capital-decision-lab.invalid/schemas/decision-ledger.v1.schema.json",
+  "title": "Decision Ledger v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "ledger_id", "entries", "ledger_hash"],
+  "properties": {
+    "contract_version": {"const": "nhi.decision_ledger.v1"},
+    "ledger_id": {"type": "string", "minLength": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["entry_id", "authorization_id", "proposal_hash", "analysis_hash", "authorization_hash", "previous_entry_hash", "entry_hash"],
+        "properties": {
+          "entry_id": {"type": "string", "minLength": 1},
+          "authorization_id": {"type": "string", "minLength": 1},
+          "proposal_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "analysis_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "authorization_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "previous_entry_hash": {"type": ["string", "null"]},
+          "entry_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    },
+    "ledger_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

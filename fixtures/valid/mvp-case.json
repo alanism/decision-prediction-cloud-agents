@@ -1,0 +1,70 @@
+{
+  "contract_version": "nhi.decision_case.v1",
+  "case_id": "case_mvp_001",
+  "alternatives": [
+    {
+      "alternative_id": "alt_a",
+      "label": "Alternative A",
+      "inputs": {
+        "ending_value": {"value": 110.0, "provenance_class": "assumed", "unit": "USD"}
+      }
+    },
+    {
+      "alternative_id": "alt_b",
+      "label": "Alternative B",
+      "inputs": {
+        "ending_value": {"value": 105.0, "provenance_class": "assumed", "unit": "USD"}
+      }
+    }
+  ],
+  "inputs": {
+    "starting_value": {"value": 100.0, "provenance_class": "measured", "unit": "USD"},
+    "ending_value": {"value": 108.0, "provenance_class": "assumed", "unit": "USD"},
+    "years": {"value": 1.0, "provenance_class": "assumed", "unit": "years"},
+    "outcomes": {
+      "value": [
+        {"probability": 0.6, "payoff": 20.0, "return": 0.2},
+        {"probability": 0.4, "payoff": -10.0, "return": -0.1}
+      ],
+      "provenance_class": "assumed"
+    },
+    "periodic_returns": {"value": [0.02, -0.01, 0.03, -0.02], "provenance_class": "measured", "unit": "ratio"},
+    "value_series": {"value": [100.0, 110.0, 95.0, 105.0], "provenance_class": "measured", "unit": "USD"},
+    "paired_returns": {
+      "value": {"left": [0.01, 0.02, 0.03], "right": [0.02, 0.04, 0.06]},
+      "provenance_class": "measured"
+    },
+    "baseline_rate": {"value": 0.0, "provenance_class": "assumed", "unit": "ratio"},
+    "periods_per_year": {"value": 12, "provenance_class": "assumed"},
+    "confidence": {"value": 0.75, "provenance_class": "assumed"},
+    "win_probability": {"value": 0.6, "provenance_class": "assumed", "unit": "probability"},
+    "net_odds": {"value": 1.0, "provenance_class": "assumed"},
+    "kelly_fraction": {"value": 0.5, "provenance_class": "assumed"},
+    "exposure_cap": {"value": 0.05, "provenance_class": "assumed", "unit": "capital fraction"},
+    "scenarios": {
+      "value": {
+        "bull": {"probability": 0.25, "return": 0.3},
+        "base": {"probability": 0.5, "return": 0.1},
+        "bear": {"probability": 0.25, "return": -0.2}
+      },
+      "provenance_class": "assumed"
+    },
+    "simulation": {
+      "value": {
+        "starting_value": 100.0,
+        "mean_return": 0.01,
+        "volatility": 0.02,
+        "periods": 12,
+        "iteration_count": 200,
+        "seed": 73021,
+        "distribution_family": "normal"
+      },
+      "provenance_class": "assumed"
+    }
+  },
+  "assumption_register_ref": {
+    "register_id": "register_mvp_001",
+    "canonical_hash": "8888888888888888888888888888888888888888888888888888888888888888"
+  }
+}
+

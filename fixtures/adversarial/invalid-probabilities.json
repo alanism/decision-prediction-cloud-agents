@@ -1,0 +1,6 @@
+{
+  "fixture_class": "adversarial",
+  "mutation": "probability_total_invalid",
+  "probabilities": [0.8, 0.7]
+}
+

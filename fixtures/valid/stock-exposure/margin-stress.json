@@ -1,0 +1,15 @@
+{
+  "fixture_class": "valid_synthetic_stock_exposure",
+  "engine": "margin",
+  "inputs": {
+    "cash_equity": 10000.0,
+    "position_market_value": 20000.0,
+    "borrowed_amount": 10000.0,
+    "maintenance_margin_requirement": 0.25,
+    "initial_margin_requirement": 0.5,
+    "current_price": 100.0,
+    "shares": 200.0,
+    "stress_price_declines": [0.1, 0.2, 0.3]
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "fixture_class": "adversarial",
+  "mutation": "path_escape",
+  "path": "../../outside.json"
+}
+

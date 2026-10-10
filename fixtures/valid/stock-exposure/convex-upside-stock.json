@@ -1,0 +1,15 @@
+{
+  "fixture_class": "valid_synthetic_stock_exposure",
+  "engine": "convexity",
+  "inputs": {
+    "scenarios": [
+      {"name": "bear", "probability": 0.25, "payoff": -40.0, "return": -0.4, "assumptions": ["Synthetic bear case"]},
+      {"name": "base", "probability": 0.35, "payoff": 10.0, "return": 0.1, "assumptions": ["Synthetic base case"]},
+      {"name": "bull", "probability": 0.25, "payoff": 100.0, "return": 1.0, "assumptions": ["Synthetic bull case"]},
+      {"name": "moonshot", "probability": 0.15, "payoff": 400.0, "return": 4.0, "assumptions": ["Synthetic tail-upside case"]}
+    ],
+    "downside_capped": true,
+    "upside_open_ended": true
+  }
+}
+

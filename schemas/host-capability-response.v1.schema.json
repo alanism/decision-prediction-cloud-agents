@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://capital-decision-lab.invalid/schemas/host-capability-response.v1.schema.json",
+  "type":"object","additionalProperties":false,
+  "required":["contract_version","response_id","request_ref","capability","status","retrieval_method","retrieval_timestamp","raw_content_hash","payload","confidence","limitations","canonical_hash"],
+  "properties":{"contract_version":{"const":"nhi.host_capability_response.v1"},"response_id":{"type":"string"},
+    "request_ref":{"$ref":"#/$defs/request_ref"},"capability":{"enum":["browser_current_page","browser_fetch_url","browser_extract_selection","screenshot_capture","screenshot_ocr","authenticated_session_fetch","local_file_picker","clipboard_read","user_confirmation"]},
+    "status":{"enum":["ok","failed","unavailable","cancelled"]},"retrieval_method":{"enum":["api","browser","scrape","screenshot","paste","file_import","manual","unknown"]},
+    "retrieval_timestamp":{"type":"string"},"source_url":{"type":"string"},"source_artifact_ref":{"$ref":"#/$defs/artifact_ref"},"source_artifact_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+    "raw_content_hash":{"type":["string","null"],"pattern":"^[a-f0-9]{64}$"},"payload":{"type":"object"},"confidence":{"type":"number"},
+    "limitations":{"type":"array","items":{"type":"string"}},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}},
+  "$defs":{"request_ref":{"type":"object","additionalProperties":false,"required":["request_id","canonical_hash"],"properties":{"request_id":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}}},
+    "artifact_ref":{"type":"object","additionalProperties":false,"required":["artifact_id","canonical_hash"],"properties":{"artifact_id":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"}}}}
+}

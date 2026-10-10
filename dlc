@@ -1,0 +1,440 @@
+---
+name: ed-thorp-investment-methodology
+description: Operational playbook extracting Ed Thorp's complete investment analysis workflow, Kelly Criterion implementation, portfolio management, margin/lending, convexity strategies, Bayesian updating, and bet sizing under uncertainty. Derived from 27 systematic queries across 3 rounds against primary sources.
+---
+
+# Ed Thorp Investment Methodology — Agent Playbook
+
+> Authoritative extraction from primary sources: Edward O. Thorp's published works, interviews, Princeton Newport Partners track record, and mathematical frameworks. Designed for consumption by specialized investment AI agents.
+
+---
+
+## 1. INVESTMENT ANALYSIS WORKFLOW
+
+### 1.1 The Complete Pipeline
+
+```mermaid
+graph LR
+    A[Idea Generation] --> B[Fair-Value Model]
+    B --> C[Hedge Construction]
+    C --> D[Kelly Sizing]
+    D --> E[Execution]
+    E --> F[Convergence]
+    F --> G[Capital Recycling]
+```
+
+### 1.2 Step-by-Step
+
+**Step 1 — Idea Generation**
+- Hunt for structural inefficiencies in obscure or unstandardized markets
+- Targets: OTC warrants, convertible bonds, early options, dual-listed stocks, index futures
+- **Signal:** Assets priced by human emotion rather than mathematical reality
+- **Priority filter:** Favor instruments expiring in <4 years (faster convergence = higher annualized returns)
+
+**Step 2 — Fair-Value Pricing**
+- Apply proprietary differential equation models (developed pre-Black-Scholes)
+- Inputs: stock price, strike price, time to expiration, volatility, interest rates
+- **Output:** Theoretical fair value vs. market price → mispricing magnitude
+
+**Step 3 — Hedge Construction**
+- NEVER take a naked directional position
+- Construct market-neutral hedges: simultaneously long the undervalued instrument, short the overvalued one
+- Ratio calculation maps to "zero profit lines" on warrant-stock diagrams
+- **Goal:** Profit independent of market direction
+
+**Step 4 — Position Sizing (Kelly Criterion)**
+- See Section 2 for complete Kelly implementation
+- Always use **Fractional Kelly** (Half or Quarter) as margin of safety
+- Cap leverage at **2.0×** maximum regardless of what Kelly suggests
+
+**Step 5 — Execution**
+- Thorp (models) → Jay Regan (trading floor execution)
+- Multi-legged trades executed across multiple brokerages to ensure borrow availability
+- Mechanical execution — no gut feelings, no second-guessing the math
+
+**Step 6 — Hold to Convergence**
+- Position held until mispricing converges to fair value
+- Both legs closed simultaneously for guaranteed profit
+- No attempt to time the market — wait for the math to resolve
+
+**Step 7 — Capital Recycling**
+- Immediately recycle freed capital into next inefficiency
+- Use **Same-Day Substitution Rule** (Reg T §220.3(g)) to re-deploy without posting new margin
+
+### 1.3 Princeton Newport Partners Operating Model
+
+| Role | Person | Function |
+|------|--------|----------|
+| Quantitative Brain | Ed Thorp | Model architecture, strategy design, UC Irvine academic team |
+| Trading Floor Master | Jay Regan | Multi-legged execution, broker relationships, borrow sourcing |
+| Research & Computation | UC Irvine faculty/staff | Running calculations, model iteration, data analysis |
+
+**Operating Principles:**
+- Zero attention to fundamentals (earnings, management, story)
+- 100% of decisions driven by computer model output
+- Firm operated 1969–1988 with 19-20% annualized returns
+- 227 profitable months out of 230; worst down month <1%
+
+---
+
+## 2. KELLY CRITERION — COMPLETE IMPLEMENTATION
+
+### 2.0 Kelly Criterion Decision Tree
+
+```mermaid
+graph TD
+    root[Do you have an edge?] -->|Yes| binary{Binary or continuous?}
+    root -->|No| no[Bet = 0]
+    binary -->|Binary| discrete[Discrete: f* = bp - q / b]
+    binary -->|Continuous| continuous[Continuous: f* = μ - r / σ²]
+    discrete --> fractional{Apply Fractional Kelly?}
+    continuous --> fractional
+    fractional -->|Yes| half[Half-Kelly: 75% growth, 12.5% ruin]
+    fractional -->|Yes| quarter[Quarter-Kelly: 44% growth, 0.8% ruin]
+    half --> sized[Position sized!]
+    quarter --> sized
+```
+
+### 2.1 Formula Selection by Asset Type
+
+| Scenario | Formula | Variables |
+|----------|---------|-----------|
+| **Discrete binary bet** | $f^* = \frac{bp - q}{b}$ | $b$ = net odds received, $p$ = win probability, $q$ = loss probability |
+| **Continuous security (lognormal)** | $f^* = \frac{\mu - r}{\sigma^2}$ | $\mu$ = expected return, $r$ = risk-free rate, $\sigma^2$ = variance |
+| **Multi-asset portfolio** | $F^* = C^{-1}[M - R]$ | $F^*$ = optimal fraction vector, $C^{-1}$ = inverse covariance, $M$ = drift vector, $R$ = risk-free rate |
+| **Hedged pair** | $s/w = 1/m$ | $m$ = hedge mix ratio, $s$ = shares short, $w$ = warrants long |
+
+### 2.2 Fractional Kelly — The Safety Modifier
+
+**The Core Tension:** Full Kelly maximizes long-term growth but produces gut-wrenching 90% drawdowns that humans cannot survive psychologically.
+
+**Thorp's Solution:** Apply multiplier $c$ (where $0 < c \leq 1$) to the optimal Kelly fraction.
+
+| Fraction ($c$) | Relative Growth | Volatility Reduction | Ruin Probability (losing half) |
+|---|---|---|---|
+| Full Kelly ($c=1$) | 100% of max | — | $0.5^1 = 50\%$ |
+| Half Kelly ($c=0.5$) | 75% of max | 50% less | $0.5^3 = 12.5\%$ |
+| Quarter Kelly ($c=0.25$) | ~44% of max | 75% less | $0.5^7 \approx 0.8\%$ |
+
+**Formula:** Fractional Kelly growth rate = $c(2-c)$ of maximum.
+**Recommendation:** Default to Half-Kelly ($c=0.5$). Use Quarter-Kelly for high-uncertainty strategies.
+
+### 2.3 The Estimation Problem — Margin of Safety
+
+**Problem:** Estimated edge ($m_e$) always exceeds true edge ($m_r$) due to:
+- Data mining / overfitting in backtests
+- Regulatory changes compressing edges
+- Market participants discovering and competing away the anomaly
+
+**Thorp's Rule:** Always assume $m_r < m_e$. Size in range $0.5 f_e^* \le f < f_e^*$.
+
+This guarantees:
+- Even if true edge is half of estimated edge, you're still on the positive side of the Kelly curve
+- Maximum sacrifice: 25% of expected growth
+- Protection against: ruin, wild oscillation, model error
+
+### 2.4 Multi-Strategy Sizing
+
+**For $n$ independent equal-edge investments:**
+$f^* < \frac{1}{n}$ per position to eliminate total portfolio ruin risk.
+
+**For correlated strategies:**
+Use full covariance matrix formulation $F^* = C^{-1}[M - R]$.
+Perfectly negatively correlated pairs (long/short within same company) mathematically cancel risk, allowing larger sizing.
+
+---
+
+## 3. PORTFOLIO CONSTRUCTION & RISK MANAGEMENT
+
+### 3.1 Portfolio Architecture
+
+PNP operated as a **massive collection of isolated, market-neutral hedges**:
+
+```mermaid
+graph LR
+    subgraph Individual Hedge
+        LONG[LONG undervalued asset]
+        SHORT[SHORT overvalued asset]
+    end
+    Individual Hedge --> LLN[Law of Large Numbers × hundreds of hedges]
+    LLN --> Result[Result: Bond-like vol less than Equity-like returns]
+```
+
+### 3.2 Capital Allocation Framework
+
+| Priority | Strategy | Rationale |
+|----------|----------|-----------|
+| 1 | Short-dated warrants (<4yr expiry) | Fastest convergence → highest annualized return |
+| 2 | Convertible arbitrage | Same hedging mechanics, different instrument |
+| 3 | OTC options | Nascent market, less competition |
+| 4 | Index arbitrage | Later iteration, lower margins |
+| 5 | Pairs trading | Ongoing statistical opportunities |
+
+**Allocation rule:** When strategies appear equal, split capital (e.g., 40/40/20 across three targets) to maximize diversification.
+
+### 3.3 Drawdown Management
+
+**Built-in Kelly Safeguards:**
+- Losing streak → capital shrinks → absolute dollar bet shrinks (automatic safety brake)
+- Winning streak → capital grows → absolute dollar bet expands (automatic compounding)
+- **NEVER** increase bet size to "win back" losses — this violates Kelly math and guarantees ruin
+
+**Structural Protection:**
+- Every trade is a hedged pair — market crashes don't affect the spread
+- Zero-profit-line mapping ensures downside is mathematically bounded
+- Maximum practical leverage capped at **2.0×** (50% margin)
+
+### 3.4 Rebalancing
+
+**Approach:** Trigger-based, not calendar-based
+- Execute rebalance ONLY if expected growth increase > transaction cost
+- For short positions: use **Avalanche Effect** — as price drops, released margin funds additional shorts without new cash
+- No cookie-cutter daily/weekly schedule
+
+### 3.5 Liquidity & Capacity Management
+
+| Constraint | Solution |
+|------------|----------|
+| Short borrow availability | Multiple brokerages, diversify borrow sources |
+| Short sale up-tick rule | Park released capital in short-term bonds until executable |
+| Position size limits | Spread across accounts, use same-day substitution |
+| Capital efficiency | Reg T §220.3(g) same-day substitution maximizes velocity |
+
+---
+
+## 4. MARGIN & LEVERAGE FRAMEWORK
+
+### 4.1 When to Use Leverage
+
+Kelly formula produces $f^* > 1$ when $\mu > r + \sigma^2$.
+
+This mathematically signals that borrowing to invest is optimal.
+
+### 4.2 Hard Safety Caps
+
+| Parameter | Cap | Reasoning |
+|-----------|-----|-----------|
+| Maximum leverage | **2.0×** (50% margin) | 1987-style 23% crash at 2× = survivable 2.85× ratio |
+| Theoretical Kelly leverage | Ignore if >2.0 | Continuous models don't account for gap risk |
+| Margin call buffer | Never exceed Reg T initial margin | Margin calls force liquidation at worst possible time |
+
+### 4.3 Same-Day Substitution Rule (Reg T §220.3(g))
+
+**Mechanism:** Liquidate existing hedge → released capital applied to new hedge of equal value on the same day → no new cash required.
+
+**When no immediate trade available:** Park released buying power in short-term listed bonds. Preserves ability to deploy when the next anomaly appears.
+
+---
+
+## 5. CONVEXITY & ASYMMETRIC PAYOFFS
+
+### 5.1 Identifying Positive Convexity
+
+**Thorp's Framework:**
+1. Build warrant-stock diagram mapping normal price curves
+2. Plot zero-profit lines showing upside/downside break-even
+3. Adjust hedge mix ratio until downside is mathematically bounded while upside remains open
+4. Result: Frequently produces setups with near-zero downside risk
+
+### 5.2 Asymmetric Structures
+
+**Warrant Hedging (Standard):**
+- SHORT overpriced expiring warrant + LONG underlying common stock
+- If stock crashes → short warrant profits massively
+- If stock soars → long common stock offsets warrant losses
+- Profit from convergence regardless of direction
+
+**Reverse Hedging (Underpriced warrant):**
+- LONG underpriced warrant + SHORT common stock
+- Target warrants near the "corner" of the minimum value line
+- Downside strictly limited if stock crashes
+- Massive upside if stock surges
+
+**Convertible Arbitrage:**
+- LONG underpriced convertible bond (acts as latent warrant) + SHORT common stock
+- Same hedging mechanics as warrant arbitrage
+
+**Straddles (Volatility arbitrage):**
+- SELL put + SELL call at same strike
+- Profit when stock stays within predicted price band
+- Collects overpriced premium
+
+### 5.3 The Avalanche Effect (Convexity Amplifier)
+
+**Setup:** Short an overpriced asset.
+**Mechanism:** As asset price drops, short position becomes profitable → margin is released from the profitable position → released margin allows shorting MORE shares without new cash.
+**Result:** Exponential convexity in downward moves — position size grows as the trade goes in your favor.
+
+---
+
+## 6. BAYESIAN UPDATING & PROBABILITY ESTIMATION
+
+### 6.1 Bayesian Framework
+
+**Continuous updating:** At each rebalance point, use empirical Bayes estimators to update:
+- Conditional mean rate of return ($\mu_t$)
+- Covariance matrix ($\Sigma_t$)
+- Using the freshest market data
+
+**Three-Question Model Health Check:**
+1. Did it work in the past? (backtest validation)
+2. Is it working now? (live signal detection)
+3. Do I think it will work in the future? (regime change assessment)
+
+### 6.2 Distinguishing Bad Luck from Broken Models
+
+**Method:** Calculate expected mean return and standard deviation.
+- Losing streak within 1-2σ → normal variance, stay the course
+- Results falling outside expected probability range → edge may be destroyed
+
+### 6.3 Win/Loss Probability Calculation
+
+**Discrete (Blackjack/arbitrage):**
+$E = \sum P_i R_i$
+Count cards: +1 small, -1 large. When deck shifts probability, increase bet.
+
+**Continuous (Securities):**
+Model prices as lognormal diffusion processes.
+Calculate expected value from drift rate, variance, and risk-free rate.
+Create continuous probability distribution of stock price at expiration.
+
+### 6.4 Estimation Error Protection
+
+**Always assume your model is over-optimistic.**
+- Backtested edge > real-world edge (data mining bias)
+- Market edges compress as others discover them
+- **Solution:** Fractional Kelly with c=0.5 provides 4× safety factor on estimation errors
+
+---
+
+## 7. MODEL VALIDATION & RESEARCH
+
+### 7.1 Validation Pipeline
+
+```mermaid
+graph TD
+    Step1[1. Theoretical derivation] --> Step2[2. Historical backtest 20+ yr]
+    Step2 --> Step3[3. Live paper-trading]
+    Step3 --> Step4[4. Emotional discipline training]
+    Step4 --> Step5[5. Scale up full Kelly]
+```
+
+### 7.2 Backtesting Standards
+
+- Minimum 20-year historical window
+- Test across ALL market conditions (bull, bear, flat, crash)
+- Account for transaction costs, slippage, borrow fees
+- FORTRAN simulations on IBM 704 for blackjack (millions of hands)
+- Statistical analysis of 20-year warrant history (1946–1966) before deploying
+
+### 7.3 Forward-Testing Protocol
+
+- Execute in live, low-stakes environments
+- Test human execution capability, not just math
+- Prove emotional discipline before scaling
+- Example: $1-$10 blackjack bets for 8 hours before moving to $500
+
+### 7.4 Continuous Model Iteration
+
+| Era | Strategy | Market Adaptation |
+|-----|----------|-------------------|
+| 1960s | Warrant hedging | Warrants became standardized |
+| 1970s | Convertible arbitrage | Convertibles became efficiently priced |
+| 1980s | OTC options | Options exchanges emerged |
+| 1980s | Index arbitrage | Futures/cash divergence exploited |
+| Ongoing | Pairs trading, stat arb | Statistical edges compress and shift |
+
+**Key insight:** "Financial exploits shrink as more people discover them." Constant innovation required.
+
+---
+
+## 8. TAIL RISK & BLACK SWAN PROTECTION
+
+### 8.1 Structural Protection (Not Stop-Losses)
+
+**Thorp's approach:** The hedge IS the stop-loss.
+
+Market-neutral pairs protect against:
+- 1970s bear market (survived)
+- 1987 crash (survived)
+- Any directional market move
+
+### 8.2 Leverage Limits as Crash Protection
+
+Historical crashes analyzed for leverage contribution:
+- 1929 crash: excess margin
+- 1987 crash: portfolio insurance leverage
+- 1998 LTCM: 100:1 leverage
+- 2008: mortgage leverage
+
+**Thorp's rule:** Use Kelly to mathematically define and cap maximum leverage. Never exceed.
+
+### 8.3 Kelly's Black Swan Adjustment
+
+Nonlinear programming optimization of Kelly formula incorporating extreme scenario probabilities forces reduction in $f^*$ to protect against catastrophic tail risk.
+
+---
+
+## 9. PHILOSOPHICAL FOUNDATIONS
+
+### 9.1 Core Tenets
+
+| Principle | Application |
+|-----------|-------------|
+| **Think for yourself** | Reject expert consensus when evidence contradicts it |
+| **Find your edge everywhere** | Smoking = -7yr life, motorcycles = 25× lethal per mile |
+| **Acknowledge limitations** | No edge? Buy S&P 500 index funds |
+| **Build systems, not feelings** | Mechanical rules override emotional breakdowns |
+| **Size to survive** | Fractional Kelly, not full Kelly |
+
+### 9.2 The Investing Hierarchy
+
+| Investor Type | Edge? | Recommended Action |
+|--------------|-------|-------------------|
+| Thorp/PNP | Proven mathematical edge | Deploy full arbitrage methodology |
+| Professional quant | Statistical edge in specific markets | Focus on niche; use Fractional Kelly |
+| Retail investor | No provable edge | Low-cost index funds (S&P 500) |
+| Gambler | Negative edge | Don't play |
+
+---
+
+## 10. QUANTITATIVE REFERENCE
+
+### 10.1 Key Formulas Quick Reference
+
+| Purpose | Formula | When to Use |
+|---------|---------|-------------|
+| Binary bet sizing | $f^* = (bp - q)/b$ | Arbitrage with discrete outcomes |
+| Continuous bet sizing | $f^* = (\mu - r)/\sigma^2$ | Stock/option sizing |
+| Multi-asset sizing | $F^* = C^{-1}[M - R]$ | Portfolio of correlated positions |
+| Fractional Kelly growth | $G(c) = c(2-c)G_{max}$ | Estimate growth at fraction $c$ |
+| Ruin probability | $P(x) = x^{(2/c - 1)}$ | Chance of dropping to fraction $x$ of capital |
+| Expected value | $E = \sum P_i R_i$ | Any probabilistic payoff |
+| Hedge mix ratio | $s/w = 1/m$ | Warrant hedging construction |
+
+### 10.2 Performance Reference
+
+**Princeton Newport Partners (1969–1988):**
+
+| Metric | Value |
+|--------|-------|
+| Annualized return | ~19-20% |
+| Profitable months | 227 / 230 (98.7%) |
+| Worst single month drawdown | <1% |
+| Worst year | None (zero down years) |
+| Maximum leverage used | ~2.0× |
+| Strategy type | Market-neutral arbitrage |
+| Risk profile | Bond-like volatility, equity-like returns |
+
+---
+
+## APPENDIX: SOURCE MATERIAL
+
+Primary sources referenced in this extraction:
+- Edward O. Thorp — *Beat the Dealer* (1962)
+- Edward O. Thorp, Sheen T. Kassouf — *Beat the Market* (1967)
+- Edward O. Thorp — *The Mathematics of Gambling* (1984)
+- Edward O. Thorp — *A Man for All Markets* (2017)
+- Leonard C. MacLean, Edward O. Thorp, William T. Ziemba — *The Kelly Capital Growth Investment Criterion* (2011)
+- Princeton Newport Partners track record and operational documentation
+- Multiple interview transcripts, commencement addresses, and academic presentations

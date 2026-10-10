@@ -1,0 +1,16 @@
+{
+  "contract_version": "nhi.assumption_register.v1",
+  "register_id": "register_contract_001",
+  "assumptions": [
+    {
+      "assumption_id": "assumption_amount",
+      "name": "Starting amount",
+      "value": 1000.0,
+      "unit": "USD",
+      "provenance_class": "assumed",
+      "input_refs": ["user.input.amount"],
+      "limitations": ["Synthetic value"]
+    }
+  ]
+}
+

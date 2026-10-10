@@ -1,0 +1,13 @@
+{
+  "fixture_class": "valid_synthetic",
+  "contract_version": "nhi.decision_case.v1",
+  "case_id": "case_synthetic_001",
+  "alternatives": [
+    {"alternative_id": "alt_hold", "label": "Hold current allocation"}
+  ],
+  "assumption_register_ref": {
+    "register_id": "assumptions_synthetic_001",
+    "canonical_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  }
+}
+
