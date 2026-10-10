@@ -331,7 +331,7 @@
       "source_path": "docs/method-packs/reddit-sensor.md",
       "source_working_sha256": "40d6133832c51ae4cd6dd661481b8f2a2a1f77e09afcfef73cd178d784e4afac",
       "source_git_base_sha256": "40d6133832c51ae4cd6dd661481b8f2a2a1f77e09afcfef73cd178d784e4afac",
-      "extracted_sha256": "62c572d9775ebdd5ad88fcfb3adc3c6f4100f7cc590f26b41071b4b6ca7c1df2"
+      "extracted_sha256": "0b43bdefe1c14d817d1b5177c7b4d0fda98508dbe521bb6e6ba7450fc92714b6"
     },
     {
       "path": "docs/method-packs/thorp.md",
@@ -1374,21 +1374,21 @@
       "source_path": "skills/many-models-reddit/SKILL.md",
       "source_working_sha256": "f72b3b8d6e332386e96ad2fe460d0374547b932c159a6eca46911842378a82e3",
       "source_git_base_sha256": "f72b3b8d6e332386e96ad2fe460d0374547b932c159a6eca46911842378a82e3",
-      "extracted_sha256": "8b9781f166d4152e591e877882d43137129aecc6aa2a655230cc02ea8dfe447f"
+      "extracted_sha256": "ae02bdd0fba3fb2354a9c2d1f0efc9eae90b56550655c2b7133996fc7f7c23d3"
     },
     {
       "path": "skills/many-models-viz/SKILL.md",
       "source_path": "skills/many-models-viz/SKILL.md",
       "source_working_sha256": "968cf3dbca27435f027d34ef119f7bbe8e07d004c07f9cea902bc5fde40c4247",
       "source_git_base_sha256": "968cf3dbca27435f027d34ef119f7bbe8e07d004c07f9cea902bc5fde40c4247",
-      "extracted_sha256": "477068414582b77927d49bd175d17f64180543630792ae2eb3040bf11385764e"
+      "extracted_sha256": "fce15e3e08fd669cf0c4a090d1f96f4bfad68e1a40db22d5dc3b93291dab6ef4"
     },
     {
       "path": "skills/many-models-viz/references/coding-manual.md",
       "source_path": "skills/many-models-viz/references/coding-manual.md",
       "source_working_sha256": "cc6868fdd6ce9caa8364b9b7b761124eeef551083b4e71d4512e6ee75db86141",
       "source_git_base_sha256": "cc6868fdd6ce9caa8364b9b7b761124eeef551083b4e71d4512e6ee75db86141",
-      "extracted_sha256": "9366fac10b6541e8999850ea8b1915edeeb1dc2f4fc2ef15715e103a2d3f62c0"
+      "extracted_sha256": "d134a6b6d44b5e41f14b258d2982eaf7f82f89444c9f094c1463635b5a600aea"
     },
     {
       "path": "skills/polymarket-macro-scan/SKILL.md",
@@ -2460,9 +2460,9 @@
     },
     {
       "path": "docs/method-packs/reddit-sensor.md",
-      "kind": "cloud guidance/privacy/educational adaptation",
+      "kind": "Cloud guidance adaptation with owner-authorized NotebookLM provenance restored",
       "before_sha256": "40d6133832c51ae4cd6dd661481b8f2a2a1f77e09afcfef73cd178d784e4afac",
-      "after_sha256": "62c572d9775ebdd5ad88fcfb3adc3c6f4100f7cc590f26b41071b4b6ca7c1df2"
+      "after_sha256": "0b43bdefe1c14d817d1b5177c7b4d0fda98508dbe521bb6e6ba7450fc92714b6"
     },
     {
       "path": "docs/reports/FIRST-REPORT-WITH-DOT.md",
@@ -2526,21 +2526,21 @@
     },
     {
       "path": "skills/many-models-reddit/SKILL.md",
-      "kind": "cloud guidance/privacy/educational adaptation",
+      "kind": "Cloud guidance adaptation with owner-authorized NotebookLM provenance restored",
       "before_sha256": "f72b3b8d6e332386e96ad2fe460d0374547b932c159a6eca46911842378a82e3",
-      "after_sha256": "8b9781f166d4152e591e877882d43137129aecc6aa2a655230cc02ea8dfe447f"
+      "after_sha256": "ae02bdd0fba3fb2354a9c2d1f0efc9eae90b56550655c2b7133996fc7f7c23d3"
     },
     {
       "path": "skills/many-models-viz/SKILL.md",
-      "kind": "cloud guidance/privacy/educational adaptation",
+      "kind": "Cloud guidance adaptation with owner-authorized NotebookLM provenance restored",
       "before_sha256": "968cf3dbca27435f027d34ef119f7bbe8e07d004c07f9cea902bc5fde40c4247",
-      "after_sha256": "477068414582b77927d49bd175d17f64180543630792ae2eb3040bf11385764e"
+      "after_sha256": "fce15e3e08fd669cf0c4a090d1f96f4bfad68e1a40db22d5dc3b93291dab6ef4"
     },
     {
       "path": "skills/many-models-viz/references/coding-manual.md",
-      "kind": "cloud guidance/privacy/educational adaptation",
+      "kind": "Cloud guidance adaptation with owner-authorized NotebookLM provenance restored",
       "before_sha256": "cc6868fdd6ce9caa8364b9b7b761124eeef551083b4e71d4512e6ee75db86141",
-      "after_sha256": "9366fac10b6541e8999850ea8b1915edeeb1dc2f4fc2ef15715e103a2d3f62c0"
+      "after_sha256": "d134a6b6d44b5e41f14b258d2982eaf7f82f89444c9f094c1463635b5a600aea"
     },
     {
       "path": "skills/polymarket-macro-scan/SKILL.md",
@@ -2656,7 +2656,7 @@
       "source_asset": "andy_allen_design_hero(5).md",
       "source_sha256": "a536f7552f65159175aaf9afa5d7fb11d5e7a6e73dcb47eff797aa25b09fbfca",
       "kind": "User-authorized generic design/template asset; privacy and current-policy adaptation",
-      "extracted_sha256": "cf62f329c8f754c05c7c83cdcd10b1fa68287fe5360a61662e6e064053b841b1"
+      "extracted_sha256": "af53788116ca5ab3a1653e312f518112d0560b552b1b265ca1c6d4c97efc113b"
     },
     {
       "path": "design/hero-cards/satori-grid-layout-rubric.md",
@@ -2667,5 +2667,11 @@
     }
   ],
   "first_implementation_commit": "5f907f455ef6d9a0d63c169ab3ad0cc476a57619",
-  "unchanged_upstream_main": "5bfe72972ee9b3ade55923e5419ca7ede1ac70ba"
+  "unchanged_upstream_main": "5bfe72972ee9b3ade55923e5419ca7ede1ac70ba",
+  "follow_on_patch": {
+    "scope": "Restore owner-authorized NotebookLM source traceability only",
+    "base_git_tree": "37473694c524d1fb2bfdf0b6d067b261c0af301b",
+    "base_release_manifest_sha256": "b37e2202672c1a3549b162f460695d20e9362d8efa35b9e909015d38d8ad3e2f",
+    "access_status": "Owner states public/shareable; current access not independently tested"
+  }
 }

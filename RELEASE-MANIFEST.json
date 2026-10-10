@@ -35,8 +35,8 @@
     },
     {
       "path": "UPSTREAM.json",
-      "sha256": "e7a56466f85838efd8d83eab7f06649aaf89fabb813ca35a0602d4d28e796315",
-      "bytes": 168764
+      "sha256": "74a1208bb6aa175ce9478401a1a72789b9b4a04a080afbfed3a10e09aa249bd7",
+      "bytes": 169264
     },
     {
       "path": "adapters/cloud/decision_cloud/__init__.py",
@@ -85,8 +85,8 @@
     },
     {
       "path": "design/hero-cards/andy-allen.md",
-      "sha256": "cf62f329c8f754c05c7c83cdcd10b1fa68287fe5360a61662e6e064053b841b1",
-      "bytes": 7842
+      "sha256": "af53788116ca5ab3a1653e312f518112d0560b552b1b265ca1c6d4c97efc113b",
+      "bytes": 8361
     },
     {
       "path": "design/hero-cards/satori-grid-layout-rubric.md",
@@ -315,8 +315,8 @@
     },
     {
       "path": "docs/method-packs/reddit-sensor.md",
-      "sha256": "62c572d9775ebdd5ad88fcfb3adc3c6f4100f7cc590f26b41071b4b6ca7c1df2",
-      "bytes": 2995
+      "sha256": "0b43bdefe1c14d817d1b5177c7b4d0fda98508dbe521bb6e6ba7450fc92714b6",
+      "bytes": 3227
     },
     {
       "path": "docs/method-packs/thorp.md",
@@ -382,6 +382,11 @@
       "path": "docs/safety-boundaries/private-data-policy.md",
       "sha256": "fdd809549e15987b29c90a25a5dc39e09a7a2ebc6dc2f13b5914626ac31d3f83",
       "bytes": 671
+    },
+    {
+      "path": "docs/sources/NOTEBOOKLM-SOURCES.md",
+      "sha256": "48449f4609afbe31a47238e1e109a2c2e89a36b4c3b50857a16324abcf73e30f",
+      "bytes": 3399
     },
     {
       "path": "docs/verification/INDEPENDENT-REVIEW.md",
@@ -1115,18 +1120,18 @@
     },
     {
       "path": "skills/many-models-reddit/SKILL.md",
-      "sha256": "8b9781f166d4152e591e877882d43137129aecc6aa2a655230cc02ea8dfe447f",
-      "bytes": 11405
+      "sha256": "ae02bdd0fba3fb2354a9c2d1f0efc9eae90b56550655c2b7133996fc7f7c23d3",
+      "bytes": 12097
     },
     {
       "path": "skills/many-models-viz/SKILL.md",
-      "sha256": "477068414582b77927d49bd175d17f64180543630792ae2eb3040bf11385764e",
-      "bytes": 8438
+      "sha256": "fce15e3e08fd669cf0c4a090d1f96f4bfad68e1a40db22d5dc3b93291dab6ef4",
+      "bytes": 9556
     },
     {
       "path": "skills/many-models-viz/references/coding-manual.md",
-      "sha256": "9366fac10b6541e8999850ea8b1915edeeb1dc2f4fc2ef15715e103a2d3f62c0",
-      "bytes": 9620
+      "sha256": "d134a6b6d44b5e41f14b258d2982eaf7f82f89444c9f094c1463635b5a600aea",
+      "bytes": 9905
     },
     {
       "path": "skills/polymarket-macro-scan/SKILL.md",
@@ -1285,8 +1290,8 @@
     },
     {
       "path": "tests/extraction/test_inventory.py",
-      "sha256": "24506517890d4ad965e5143d13e660c1ecc0c4423c9817b85c072cbcc597a105",
-      "bytes": 4315
+      "sha256": "8d7ab631d5b378ca807fb9ea0e98980f09f944d9e93fe67cc708b451c07088fe",
+      "bytes": 5251
     },
     {
       "path": "tests/formulas/test_allocation.py",

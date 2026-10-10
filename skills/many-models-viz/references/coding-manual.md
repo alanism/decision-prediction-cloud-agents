@@ -2,6 +2,8 @@
 
 # Many-Models Viz — Coding Manual (D3.js + Three.js × Reddit)
 
+Source: NotebookLM `211997f5-9eba-448d-b043-5613781c3d8f` D3.js (4 answers 5–9K, 10–18 src) + `92387234-826b-40a8-aabd-b4dc672d5948` Three.js (29 src, 4 answers). Bridge for `many-models-reddit` (Power-Law α/D/p, Markov π/g, Bass p/q/M/t*, Bandits K/T/ε, threshold max(2,ceil(2A/3))).
+
 Public synthetic or explicitly authorized corpora only; no personal corpus is bundled.
 
 ## Quick start (copy this header)
@@ -136,7 +138,7 @@ svg.append("path").datum(adaptCurve).attr("stroke-width",2);
 
 **RNG:** isolated `new Random(seed)` with canonical `seed=hash(params)` — never global `Math.random` for replay unless seeded deterministically.
 
-## Three.js — When D3 isn't enough (source-reference)
+## Three.js — When D3 isn't enough (92387234)
 
 **Decision:** Low–medium density + need precise labels → D3 pure. High density (10M) + hunt clusters → Three.js pure. Need both → **Hybrid:** D3 SVG axes/labels over Three.js WebGL canvas, shared `marks[]`. [3JS-Q4]
 

@@ -7,7 +7,7 @@ description: Use when making Reddit + Many-Models thinking visualizations beauti
 
 # Many-Models Viz — D3.js + Three.js for Reddit Complexity Science
 
-Public synthetic or explicitly authorized corpora only; no personal corpus is bundled.
+Bridge skill tying `many-models-reddit` (math/selection) to visual excellence. Evidence-grounded in 8 sequential NotebookLM queries to `211997f5-9eba-448d-b043-5613781c3d8f` D3.js (29+ sources, 4 answers 5–9K chars, 10–18 sources each) and `92387234-826b-40a8-aabd-b4dc672d5948` Three.js (29 sources, 4 answers 4–6K chars, 8–15 sources each), 2026-09-03.
 
 ## When to use
 
@@ -22,7 +22,7 @@ Public synthetic or explicitly authorized corpora only; no personal corpus is bu
 
 > Visual salience is the message. Whatever pops most must be your takeaway — else it's a distraction. [Three.js Q3]
 
-## D3.js — Make it correct, then beautiful (from source-reference notebook)
+## D3.js — Make it correct, then beautiful (from 211997f5 notebook)
 
 **1. Data architecture — dumb renderer, smart prep**
 - Decouple computation from rendering. Pre-process raw `raw/*.json` into flat `marks[]` with precomputed x/y/color. Pass to stateless declarative draw. Portable to React/Svelte/Canvas. [D3-Q1]
@@ -55,7 +55,7 @@ Public synthetic or explicitly authorized corpora only; no personal corpus is bu
 | **Bass** | S-curve `N/M` line + `ΔN` bars, `t*` marker, `M` dashed | Conservation line, stagnation flag |
 | **Bandits** | Regret curves + `εₜ` decay | Adaptive vs greedy, lower wins |
 
-## Three.js — Make discovery immersive (from source-reference notebook)
+## Three.js — Make discovery immersive (from 92387234 notebook)
 
 **1. Geometry & draw calls — performance is beauty**
 - **Merge static geometries in Blender** `Ctrl+J` + single texture atlas — every material = draw call (7 materials → 7 calls). [3JS-Q1]
@@ -128,3 +128,11 @@ Public synthetic or explicitly authorized corpora only; no personal corpus is bu
 Public synthetic or explicitly authorized corpora only; no personal corpus is bundled.
 ```
 
+
+## Preserved NotebookLM source provenance
+
+- Notebook `211997f5-9eba-448d-b043-5613781c3d8f` D3.js (4 queries, 10–18 sources each, 5–9K chars): decoupling, scaleLog, conditional ticks, color limits 8, grayscale rule, luminance mandate, interactive legend fading, staged transitions
+- Notebook `92387234-826b-40a8-aabd-b4dc672d5948` Three.js (29 sources, 4 queries, 8–15 sources each): merge geometries, InstancedMesh, bake to MeshBasicMaterial, force-directed 10M, rugged landscapes, salience, cognitive limits 8 colors, lighting choreography, D3 vs Three.js vs hybrid
+- Notebook `083ca6cf-8d45-4a1b-a7b8-c80f82f9faf9` Scott E Page (34 sources, 25/27 succeeded) — REDCAPE, Diversity Theorem
+
+Use the source register at `../../docs/sources/NOTEBOOKLM-SOURCES.md` to verify citations and assess new source material before proposing framework updates.

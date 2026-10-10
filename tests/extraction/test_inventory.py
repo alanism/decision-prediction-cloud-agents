@@ -28,7 +28,7 @@ class InventoryTests(unittest.TestCase):
    for p in (ROOT/d).rglob('*'):
     if p.is_file():
      t=p.read_text()
-     for marker in ('/Users/','~/.hermes','notebooklm.google.com/notebook/','alanism_','libfile_'):
+     for marker in ('/Users/','~/.hermes','alanism_','libfile_'):
       self.assertNotIn(marker,t,str(p))
  def test_engine_adapter_separation(self):
   self.assertFalse((ROOT/'vendor/capital-decision-lab/capital_decision_lab/portable').exists())
@@ -44,6 +44,17 @@ class InventoryTests(unittest.TestCase):
   status,result=commands.run_cli(['analyze','--case','anything.json'])
   self.assertEqual(status,2)
   self.assertEqual(result['issues'],[{'code':'EXPLICIT_DATA_ROOT_REQUIRED'}])
+ def test_notebook_source_traceability_preserved(self):
+  refs={
+   'design/hero-cards/andy-allen.md':['84bbd125-ac8d-4770-b87a-930934078933','https://notebooklm.google.com/notebook/84bbd125-ac8d-4770-b87a-930934078933','Use this notebook when the card leaves a material task question open.'],
+   'skills/many-models-reddit/SKILL.md':['083ca6cf-8d45-4a1b-a7b8-c80f82f9faf9'],
+   'skills/many-models-viz/SKILL.md':['083ca6cf-8d45-4a1b-a7b8-c80f82f9faf9','211997f5-9eba-448d-b043-5613781c3d8f','92387234-826b-40a8-aabd-b4dc672d5948'],
+   'skills/many-models-viz/references/coding-manual.md':['211997f5-9eba-448d-b043-5613781c3d8f','92387234-826b-40a8-aabd-b4dc672d5948']}
+  for name,values in refs.items():
+   for value in values:self.assertIn(value,(ROOT/name).read_text(),name)
+  register=(ROOT/'docs/sources/NOTEBOOKLM-SOURCES.md').read_text()
+  self.assertIn('does not independently verify current access',register)
+  self.assertIn('No share URL is guessed',register)
  def test_fixed_extraction_denominator(self):
   board=json.loads((ROOT/'docs/extraction/tasks.json').read_text())
   self.assertEqual(board['denominator'],10)

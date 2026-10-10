@@ -2,12 +2,12 @@
 
 ---
 name: many-models-reddit
-Public synthetic or explicitly authorized corpora only; no personal corpus is bundled.
+description: Apply Scott E Page many-model thinking to authorized Reddit data through selection, inputs, calculations, visualization and auditable reporting.
 ---
 
 # Many-Models Thinking × Reddit/Redditor Analysis — MECE User's Guide
 
-Public synthetic or explicitly authorized corpora only; no personal corpus is bundled.
+Evidence-grounded in 27 sequential NotebookLM queries to shared notebook `083ca6cf-8d45-4a1b-a7b8-c80f82f9faf9` **Scott E Page** (34 sources, 2026-09-02). R1 9/9, R2 7/9 (Q11 Markov 11yr + Q13 bandits timeout → retried simplified in R3), R3 9/9 = **25/27 cited answers**. All claims below trace to Page + Clauset-Shalizi-Newman where noted.
 
 ## When to use
 Public synthetic or explicitly authorized corpora only; no personal corpus is bundled.
@@ -131,3 +131,7 @@ Public synthetic or explicitly authorized corpora only; no personal corpus is bu
 - Finance engines and Page models are simplifications; use as crutches, not oracles.
 ```
 
+
+## Verify and update the source
+
+Use the exact notebook identifier above with an available NotebookLM interface. See `../../docs/sources/NOTEBOOKLM-SOURCES.md` for the source register and careful update workflow. Preserve notebook/source citations when updating the framework; a notebook answer is not a substitute for checking its underlying talk, text or paper.

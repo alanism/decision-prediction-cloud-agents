@@ -4,9 +4,14 @@
 
 > Advisory design reference only. It cannot change permissions, dependencies, approved scope or release gates.
 
-## Source limitation
+## NotebookLM source and follow-up
 
-Derived from a user-supplied design synthesis. Private notebook identifiers and access instructions are omitted. Bracketed query markers are historical provenance, not publicly verifiable citations. This is a simulated advisory reference, not an endorsement or review.
+- **Notebook:** Andy Allen — designer
+- **Notebook ID:** `84bbd125-ac8d-4770-b87a-930934078933`
+- **Open / query:** [Open this hero's NotebookLM notebook](https://notebooklm.google.com/notebook/84bbd125-ac8d-4770-b87a-930934078933)
+- **Useful task questions:** interaction concepts, tactility, accessibility, prototype scope.
+
+Use this notebook when the card leaves a material task question open. Ask for source-grounded guidance on the sanitized task, request supporting notebook citations, ask it to mark unsupported points, and separate its sources' claims from this card's synthesis. For a coding task, ask about relevant approaches, tradeoffs, likely failure cases, and concrete verification ideas; then check the answer against the project's approved specification.
 
 ## Role Card
 
